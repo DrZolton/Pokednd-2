@@ -171,6 +171,10 @@ void Pokemon::outputAll(std::ostream& outs){
 	else
 		outs << "Hit Die: 1d" << hitDie << std::endl
 			 << "HP: " << HP << std::endl << std::endl;
+
+	for(int i = 0; i < numMoves; i++)
+		std::cout << moves[i].level << " ---- " << moves[i].name << std::endl;
+	std::cout << std::endl;
 }
 
 void Pokemon::inputBase(){
@@ -263,9 +267,9 @@ void Pokemon::inputBase(){
 	speed = ( (data + 1.5) / 13.5 ) + 0.5;
 	if(speed == 0) speed = 1; //minimum 1 speed
 
-/*	std::cout << "Insert Moves:\n";
-	std::cin >> 
-*/	
+	std::cout << "Insert Moves:\n";
+	addMoves(std::cin);
+	
 
 	std::cin.clear();
 	std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
@@ -284,17 +288,47 @@ void Pokemon::addMoves(std::istream& ins){
 		ins >> moves[numMoves].level;
 		if(moves[numMoves].level == 0) done = true;
 		if(!done){
+
 			if(ins == std::cin){
-				if(moves[numMoves].level > 50){
-					
-				}
+				if(moves[numMoves].level < 4) moves[numMoves].level = 1;
+				else if(moves[numMoves].level < 6) moves[numMoves].level = 2;
+				else if(moves[numMoves].level < 9) moves[numMoves].level = 3;
+				else if(moves[numMoves].level < 11) moves[numMoves].level = 4;
+				else if(moves[numMoves].level < 14) moves[numMoves].level = 5;
+				else if(moves[numMoves].level < 16) moves[numMoves].level = 6;
+				else if(moves[numMoves].level < 19) moves[numMoves].level = 7;
+				else if(moves[numMoves].level < 21) moves[numMoves].level = 8;
+				else if(moves[numMoves].level < 24) moves[numMoves].level = 9;
+				else if(moves[numMoves].level < 26) moves[numMoves].level = 10;
+				else if(moves[numMoves].level < 29) moves[numMoves].level = 11;
+				else if(moves[numMoves].level < 31) moves[numMoves].level = 12;
+				else if(moves[numMoves].level < 34) moves[numMoves].level = 13;
+				else if(moves[numMoves].level < 36) moves[numMoves].level = 14;
+				else if(moves[numMoves].level < 39) moves[numMoves].level = 15;
+				else if(moves[numMoves].level < 41) moves[numMoves].level = 16;
+				else if(moves[numMoves].level < 44) moves[numMoves].level = 17;
+				else if(moves[numMoves].level < 46) moves[numMoves].level = 18;
+				else if(moves[numMoves].level < 49) moves[numMoves].level = 19;
+				else if(moves[numMoves].level < 51) moves[numMoves].level = 20;
+				else if(moves[numMoves].level < 56) moves[numMoves].level = 21;
+				else if(moves[numMoves].level < 61) moves[numMoves].level = 22;
+				else if(moves[numMoves].level < 66) moves[numMoves].level = 23;
+				else if(moves[numMoves].level < 71) moves[numMoves].level = 24;
+				else if(moves[numMoves].level < 76) moves[numMoves].level = 25;
+				else if(moves[numMoves].level < 81) moves[numMoves].level = 26;
+				else if(moves[numMoves].level < 86) moves[numMoves].level = 27;
+				else if(moves[numMoves].level < 91) moves[numMoves].level = 28;
+				else if(moves[numMoves].level < 96) moves[numMoves].level = 29;
+				else if(moves[numMoves].level < 101) moves[numMoves].level = 30;
 			}
-			ins >> moves[numMoves].name;
+
+			std::cin.clear();
+			std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+
+			getline(ins, moves[numMoves].name);
 			numMoves++;
 		}
 	}
-
-for(int i = 0; i < numMoves; i++) std::cout << moves[i].level << " ---- " << moves[i].name << std::endl;
 
 }
 
