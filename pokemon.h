@@ -1,3 +1,27 @@
+//*********************************************************
+//
+//	Jacob Ramsey		February 16, 2018
+//	Pokemon.h
+//	Summary: This class hold all the info for each Pokemon.
+//		This includes the info that is static for each
+//		species along with info that changes per specific
+//		Pokemon.
+//	Implemented:
+//		-read/write file
+//		-generate a pokemon given a level
+//		-output all info(including instance specific)
+//		-read in data from the console for new pokemon
+//
+//	Planned:
+//		-dynamic allocation of move list
+//		-item effects to generate function
+//		-pokeball DC checks
+//		-ability score increases to generate function
+//		-read in list of Pokemon from file
+//			(current implementation is just one)
+//
+//*********************************************************
+
 #ifndef POKEMON_H
 #define POKEMON_H
 
@@ -15,8 +39,10 @@ struct move{
 class Pokemon{
 	public:
 		Pokemon();
-		void inputFile(std::istream& ins);
+		void outputFile(std::ostream& fout);
+		void inputFile(std::istream& fin);
 		void generate(const int& lvl);
+		void outputBase(std::ostream& outs);
 		void outputAll(std::ostream& outs);
 		void inputBase();
 
@@ -29,7 +55,7 @@ class Pokemon{
 		std::string type;
 		std::string ability;
 		std::string hiddenAbility;
-		double height;
+		int height;
 		double weight;
 		std::string size;
 
@@ -53,9 +79,12 @@ class Pokemon{
 		double AC;
 		double fortitude;
 		double will;
-		double HP;
 
+		//Instance dependant
+		double HP;
 		int level;
+		std::string nature;
+		char gender;
 };
 
 Pokemon::Pokemon(){
@@ -84,10 +113,63 @@ Pokemon::Pokemon(){
 	will = 0;
 	HP = 0;
 	level = 0;
+
+	nature = "";
+	gender = 'x';
 }
 
-void Pokemon::inputFile(std::istream& ins){
+void Pokemon::outputFile(std::ostream& fout){ // "$" signals a new pokemon
+	fout << "$\n" << name << std::endl
+		 << index << std::endl
+		 << type << std::endl
+		 << ability << std::endl
+		 << hiddenAbility << std::endl
+		 << height << std::endl
+		 << weight << std::endl
+		 << size << std::endl
+		 << strength << std::endl
+		 << dexterity << std::endl
+		 << intelligence << std::endl
+		 << constitution << std::endl
+		 << charisma << std::endl
+		 << wisdom << std::endl
+		 << speed << std::endl
+		 << hitDie << std::endl;
 
+	for(int i = 0; i < numMoves; i++)
+		fout << moves[i].level << std::endl << moves[i].name << std::endl;
+	fout << "0\n" << std::endl;
+
+}
+
+void Pokemon::inputFile(std::istream& fin){
+	bool found = false;
+	std::string input;
+	while(!fin.eof() && !found){
+		getline(fin, input);
+		if(input == "$") found = true;
+		//reads until the new Pokemon starts
+		//or the end of the file is reached
+	}
+
+		getline(fin, name);
+		fin >> index;
+
+		fin.clear();
+		fin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+
+		getline(fin, type);
+		getline(fin, ability);
+		getline(fin, hiddenAbility);
+		fin >> height >> weight;
+
+		fin.clear();
+		fin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+
+		getline(fin, size);
+		fin >> strength >> dexterity >> intelligence >> constitution >> charisma >> wisdom;
+		fin >> speed >> hitDie;
+		addMoves(fin);
 }
 
 void Pokemon::generate(const int& lvl){
@@ -136,7 +218,133 @@ void Pokemon::generate(const int& lvl){
 		}
 
 	}
-//********************//
+
+//*nature and gender*//
+	int die;
+	die = (rand() % 24);
+	if(die == 0){
+		nature = "Hardy";
+	}
+	else if(die == 1){
+		nature = "Lonely";
+		strength += 2;
+		dexterity -=2;
+	}	
+	else if(die == 2){
+		nature = "Brave";
+		strength += 2;
+		speed -= 1;
+		if(speed == 0) speed = 1;
+	}
+	else if(die == 3){
+		nature = "Adamamant";
+		strength += 2;
+		intelligence -= 2;
+	}
+	else if(die == 4){
+		nature = "Naughty";
+		strength += 2;
+		constitution -= 2;
+	}
+	else if(die == 5){
+		nature = "Bold";
+		dexterity += 2;
+		strength -= 2;
+	}
+	else if(die == 6){
+		nature = "Docile";
+	}
+	else if(die == 7){
+		nature = "Relaxed";
+		dexterity += 2;
+		speed -= 1;
+		if(speed == 0) speed = 1;
+	}
+	else if(die == 8){
+		nature = "Impish";
+		dexterity += 2;
+		intelligence -= 2;
+	}
+	else if(die == 9){
+		nature = "Lax";
+		dexterity += 2;
+		constitution -= 2;
+	}
+	else if(die == 10){
+		nature = "Timid";
+		speed += 1;
+		strength -= 2;
+	}
+	else if(die == 11){
+		nature = "Hasty";
+		speed += 1;
+		dexterity -= 2;
+	}
+	else if(die == 12){
+		nature = "Serious";
+	}
+	else if(die == 13){
+		nature = "Jolly";
+		speed += 1;
+		intelligence -= 2;
+	}
+	else if(die == 14){
+		nature = "Naive";
+		speed += 1;
+		constitution -= 2;
+	}
+	else if(die == 15){
+		nature = "Modest";
+		intelligence += 2;
+		strength -= 2;
+	}
+	else if(die == 16){
+		nature = "Mild";
+		intelligence += 2;
+		dexterity -= 2;
+	}
+	else if(die == 17){
+		nature = "Quiet";
+		intelligence += 2;
+		speed -= 1;
+		if(speed == 0) speed = 1;
+	}
+	else if(die == 18){
+		nature = "Bashful";
+	}
+	else if(die == 19){
+		nature = "Rash";
+		intelligence += 2;
+		constitution -= 2;
+	}
+	else if(die == 20){
+		nature = "Calm";
+		constitution += 2;
+		strength -= 2;
+	}
+	else if(die == 21){
+		nature = "Gentle";
+		constitution += 2;
+		dexterity -= 2;
+	}
+	else if(die == 22){
+		nature = "Sassy";
+		constitution += 2;
+		speed -= 1;
+		if(speed == 0) speed = 1;
+	}
+	else if(die == 23){
+		nature = "Careful";
+		constitution += 2;
+		intelligence -= 2;
+	}
+	else if(die == 24){
+		nature = "Quirky";
+	}
+
+	die = (rand() % 2);
+	if(die == 0) gender = 'M';
+	else gender = 'F';
 
 //**AC, Fort, Will***//
 	AC = 10 + ( (dexterity - 10) / 2 );
@@ -145,10 +353,51 @@ void Pokemon::generate(const int& lvl){
 
 }
 
-void Pokemon::outputAll(std::ostream& outs){
+void Pokemon::outputBase(std::ostream& outs){
 	outs << std::endl << name << std::endl
+		 << "--------------------\n" 
 		 << "Index: " << index << std::endl
 		 << "Type: " << type << std::endl
+		 << "Ability: " << ability << std::endl
+		 << "Hidden Ability: " << hiddenAbility << std::endl
+		 << "Height: " << height / 12 << "'" << height % 12 << "\"" << std::endl
+		 << "Weight: " << weight << " lbs" << std::endl
+		 << "Size: " << size << std::endl << std::endl
+
+		 << "Strength: " << strength << std::endl
+		 << "Dexterity: " << dexterity << std::endl
+		 << "Intelligence: " << intelligence << std::endl
+		 << "Constitution: " << constitution << std::endl
+		 << "Charsima: " << charisma << std::endl
+		 << "Wisdom: " << wisdom << std::endl << std::endl
+
+		 << "Movement Speed: " << speed << std::endl << std::endl;
+
+	if(hitDie == 1 || hitDie == 2 || hitDie == 3)
+		outs << "Hit Die: 1d12 + " << hitDie << std::endl << std::endl;
+
+	else
+		outs << "Hit Die: 1d" << hitDie << std::endl << std::endl;
+
+
+	std::cout << "Moves\nLvl:   Name:\n";
+	for(int i = 0; i < numMoves; i++)
+		std::cout << moves[i].level << " ---- " << moves[i].name << std::endl;
+	std::cout << std::endl;
+}
+
+void Pokemon::outputAll(std::ostream& outs){
+	outs << std::endl << name << std::endl
+		 << "--------------------\n" 
+		 << "Index: " << index << std::endl
+		 << "Type: " << type << std::endl
+		 << "Ability: " << ability << std::endl
+		 << "Hidden Ability: " << hiddenAbility << std::endl << std::endl
+
+		 << "Nature: " << nature << std::endl
+		 << "Gender: " << gender << std::endl
+		 << "Height: " << height / 12 << "'" << height % 12 << "\"" << std::endl
+		 << "Weight: " << weight << " lbs" << std::endl
 		 << "Size: " << size << std::endl
 		 << "Level: " << level << std::endl << std::endl
 
@@ -172,6 +421,7 @@ void Pokemon::outputAll(std::ostream& outs){
 		outs << "Hit Die: 1d" << hitDie << std::endl
 			 << "HP: " << HP << std::endl << std::endl;
 
+	std::cout << "Moves\nLvl:   Name:\n";
 	for(int i = 0; i < numMoves; i++)
 		std::cout << moves[i].level << " ---- " << moves[i].name << std::endl;
 	std::cout << std::endl;
@@ -179,20 +429,24 @@ void Pokemon::outputAll(std::ostream& outs){
 
 void Pokemon::inputBase(){
 
+std::cin.clear();
+std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 	std::cout << "Name: ";
-	std::cin >> name;
+	getline(std::cin, name);
 
 	std::cout << "Index: ";
 	std::cin >> index;
+std::cin.clear();
+std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 
 	std::cout << "Type: ";
-	std::cin >> type;
+	getline(std::cin, type);
 
 	std::cout << "Ability: ";
-	std::cin >> ability;
+	getline(std::cin, ability);
 
 	std::cout << "Hidden Ability: ";
-	std::cin >> hiddenAbility;
+	getline(std::cin, hiddenAbility);
 
 	std::cout << "Height: ";
 	std::cin >> height;
@@ -267,9 +521,8 @@ void Pokemon::inputBase(){
 	speed = ( (data + 1.5) / 13.5 ) + 0.5;
 	if(speed == 0) speed = 1; //minimum 1 speed
 
-	std::cout << "Insert Moves:\n";
+	std::cout << "Insert Moves:\nEnter level, then name\n";
 	addMoves(std::cin);
-	
 
 	std::cin.clear();
 	std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
@@ -286,10 +539,11 @@ void Pokemon::addMoves(std::istream& ins){
 	bool done = false;
 	while(!done){
 		ins >> moves[numMoves].level;
-		if(moves[numMoves].level == 0) done = true;
+		if(moves[numMoves].level == 0) done = true; //stop reading new moves on an input of 0
 		if(!done){
 
-			if(ins == std::cin){
+			if(ins == std::cin){ //if reading from the console and not a file,
+								 //the move levels need to be converted
 				if(moves[numMoves].level < 4) moves[numMoves].level = 1;
 				else if(moves[numMoves].level < 6) moves[numMoves].level = 2;
 				else if(moves[numMoves].level < 9) moves[numMoves].level = 3;
@@ -322,8 +576,8 @@ void Pokemon::addMoves(std::istream& ins){
 				else if(moves[numMoves].level < 101) moves[numMoves].level = 30;
 			}
 
-			std::cin.clear();
-			std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+			ins.clear();
+			ins.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 
 			getline(ins, moves[numMoves].name);
 			numMoves++;
