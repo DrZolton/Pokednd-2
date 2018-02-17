@@ -5,41 +5,55 @@
 
 int main(){
 
-	Pokemon test;
-/*	test.inputStats(std::cin);
-	test.generate(10);
-	test.outputAll(std::cout);
-*/
+Pokemon test;
+
+	std::cout << "\nWelcome to the PokeDnD creation kit v.2\n";
+
 	std::ifstream fileInput;
 	fileInput.open("pokedex.txt");
-	if(fileInput.fail()) std::cout << "unable to input file\n";
+	if(fileInput.fail()){
+		std::cout << "unable to open file\nclosing program\n";
+		return 0;
+	}
+
+	std::cout << "loading...";
 	test.inputFile(fileInput);
 	fileInput.close();
-	test.outputBase(std::cout);
+	std::cout << "done\n\n";
+
+//test.outputBase();
 
 	char choice;
 	bool done = false;
 	while(!done){
 
+		std::cout << "q: quit\n"
+				  << "s: save\n"
+				  << "a: add new pokemon\n"
+				  << "g: generate random pokemon\n\n>";
+
 		std::cin >> choice;
 		switch(choice){
-			case 'q':
+			case 'q':{
 				done = true;
 				break;
-			case 'g':
+			}
+			case 'g':{
 				std::cout << "Enter level\n";
 				int tmp;
 				std::cin >> tmp;
-				test.generate(tmp);
+				if(test.generate(tmp) == -1) break;
 
-				test.outputAll(std::cout);
+				test.outputAll();
 				break;
-			case 'i':
-				test.inputBase();
+			}
+			case 'i':{
+				if(test.inputBase() == -1) break;
 
-				test.outputAll(std::cout);
+				test.outputBase();
 				break;
-			case 's':
+			}
+			case 's':{
 				std::cout << "Saving\n";
 				std::ofstream fileOutput;
 				fileOutput.open("pokedex.txt");
@@ -47,6 +61,11 @@ int main(){
 				test.outputFile(fileOutput);
 				fileOutput.close();
 				break;
+			}
+			case 'o':{
+				test.outputBase();
+				break;
+			}
 		}
 	}
 

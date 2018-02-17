@@ -1,24 +1,32 @@
 //*********************************************************
 //
-//	Jacob Ramsey		February 16, 2018
-//	Pokemon.h
+//	Jacob Ramsey
+//	B.S.C.S, Russ College of Engineering, Ohio University
+//	jakeramsey202@gmail.com
+//	February 16, 2018
+//
+//	Class: Pokemon.h
+//
 //	Summary: This class hold all the info for each Pokemon.
 //		This includes the info that is static for each
 //		species along with info that changes per specific
 //		Pokemon.
+//
 //	Implemented:
 //		-read/write file
 //		-generate a pokemon given a level
 //		-output all info(including instance specific)
 //		-read in data from the console for new pokemon
+//		-ability score increases to generate function
+//		-natures and genders to generate function
+//		-pokeball DC checks to generate function
 //
 //	Planned:
 //		-dynamic allocation of move list
-//		-item effects to generate function
-//		-pokeball DC checks
-//		-ability score increases to generate function
-//		-read in list of Pokemon from file
+//		-item effects to generate function(random item lists)
+//		-read in multiple Pokemon from file
 //			(current implementation is just one)
+//		-non-random generate function
 //
 //*********************************************************
 
@@ -41,10 +49,10 @@ class Pokemon{
 		Pokemon();
 		void outputFile(std::ostream& fout);
 		void inputFile(std::istream& fin);
-		void generate(const int& lvl);
-		void outputBase(std::ostream& outs);
-		void outputAll(std::ostream& outs);
-		void inputBase();
+		int generate(const int& lvl); //-1 return value signals errors
+		void outputBase();
+		void outputAll();
+		int inputBase();
 
 	private:
 		void addMoves(std::istream& ins);
@@ -85,6 +93,7 @@ class Pokemon{
 		int level;
 		std::string nature;
 		char gender;
+		int catchDC;
 };
 
 Pokemon::Pokemon(){
@@ -172,8 +181,13 @@ void Pokemon::inputFile(std::istream& fin){
 		addMoves(fin);
 }
 
-void Pokemon::generate(const int& lvl){
+int Pokemon::generate(const int& lvl){
 	level = lvl;
+	if(lvl > 30 || lvl < 1){
+		std::cout << "ERROR: in GENERATE funtion\n\tinvalid lvl value\n";
+		return -1;
+	}
+	
 
 //*******generating HP//
 	srand(time(NULL));
@@ -184,12 +198,16 @@ void Pokemon::generate(const int& lvl){
 		HP = 14;
 	else if(hitDie == 3)
 		HP = 15;
-	else
+	else if(hitDie > 3 && hitDie < 13)
 		HP = hitDie;
+	else{
+		std::cout << "ERROR: in GENERATE funtion\n\tinvalid hitDie value\n";
+		return -1;
+	}
 
 	for(int i = 1; i < lvl; i++){ //will run (lvl - 1) times
 
-		if(hitDie != 1 && hitDie != 2 && hitDie != 3){ //do not run the "1d12 + x" options
+		if(hitDie > 3 && hitDie < 13){ //do not run the "1d12 + x" options
 
 			int newHP = 0;
 			while(newHP < (hitDie / 2)){
@@ -215,6 +233,11 @@ void Pokemon::generate(const int& lvl){
 				newHP = (rand() % 12) + 1;
 			}
 			HP += newHP + hitDie;
+		}
+
+		else{
+			std::cout << "ERROR: in GENERATE funtion\n\tinvalid hitDie value\n";
+			return -1;
 		}
 
 	}
@@ -341,20 +364,99 @@ void Pokemon::generate(const int& lvl){
 	else if(die == 24){
 		nature = "Quirky";
 	}
+	else{
+		std::cout << "ERROR: in GENERATE funtion\n\tinvalid nature die roll\n";
+		return -1;
+	}
 
 	die = (rand() % 2);
 	if(die == 0) gender = 'M';
 	else gender = 'F';
+
+//*ability score increase*//
+	if(lvl > 4){
+		die = (rand() % 6);
+		if(die == 0) strength += 1;
+		else if(die == 1) dexterity += 1;
+		else if(die == 2) intelligence += 1;
+		else if(die == 3) constitution += 1;
+		else if(die == 4) charisma += 1;
+		else if(die == 5) wisdom += 1;
+		else{
+			std::cout << "ERROR: in GENERATE funtion\n\tinvalid ability score die roll\n";
+			return -1;
+		}
+	}
+	if(lvl > 9){
+		die = (rand() % 6);
+		if(die == 0) strength += 1;
+		else if(die == 1) dexterity += 1;
+		else if(die == 2) intelligence += 1;
+		else if(die == 3) constitution += 1;
+		else if(die == 4) charisma += 1;
+		else if(die == 5) wisdom += 1;
+		else{
+			std::cout << "ERROR: in GENERATE funtion\n\tinvalid ability score die roll\n";
+			return -1;
+		}
+	}
+	if(lvl > 14){
+		strength += 1;
+		dexterity += 1;
+		intelligence +=1;
+		constitution += 1;
+		charisma += 1;
+		wisdom +=1;
+	}
+	if(lvl > 19){
+		die = (rand() % 6);
+		if(die == 0) strength += 1;
+		else if(die == 1) dexterity += 1;
+		else if(die == 2) intelligence += 1;
+		else if(die == 3) constitution += 1;
+		else if(die == 4) charisma += 1;
+		else if(die == 5) wisdom += 1;
+		else{
+			std::cout << "ERROR: in GENERATE funtion\n\tinvalid ability score die roll\n";
+			return -1;
+		}
+	}
+	if(lvl > 24){
+		die = (rand() % 6);
+		if(die == 0) strength += 1;
+		else if(die == 1) dexterity += 1;
+		else if(die == 2) intelligence += 1;
+		else if(die == 3) constitution += 1;
+		else if(die == 4) charisma += 1;
+		else if(die == 5) wisdom += 1;
+		else{
+			std::cout << "ERROR: in GENERATE funtion\n\tinvalid ability score die roll\n";
+			return -1;
+		}
+	}
+	if(lvl > 29){
+		strength += 1;
+		dexterity += 1;
+		intelligence +=1;
+		constitution += 1;
+		charisma += 1;
+		wisdom +=1;
+	}
 
 //**AC, Fort, Will***//
 	AC = 10 + ( (dexterity - 10) / 2 );
 	fortitude = 10 + ( (constitution - 10) / 2 );
 	will = 10 + ( (wisdom - 10) / 2 );
 
+//**catch DC**//
+	catchDC = 20 + (lvl / 3);
+
+	return 0;
 }
 
-void Pokemon::outputBase(std::ostream& outs){
-	outs << std::endl << name << std::endl
+void Pokemon::outputBase(){
+	std::cout << std::endl << "--------------------\n" 
+		 << name << std::endl
 		 << "--------------------\n" 
 		 << "Index: " << index << std::endl
 		 << "Type: " << type << std::endl
@@ -374,11 +476,10 @@ void Pokemon::outputBase(std::ostream& outs){
 		 << "Movement Speed: " << speed << std::endl << std::endl;
 
 	if(hitDie == 1 || hitDie == 2 || hitDie == 3)
-		outs << "Hit Die: 1d12 + " << hitDie << std::endl << std::endl;
+		std::cout << "Hit Die: 1d12 + " << hitDie << std::endl << std::endl;
 
-	else
-		outs << "Hit Die: 1d" << hitDie << std::endl << std::endl;
-
+	else if(hitDie > 3 && hitDie < 13)
+		std::cout << "Hit Die: 1d" << hitDie << std::endl << std::endl;
 
 	std::cout << "Moves\nLvl:   Name:\n";
 	for(int i = 0; i < numMoves; i++)
@@ -386,8 +487,9 @@ void Pokemon::outputBase(std::ostream& outs){
 	std::cout << std::endl;
 }
 
-void Pokemon::outputAll(std::ostream& outs){
-	outs << std::endl << name << std::endl
+void Pokemon::outputAll(){
+	std::cout << std::endl << "--------------------\n" 
+		 << name << std::endl
 		 << "--------------------\n" 
 		 << "Index: " << index << std::endl
 		 << "Type: " << type << std::endl
@@ -399,7 +501,8 @@ void Pokemon::outputAll(std::ostream& outs){
 		 << "Height: " << height / 12 << "'" << height % 12 << "\"" << std::endl
 		 << "Weight: " << weight << " lbs" << std::endl
 		 << "Size: " << size << std::endl
-		 << "Level: " << level << std::endl << std::endl
+		 << "Level: " << level << std::endl 
+		 << "Catch DC: " << catchDC << std::endl << std::endl
 
 		 << "Strength: " << strength << std::endl
 		 << "Dexterity: " << dexterity << std::endl
@@ -415,11 +518,15 @@ void Pokemon::outputAll(std::ostream& outs){
 		 << "Movement Speed: " << speed << std::endl << std::endl;
 
 	if(hitDie == 1 || hitDie == 2 || hitDie == 3)
-		outs << "Hit Die: 1d12 + " << hitDie << std::endl
+		std::cout << "Hit Die: 1d12 + " << hitDie << std::endl
 			 << "HP: " << HP << std::endl;
-	else
-		outs << "Hit Die: 1d" << hitDie << std::endl
+	else if(hitDie > 3 && hitDie < 13)
+		std::cout << "Hit Die: 1d" << hitDie << std::endl
 			 << "HP: " << HP << std::endl << std::endl;
+	else{
+		std::cout << "ERROR: in GENERATE funtion\n\tinvalid hitDie value\n";
+		return;
+	}
 
 	std::cout << "Moves\nLvl:   Name:\n";
 	for(int i = 0; i < numMoves; i++)
@@ -427,17 +534,21 @@ void Pokemon::outputAll(std::ostream& outs){
 	std::cout << std::endl;
 }
 
-void Pokemon::inputBase(){
+int Pokemon::inputBase(){
 
-std::cin.clear();
-std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+	std::cin.clear();
+	std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 	std::cout << "Name: ";
 	getline(std::cin, name);
 
 	std::cout << "Index: ";
 	std::cin >> index;
-std::cin.clear();
-std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+	if(index < 1){
+		std::cout << "ERROR: in INPUTBASE function\n\tinvalid index value\n";
+		return -1;
+	}
+	std::cin.clear();
+	std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 
 	std::cout << "Type: ";
 	getline(std::cin, type);
@@ -526,6 +637,8 @@ std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 
 	std::cin.clear();
 	std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+	
+	return 0;
 }
 
 /*void Pokemon::resize(){
