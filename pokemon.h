@@ -25,8 +25,6 @@
 //		-dynamic allocation of move list
 //		-copy constructor
 //		-item effects to generate function(random item lists)
-//		-read in multiple Pokemon from file
-//			(current implementation is just one)
 //		-non-random generate function
 //
 //*********************************************************
@@ -57,6 +55,7 @@ class Pokemon{
 
 		//accessor function
 		int getIndex(){return index;}
+		std::string getName(){return name;}
 
 	private:
 		void addMoves(std::istream& ins);

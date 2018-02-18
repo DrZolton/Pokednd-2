@@ -30,6 +30,8 @@ class list{
 		void consoleOutputBase();
 		void fileInput(std::istream& fin);
 		int fileOutput(std::ostream& fout);
+		int findName(const std::string target, Pokemon& canvas);
+		int deletePokemon(std::string target);
 
 	private:
 		node* head;
@@ -103,6 +105,44 @@ int list::fileOutput(std::ostream& fout){
 		}
 		return 0;
 	}
+}
+
+int list::findName(const std::string target, Pokemon& canvas){
+	if(head == NULL) return -1; //empty list
+
+	node* cursor = head;
+	while(cursor != NULL){ //while not at the end
+		if(cursor -> data.getName() == target){ //found
+			canvas = cursor -> data;
+			return 0;
+		}
+		else cursor = cursor -> link; //advance
+	}
+	return -1; //not found
+}
+
+int list::deletePokemon(const std::string target){
+	if(head == NULL) return -1; //empty list
+
+	if(head -> data.getName() == target){ //found at the front of the list
+		node* tmp = head;
+		head = head -> link;
+		delete tmp;
+		return 0;
+	}
+
+	node* cursor = head -> link;
+	node* prev = head;
+	while(cursor != NULL){ //while not at the end
+		if(cursor -> data.getName() == target){ //found
+			prev -> link = cursor -> link;
+			delete cursor;
+			return 0;
+		}
+		cursor = cursor -> link; //advance
+		prev = prev -> link;
+	}
+	return -1; //not found
 }
 
 #endif

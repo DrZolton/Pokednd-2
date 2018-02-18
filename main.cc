@@ -29,15 +29,35 @@ list pokedex;
 		std::cout << "q: quit\n"
 				  << "s: save\n"
 				  << "a: add new pokemon\n"
-				  << "g: generate random pokemon\n"
-				  << "o: output all\n\n> ";
+				  << "g: generate a pokemon with random stats\n"
+				  << "f: search for a pokemon by name\n"
+				  << "d: delete a pokemon\n"
+				  << "o: output all\n\n > ";
 
 		std::cin >> choice;
 		std::cout << std::endl;
 		switch(choice){
 			case 'q':{
-				done = true;
-				break;
+				std::string input;
+
+				std::cout << "You may have unsaved data\nAre you sure you wish to quit? (y/n)\n\n > ";
+				std::cin >> input;
+				std::cout << std::endl;
+
+				if(input == "y"){
+					std::cout << "Closing program\n\n";
+					done = true;
+					break;
+				}
+				else if(input == "n"){
+					std::cout << "Not closing program\n\n";
+					break;
+				}
+				else{
+					std::cout << "Invalid choice\n\n";
+					break;
+				}
+
 			}
 			case 'g':{
 				std::cout << "Enter level\n";
@@ -68,6 +88,33 @@ list pokedex;
 				fileOutput.close();
 				std::cout << "done\n\n";
 				break;
+			}
+			case 'f':{
+				std::string target;
+				Pokemon canvas;
+
+				std::cout << "Enter the name of the Pokemon you want to find\n\n > ";
+				std::cin >> target;
+				std::cout << std::endl;
+
+				if(pokedex.findName(target, canvas) == -1){
+					std::cout << "Pokemon not found\n\n";
+					break;
+				}
+				canvas.outputBase();
+				break;
+			}
+			case 'd':{
+				std::string target;
+
+				std::cout << "Enter the name of the Pokemon you want deleted\n\n > ";
+				std::cin >> target;
+				std::cout << std::endl;
+
+				if(pokedex.deletePokemon(target) == -1)
+					std::cout << "Pokemon not found, cannot delete\n\n";
+				break;
+				
 			}
 			case 'o':{
 				pokedex.consoleOutputBase();
