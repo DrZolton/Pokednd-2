@@ -6,8 +6,9 @@
 int main(){
 
 Pokemon test;
+list pokedex;
 
-	std::cout << "\nWelcome to the PokeDnD creation kit v.2\n";
+	std::cout << "\nWelcome to the PokeDnD creation kit v.2\n\n";
 
 	std::ifstream fileInput;
 	fileInput.open("pokedex.txt");
@@ -17,11 +18,9 @@ Pokemon test;
 	}
 
 	std::cout << "loading...";
-	test.inputFile(fileInput);
+	pokedex.fileInput(fileInput);
 	fileInput.close();
 	std::cout << "done\n\n";
-
-//test.outputBase();
 
 	char choice;
 	bool done = false;
@@ -30,9 +29,11 @@ Pokemon test;
 		std::cout << "q: quit\n"
 				  << "s: save\n"
 				  << "a: add new pokemon\n"
-				  << "g: generate random pokemon\n\n>";
+				  << "g: generate random pokemon\n"
+				  << "o: output all\n\n> ";
 
 		std::cin >> choice;
+		std::cout << std::endl;
 		switch(choice){
 			case 'q':{
 				done = true;
@@ -47,23 +48,29 @@ Pokemon test;
 				test.outputAll();
 				break;
 			}
-			case 'i':{
-				if(test.inputBase() == -1) break;
-
-				test.outputBase();
+			case 'a':{
+				Pokemon newPokemon;
+				if(newPokemon.inputBase() == -1) break;
+				pokedex.add(newPokemon);
 				break;
 			}
 			case 's':{
-				std::cout << "Saving\n";
+				std::cout << "Saving...";
+
 				std::ofstream fileOutput;
 				fileOutput.open("pokedex.txt");
-				if(fileOutput.fail()) std::cout << "unable to open file\n";
-				test.outputFile(fileOutput);
+				if(fileOutput.fail()){
+					std::cout << "\nunable to save to file\n";
+					break;
+				}
+				if(pokedex.fileOutput(fileOutput) == -1) break;
+
 				fileOutput.close();
+				std::cout << "done\n\n";
 				break;
 			}
 			case 'o':{
-				test.outputBase();
+				pokedex.consoleOutputBase();
 				break;
 			}
 		}

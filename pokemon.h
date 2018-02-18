@@ -3,7 +3,7 @@
 //	Jacob Ramsey
 //	B.S.C.S, Russ College of Engineering, Ohio University
 //	jakeramsey202@gmail.com
-//	February 16, 2018
+//	February 18, 2018
 //
 //	Class: Pokemon.h
 //
@@ -23,6 +23,7 @@
 //
 //	Planned:
 //		-dynamic allocation of move list
+//		-copy constructor
 //		-item effects to generate function(random item lists)
 //		-read in multiple Pokemon from file
 //			(current implementation is just one)
@@ -53,6 +54,9 @@ class Pokemon{
 		void outputBase();
 		void outputAll();
 		int inputBase();
+
+		//accessor function
+		int getIndex(){return index;}
 
 	private:
 		void addMoves(std::istream& ins);
@@ -455,7 +459,7 @@ int Pokemon::generate(const int& lvl){
 }
 
 void Pokemon::outputBase(){
-	std::cout << std::endl << "--------------------\n" 
+	std::cout << "--------------------\n" 
 		 << name << std::endl
 		 << "--------------------\n" 
 		 << "Index: " << index << std::endl
@@ -484,11 +488,12 @@ void Pokemon::outputBase(){
 	std::cout << "Moves\nLvl:   Name:\n";
 	for(int i = 0; i < numMoves; i++)
 		std::cout << moves[i].level << " ---- " << moves[i].name << std::endl;
+	std::cout << "--------------------\n";
 	std::cout << std::endl;
 }
 
 void Pokemon::outputAll(){
-	std::cout << std::endl << "--------------------\n" 
+	std::cout << "--------------------\n" 
 		 << name << std::endl
 		 << "--------------------\n" 
 		 << "Index: " << index << std::endl
@@ -531,6 +536,7 @@ void Pokemon::outputAll(){
 	std::cout << "Moves\nLvl:   Name:\n";
 	for(int i = 0; i < numMoves; i++)
 		std::cout << moves[i].level << " ---- " << moves[i].name << std::endl;
+	std::cout << "--------------------\n";
 	std::cout << std::endl;
 }
 
@@ -544,7 +550,7 @@ int Pokemon::inputBase(){
 	std::cout << "Index: ";
 	std::cin >> index;
 	if(index < 1){
-		std::cout << "ERROR: in INPUTBASE function\n\tinvalid index value\n";
+		std::cout << "ERROR: in INPUTBASE function\n\tinvalid index value\n\n";
 		return -1;
 	}
 	std::cin.clear();
@@ -696,7 +702,7 @@ void Pokemon::addMoves(std::istream& ins){
 			numMoves++;
 		}
 	}
-
+	std::cout << std::endl;
 }
 
 #endif
