@@ -579,6 +579,666 @@ Quiver Dance
 0
 
 $
+Weedle
+13
+Bug/Poison
+Shield Dust
+Run Away
+12
+7.1
+Tiny
+7
+7
+6
+6
+6
+6
+4
+6
+1
+Poison Sting
+1
+String Shot
+3
+Evo.
+4
+Bug Bite
+0
+
+$
+Kakuna
+14
+Bug/Poison
+Shed Skin
+N/A
+24
+22
+Small
+5
+10
+7
+7
+6
+8
+3
+6
+1
+Harden
+1
+Harden at Evo.
+4
+Evo.
+0
+
+$
+Beedrill
+15
+Bug/Poison
+Swarm
+Sniper
+39
+65
+Small
+14
+8
+9
+13
+11
+10
+6
+8
+1
+Twineedle
+1
+Fury Attack
+1
+Twineedle at Evo.
+5
+Fury Attack
+6
+Rage
+7
+Pursuit
+8
+Focus Energy
+9
+Venoshock
+11
+Assurance
+12
+Toxic Spikes
+13
+Pin Missile
+14
+Poison Jab
+15
+Agility
+17
+Endeavor
+18
+Fell Stinger
+0
+
+$
+Pidgey
+16
+Normal/Flying
+Keen Eye/Tangled Feet
+Big Pecks
+12
+4
+Tiny
+8
+8
+8
+8
+8
+8
+4
+6
+1
+Tackle
+2
+Sand Attack
+4
+Gust
+5
+Quick Attack
+7
+Whirlwind
+7
+Evo.
+9
+Twister
+10
+Feather Dance
+12
+Agility
+13
+Wing Attack
+15
+Roost
+17
+Tailwind
+18
+Mirror Move
+20
+Air Slash
+21
+Hurricane
+0
+
+$
+Pidgeotto
+17
+Normal/Flying
+Keen Eye/Tangled Feet
+Big Pecks
+43
+66.1
+Small
+10
+10
+10
+10
+10
+10
+5
+8
+1
+Tackle
+1
+Sand Attack
+1
+Gust
+2
+Sand Attack
+4
+Gust
+5
+Quick Attack
+7
+Whirlwind
+9
+Twister
+11
+Feather Dance
+13
+Agility
+15
+Evo.
+15
+Wing Attack
+17
+Roost
+19
+Tailwind
+21
+Mirror Move
+22
+Air Slash
+23
+Hurricane
+0
+
+$
+Pidgeot
+18
+Normal/Flying
+Keen Eye/Tangled Feet
+Big Pecks
+59
+87.1
+Medium
+13
+13
+12
+12
+12
+12
+8
+10
+1
+Hurricane
+1
+Tackle
+1
+Sand Attack
+1
+Gust
+1
+Quick Attack
+2
+Sand Attack
+4
+Gust
+5
+Quick Attack
+7
+Whirlwind
+9
+Twister
+11
+Feather Dance
+13
+Agility
+15
+Wing Attack
+18
+Roost
+20
+Tailwind
+22
+Mirror Move
+23
+Air Slash
+24
+Hurricane
+0
+
+$
+Rattata
+19
+Normal
+Run Away/Guts
+Hustle
+12
+7.7
+Tiny
+9
+8
+7
+8
+8
+8
+5
+4
+1
+Tackle
+1
+Tail Whip
+2
+Quick Attack
+3
+Focus Energy
+4
+Bite
+5
+Pursuit
+7
+Hyper Fang
+8
+Assurance
+8
+Evo.
+9
+Crunch
+10
+Sucker Punch
+11
+Super Fang
+13
+Double-Edge
+14
+Endeavor
+0
+
+$
+Raticate
+20
+Normal
+Run Away/Guts
+Hustle
+28
+40.8
+Small
+13
+11
+10
+12
+11
+11
+7
+6
+1
+Swords Dance
+1
+Tackle
+1
+Tail Whip
+1
+Quick Attack
+1
+Focus Energy
+1
+Scary Face at Evo.
+2
+Quick Attack
+3
+Focus Energy
+4
+Bite
+5
+Pursuit
+7
+Hyper Fang
+8
+Assurance
+10
+Crunch
+12
+Sucker Punch
+14
+Super Fang
+16
+Double-Edge
+18
+Endeavor
+0
+
+$
+Spearow
+21
+Normal/Flying
+Keen Eye
+Sniper
+12
+4.4
+Tiny
+10
+7
+7
+7
+8
+7
+5
+6
+1
+Peck
+1
+Growl
+2
+Leer
+3
+Pursuit
+5
+Fury Attack
+6
+Aerial Ace
+7
+Mirror Move
+8
+Evo.
+9
+Assurance
+10
+Agility
+12
+Focus Energy
+13
+Roost
+15
+Drill Peck
+0
+
+$
+Fearow
+22
+Normal/Flying
+Keen Eye
+Sniper
+47
+83.8
+Small
+14
+11
+11
+11
+12
+11
+8
+8
+1
+Drill Run
+1
+Pluck
+1
+Peck
+1
+Growl
+1
+Leer
+1
+Pursuit
+2
+Leer
+3
+Pursuit
+5
+Fury Attack
+6
+Aerial Ace
+7
+Mirror Move
+9
+Assurance
+11
+Agility
+13
+Focus Energy
+15
+Roost
+17
+Drill Peck
+18
+Drill Run
+0
+
+$
+Ekans
+23
+Poison
+Intimidate/Shed Skin
+Unnerve
+79
+15.2
+Medium
+10
+9
+8
+10
+9
+9
+4
+4
+1
+Wrap
+1
+Leer
+2
+Poison Sting
+4
+Bite
+5
+Glare
+7
+Screech
+8
+Acid
+9
+Evo.
+10
+Stockpile
+10
+Swallow
+10
+Spit Up
+11
+Acid Spray
+13
+Mud Bomb
+15
+Gastro Acid
+15
+Belch
+17
+Haze
+18
+Coil
+20
+Gunk Shot
+0
+
+$
+Arbok
+24
+Poison
+Intimidate/Shed Skin
+Unnerve
+138
+143.3
+Large
+15
+12
+11
+13
+13
+12
+6
+8
+1
+Crunch
+1
+Ice Fang
+1
+Thunder Fang
+1
+Fire Fang
+1
+Wrap
+1
+Leer
+1
+Poison Sting
+1
+Bite
+1
+Crunch at Evo.
+2
+Poison Sting
+4
+Bite
+5
+Glare
+7
+Screech
+8
+Acid
+11
+Stockpile
+11
+Swallow
+11
+Spit Up
+13
+Acid Spray
+16
+Mud Bomb
+18
+Gastro Acid
+19
+Belch
+21
+Haze
+22
+Coil
+23
+Gunk Shot
+0
+
+$
+Pikachu
+25
+Electric
+Static
+Lightning Rod
+16
+13.2
+Tiny
+9
+8
+10
+10
+9
+9
+7
+4
+1
+Tail Whip
+1
+Thunder Shock
+2
+Growl
+3
+Play Nice
+4
+Quick Attack
+5
+Electro Ball
+7
+Thunder Wave
+9
+Feint
+9
+Double Team
+11
+Spark
+12
+Nuzzle
+14
+Discharge
+15
+Slam
+17
+Thunderbolt
+18
+Agility
+20
+Wild Charge
+21
+Light Screen
+22
+Thunder
+0
+
+$
+Raichu
+26
+Electric
+Static
+Lightning Rod
+31
+66.1
+Small
+14
+10
+14
+13
+14
+11
+8
+8
+1
+Thunder Shock
+1
+Tail Whip
+1
+Quick Attack
+1
+Thunderbolt
+0
+
+$
 Selene
 10001
 Fairy
