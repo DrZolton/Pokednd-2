@@ -60,6 +60,14 @@ void list::add(Pokemon newPokemon){
 				prev = prev -> link;
 				next = next -> link;
 			}
+			if(newPokemon.getIndex() == prev -> data.getIndex()){
+				std::cout << "A pokemon with that index already exists\n\n";
+				return;
+			}
+			if(next!= NULL && newPokemon.getIndex() == next -> data.getIndex()){
+				std::cout << "A pokemon with that index already exists\n\n";
+				return;
+			}
 			prev -> link = new node;
 			prev -> link -> data = newPokemon;
 			prev -> link -> link = next;

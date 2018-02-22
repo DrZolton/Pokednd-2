@@ -60,12 +60,24 @@ list pokedex;
 
 			}
 			case 'g':{
-				std::cout << "Enter level\n";
-				int tmp;
-				std::cin >> tmp;
-				if(test.generate(tmp) == -1) break;
+				std::string target;
+				std::cout << "Enter the name of the Pokemon you wish to generate\n\n > ";
+				std::cin >> target;
+				std::cout << std::endl;
 
-				test.outputAll();
+				Pokemon canvas;
+				if(pokedex.findName(target, canvas) == -1){
+					std::cout << "Pokemon not found\n\n";
+					break;
+				}
+
+				int lvl;
+				std::cout << "Enter level\n\n > ";
+				std::cin >> lvl;
+				std::cout << std::endl;
+
+				if(canvas.generate(lvl) == -1) break;
+				canvas.outputAll();
 				break;
 			}
 			case 'a':{

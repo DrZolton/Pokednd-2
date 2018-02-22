@@ -59,6 +59,7 @@ class Pokemon{
 
 	private:
 		void addMoves(std::istream& ins);
+		void moveSort();
 
 		//Info
 		std::string name;
@@ -148,7 +149,7 @@ void Pokemon::outputFile(std::ostream& fout){ // "$" signals a new pokemon
 		 << speed << std::endl
 		 << hitDie << std::endl;
 
-	for(int i = 0; i < numMoves; i++)
+	for(int i = 0; i <= numMoves; i++)
 		fout << moves[i].level << std::endl << moves[i].name << std::endl;
 	fout << "0\n" << std::endl;
 
@@ -185,16 +186,59 @@ void Pokemon::inputFile(std::istream& fin){
 }
 
 int Pokemon::generate(const int& lvl){
+	srand(time(NULL));
+
 	level = lvl;
 	if(lvl > 30 || lvl < 1){
 		std::cout << "ERROR: in GENERATE funtion\n\tinvalid lvl value\n";
 		return -1;
 	}
+
+//**Size change**//
+	int die;
+	die = (rand() % 100);
+	if(die == 99) die = 20;
+	else die = (rand() % 19) + 1;
+
+	if(die != 10 && die != 20){
+		height = height * (1.0 + (static_cast<double>(die - 10) / 100.0));
+		weight = weight * (1.0 + (static_cast<double>(die - 10) / 100.0))
+						* (1.0 + (static_cast<double>(die - 10) / 100.0))
+						* (1.0 + (static_cast<double>(die - 10) / 100.0));
+
+		if(height < 6) size = "Fine";
+		else if(height < 12) size = "Dimunitive";
+		else if(height < 24) size = "Tiny";
+		else if(height < 48) size = "Small";
+		else if(height < 96) size = "Medium";
+		else if(height < 192) size = "Large";
+		else if(height < 384) size = "Huge";
+		else if(height < 768) size = "Gargantuan";
+		else size = "Colossal";
+	}
+	if(die == 20){
+		height = height * 2;
+		weight = weight * 8;
+		if(hitDie == 1) hitDie = 3;
+		else if(hitDie == 2) hitDie = 3;
+		else if(hitDie == 3);
+		else if(hitDie == 12) hitDie = 2;
+		else if(hitDie == 10) hitDie = 1;
+		else hitDie += 4;
+
+		if(height < 6) size = "Fine(X)";
+		else if(height < 12) size = "Dimunitive(X)";
+		else if(height < 24) size = "Tiny(X)";
+		else if(height < 48) size = "Small(X)";
+		else if(height < 96) size = "Medium(X)";
+		else if(height < 192) size = "Large(X)";
+		else if(height < 384) size = "Huge(X)";
+		else if(height < 768) size = "Gargantuan(X)";
+		else size = "Colossal(X)";
+	}
 	
 
 //*******generating HP//
-	srand(time(NULL));
-	
 	if(hitDie == 1)
 		HP = 13;
 	else if(hitDie == 2)
@@ -246,7 +290,6 @@ int Pokemon::generate(const int& lvl){
 	}
 
 //*nature and gender*//
-	int die;
 	die = (rand() % 24);
 	if(die == 0){
 		nature = "Hardy";
@@ -454,6 +497,12 @@ int Pokemon::generate(const int& lvl){
 //**catch DC**//
 	catchDC = 20 + (lvl / 3);
 
+//**Moves**//
+	int cursor = 0;
+	while(cursor <= numMoves && moves[cursor].level <= lvl) cursor++;
+	numMoves = cursor - 1;
+	//if(numMoves < 0) numMoves = 0;
+
 	return 0;
 }
 
@@ -485,10 +534,10 @@ void Pokemon::outputBase(){
 		std::cout << "Hit Die: 1d" << hitDie << std::endl << std::endl;
 
 	std::cout << "Moves\nLvl:   Name:\n";
-	for(int i = 0; i < numMoves; i++)
+	for(int i = 0; i <= numMoves; i++)
 		std::cout << moves[i].level << " ---- " << moves[i].name << std::endl;
 	std::cout << "--------------------\n";
-	std::cout << std::endl;
+	std::cout << std::endl << std::endl;
 }
 
 void Pokemon::outputAll(){
@@ -533,7 +582,7 @@ void Pokemon::outputAll(){
 	}
 
 	std::cout << "Moves\nLvl:   Name:\n";
-	for(int i = 0; i < numMoves; i++)
+	for(int i = 0; i <= numMoves; i++)
 		std::cout << moves[i].level << " ---- " << moves[i].name << std::endl;
 	std::cout << "--------------------\n";
 	std::cout << std::endl;
@@ -564,8 +613,11 @@ int Pokemon::inputBase(){
 	std::cout << "Hidden Ability: ";
 	getline(std::cin, hiddenAbility);
 
-	std::cout << "Height: ";
-	std::cin >> height;
+	int tmp;
+	std::cout << "(5 4 = 5'4\")Height: ";
+	std::cin >> tmp >> height;
+	tmp = tmp * 12;
+	height += tmp;
 
 	std::cout << "Weight: ";
 	std::cin >> weight;
@@ -637,8 +689,9 @@ int Pokemon::inputBase(){
 	speed = ( (data + 1.5) / 13.5 ) + 0.5;
 	if(speed == 0) speed = 1; //minimum 1 speed
 
-	std::cout << "Insert Moves:\nEnter level, then name\n";
+	std::cout << "\nInsert Moves:\nEnter level, then name\n";
 	addMoves(std::cin);
+	std::cout << std::endl;
 
 	std::cin.clear();
 	std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
@@ -657,7 +710,10 @@ void Pokemon::addMoves(std::istream& ins){
 	bool done = false;
 	while(!done){
 		ins >> moves[numMoves].level;
-		if(moves[numMoves].level == 0) done = true; //stop reading new moves on an input of 0
+		if(moves[numMoves].level == 0){
+			done = true; //stop reading new moves on an input of 0
+			numMoves--;
+		}
 		if(!done){
 
 			if(ins == std::cin){ //if reading from the console and not a file,
@@ -701,7 +757,20 @@ void Pokemon::addMoves(std::istream& ins){
 			numMoves++;
 		}
 	}
-	std::cout << std::endl;
+	moveSort();
+	//std::cout << std::endl;
+}
+
+void Pokemon::moveSort(){
+	for(int i = 0; i < numMoves; i++){
+		for(int j = i + 1; j <= numMoves; j++){
+			if(moves[i].level > moves[j].level){
+				move tmp = moves[i];
+				moves[i] = moves[j];
+				moves[j] = tmp;
+			}
+		}
+	}
 }
 
 #endif

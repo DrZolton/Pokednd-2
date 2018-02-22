@@ -1,0 +1,735 @@
+$
+Bulbasaur
+1
+Grass/Poison
+Overgrow
+Chlorophyll
+28
+15.2
+Small
+9
+9
+11
+11
+10
+10
+3
+6
+1
+Tackle
+1
+Growl
+3
+Leech Seed
+4
+Vine Whip
+5
+Poison Powder
+5
+Sleep Powder
+6
+Take Down
+7
+Evo.
+8
+Razor Leaf
+9
+Sweet Scent
+10
+Growth
+11
+Double-Edge
+13
+Worry Seed
+13
+Synthesis
+15
+Seed Bomb
+0
+
+$
+Ivysaur
+2
+Grass/Poison
+Overgrow
+Chlorophyll
+39
+28.7
+Small
+10
+11
+13
+13
+11
+12
+5
+8
+1
+Tackle
+1
+Growl
+1
+Leech Seed
+1
+Growl
+3
+Leech Seed
+4
+Vine Whip
+5
+Poison Powder
+5
+Sleep Powder
+6
+Take Down
+8
+Razor Leaf
+9
+Sweet Scent
+11
+Growth
+13
+Double-Edge
+13
+Evo.
+15
+Worry Seed
+16
+Synthesis
+18
+Solar Beam
+0
+
+$
+Venasaur
+3
+Grass/Poison
+Overgrow
+Chlorophyll
+79
+220.5
+Medium
+13
+14
+16
+16
+14
+15
+6
+10
+1
+Petal Dance
+1
+Tackle
+1
+Growl
+1
+Leech Seed
+1
+Vine Whip
+1
+Petal Dance at Evo.
+1
+Growl
+3
+Leech Seed
+4
+Vine Whip
+5
+Poison Powder
+5
+Sleep Powder
+6
+Take Down
+8
+Razor Leaf
+9
+Sweet Scent
+11
+Growth
+13
+Double-Edge
+16
+Worry Seed
+18
+Synthesis
+20
+Petal Blizzard
+21
+Solar Beam
+0
+
+$
+Charmander
+4
+Fire
+Blaze
+Solar Power
+24
+18.7
+Small
+9
+9
+11
+10
+10
+9
+5
+4
+1
+Scratch
+1
+Growl
+3
+Ember
+4
+Smokescreen
+7
+Dragon Rage
+7
+Evo.
+8
+Scary Face
+10
+Fire Fang
+11
+Flame Burst
+14
+Slash
+15
+Flamethrower
+17
+Fire Spin
+19
+Inferno
+0
+
+$
+Charmeleon
+5
+Fire
+Blaze
+Solar Power
+43
+41.9
+Small
+11
+11
+13
+11
+12
+11
+6
+6
+1
+Scratch
+1
+Growl
+1
+Ember
+3
+Ember
+4
+Smokescreen
+7
+Dragon Rage
+9
+Scary Face
+11
+Fire Fang
+13
+Flame Burst
+15
+Evo.
+16
+Slash
+17
+Flamethrower
+20
+Fire Spin
+21
+Inferno
+0
+
+$
+Charizard
+6
+Fire/Flying
+Blaze
+Solar Power
+67
+199.5
+Medium
+13
+13
+17
+14
+15
+13
+8
+8
+1
+Wing Attack
+1
+Flare Blitz
+1
+Heat Wave
+1
+Dragon Claw
+1
+Shadow Claw
+1
+Air Slash
+1
+Scratch
+1
+Growl
+1
+Ember
+1
+Wing Attack at Evo.
+3
+Ember
+4
+Smokescreen
+7
+Dragon Rage
+9
+Scary Face
+11
+Fire Fang
+13
+Flame Burst
+17
+Slash
+19
+Flamethrower
+22
+Fire Spin
+23
+Inferno
+25
+Heat Wave
+26
+Flare Blitz
+0
+
+$
+Squirtle
+7
+Water
+Torrent
+Rain Dish
+20
+19.8
+Tiny
+8
+11
+10
+11
+9
+11
+3
+6
+1
+Tackle
+2
+Tail Whip
+3
+Water Gun
+4
+Withdraw
+5
+Bubble
+7
+Bite
+7
+Evo.
+8
+Rapid Spin
+9
+Protect
+10
+Water Pulse
+11
+Aqua Tail
+13
+Skull Bash
+14
+Iron Defense
+15
+Rain Dance
+16
+Hydro Pump
+0
+
+$
+Wartortle
+8
+Water
+Torrent
+Rain Dish
+39
+49.6
+Small
+10
+13
+11
+13
+10
+13
+4
+6
+1
+Tackle
+1
+Tail Whip
+1
+Water Gun
+2
+Tail Whip
+3
+Water Gun
+4
+Withdraw
+5
+Bubble
+7
+Bite
+9
+Rapid Spin
+10
+Protect
+12
+Water Pulse
+13
+Aqua Tail
+15
+Evo.
+15
+Skull Bash
+17
+Iron Defense
+18
+Rain Dance
+20
+Hydro Pump
+0
+
+$
+Blastoise
+9
+Water
+Torrent
+Rain Dish
+63
+188.5
+Medium
+13
+16
+14
+16
+13
+16
+6
+8
+1
+Flash Cannon
+1
+Tackle
+1
+Tail Whip
+1
+Water Gun
+1
+Withdraw
+2
+Tail Whip
+3
+Water Gun
+4
+Withdraw
+5
+Bubble
+7
+Bite
+9
+Rapid Spin
+10
+Protect
+12
+Water Pulse
+13
+Aqua Tail
+16
+Skull Bash
+19
+Iron Defense
+21
+Rain Dance
+22
+Hydro Pump
+0
+
+$
+Caterpie
+10
+Bug
+Shield Dust
+Run Away
+12
+6.4
+Tiny
+6
+8
+6
+6
+6
+7
+3
+6
+1
+Tackle
+1
+String Shot
+3
+Evo.
+4
+Bug Bite
+0
+
+$
+Metapod
+11
+Bug
+Shed Skin
+N/A
+28
+21.8
+Small
+5
+10
+7
+7
+6
+8
+2
+6
+1
+Harden
+1
+Harden at Evo.
+4
+Evo.
+0
+
+$
+Butterfree
+12
+Bug/Flying
+Compound Eyes
+Tinted Lens
+43
+70.5
+Small
+8
+10
+14
+13
+11
+11
+5
+8
+1
+Gust
+1
+Confusion
+1
+Gust at Evo.
+5
+Confusion
+5
+Poison Powder
+5
+Stun Spore
+5
+Sleep Powder
+7
+Psybeam
+8
+Silver Wind
+9
+Supersonic
+10
+Safeguard
+12
+Whirlwind
+13
+Bug Buzz
+14
+Rage Powder
+15
+Captivate
+17
+Tail Wind
+17
+Air Slash
+19
+Quiver Dance
+0
+
+$
+Selene
+10001
+Fairy
+Magic Guard
+Healer
+60
+450
+Medium
+11
+10
+14
+11
+12
+10
+7
+6
+1
+Tackle
+1
+Tail Whip
+2
+Fairy Wind
+3
+Double Team
+4
+Charm
+5
+Psybeam
+6
+Miracle Eye
+7
+Jump Kick
+8
+Evo.
+9
+Heal Pulse
+11
+Calm Mind
+13
+Future Sight
+15
+Energy Ball
+17
+Refresh
+20
+Moonblast
+0
+
+$
+Artemis
+10002
+Fairy
+Magic Guard
+Healer
+72
+800
+Medium
+12
+11
+15
+12
+13
+11
+7
+6
+1
+Tackle
+1
+Tail Whip
+1
+Magical Leaf
+1
+Hypnosis at Evo.
+2
+Fairy Wind
+3
+Double Team
+4
+Charm
+5
+Psybeam
+6
+Miracle Eye
+7
+Jump Kick
+9
+Heal Pulse
+11
+Calm Mind
+13
+Future Sight
+15
+Energy Ball
+16
+Evo.
+17
+Light Screen
+20
+Moonblast
+0
+
+$
+Unnamed1
+10003
+Fairy/Flying
+Magic Guard
+Healer
+77
+1100
+Medium
+13
+12
+16
+13
+14
+12
+8
+8
+1
+Tackle
+1
+Tail Whip
+1
+Magical Leaf
+1
+Aerial Ace
+1
+Sky Attack at Evo.
+2
+Fairy Wind
+3
+Double Team
+4
+Charm
+5
+Psybeam
+6
+Miracle Eye
+7
+Jump Kick
+9
+Heal Pulse
+11
+Calm Mind
+13
+Future Sight
+15
+Energy Ball
+17
+Perish Song
+20
+Moonblast
+0
+

@@ -1,7 +1,7 @@
 all:
-	g++ -Wall main.cc
+	g++ -Wall -o pokeTool main.cc
 
 clean:
-	rm -r a.out *.o
+	rm -r a.out *.o pokeTool
 
 
