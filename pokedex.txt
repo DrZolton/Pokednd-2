@@ -1239,6 +1239,380 @@ Thunderbolt
 0
 
 $
+Sandshrew
+27
+Ground
+Sand Veil
+Sand Rush
+24
+26.5
+Small
+12
+14
+6
+7
+9
+10
+3
+6
+1
+Scratch
+1
+Defense Curl
+1
+Sand Attack
+2
+Poison Sting
+3
+Rollout
+4
+Rapid Spin
+5
+Fury Cutter
+6
+Magnitude
+7
+Swift
+8
+Fury Swipes
+9
+Evo.
+9
+Sand Tomb
+11
+Slash
+12
+Dig
+14
+Gyro Ball
+15
+Swords Dance
+17
+Sandstorm
+19
+Earthquake
+0
+
+$
+Sandslash
+28
+Ground
+Sand Veil
+Sand Rush
+39
+65
+Small
+15
+17
+9
+10
+12
+13
+5
+8
+1
+Crush Claw
+1
+Scratch
+1
+Defense Curl
+1
+Sand Attack
+1
+Poison Sting
+1
+Crush Claw at Evo.
+1
+Sand Attack
+2
+Poison Sting
+3
+Rollout
+4
+Rapid Spin
+5
+Fury Cutter
+6
+Magnitude
+7
+Swift
+8
+Fury Swipes
+10
+Sand Tomb
+11
+Slash
+13
+Dig
+15
+Gyro Ball
+17
+Swords Dance
+19
+Sandstorm
+21
+Earthquake
+0
+
+$
+Nidoran(F)
+29
+Poison
+Poison Point/Rivalry
+Hustle
+16
+15.4
+Tiny
+8
+10
+8
+8
+8
+9
+3
+6
+1
+Growl
+1
+Scratch
+3
+Tail Whip
+4
+Double Kick
+5
+Poison Sting
+7
+Evo.
+8
+Fury Swipes
+9
+Bite
+10
+Helping Hand
+13
+Toxic Spikes
+13
+Flatter
+15
+Crunch
+17
+Captivate
+18
+Poison Fang
+0
+
+$
+Nidorina
+30
+Poison
+Poison Point/Rivalry
+Hustle
+31
+44.1
+Small
+10
+12
+10
+10
+10
+11
+4
+8
+1
+Growl
+1
+Scratch
+3
+Tail Whip
+4
+Double Kick
+5
+Poison Sting
+8
+Fury Swipes
+9
+Bite
+11
+Helping Hand
+14
+Toxic Spikes
+15
+Flatter
+17
+Crunch
+20
+Captivate
+22
+Poison Fang
+0
+
+$
+Nidoqueen
+31
+Poison/Ground
+Poison Point/Rivalry
+Sheer Force
+51
+132.3
+Medium
+14
+14
+13
+14
+13
+14
+6
+10
+1
+Superpower
+1
+Scratch
+1
+Tail Whip
+1
+Double Kick
+1
+Poison Sting
+9
+Chip Away
+14
+Body Slam
+17
+Earth Power
+22
+Superpower
+0
+
+$
+Nidoran(M)
+32
+Poison
+Poison Point/Rivalry
+Hustle
+20
+19.8
+Tiny
+10
+8
+8
+8
+9
+8
+4
+6
+1
+Leer
+1
+Peck
+3
+Focus Energy
+4
+Double Kick
+5
+Poison Sting
+7
+Evo.
+8
+Fury Attack
+9
+Horn Attack
+10
+Helping Hand
+13
+Toxic Spikes
+13
+Flatter
+15
+Poison Jab
+17
+Captivate
+18
+Horn Drill
+0
+
+$
+Nidorino
+33
+Poison
+Poison Point/Rivalry
+Hustle
+35
+43
+Small
+12
+10
+10
+10
+11
+10
+5
+8
+1
+Leer
+1
+Peck
+3
+Focus Energy
+4
+Double Kick
+5
+Poison Sting
+8
+Fury Attack
+9
+Horn Attack
+11
+Helping Hand
+14
+Toxic Spikes
+15
+Flatter
+17
+Poison Jab
+20
+Captivate
+22
+Horn Drill
+0
+
+$
+Nidoking
+34
+Poison/Ground
+Poison Point/Rivalry
+Sheer Force
+55
+136.7
+Medium
+16
+13
+14
+13
+15
+13
+6
+10
+1
+Megahorn
+1
+Peck
+1
+Focus Energy
+1
+Double Kick
+1
+Poison Sting
+9
+Chip Away
+14
+Thrash
+17
+Earth Power
+22
+Megahorn
+0
+
+$
 Selene
 10001
 Fairy
