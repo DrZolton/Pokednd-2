@@ -1613,6 +1613,280 @@ Megahorn
 0
 
 $
+Clefairy
+35
+Fairy
+Cute Charm/Magic Guard
+Friend Guard
+24
+16.5
+Small
+8
+9
+11
+11
+9
+10
+3
+8
+1
+Spotlight
+1
+Disarming Voice
+1
+Pound
+1
+Growl
+1
+Encore
+3
+Sing
+4
+Double Slap
+5
+Defense Curl
+7
+Follow Me
+8
+Bestow
+9
+Wake-Up Slap
+10
+Minimize
+11
+Stored Power
+13
+Metronome
+14
+Cosmic Power
+15
+Lucky Chant
+16
+Body Slam
+17
+Moonlight
+19
+Moonblast
+20
+Gravity
+20
+Meteor Mash
+21
+Healing Wish
+22
+After You
+0
+
+$
+Clefable
+36
+Fairy
+Cute Charm/Magic Guard
+Unaware
+51
+88.2
+Medium
+11
+12
+14
+14
+12
+13
+5
+10
+1
+Spotlight
+1
+Disarming Voice
+1
+Sing
+1
+Double Slap
+1
+Minimize
+1
+Metronome
+0
+
+$
+Vulpix
+37
+Fire
+Flash Fire
+Drought
+24
+21.8
+Small
+7
+8
+10
+11
+8
+9
+5
+4
+1
+Ember
+2
+Tail Whip
+3
+Roar
+4
+Baby-Doll Eyes
+4
+Quick Attack
+5
+Confuse Ray
+6
+Fire Spin
+7
+Payback
+8
+Will-O-Wisp
+9
+Feint Attack
+11
+Hex
+11
+Flame Burst
+13
+Extrasensory
+14
+Safeguard
+15
+Flamethrower
+16
+Imprison
+17
+Fire Blast
+18
+Grudge
+19
+Captivate
+20
+Inferno
+0
+
+$
+Ninetales
+38
+Fire
+Flash Fire
+Drought
+43
+43.9
+Small
+12
+13
+13
+16
+12
+14
+8
+8
+1
+Imprison
+1
+Nasty Plot
+1
+Flamethrower
+1
+Quick Attack
+1
+Confuse Ray
+1
+Safeguard
+0
+
+$
+Jigglypuff
+39
+Normal/Fairy
+Cute Charm/Competitive
+Friend Guard
+20
+12.1
+Tiny
+8
+6
+9
+7
+8
+6
+2
+12
+1
+Sing
+1
+Defense Curl
+2
+Pound
+4
+Play Nice
+5
+Disarming Voice
+6
+Disable
+7
+Double Slap
+8
+Rollout
+9
+Round
+10
+Stockpile
+10
+Swallow
+10
+Spit Up
+11
+Wake-Up Slap
+12
+Rest
+13
+Body Slam
+14
+Gyro Ball
+15
+Mimic
+17
+Hyper Voice
+18
+Double-Edge
+0
+
+$
+Wigglytuff
+40
+Normal/Fairy
+Cute Charm/Competitive
+Frisk
+39
+26.5
+Small
+11
+9
+13
+10
+12
+9
+3
+1
+1
+Double-Edge
+1
+Play Rough
+1
+Sing
+1
+Defense Curl
+1
+Disable
+1
+Double Slap
+0
+
+$
 Selene
 10001
 Fairy
