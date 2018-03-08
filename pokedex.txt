@@ -1887,6 +1887,463 @@ Double Slap
 0
 
 $
+Zubat
+41
+Poison/Flying
+Inner Focus
+Infiltrator
+31
+16.5
+Small
+8
+8
+7
+8
+7
+8
+4
+6
+1
+Absorb
+2
+Supersonic
+3
+Astonish
+5
+Bite
+5
+Wing Attack
+7
+Confuse Ray
+8
+Air Cutter
+9
+Evo.
+9
+Swift
+10
+Poison Fang
+12
+Mean Look
+13
+Leech Life
+14
+Haze
+15
+Venoshock
+17
+Air Slash
+17
+Quick Guard
+0
+
+$
+Golbat
+42
+Poison/Flying
+Inner Focus
+Infiltrator
+63
+121.3
+Medium
+13
+12
+11
+13
+12
+12
+7
+8
+1
+Screech
+1
+Absorb
+1
+Supersonic
+1
+Astonish
+1
+Bite
+2
+Supersonic
+3
+Astonish
+5
+Bite
+5
+Wing Attack
+7
+Confuse Ray
+8
+Air Cutter
+10
+Swift
+11
+Poison Fang
+13
+Mean Look
+14
+Leech Life
+16
+Haze
+17
+Venoshock
+19
+Air Slash
+21
+Quick Guard
+0
+
+$
+Oddish
+43
+Grass/Poison
+Chlorophyll
+Run Away
+20
+11.9
+Tiny
+9
+10
+13
+11
+11
+10
+2
+6
+1
+Absorb
+1
+Growth
+2
+Sweet Scent
+4
+Acid
+5
+Poison Powder
+6
+Stun Spore
+6
+Sleep Powder
+8
+Mega Drain
+9
+Evo.
+9
+Lucky Chant
+11
+Moonlight
+13
+Giga Drain
+14
+Toxic
+16
+Natural Gift
+17
+Moonblast
+19
+Grassy Drain
+21
+Petal Dance
+0
+
+$
+Gloom
+44
+Grass/Poison
+Chlorophyll
+Stench
+31
+19
+Small
+11
+12
+14
+13
+12
+12
+3
+8
+1
+Absorb
+1
+Growth
+1
+Sweet Scent
+1
+Acid
+2
+Sweet Scent
+4
+Acid
+5
+Poison Powder
+6
+Stun Spore
+6
+Sleep Powder
+8
+Mega Drain
+10
+Lucky Chant
+12
+Moonlight
+14
+Giga Drain
+16
+Toxic
+18
+Natural Gift
+20
+Petal Blizzard
+21
+Grassy Terrain
+22
+Petal Dance
+0
+
+$
+Vileplume
+45
+Grass/Poison
+Chlorophyll
+Effect Spore
+47
+41
+Small
+13
+14
+17
+14
+15
+14
+4
+8
+1
+Mega Drain
+1
+Aromatherapy
+1
+Poison Powder
+1
+Stun Spore
+20
+Petal Blizzard
+22
+Petal Dance
+24
+Solar Beam
+0
+
+$
+Paras
+46
+Bug/Grass
+Effect Spore/Dry Skin
+Damp
+12
+11.9
+Tiny
+11
+10
+9
+10
+10
+10
+2
+4
+1
+Scratch
+3
+Stun Spore
+3
+Poison Powder
+5
+Absorb
+7
+Fury Cutter
+9
+Spore
+10
+Evo.
+11
+Slash
+13
+Growth
+15
+Giga Drain
+17
+Aromatherapy
+20
+Rage Powder
+21
+X-Scissor
+0
+
+$
+Parasect
+47
+Bug/Grass
+Effect Spore/Dry Skin
+Damp
+39
+65
+Small
+15
+13
+11
+13
+13
+13
+2
+8
+1
+Cross Poison
+1
+Scratch
+1
+Stun Spore
+1
+Poison Powder
+1
+Absorb
+3
+Stun Spore
+3
+Poison Powder
+5
+Absorb
+7
+Fury Cutter
+9
+Spore
+12
+Slash
+15
+Growth
+18
+Giga Drain
+21
+Aromatherapy
+22
+Rage Powder
+24
+X-Scissor
+0
+
+$
+Venonat
+48
+Bug/Poison
+Compound Eyes/Tinted Lens
+Run Away
+39
+66.1
+Small
+9
+10
+8
+10
+8
+10
+3
+8
+1
+Tackle
+1
+Disable
+1
+Foresight
+2
+Supersonic
+5
+Confusion
+5
+Poison Powder
+7
+Psybeam
+9
+Stun Spore
+10
+Signal Beam
+12
+Sleep Powder
+13
+Evo.
+14
+Leech Life
+15
+Zen Headbutt
+17
+Poison Fang
+19
+Psychic
+0
+
+$
+Venomoth
+49
+Bug/Poison
+Shield Dust/Tinted Lens
+Wonder Skin
+59
+27.6
+Medium
+11
+11
+14
+13
+12
+12
+7
+8
+1
+Gust
+1
+Quiver Dance
+1
+Bug Buzz
+1
+Silver Wind
+1
+Tackle
+1
+Disable
+1
+Foresight
+1
+Supersonic
+1
+Gust at Evo.
+2
+Supersonic
+5
+Confusion
+5
+Poison Powder
+7
+Psybeam
+9
+Stun Spore
+10
+Signal Beam
+12
+Sleep Powder
+15
+Leech Life
+17
+Zen Headbutt
+19
+Poison Fang
+21
+Psychic
+22
+Bug Buzz
+23
+Quiver Dance
+0
+
+$
 Selene
 10001
 Fairy
