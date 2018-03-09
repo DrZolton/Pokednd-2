@@ -2344,6 +2344,460 @@ Quiver Dance
 0
 
 $
+Diglett
+50
+Ground
+Sand Veil/Arena Trap
+Sand Force
+8
+1.8
+Dimunitive
+9
+7
+8
+9
+8
+8
+7
+4
+1
+Sand Attack
+1
+Scratch
+2
+Growl
+3
+Astonish
+4
+Mud-Slap
+6
+Magnitude
+7
+Bulldoze
+9
+Sucker Punch
+10
+Mud Bomb
+11
+Evo.
+11
+Earth Power
+13
+Dig
+14
+Slash
+16
+Earthquake
+17
+Fissure
+0
+
+$
+Dugtrio
+51
+Ground
+Sand Veil/Arena Trap
+Sand Force
+28
+73.4
+Small
+15
+10
+10
+12
+12
+11
+9
+4
+1
+Sand Tomb
+1
+Rototiller
+1
+Night Slash
+1
+Tri Attack
+1
+Scratch
+1
+Sand Attack
+1
+Growl
+1
+Sand Tomb at Evo.
+2
+Growl
+3
+Astonish
+4
+Mud-Slap
+6
+Magnitude
+7
+Bulldoze
+9
+Sucker Punch
+10
+Mud Bomb
+12
+Earth Power
+14
+Dig
+17
+Slash
+19
+Earthquake
+21
+Fissure
+0
+
+$
+Meowth
+52
+Normal
+Pickup/Technician
+Unnerve
+16
+9.3
+Tiny
+8
+8
+8
+8
+8
+8
+7
+6
+1
+Scratch
+1
+Growl
+3
+Bite
+4
+Fake Out
+6
+Fury Swipes
+7
+Screech
+9
+Feint Attack
+10
+Taunt
+11
+Evo.
+12
+Pay Day
+13
+Slash
+15
+Nasty Plot
+17
+Assurance
+19
+Captivate
+20
+Night Slash
+20
+Feint
+0
+
+$
+Persian
+53
+Normal
+Limber/Technician
+Unnerve
+39
+70.5
+Small
+11
+11
+11
+11
+11
+11
+9
+8
+1
+Swift
+1
+Play Rough
+1
+Switcheroo
+1
+Scratch
+1
+Growl
+1
+Bite
+1
+Fake Out
+1
+Swift at Evo.
+3
+Bite
+4
+Fake Out
+6
+Fury Swipes
+7
+Screech
+9
+Feint Attack
+10
+Taunt
+13
+Power Gem
+15
+Slash
+18
+Nasty Plot
+20
+Assurance
+22
+Captivate
+23
+Night Slash
+23
+Feint
+0
+
+$
+Psyduck
+54
+Water
+Damp/Cloud Nine
+Swift Swim
+31
+43.2
+Small
+9
+9
+11
+10
+10
+9
+4
+6
+1
+Water Sport
+1
+Scratch
+2
+Tail Whip
+3
+Water Gun
+4
+Confusion
+5
+Fury Swipes
+7
+Water Pulse
+8
+Disable
+9
+Screech
+10
+Zen Headbutt
+11
+Aqua Tail
+13
+Evo.
+13
+Soak
+14
+Psych Up
+15
+Amnesia
+16
+Hydro Pump
+17
+Wonder Room
+0
+
+$
+Golduck
+55
+Water
+Damp/Cloud Nine
+Swift Swim
+67
+168.9
+Medium
+13
+13
+15
+13
+14
+13
+6
+10
+1
+Me First
+1
+Aqua Jet
+1
+Water Sport
+1
+Scratch
+1
+Tail Whip
+1
+Water Gun
+2
+Tail Whip
+3
+Water Gun
+4
+Confusion
+5
+Fury Swipes
+7
+Water Pulse
+8
+Disable
+9
+Screech
+10
+Zen Headbutt
+11
+Aqua Tail
+13
+Soak
+15
+Psych Up
+17
+Amnesia
+19
+Hydro Pump
+21
+Wonder Room
+0
+
+$
+Mankey
+56
+Fighting
+Vital Spirit/Anger Point
+Defiant
+20
+61.7
+Tiny
+13
+8
+8
+9
+10
+8
+5
+6
+1
+Covet
+1
+Scratch
+1
+Low Kick
+1
+Leer
+1
+Focus Energy
+2
+Fury Swipes
+3
+Karate Chop
+5
+Pursuit
+6
+Seismic Toss
+8
+Swagger
+9
+Cross Chop
+11
+Evo.
+11
+Assurance
+12
+Punishment
+13
+Thrash
+15
+Close Combat
+16
+Screech
+17
+Stomping Tantrum
+19
+Outrage
+20
+Final Gambit
+0
+
+$
+Primeape
+57
+Fighting
+Vital Spirit/Anger Point
+Defiant
+39
+70.5
+Small
+16
+11
+11
+12
+13
+11
+7
+8
+1
+Rage
+1
+Final Gambit
+1
+Fling
+1
+Scratch
+1
+Low Kick
+1
+Leer
+1
+Focus Energy
+1
+Rage at Evo.
+2
+Fury Swipes
+3
+Karate Chop
+5
+Pursuit
+6
+Seismic Toss
+8
+Swagger
+9
+Cross Chop
+11
+Assurance
+12
+Punishment
+14
+Thrash
+16
+Close Combat
+18
+Screech
+19
+Stomping Tantrum
+21
+Outrage
+22
+Final Gambit
+0
+
+$
 Selene
 10001
 Fairy
