@@ -3321,6 +3321,432 @@ Dynamic Punch
 0
 
 $
+Bellsprout
+69
+Grass/Poison
+Chlorophyll
+Gluttony
+28
+8.8
+Small
+12
+8
+12
+7
+12
+7
+3
+6
+1
+Vine Whip
+3
+Growth
+5
+Wrap
+5
+Sleep Powder
+6
+Poison Powder
+7
+Stun Spore
+9
+Evo.
+9
+Acid
+11
+Knock Off
+12
+Sweet Scent
+14
+Gastro Acid
+16
+Razor Leaf
+17
+Poison Jab
+19
+Slam
+20
+Wring Out
+0
+
+$
+Weepinbell
+70
+Grass/Poison
+Chlorophyll
+Gluttony
+39
+14.1
+Small
+14
+10
+14
+9
+14
+9
+4
+8
+1
+Vine Whip
+1
+Growth
+1
+Wrap
+3
+Growth
+5
+Wrap
+5
+Sleep Powder
+6
+Poison Powder
+7
+Stun Spore
+10
+Acid
+12
+Knock Off
+13
+Sweet Scent
+16
+Gastro Acid
+18
+Razor Leaf
+19
+Poison Jab
+21
+Slam
+22
+Wring Out
+0
+
+$
+Victreebel
+71
+Grass/Poison
+Chlorophyll
+Gluttony
+67
+34.2
+Medium
+16
+11
+16
+12
+16
+11
+5
+10
+1
+Leaf Tornado
+1
+Stockpile
+1
+Swallow
+1
+Spit Up
+1
+Vine Whip
+1
+Sleep Powder
+1
+Sweet Scent
+1
+Razor Leaf
+1
+Leaf Tornado at Evo.
+13
+Leaf Storm
+18
+Leaf Blade
+0
+
+$
+Tentacool
+72
+Water/Poison
+Clear Body/Liquid Ooze
+Rain Dish
+35
+100.3
+Small
+7
+8
+10
+16
+8
+12
+5
+6
+1
+Poison Sting
+2
+Supersonic
+3
+Constrict
+4
+Acid
+5
+Toxic Spikes
+7
+Water Pulse
+8
+Wrap
+9
+Acid Spray
+10
+Bubble Beam
+11
+Barrier
+12
+Evo.
+13
+Poison Jab
+14
+Brine
+15
+Screech
+16
+Hex
+17
+Sludge Wave
+19
+Hydro Pump
+20
+Wring Out
+0
+
+$
+Tentacruel
+73
+Water/Poison
+Clear Body/Liquid Ooze
+Rain Dish
+63
+121.3
+Medium
+11
+11
+13
+18
+12
+14
+8
+10
+1
+Reflect Type
+1
+Wring Out
+1
+Poison Sting
+1
+Supersonic
+1
+Constrict
+1
+Acid
+2
+Supersonic
+3
+Constrict
+4
+Acid
+5
+Toxic Spikes
+7
+Water Pulse
+8
+Wrap
+9
+Acid Spray
+10
+Bubble Beam
+11
+Barrier
+13
+Poison Jab
+15
+Brine
+16
+Screech
+18
+Hex
+19
+Sludge Wave
+21
+Hydro Pump
+22
+Wring Out
+0
+
+$
+Geodude
+74
+Rock/Ground
+Rock Head/Sturdy
+Sand Veil
+16
+44.1
+Tiny
+13
+16
+7
+7
+10
+11
+2
+6
+1
+Tackle
+1
+Defense Curl
+2
+Mud Sport
+3
+Rock Polish
+4
+Rollout
+5
+Magnitude
+7
+Rock Throw
+7
+Smack Down
+9
+Bulldoze
+10
+Evo.
+10
+Self-Destruct
+11
+Stealth Rock
+12
+Rock Blast
+14
+Earthquake
+15
+Explosion
+16
+Double-Edge
+17
+Stone Edge
+0
+
+$
+Graveler
+75
+Rock/Ground
+Rock Head/Sturdy
+Sand Veil
+39
+231.5
+Small
+15
+17
+9
+9
+12
+13
+3
+6
+1
+Tackle
+1
+Defense Curl
+1
+Mud Sport
+1
+Rock Polish
+2
+Mud Sport
+3
+Rock Polish
+4
+Rollout
+5
+Magnitude
+7
+Rock Throw
+7
+Smack Down
+9
+Bulldoze
+10
+Self-Destruct
+12
+Stealth Rock
+14
+Rock Blast
+16
+Earthquake
+18
+Explosion
+20
+Double-Edge
+21
+Stone Edge
+0
+
+$
+Golem
+76
+Rock/Ground
+Rock Head/Sturdy
+Sand Veil
+55
+661.4
+Medium
+18
+19
+10
+11
+14
+15
+3
+10
+1
+Heavy Slam
+1
+Tackle
+1
+Defense Curl
+1
+Mud Sport
+1
+Rock Polish
+2
+Mud Sport
+3
+Rock Polish
+4
+Steam Roller
+5
+Magnitude
+7
+Rock Throw
+7
+Smack Down
+9
+Bulldoze
+10
+Self-Destruct
+12
+Stealth Rock
+14
+Rock Blast
+16
+Earthquake
+18
+Explosion
+20
+Double-Edge
+21
+Stone Edge
+22
+Heavy Slam
+0
+
+$
 Selene
 10001
 Fairy
