@@ -2798,6 +2798,529 @@ Final Gambit
 0
 
 $
+Growlithe
+58
+Fire
+Intimidate/Flash Fire
+Justified
+28
+41.9
+Small
+11
+9
+12
+10
+11
+9
+5
+6
+1
+Bite
+1
+Roar
+3
+Ember
+3
+Leer
+4
+Odor Sleuth
+5
+Helping Hand
+7
+Flame Wheel
+8
+Reversal
+9
+Fire Fang
+9
+Take Down
+11
+Flame Burst
+12
+Agility
+13
+Retaliate
+14
+Flamethrower
+16
+Crunch
+17
+Heat Wave
+17
+Outrage
+18
+Flare Blitz
+0
+
+$
+Arcanine
+59
+Fire
+Intimidate/Flash Fire
+Justified
+75
+341.7
+Medium
+17
+13
+16
+13
+16
+13
+7
+10
+1
+Thunder Fang
+1
+Bite
+1
+Roar
+1
+Odor Sleuth
+1
+Fire Fang
+14
+Extreme Speed
+0
+
+$
+Poliwag
+60
+Water
+Water Absorb/Damp
+Swift Swim
+24
+27.3
+Small
+9
+8
+8
+8
+8
+8
+7
+6
+1
+Water Sport
+2
+Water Gun
+3
+Hypnosis
+5
+Bubble
+6
+Double Slap
+7
+Rain Dance
+9
+Body Slam
+10
+Evo.
+10
+Bubble Beam
+11
+Mud Shot
+13
+Belly Drum
+14
+Wake-Up Slap
+15
+Hydro Pump
+17
+Mud Bomb
+0
+
+$
+Poliwhirl
+61
+Water
+Water Absorb/Damp
+Swift Swim
+39
+44.1
+Small
+11
+11
+10
+10
+10
+10
+7
+8
+1
+Water Sport
+1
+Water Gun
+1
+Hypnosis
+2
+Water Gun
+3
+Hypnosis
+5
+Bubble
+6
+Double Slap
+7
+Rain Dance
+9
+Body Slam
+11
+Bubble Beam
+13
+Mud Shot
+15
+Belly Drum
+17
+Wake-Up Slap
+19
+Hydro Pump
+21
+Mud Bomb
+0
+
+$
+Poliwrath
+62
+Water/Fighting
+Water Absorb/Damp
+Swift Swim
+51
+119
+Medium
+15
+15
+12
+14
+13
+14
+5
+10
+1
+Submission
+1
+Circle Throw
+1
+Bubble Beam
+1
+Hypnosis
+1
+Double Slap
+1
+Submission at Evo.
+13
+Dynamic Punch
+17
+Mind Reader
+21
+Circle Throw
+0
+
+$
+Abra
+63
+Psychic
+Synchronize/Inner Focus
+Magic Guard
+35
+43
+Small
+5
+5
+16
+10
+10
+7
+7
+4
+1
+Teleport
+7
+Evo.
+0
+
+$
+Kadabra
+64
+Psychic
+Synchronize/Inner Focus
+Magic Guard
+51
+124.6
+Medium
+7
+7
+18
+12
+12
+9
+8
+6
+1
+Kinesis
+1
+Teleport
+1
+Confusion
+1
+Kinesis at Evo.
+7
+Confusion
+7
+Disable
+9
+Psybeam
+9
+Miracle Eye
+11
+Reflect
+11
+Psycho Cut
+13
+Recover
+13
+Telekinesis
+15
+Ally Switch
+15
+Psychic
+17
+Role Play
+17
+Future Sight
+19
+Trick
+0
+
+$
+Alakazam
+65
+Psychic
+Synchronize/Inner Focus
+Magic Guard
+59
+105.8
+Medium
+9
+9
+20
+15
+14
+12
+9
+6
+1
+Kinesis
+1
+Teleport
+1
+confusion
+1
+Kinesis at Evo.
+7
+Confusion
+8
+Disable
+9
+Psybeam
+9
+Miracle Eye
+11
+Reflect
+11
+Psycho Cut
+13
+Recover
+13
+Telekinesis
+15
+Ally Switch
+15
+Psychic
+17
+Calm Mind
+17
+Future Sight
+19
+Trick
+0
+
+$
+Machop
+66
+Fighting
+Guts/No Guard
+Steadfast
+31
+43
+Small
+13
+10
+8
+8
+10
+9
+3
+8
+1
+Low Kick
+1
+Leer
+1
+Focus Energy
+3
+Karate Chop
+4
+Foresight
+5
+Low Sweep
+6
+Seismic Toss
+8
+Revenge
+9
+Knock Off
+10
+Vital Throw
+11
+Evo.
+11
+Wake-Up Slap
+13
+Dual Chop
+13
+Submission
+15
+Bulk Up
+16
+Cross Chop
+17
+Scary Face
+18
+Dynamic Punch
+0
+
+$
+Machoke
+67
+Fighting
+Guts/No Guard
+Steadfast
+59
+155.4
+Medium
+15
+12
+10
+11
+12
+11
+3
+10
+1
+Low Kick
+1
+Leer
+1
+Focus Energy
+1
+Karate Chop
+1
+Focus Energy
+3
+Karate Chop
+4
+Foresight
+5
+Low Sweep
+6
+Seismic Toss
+8
+Revenge
+9
+Knock Off
+10
+Vital Throw
+11
+Wake-Up Slap
+13
+Dual Chop
+15
+Submission
+17
+Bulk Up
+19
+Cross Chop
+21
+Scary Face
+22
+Dynamic Punch
+0
+
+$
+Machamp
+68
+Fighting
+Guts/No Guard
+Steadfast
+63
+286.6
+Medium
+19
+13
+11
+14
+15
+13
+4
+10
+1
+Strength
+1
+Wide Guard
+1
+Low Kick
+1
+Leer
+1
+Focus Energy
+1
+Karate Chop
+1
+Strength at Evo.
+1
+Focus Energy
+3
+Karate Chop
+4
+Foresight
+5
+Low Sweep
+6
+Seismic Toss
+8
+Revenge
+9
+Knock Off
+10
+Vital Throw
+11
+Wake-Up Slap
+13
+Dual Chop
+15
+Submission
+17
+Bulk Up
+19
+Cross Chop
+21
+Scary Face
+22
+Dynamic Punch
+0
+
+$
 Selene
 10001
 Fairy
