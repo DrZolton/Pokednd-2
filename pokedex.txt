@@ -3747,6 +3747,519 @@ Heavy Slam
 0
 
 $
+Ponyta
+77
+Fire
+Run Away/Flash Fire
+Flame Body
+39
+66.1
+Small
+13
+10
+11
+11
+12
+10
+7
+6
+1
+Growl
+1
+Tackle
+2
+Tail Whip
+4
+Ember
+5
+Flame Wheel
+7
+Stomp
+9
+Flame Charge
+10
+Fire Spin
+12
+Take Down
+13
+Inferno
+15
+Agility
+16
+Evo.
+17
+Fire Blast
+18
+Bounce
+20
+Flare Blitz
+0
+
+$
+Rapidash
+78
+Fire
+Run Away/Flash Fire
+Flame Body
+67
+209.4
+Medium
+15
+12
+13
+13
+14
+12
+8
+8
+1
+Fury Attack
+1
+Poison Jab
+1
+Megahorn
+1
+Growl
+1
+Quick Attack
+1
+Tail Whip
+1
+Ember
+1
+Fury Attack at Evo.
+2
+Tail Whip
+4
+Ember
+5
+Flame Wheel
+7
+Stomp
+9
+Flame Charge
+10
+Fire Spin
+12
+Take Down
+13
+Inferno
+15
+Agility
+17
+Fire Blast
+18
+Bounce
+20
+Flare Blitz
+0
+
+$
+Slowpoke
+79
+Water/Psychic
+Oblivious/Own Tempo
+Regenerator
+47
+79.4
+Small
+11
+11
+8
+8
+9
+9
+1
+10
+1
+Curse
+1
+Yawn
+1
+Tackle
+2
+Growl
+4
+Water Gun
+6
+Confusion
+8
+Disable
+9
+Headbutt
+11
+Water Pulse
+13
+Zen Headbutt
+15
+Evo.
+15
+Slack Off
+17
+Amnesia
+18
+Psychic
+20
+Rain Dance
+21
+Psych Up
+22
+Heal Pulse
+0
+
+$
+Slowbro
+80
+Water/Psychic
+Oblivious/Own Tempo
+Regenerator
+63
+173.1
+Medium
+12
+17
+16
+13
+14
+15
+2
+10
+1
+Withdraw
+1
+Heal Pulse
+1
+Curse
+1
+Yawn
+1
+Tackle
+1
+Growl
+1
+Withdraw at Evo.
+2
+Growl
+4
+Water Gun
+6
+Confusion
+8
+Disable
+9
+Headbutt
+11
+Water Pulse
+13
+Zen Headbutt
+15
+Slack Off
+17
+Amnesia
+20
+Psychic
+21
+Rain Dance
+23
+Psych Up
+24
+Heal Pulse
+0
+
+$
+Magnemite
+81
+Electric/Steel
+Magnet Pull/Sturdy
+Analytic
+12
+13.2
+Tiny
+7
+12
+15
+10
+11
+11
+3
+4
+1
+Supersonic
+1
+Tackle
+2
+Thunder Shock
+3
+Thunder Wave
+5
+Magnet Bomb
+5
+Light Screen
+7
+Sonic Boom
+8
+Spark
+9
+Mirror Shot
+10
+Metal Sound
+12
+Evo.
+12
+Electro Ball
+13
+Flash Cannon
+14
+Screech
+15
+Discharge
+17
+Lock-On
+17
+Magnet Rise
+19
+Gyro Ball
+20
+Zap Cannon
+0
+
+$
+Magneton
+82
+Electric/Steel
+Magnet Pull/Sturdy
+Analytic
+39
+132.3
+Small
+10
+15
+18
+12
+14
+13
+5
+6
+1
+Tri Attack at Evo.
+1
+Electric Terrain
+1
+Supersonic
+1
+Tackle
+1
+Thunder Shock
+1
+Thunder Wave
+1
+Tri Attack
+1
+Zap Attack
+2
+Thunder Shock
+3
+Thunder Wave
+5
+Magnet Bomb
+5
+Light Screen
+7
+Sonic Boom
+8
+Spark
+9
+Mirror Shot
+10
+Metal Sound
+12
+Electro Ball
+13
+Flash Cannon
+16
+Screech
+17
+Discharge
+20
+Lock-On
+21
+Magnet Rise
+22
+Gyro Ball
+23
+Zap Cannon
+0
+
+$
+Farfetch'd
+83
+Normal/Flying
+Keen Eye/Inner Focus
+Defiant
+31
+33.1
+Small
+14
+10
+11
+11
+12
+10
+5
+6
+1
+Brave Bird
+1
+Poison Jab
+1
+Peck
+1
+Sand Attack
+1
+Leer
+1
+Fury Cutter
+3
+Fury Attack
+4
+Aerial Ace
+5
+Knock Off
+8
+Slash
+9
+Air Cutter
+10
+Swords Dance
+13
+Agility
+13
+Night Slash
+15
+Acrobatics
+17
+Feint
+18
+False Swipe
+20
+Air Slash
+21
+Brave Bird
+0
+
+$
+Doduo
+84
+Normal/Flying
+Run Away/Early Bird
+Tangled Feet
+55
+86.4
+Medium
+13
+9
+8
+8
+10
+8
+6
+4
+1
+Peck
+1
+Growl
+2
+Quick Attack
+3
+Rage
+5
+Fury Attack
+6
+Pusuit
+8
+Pluck
+9
+Double Hit
+11
+Agility
+12
+Uproar
+13
+Evo.
+13
+Acupressure
+15
+Swords Dance
+16
+Jump Kick
+17
+Drill Peck
+19
+Endeavor
+20
+Thrash
+0
+
+$
+Dodrio
+85
+Normal/Flying
+Run Away/Early Bird
+Tangled Feet
+71
+187.8
+Medium
+17
+12
+11
+11
+14
+11
+8
+8
+1
+Tri Attack
+1
+Peck
+1
+Growl
+1
+Quick Attack
+1
+Rage
+1
+Tri Attack at Evo.
+2
+Quick Attack
+3
+Rage
+5
+Fury Attack
+6
+Pursuit
+8
+Pluck
+9
+Double Hit
+11
+Agility
+12
+Uproar
+14
+Acupressure
+15
+Swords Dance
+17
+Jump Kick
+19
+Drill Peck
+21
+Endeavor
+22
+Thrash
+0
+
+$
 Selene
 10001
 Fairy
