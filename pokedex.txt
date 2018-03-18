@@ -4260,6 +4260,236 @@ Thrash
 0
 
 $
+Seel
+86
+Water
+Thick Fat/Hydration
+Ice Body
+43
+198.4
+Small
+8
+10
+9
+12
+8
+11
+3
+8
+1
+Headbutt
+1
+Growl
+3
+Water Sport
+5
+Icy Wind
+5
+Encore
+7
+Ice Shard
+9
+Rest
+9
+Aqua Ring
+11
+Aurora Beam
+13
+Aqua Jet
+13
+Brine
+14
+Evo.
+15
+Take Down
+17
+Dive
+17
+Aqua Tail
+19
+Ice Beam
+21
+Safeguard
+21
+Hail
+0
+
+$
+Dewgong
+87
+Water/Ice
+Thick Fat/Hydration
+Ice Body
+67
+264.6
+Medium
+11
+13
+12
+15
+11
+14
+5
+10
+1
+Sheer Cold
+1
+Headbutt
+1
+Growl
+1
+Signal Beam
+1
+Icy Wind
+1
+Sheer Cold at Evo.
+1
+Growl
+3
+Signal Beam
+5
+Icy Wind
+5
+Encore
+7
+Ice Shard
+9
+Rest
+9
+Aqua Ring
+11
+Aurora Beam
+13
+Aqua Jet
+13
+Brine
+16
+Take Down
+18
+Dive
+20
+Aqua Tail
+21
+Ice Beam
+23
+Safeguard
+23
+Hail
+0
+
+$
+Grimer
+88
+Poison
+Stench/Sticky Hold
+Poison Touch
+35
+66.1
+Small
+13
+10
+8
+10
+10
+10
+2
+10
+1
+Pound
+1
+Poison Gas
+2
+Harden
+3
+Mud-Slap
+5
+Disable
+6
+Sludge
+7
+Mud Bomb
+9
+Minimize
+11
+Fling
+12
+Sludge Bomb
+13
+Sludge Wave
+15
+Evo.
+15
+Screech
+16
+Gunk Shot
+17
+Acid Armor
+19
+Belch
+19
+Memento
+0
+
+$
+Muk
+89
+Poison
+Stench/Sticky Hold
+Poison Touch
+47
+66.1
+Small
+16
+13
+11
+16
+13
+14
+4
+12
+1
+Venom Drench
+1
+Pound
+1
+Poison Gas
+1
+Harden
+1
+Mud-Slap
+1
+Venom Drench at Evo.
+2
+Harden
+3
+Mud-Slap
+5
+Disable
+6
+Sludge
+7
+Mud Bomb
+9
+Minimize
+11
+Fling
+12
+Sludge Bomb
+13
+Sludge Wave
+15
+Screech
+16
+Gunk Shot
+19
+Acid Armor
+21
+Belch
+22
+Memento
+0
+
+$
 Selene
 10001
 Fairy
