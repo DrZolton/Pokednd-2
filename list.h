@@ -25,6 +25,8 @@ struct node{
 
 class list{
 	public:
+void temporary1();
+
 		list(){head = NULL;}
 		void add(Pokemon newPokemon);
 		void consoleOutputBase();
@@ -151,6 +153,15 @@ int list::deletePokemon(const std::string target){
 		prev = prev -> link;
 	}
 	return -1; //not found
+}
+
+void list::temporary1(){
+	node* tmp = head;
+	while(tmp != NULL){
+		tmp -> data.temporary();
+		tmp = tmp -> link;
+	}
+	std::cout << "end of list\n";
 }
 
 #endif

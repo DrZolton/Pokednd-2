@@ -5,8 +5,8 @@
 
 int main(){
 
-Pokemon test;
-list pokedex;
+	Pokemon test;
+	list pokedex;
 
 	std::cout << "\nWelcome to the PokeDnD creation kit v.2\n\n";
 
@@ -21,6 +21,10 @@ list pokedex;
 	pokedex.fileInput(fileInput);
 	fileInput.close();
 	std::cout << "done\n\n";
+
+//temporary
+/*std::cout << "preparing to modify ability scores\n\n";
+pokedex.temporary1();*/
 
 	char choice;
 	bool done = false;
