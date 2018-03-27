@@ -5476,6 +5476,332 @@ Close Combat
 0
 
 $
+Lickitung
+108
+Normal
+Own Tempo/Oblivious
+Cloud Nine
+47
+144.4
+Small
+7
+11
+8
+11
+7
+11
+2
+10
+1
+Lick
+2
+Supersonic
+4
+Defense Curl
+5
+Knock Off
+7
+Wrap
+9
+Stomp
+10
+Disable
+12
+Slam
+13
+Pollout
+15
+Chip Away
+17
+Me First
+18
+Refresh
+20
+Screech
+21
+Power Whip
+22
+Wring Out
+0
+
+$
+Koffing
+109
+Poison
+Levitate
+N/A
+24
+2.2
+Small
+9
+15
+8
+5
+8
+10
+2
+6
+1
+Poison Gas
+1
+Tackle
+2
+Smog
+3
+Smokescreen
+5
+Assurance
+6
+Clear Smog
+7
+Sludge
+9
+Self-Destruct
+11
+Haze
+12
+Gyro Ball
+14
+Evo.
+14
+Sludge Bomb
+15
+Explosion
+16
+Destiny Bond
+17
+Belch
+18
+Memento
+0
+
+$
+Weezing
+110
+Poison
+Levitate
+N/A
+47
+20.9
+Small
+14
+20
+13
+10
+13
+15
+4
+8
+1
+Double Hit
+1
+Poison Gas
+1
+Tackle
+1
+Smog
+1
+Smokescreen
+1
+Double Hit at Evo.
+2
+Smog
+3
+Smokescreen
+5
+Assurance
+6
+Clear Smog
+7
+Sludge
+9
+Self-Destruct
+11
+Haze
+12
+Gyro Ball
+14
+Sludge Bomb
+16
+Explosion
+19
+Destiny Bond
+21
+Belch
+22
+Memento
+0
+
+$
+Rhyhorn
+111
+Ground/Rock
+Lightning Rod/Rock Head
+Reckless
+39
+253.5
+Small
+13
+15
+3
+3
+7
+8
+2
+10
+1
+Horn Attack
+1
+Tail Whip
+1
+Fury Attack
+1
+Scary Face
+2
+Fury Attack
+4
+Scary Face
+5
+Smack Down
+7
+Stomp
+9
+Bulldoze
+10
+Chip Away
+12
+Rock Blast
+13
+Drill Run
+15
+Take Down
+17
+Evo.
+17
+Stone Edge
+18
+Earthquake
+20
+Megahorn
+21
+Horn Drill
+0
+
+$
+Rhydon
+112
+Ground/Rock
+Lightning Rod/Rock Head
+Reckless
+75
+264.6
+Medium
+22
+20
+5
+5
+13
+12
+2
+12
+1
+Hammer Arm
+1
+Horn Drill
+1
+Horn Attack
+1
+Tail Whip
+1
+Fury Attack
+1
+Scary Face
+1
+Hammer Arm at Evo.
+2
+Fury Attack
+4
+Scary Face
+5
+Smack Down
+7
+Stomp
+9
+Bulldoze
+10
+Chip Away
+12
+Rock Blast
+13
+Drill Run
+15
+Take Down
+17
+Stone Edge
+19
+Earthquake
+21
+Megahorn
+23
+Horn Drill
+0
+
+$
+Chansey
+113
+Normal
+Natural Cure/Serene Grace
+Healer
+43
+76.3
+Small
+3
+3
+3
+17
+3
+7
+3
+3
+1
+Defense curl
+1
+Double-Edge
+1
+Growl
+1
+Pound
+2
+Tail Whip
+4
+Refresh
+5
+Double Slap
+7
+Soft-Boiled
+8
+Bestow
+9
+Minimize
+11
+Take Down
+13
+Sing
+14
+Fling
+16
+Heal Pulse
+18
+Egg Bomb
+20
+Light Screen
+22
+Healing Wish
+23
+Double-Edge
+0
+
+$
 Selene
 10001
 Fairy
