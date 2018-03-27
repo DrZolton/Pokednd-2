@@ -4804,6 +4804,678 @@ Sandstorm
 0
 
 $
+Drowzee
+96
+Psychic
+Insomnia/Forewarn
+Inner Focus
+39
+71.4
+Small
+6
+5
+5
+14
+5
+9
+2
+8
+1
+Hypnosis
+1
+Pound
+2
+Disable
+4
+Confusion
+5
+Headbutt
+7
+Poison Gas
+9
+Meditate
+10
+Psybeam
+11
+Evo.
+12
+Wake-Up Slap
+13
+Psych Up
+15
+Synchronoise
+17
+Zen Headbutt
+18
+Swagger
+20
+Psychic
+21
+Nasty Plot
+22
+Psyshock
+23
+Future Sight
+0
+
+$
+Hypno
+97
+Psychic
+Insomnia/Forewarn
+Inner Focus
+63
+166.7
+Medium
+11
+10
+11
+19
+11
+14
+5
+10
+1
+Confusion
+1
+Disable
+1
+Future Sight
+1
+Hypnosis
+1
+Nasty Plot
+1
+Nightmare
+1
+Pound
+1
+Switcheroo
+2
+Disable
+4
+Confusion
+5
+Headbutt
+7
+Poison Gas
+9
+Meditate
+10
+Psybeam
+12
+Wake-Up Slap
+13
+Psych Up
+15
+Synchronoise
+17
+Zen Headbutt
+18
+Swagger
+20
+Psychic
+21
+Nasty Plot
+22
+Psyshock
+23
+Future Sight
+0
+
+$
+Krabby
+98
+Water
+Hyper Cutter/Shell Armor
+Sheer Force
+16
+14.3
+Tiny
+17
+14
+3
+3
+9
+7
+3
+4
+1
+Mud Sport
+1
+Bubble
+2
+Vice Grip
+4
+Leer
+5
+Harden
+6
+Bubble Beam
+8
+Mud Shot
+9
+Metal Claw
+10
+Stomp
+11
+Evo.
+12
+Protect
+13
+Guillotine
+14
+Slam
+16
+Brine
+17
+Crabhammer
+18
+Flail
+0
+
+$
+Kingler
+99
+Water
+Hyper Cutter/Shell Armor
+Sheer Force
+51
+132.3
+Medium
+22
+19
+6
+6
+14
+12
+6
+6
+1
+Wide Guard
+1
+Mud Sport
+1
+Bubble
+1
+Vice Grip
+1
+Leer
+2
+Vice Grip
+4
+Leer
+5
+Harden
+6
+Bubble Beam
+8
+Mud Shot
+9
+Metal Claw
+10
+Stomp
+13
+Protect
+15
+Guillotine
+18
+Slam
+21
+Brine
+22
+Crabhammer
+23
+Flail
+0
+
+$
+Voltorb
+100
+Electric
+Soundproof/Static
+Aftermath
+20
+22.9
+Tiny
+3
+6
+7
+7
+4
+6
+8
+6
+1
+Charge
+1
+Tackle
+2
+Sonic Boom
+3
+Eerie Impulse
+4
+Spark
+5
+Rollout
+5
+Screech
+7
+Charge Beam
+8
+Swift
+9
+Electro Ball
+11
+Self-Destruct
+12
+Evo.
+12
+Light Screen
+14
+Magnet Rise
+15
+Discharge
+17
+Explosion
+19
+Gyro Ball
+19
+Mirror Coat
+0
+
+$
+Electrode
+101
+Electric
+Soundproof/Static
+Aftermath
+47
+146.8
+Small
+6
+10
+12
+12
+9
+11
+13
+8
+1
+Magnetic Flux
+1
+Charge
+1
+Tackle
+1
+Sonic Boom
+1
+Eerie Impulse
+2
+Sonic Boom
+3
+Eerie Impulse
+4
+Spark
+5
+Rollout
+5
+Screech
+7
+Charge Beam
+8
+Swift
+9
+Electro Ball
+11
+Self-Destruct
+12
+Light Screen
+15
+Magnet Rise
+17
+Discharge
+19
+Explosion
+21
+Gyro Ball
+22
+Mirror Coat
+0
+
+$
+Exeggcute
+102
+Grass/Psychic
+Chlorophyll
+Harvest
+16
+5.5
+Tiny
+4
+12
+8
+5
+6
+8
+2
+8
+1
+Barrage
+1
+Uproar
+1
+Hypnosis
+3
+Reflect
+5
+Leech Seed
+7
+Bullet Seed
+8
+Stun Spore
+9
+Poison Powder
+9
+Sleep Powder
+11
+Confusion
+13
+Worry Seed
+15
+Natural Gift
+17
+Solar Beam
+19
+Extrasensory
+20
+Bestow
+0
+
+$
+Exeggutor
+103
+Grass/Psychic
+Chlorophyll
+Harvest
+79
+264.6
+Medium
+15
+13
+21
+11
+18
+12
+4
+10
+1
+Stomp
+1
+Seed Bomb
+1
+Barrage
+1
+Hypnosis
+1
+Confusion
+1
+Stomp at Evo.
+7
+Psyshock
+11
+Egg Bomb
+15
+Wood Hammer
+19
+Leaf Storm
+0
+
+$
+Cubone
+104
+Ground
+Rock Head/Lightning Rod
+Battle Armor
+16
+14.3
+Tiny
+6
+15
+4
+6
+5
+10
+2
+6
+1
+Growl
+1
+Tail Whip
+3
+Bone Club
+5
+Headbutt
+5
+Leer
+7
+Focuse Energy
+9
+Bonemerang
+9
+Rage
+11
+Evo.
+11
+False Swipe
+13
+Thrash
+13
+Fling
+15
+Stomping Tantrum
+17
+Endeavor
+17
+Double-Edge
+19
+Retaliate
+21
+Bone Rush
+0
+
+$
+Marowak
+105
+Ground
+Rock Head/Lightning Rod
+Battle Armor
+39
+99.2
+Small
+12
+18
+6
+12
+9
+15
+3
+8
+1
+Growl
+1
+Tail Whip
+1
+Bone Club
+1
+Headbutt
+1
+Tail Whip
+3
+Bone Club
+5
+Headbutt
+5
+Leer
+7
+Focus Energy
+9
+Bonemerang
+9
+Rage
+11
+False Swipe
+13
+Thrash
+15
+Fling
+17
+Stomping Tantrum
+20
+Endeavor
+21
+Double-Edge
+22
+Retaliate
+23
+Bone Rush
+0
+
+$
+Hitmonlee
+106
+Fighting
+Limber/Reckless
+Unburden
+59
+109.8
+Medium
+20
+7
+3
+18
+11
+12
+7
+6
+1
+Double Kick
+1
+Reversal
+1
+Close Combat
+1
+Mega Kick
+1
+Revenge
+1
+Meditate
+1
+Rolling Kick
+1
+Jump Kick
+1
+Double Kick at Evo.
+2
+Meditate
+4
+Rolling Kick
+5
+Jump Kick
+7
+Brick Break
+9
+Focus Energy
+10
+Feint
+12
+High Jump Kick
+13
+Mind Reader
+15
+Foresight
+17
+Wide Guard
+18
+Blaze Kick
+20
+Endure
+21
+Mega Kick
+22
+Close Combat
+23
+Reversal
+0
+
+$
+Hitmonchan
+107
+Fighting
+Keen Eye/Iron Fist
+Inner Focus
+55
+110.7
+Medium
+17
+12
+3
+18
+10
+15
+6
+6
+1
+Comet Punch
+1
+Close Combat
+1
+Counter
+1
+Focus Punch
+1
+Revenge
+1
+Agility
+1
+Pursuit
+1
+Mach Punch
+1
+Comet Punch at Evo.
+3
+Agility
+5
+Pursuit
+7
+Mach Punch
+7
+Bullet Punch
+9
+Feint
+11
+Vacuum Wave
+13
+Quick Guard
+15
+Thunder Punch
+15
+Ice Punch
+17
+Sky Uppercut
+19
+Mega Punch
+20
+Detect
+22
+Focus Punch
+23
+Counter
+24
+Close Combat
+0
+
+$
 Selene
 10001
 Fairy
