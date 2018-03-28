@@ -7082,6 +7082,640 @@ Hydro Pump
 0
 
 $
+Kabuto
+140
+Rock/Water
+Swift Swim/Battle Armor
+Weak Armor
+20
+25.4
+Tiny
+12
+14
+7
+5
+9
+9
+4
+4
+1
+Scratch
+1
+Harden
+3
+Absorb
+5
+Leer
+7
+Mud Shot
+9
+Sand Attack
+11
+Endure
+13
+Aqua Jet
+15
+Mega Drain
+16
+Evo.
+17
+Metal Sound
+19
+Ancient Power
+20
+Wring Out
+0
+
+$
+Kabutops
+141
+Rock/Water
+Swift Swim/Battle Armor
+Weak Armor
+51
+89.3
+Medium
+19
+17
+9
+10
+14
+13
+6
+8
+1
+Slash
+1
+Night Slash
+1
+Feint
+1
+Scratch
+1
+Harden
+1
+Absorb
+1
+Leer
+1
+Slash at Evo.
+3
+Absorb
+5
+Leer
+7
+Mud Shot
+9
+Sand Attack
+11
+Endure
+13
+Aqua Jet
+15
+Mega Drain
+18
+Metal Sound
+21
+Ancient Power
+23
+Wring Out
+25
+Night Slash
+0
+
+$
+Aerodactyl
+142
+Rock/Flying
+Rock Head/Pressure
+Unnerve
+71
+130.1
+Medium
+17
+9
+8
+11
+12
+10
+11
+10
+1
+Iron Head
+1
+Ice Fang
+1
+Fire Fang
+1
+Thunder Fang
+1
+Wing Attack
+1
+Supersonic
+1
+Bite
+1
+Scary Face
+4
+Roar
+7
+Agility
+10
+Ancient Power
+13
+Crunch
+17
+Take Down
+20
+Sky Drop
+22
+Iron Head
+23
+Hyper Beam
+25
+Rock Slide
+27
+Giga Impact
+0
+
+$
+Snorlax
+143
+Normal
+Immunity/Thick Fat
+Gluttony
+83
+1014.1
+Medium
+18
+9
+9
+18
+13
+13
+2
+2
+1
+Tackle
+2
+Defense Curl
+4
+Amnesia
+5
+Lick
+7
+Chip Away
+8
+Yawn
+10
+Body Slam
+11
+Rest
+11
+Snore
+13
+Sleep Talk
+14
+Giga Impact
+15
+Rollout
+17
+Block
+18
+Belly Drum
+20
+Crunch
+20
+Heavy Slam
+22
+High Horsepower
+0
+
+$
+Articuno
+144
+Ice/Flying
+Pressure
+Snow Cloak
+67
+122.1
+Medium
+13
+16
+15
+21
+14
+18
+7
+10
+1
+Gust
+1
+Powder Snow
+3
+Mist
+6
+Ice Shard
+9
+Mind Reader
+12
+Ancient Power
+15
+Agility
+17
+Freeze-Dry
+20
+Reflect
+22
+Hail
+23
+Tailwind
+25
+Ice Beam
+26
+Blizzard
+27
+Roost
+29
+Hurricane
+30
+Sheer Cold
+0
+
+$
+Zapdos
+145
+Electric/Flying
+Pressure
+Static
+63
+116
+Medium
+14
+13
+21
+14
+17
+13
+8
+10
+1
+Peck
+1
+Thunder Shock
+3
+Thunder Wave
+6
+Detect
+9
+Pluck
+12
+Ancient Power
+15
+Charge
+17
+Agility
+20
+Discharge
+22
+Rain Dance
+23
+Light Screen
+25
+Drill Peck
+26
+Thunder
+27
+Roost
+29
+Magnetic Flux
+30
+Zap Cannon
+0
+
+$
+Moltres
+146
+Fire/Flying
+Pressure
+Flame Body
+79
+132.3
+Medium
+16
+14
+21
+13
+18
+13
+7
+10
+1
+Wing Attack
+1
+Ember
+3
+Fire Spin
+6
+Agility
+9
+Endure
+12
+Ancient Power
+15
+Flamethrower
+17
+Safeguard
+20
+Air Slash
+22
+Sunny Day
+23
+Heat Wave
+25
+Solar Beam
+26
+Sky Attack
+27
+Roost
+29
+Hurricane
+30
+Burn Up
+0
+
+$
+Dratini
+147
+Dragon
+Shed Skin
+Marvel Scale
+71
+7.3
+Medium
+9
+5
+6
+6
+7
+5
+3
+6
+1
+Wrap
+1
+Leer
+2
+Thunder Wave
+5
+Twister
+6
+Dragon Rage
+9
+Slam
+10
+Agility
+12
+Evo.
+13
+Dragon Tail
+14
+Aqua Tail
+17
+Dragon Rush
+18
+Safeguard
+21
+Outrage
+21
+Dragon Dance
+23
+Hyper Beam
+0
+
+$
+Dragonair
+148
+Dragon
+Shed Skin
+Marvel Scale
+157
+36.4
+Large
+13
+9
+10
+10
+11
+9
+5
+8
+1
+Wrap
+1
+Leer
+1
+Thunder Wave
+1
+Twister
+2
+Thunder Wave
+5
+Twister
+6
+Dragon Rage
+9
+Slam
+10
+Agility
+13
+Dragon Tail
+16
+Aqua Tail
+19
+Dragon Rush
+21
+Safeguard
+21
+Evo.
+23
+Dragon Dance
+24
+Outrage
+25
+Hyper Beam
+0
+
+$
+Dragonite
+149
+Dragon/Flying
+Inner Focus
+Multiscale
+87
+463
+Medium
+23
+15
+16
+16
+19
+15
+6
+10
+1
+Wing Attack
+1
+Hurricane
+1
+Fire Punch
+1
+Thunder Punch
+1
+Roost
+1
+Wrap
+1
+Leer
+1
+Thunder Wave
+1
+Twister
+1
+Wing Attack at Evo.
+2
+Thunder Wave
+5
+Twister
+6
+Dragon Rage
+9
+Slam
+10
+Agility
+13
+Dragon Tail
+16
+Aqua Tail
+19
+Dragon Rush
+21
+Safeguard
+23
+Dragon Dance
+24
+Outrage
+25
+Hyper Beam
+27
+Hurricane
+0
+
+$
+Mewtwo
+150
+Psychic
+Pressure
+Unnerve
+79
+269
+Medium
+18
+14
+27
+14
+22
+14
+11
+12
+1
+Laser Focus
+1
+Psywave
+1
+Confusion
+1
+Disable
+1
+Safeguard
+3
+Swift
+6
+Future Sight
+9
+Psych Up
+12
+Miracle Eye
+15
+Psycho Cut
+17
+Power Swap
+17
+Guard Swap
+20
+Recover
+22
+Psychic
+23
+Barrier
+24
+Aura Sphere
+26
+Amnesia
+28
+Mist
+29
+Me First
+30
+Psystrike
+0
+
+$
+Mew
+151
+Psychic
+Synchronize
+N/A
+16
+8.8
+Tiny
+16
+16
+16
+16
+16
+16
+8
+12
+1
+Pound
+1
+Reflect Type
+1
+Transform
+4
+Mega Punch
+8
+Metronome
+12
+Psychic
+16
+Barrier
+20
+Ancient Power
+22
+Amnesia
+24
+Me First
+26
+Baton Pass
+28
+Nasty Plot
+30
+Aura Sphere
+0
+
+$
 Selene
 10001
 Fairy
