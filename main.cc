@@ -66,7 +66,10 @@ pokedex.temporary1();*/
 			case 'g':{
 				std::string target;
 				std::cout << "Enter the name of the Pokemon you wish to generate\n\n > ";
-				std::cin >> target;
+				std::cin.clear();
+				std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+				getline(std::cin, target);
+				//std::cin >> target;
 				std::cout << std::endl;
 
 				Pokemon canvas;
@@ -110,7 +113,10 @@ pokedex.temporary1();*/
 				Pokemon canvas;
 
 				std::cout << "Enter the name of the Pokemon you want to find\n\n > ";
-				std::cin >> target;
+				std::cin.clear();
+				std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+				getline(std::cin, target);
+				//std::cin >> target;
 				std::cout << std::endl;
 
 				if(pokedex.findName(target, canvas) == -1){
@@ -124,7 +130,10 @@ pokedex.temporary1();*/
 				std::string target;
 
 				std::cout << "Enter the name of the Pokemon you want deleted\n\n > ";
-				std::cin >> target;
+				std::cin.clear();
+				std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+				getline(std::cin, target);
+				//std::cin >> target;
 				std::cout << std::endl;
 
 				if(pokedex.deletePokemon(target) == -1)
