@@ -5802,6 +5802,63 @@ Double-Edge
 0
 
 $
+Tangela
+114
+Grass
+Chlorophyll/Leaf Guard
+Regenerator
+39
+77.2
+Small
+7
+19
+16
+4
+11
+11
+4
+8
+1
+Ingrain
+1
+Constrict
+2
+Sleep Powder
+3
+Vine Whip
+4
+Absorb
+6
+Poison Powder
+7
+Bind
+8
+Growth
+9
+Mega Drain
+11
+Knock Off
+12
+Stun Spore
+13
+Natural Gift
+15
+Giga Drain
+15
+Ancient Power
+17
+Slam
+18
+Tickle
+19
+Wring Out
+19
+Grassy Terrain
+20
+Power Whip
+0
+
+$
 Selene
 10001
 Fairy

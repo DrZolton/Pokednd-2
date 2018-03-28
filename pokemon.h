@@ -717,6 +717,104 @@ int Pokemon::inputBase(){
 void Pokemon::addMoves(std::istream& ins){
 	//if(numMoves == arrSize) resize();
 
+	if(ins == std::cin){
+	//this section of code will read in all the text copied from bulbapedia
+	//and find the names and levels of each move
+
+		std::cout << "\nBe sure to add moves with numbers in the\n"
+				  << "name and moves learned upon evolution manually.\n"
+				  << "They will not read in correctly.\n\n";
+
+		std::string line;
+		bool copyDone = false;
+
+		ins.clear();
+		ins.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+
+		while(!copyDone){
+			int cursor = 0;
+
+			getline(ins, line);
+
+			if(line == "0") copyDone = true;
+
+			else{
+				//find the location of the move category
+				//this will be used as a reference point
+				//for locating the name and level
+				cursor = line.find("Status", 0);
+				if(cursor < 0){
+					cursor = line.find("Special", 0);
+					if(cursor < 0) cursor = line.find("Physical", 0);
+				}
+
+				if(cursor > 0){
+
+					cursor--;
+					cursor--;
+					while( isalpha(line[cursor]) ) cursor--;
+					cursor--; //found the end of the name
+
+					int cursor2 = cursor;
+					while( isalpha(line[cursor]) ) cursor--;
+					//if the name is one word, this is the beginning
+					//if the name is multiple words, this is only the beginning of the last word
+
+					if(isalpha(line[cursor - 1])){
+						cursor--;
+						while( isalpha(line[cursor]) ) cursor--;
+
+						if(isalpha(line[cursor - 1]))
+							while( isalpha(line[cursor]) ) cursor--;
+
+					}
+
+					if(line[cursor - 1] != 'A' && line[cursor - 1] !='.'){
+						moves[numMoves].name = line.substr(cursor + 1, cursor2 - cursor);
+
+						cursor2 = cursor;
+						cursor--;
+						while(isdigit(line[cursor])) cursor--;
+
+						moves[numMoves].level = std::atoi(line.substr(cursor + 1, cursor2 - cursor).c_str());
+
+						if(moves[numMoves].level < 4) moves[numMoves].level = 1;
+						else if(moves[numMoves].level < 6) moves[numMoves].level = 2;
+						else if(moves[numMoves].level < 9) moves[numMoves].level = 3;
+						else if(moves[numMoves].level < 11) moves[numMoves].level = 4;
+						else if(moves[numMoves].level < 14) moves[numMoves].level = 5;
+						else if(moves[numMoves].level < 16) moves[numMoves].level = 6;
+						else if(moves[numMoves].level < 19) moves[numMoves].level = 7;
+						else if(moves[numMoves].level < 21) moves[numMoves].level = 8;
+						else if(moves[numMoves].level < 24) moves[numMoves].level = 9;
+						else if(moves[numMoves].level < 26) moves[numMoves].level = 10;
+						else if(moves[numMoves].level < 29) moves[numMoves].level = 11;
+						else if(moves[numMoves].level < 31) moves[numMoves].level = 12;
+						else if(moves[numMoves].level < 34) moves[numMoves].level = 13;
+						else if(moves[numMoves].level < 36) moves[numMoves].level = 14;
+						else if(moves[numMoves].level < 39) moves[numMoves].level = 15;
+						else if(moves[numMoves].level < 41) moves[numMoves].level = 16;
+						else if(moves[numMoves].level < 44) moves[numMoves].level = 17;
+						else if(moves[numMoves].level < 46) moves[numMoves].level = 18;
+						else if(moves[numMoves].level < 49) moves[numMoves].level = 19;
+						else if(moves[numMoves].level < 51) moves[numMoves].level = 20;
+						else if(moves[numMoves].level < 56) moves[numMoves].level = 21;
+						else if(moves[numMoves].level < 61) moves[numMoves].level = 22;
+						else if(moves[numMoves].level < 66) moves[numMoves].level = 23;
+						else if(moves[numMoves].level < 71) moves[numMoves].level = 24;
+						else if(moves[numMoves].level < 76) moves[numMoves].level = 25;
+						else if(moves[numMoves].level < 81) moves[numMoves].level = 26;
+						else if(moves[numMoves].level < 86) moves[numMoves].level = 27;
+						else if(moves[numMoves].level < 91) moves[numMoves].level = 28;
+						else if(moves[numMoves].level < 96) moves[numMoves].level = 29;
+						else if(moves[numMoves].level < 101) moves[numMoves].level = 30;
+						numMoves++;
+					}
+				}
+			}
+		}
+	}
+
 	bool done = false;
 	while(!done){
 		ins >> moves[numMoves].level;
