@@ -7716,6 +7716,59 @@ Aura Sphere
 0
 
 $
+Bunnelby
+659
+Normal
+Pickup/Cheek Pounch
+Huge Power
+16
+11
+Tiny
+3
+4
+3
+3
+3
+3
+4
+4
+1
+Tackle
+1
+Agility
+1
+Leer
+3
+Quick Attack
+4
+Double Slap
+5
+Mud-Slap
+6
+Take Down
+7
+Mud Shot
+8
+Double Kick
+8
+Evo.
+10
+Odor Sleuth
+12
+Flail
+13
+Dig
+15
+Bounce
+17
+Super Fang
+19
+Facade
+20
+Earthquake
+0
+
+$
 Selene
 10001
 Fairy
