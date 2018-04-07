@@ -25,7 +25,7 @@ struct node{
 
 class list{
 	public:
-void temporary1();
+		void temporary1();
 
 		list(){head = NULL;}
 		void add(Pokemon newPokemon);

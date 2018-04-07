@@ -45,8 +45,8 @@ struct move{
 
 class Pokemon{
 	public:
+		void temporary();
 
-void temporary();
 		Pokemon();
 		void outputFile(std::ostream& fout);
 		void inputFile(std::istream& fin);
@@ -662,22 +662,22 @@ int Pokemon::inputBase(){
 	//calculating Strength
 	std::cout << "Attack: ";
 	std::cin >> data;
-	strength = ( (data - 20) / 5 ) + 0.5;
+	strength = data * 0.1167 + 6.5;
 
 	//calculating Dexterity
 	std::cout << "Defense: ";
 	std::cin >> data;
-	dexterity = ( (data - 20) / 5 ) + 0.5;
+	dexterity = data * 0.1167 + 6.5;
 
 	//calculating Intelligence
 	std::cout << "Special Attack: ";
 	std::cin >> data;
-	intelligence = ( (data - 20) / 5 ) + 0.5;
+	intelligence = data * 0.1167 + 6.5;
 
 	//calculating Constitution
 	std::cout << "Special Defense: ";
 	std::cin >> data;
-	constitution = ( (data - 20) / 5 ) + 0.5;
+	constitution = data * 0.1167 + 6.5;
 
 	//calculating Charisma
 	charisma = (strength + intelligence) / 2;
@@ -696,7 +696,7 @@ int Pokemon::inputBase(){
 	//calculating Movement Speed
 	std::cout << "Speed: ";
 	std::cin >> data;
-	speed = ( (data - 20) / 10 ) + 0.5;
+	speed = data * 0.05 + 3.5;
 	if(speed < 2) speed = 2; //minimum 2 speed
 
 	std::cout << "\nInsert Moves:\nEnter level, then name\n";
@@ -883,16 +883,16 @@ void Pokemon::moveSort(){
 
 void Pokemon::temporary(){
 
-	if(strength < 3) strength = 3;
+/*	if(strength < 3) strength = 3;
 	if(dexterity < 3) dexterity = 3;
 	if(intelligence < 3) intelligence = 3;
 	if(constitution < 3) constitution = 3;
 	if(charisma < 3) charisma = 3;
 	if(wisdom < 3) wisdom = 3;
+*/
 
 
-
-/*	std::cout << "(ignore HP) input stats for " << name << std::endl;
+	std::cout << "(ignore HP) input stats for " << name << std::endl;
 
 //	std::cin.clear();
 //	std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
@@ -902,22 +902,22 @@ void Pokemon::temporary(){
 	//calculating Strength
 	std::cout << "Attack: ";
 	std::cin >> data;
-	strength = ( (data - 20) / 5 ) + 0.5;
+	strength = data * 0.1167 + 6.5;
 
 	//calculating Dexterity
 	std::cout << "Defense: ";
 	std::cin >> data;
-	dexterity = ( (data - 20) / 5 ) + 0.5;
+	dexterity = data * 0.1167 + 6.5;
 
 	//calculating Intelligence
 	std::cout << "Special Attack: ";
 	std::cin >> data;
-	intelligence = ( (data - 20) / 5 ) + 0.5;
+	intelligence = data * 0.1167 + 6.5;
 
 	//calculating Constitution
 	std::cout << "Special Defense: ";
 	std::cin >> data;
-	constitution = ( (data - 20) / 5 ) + 0.5;
+	constitution = data * 0.1167 + 6.5;
 
 	//calculating Charisma
 	charisma = (strength + intelligence) / 2;
@@ -928,8 +928,8 @@ void Pokemon::temporary(){
 	//calculating Movement Speed
 	std::cout << "Speed: ";
 	std::cin >> data;
-	speed = ( (data - 20) / 10 ) + 0.5;
-	if(speed == 0 || speed == 1) speed = 2; //minimum 1 speed
+	speed = data * 0.05 + 3.5;
+	//if(speed == 0 || speed == 1) speed = 2; //minimum 1 speed
 
 			std::cout << "\nStrength: " << strength << std::endl
 			 << "Dexterity: " << dexterity << std::endl
@@ -938,7 +938,7 @@ void Pokemon::temporary(){
 			 << "Charsima: " << charisma << std::endl
 			 << "Wisdom: " << wisdom << std::endl
 			 << "Movement Speed: " << speed << std::endl << std::endl;
-*/
+
 
 }
 
