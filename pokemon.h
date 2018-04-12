@@ -200,7 +200,7 @@ int Pokemon::generate(const int& lvl){
 	int die;
 	die = (rand() % 100);
 	if(die == 99) die = 20;
-	else die = (rand() % 19) + 1;
+	else die = (rand() % 20) + 1;
 
 	if(die != 10 && die != 20){
 		height = height * (1.0 + (static_cast<double>(die - 10) / 100.0));
