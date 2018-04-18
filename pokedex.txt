@@ -7716,6 +7716,250 @@ Aura Sphere
 0
 
 $
+Spinarak
+167
+Bug/Poison
+Swarm/Insomnia
+Sniper
+20
+18.7
+Tiny
+13
+11
+11
+11
+12
+11
+5
+6
+1
+Poison Sting
+1
+String Shot
+1
+Constrict
+2
+Absorb
+3
+Infestation
+5
+Scary Face
+6
+Night Shade
+8
+Shadow Sneak
+9
+Fury Swipes
+9
+Evo.
+11
+Sucker Punch
+12
+Spider Web
+13
+Agility
+15
+Pin Missile
+16
+Psychic
+17
+Poison Jab
+19
+Cross Poison
+20
+Sticky Web
+21
+Toxic Thread
+0
+
+$
+Ariados
+168
+Bug/Poison
+Swarm/Insomnia
+Sniper
+43
+73.9
+Small
+17
+14
+13
+14
+15
+14
+5
+8
+1
+Swords Dance
+1
+Focus Energy
+1
+Venom Drench
+1
+Fell Stinger
+1
+Bug Bite
+1
+Poison Sting
+1
+String Shot
+1
+Constrict
+1
+Absorb
+1
+Swords Dance at Evo.
+2
+Absorb
+3
+Infestation
+5
+Scary Face
+6
+Night Shade
+8
+Shadow Sneak
+9
+Fury Swipes
+11
+Sucker Punch
+13
+Spider Web
+15
+Agility
+17
+Pin Missile
+19
+Psychic
+20
+Poison Jab
+21
+Cross Poison
+22
+Sticky Web
+23
+Toxic Thread
+0
+
+$
+Kirlia
+281
+Psychic/Fairy
+Synchronize/Trace
+Telepathy
+31
+44.5
+Small
+10
+10
+14
+12
+12
+11
+6
+4
+1
+Growl
+1
+Confusion
+1
+Double Team
+1
+Teleport
+2
+Confusion
+3
+Double Team
+4
+Teleport
+5
+Disarming Voice
+6
+Lucky Chant
+7
+Magical Leaf
+8
+Heal Pulse
+9
+Draining Kiss
+11
+Calm Mind
+12
+Psychic
+12
+Evo.
+13
+Imprison
+15
+Future Sight
+16
+Charm
+18
+Hypnosis
+19
+Dream Eater
+21
+Stored Power
+0
+
+$
+Aron
+304
+Steel/Rock
+Sturdy/Rock Head
+Heavy Metal
+16
+132.3
+Tiny
+14
+18
+11
+11
+12
+14
+5
+6
+1
+Tackle
+1
+Harden
+2
+Mud-Slap
+3
+Headbutt
+4
+Metal Claw
+5
+Rock Tomb
+7
+Protect
+8
+Roar
+9
+Iron Head
+10
+Rock Slide
+11
+Take Down
+13
+Metal Sound
+13
+Evo.
+14
+Iron Tail
+15
+Iron Defense
+16
+Double-Edge
+17
+Autotomize
+19
+Heavy Slam
+20
+Metal Burst
+0
+
+$
 Bunnelby
 659
 Normal
@@ -7766,6 +8010,59 @@ Super Fang
 Facade
 20
 Earthquake
+0
+
+$
+Hawlucha
+701
+Fighting/Flying
+Limber/Unburden
+Mold Breaker
+31
+47.4
+Small
+17
+15
+15
+13
+16
+14
+9
+8
+1
+Detect
+1
+Tackle
+1
+Hone Claws
+1
+Jump Kick
+2
+Karate Chop
+3
+Wing Attack
+5
+Roost
+7
+Aerial Ace
+8
+Encore
+10
+Fling
+11
+Flying Press
+13
+Bounce
+15
+Endeavor
+16
+Feather Dance
+19
+Sky Attack
+21
+Sky Drop
+22
+Swords Dance
 0
 
 $
