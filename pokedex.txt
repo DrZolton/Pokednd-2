@@ -7842,6 +7842,100 @@ Toxic Thread
 0
 
 $
+Wooper
+194
+Water/Ground
+Damp/Water Absorb
+Unaware
+16
+18.7
+Tiny
+11
+11
+9
+9
+10
+10
+4
+6
+1
+Water Gun
+1
+Tail Whip
+2
+Mud Sport
+4
+Mud Shot
+6
+Slam
+8
+Mud Bomb
+8
+Evo.
+9
+Amnesia
+12
+Yawn
+13
+Earthquake
+15
+Rain Dance
+17
+Haze
+17
+Mist
+19
+Muddy Water
+0
+
+$
+Misdreavus
+200
+Ghost
+Levitate
+N/A
+28
+2.2
+Small
+13
+13
+16
+16
+14
+14
+7
+8
+1
+Growl
+1
+Psywave
+2
+Spite
+4
+Astonish
+6
+Confuse Ray
+8
+Mean Look
+9
+Hex
+11
+Psybeam
+13
+Pain Split
+15
+Payback
+17
+Shadow Ball
+19
+Perish Song
+20
+Grudge
+21
+Power Gem
+0
+
+$
 Kirlia
 281
 Psychic/Fairy
@@ -7903,6 +7997,65 @@ Stored Power
 0
 
 $
+Mawile
+303
+Steel/Fairy
+Hyper Cutter/Intimidate
+Sheer Force
+24
+25.4
+Small
+16
+16
+12
+12
+14
+14
+6
+6
+1
+Play Rough
+1
+Iron Head
+1
+Taunt
+1
+Growl
+1
+Fairy Wind
+1
+Astonish
+2
+Fake Tears
+4
+Bite
+5
+Sweet Scent
+7
+Vice Grip
+9
+Feint Attack
+10
+Baton Pass
+12
+Crunch
+13
+Iron Defense
+15
+Sucker Punch
+17
+Stockpile
+17
+Swallow
+17
+Spit Up
+18
+Iron Head
+20
+Play Rough
+0
+
+$
 Aron
 304
 Steel/Rock
@@ -7957,6 +8110,365 @@ Autotomize
 Heavy Slam
 20
 Metal Burst
+0
+
+$
+Woobat
+527
+Psychic/Flying
+Unaware/Klutz
+Simple
+16
+4.6
+Tiny
+11
+11
+12
+11
+11
+11
+7
+8
+1
+Confusion
+2
+Odor Sleuth
+3
+Gust
+5
+Assurance
+6
+Heart Stamp
+8
+Imprison
+9
+Air Cutter
+10
+Attract
+12
+Amnesia
+12
+Calm Mind
+13
+Air Slash
+15
+Future Sight
+17
+Psychic
+19
+Endeavor
+0
+
+$
+Drilbur
+529
+Ground
+Sand Rush/Sand Force
+Mold Breaker
+12
+18.7
+Tiny
+16
+11
+10
+11
+13
+11
+6
+8
+1
+Scratch
+1
+Mud Sport
+2
+Rapid Spin
+3
+Mud-Slap
+5
+Fury Swipes
+6
+Metal Claw
+8
+Dig
+9
+Hone Claws
+11
+Slash
+12
+Rock Slide
+13
+Earthquake
+13
+Evo.
+15
+Swords Dance
+16
+Sandstorm
+17
+Drill Run
+19
+Fissure
+0
+
+$
+Venipede
+543
+Bug/Poison
+Poison Point/Swarm
+Speed Boost
+16
+11.7
+Tiny
+11
+13
+10
+11
+10
+12
+6
+4
+1
+Defense Curl
+1
+Rollout
+2
+Poison Sting
+3
+Screech
+5
+Pursuit
+6
+Protect
+8
+Poison Tail
+9
+Bug Bite
+9
+Evo.
+11
+Venoshock
+12
+Agility
+13
+Steamroller
+15
+Toxic
+15
+Venom Drench
+16
+Rock Climb
+17
+Double-Edge
+0
+
+$
+Foongus
+590
+Grass/Poison
+Effect Spore
+Regenerator
+8
+2.2
+Dimunitive
+12
+11
+12
+12
+12
+11
+4
+8
+1
+Absorb
+3
+Growth
+3
+Astonish
+5
+Bide
+6
+Mega Drain
+7
+Ingrain
+8
+Feint Attack
+10
+Sweet Scent
+11
+Giga Drain
+13
+Toxic
+14
+Synthesis
+16
+Clear Smog
+16
+Evo.
+17
+Solar Beam
+18
+Rage Powder
+20
+Spore
+0
+
+$
+Axew
+610
+Dragon
+Rivalry/Mold Breaker
+Unnerve
+24
+39.7
+Small
+16
+13
+10
+11
+13
+12
+6
+6
+1
+Scratch
+2
+Leer
+3
+Assurance
+4
+Dragon Rage
+5
+Dual Chop
+7
+Scary Face
+8
+Slash
+10
+False Swipe
+11
+Dragon Claw
+13
+Dragon Dance
+15
+Taunt
+15
+Evo.
+17
+Dragon Pulse
+19
+Swords Dance
+20
+Guillotine
+22
+Outrage
+23
+Giga Impact
+0
+
+$
+Golett
+622
+Ground/Ghost
+Iron Fist/Klutz
+No Guard
+39
+202.8
+Small
+15
+12
+10
+12
+12
+12
+5
+6
+1
+Pound
+1
+Astonish
+1
+Defense Curl
+2
+Mud-Slap
+4
+Rollout
+5
+Shadow Punch
+7
+Iron Defense
+9
+Stomping Tantrum
+10
+Mega Punch
+12
+Magnitude
+14
+Dynamic Punch
+16
+Night Shade
+17
+Evo.
+18
+Curse
+20
+Earthquake
+21
+Hammer Arm
+23
+Focus Punch
+0
+
+$
+Durant
+632
+Bug/Steel
+Swarm/Hustle
+Truant
+12
+72.8
+Tiny
+19
+19
+12
+12
+15
+15
+8
+6
+1
+Metal Sound
+1
+Guillotine
+1
+Vice Grip
+1
+Sand Attack
+1
+Fury Cutter
+1
+Bite
+3
+Agility
+5
+Metal Claw
+7
+Bug Bite
+9
+Crunch
+11
+Iron Head
+13
+Dig
+15
+Entrainment
+17
+X-Scissor
+19
+Iron Defense
+21
+Guillotine
+22
+Metal Sound
 0
 
 $
