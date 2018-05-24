@@ -8525,6 +8525,55 @@ Earthquake
 0
 
 $
+Fletchling
+661
+Normal/Flying
+Big Pecks
+Gale Wings
+12
+3.7
+Tiny
+12
+11
+11
+10
+11
+10
+6
+6
+1
+Tackle
+1
+Growl
+3
+Quick Attack
+4
+Peck
+5
+Agility
+7
+Flail
+7
+Evo.
+9
+Roost
+10
+Razor Wind
+12
+Natural Gift
+14
+Flame Charge
+16
+Acrobatics
+17
+Me First
+18
+Tailwind
+19
+Steel Wing
+0
+
+$
 Hawlucha
 701
 Fighting/Flying
