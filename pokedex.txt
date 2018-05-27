@@ -8627,6 +8627,57 @@ Swords Dance
 0
 
 $
+Rockruff
+744
+Rock
+Keen Eye/Vital Spirit
+Steadfast
+20
+20.3
+Tiny
+13
+11
+10
+11
+11
+11
+6
+6
+1
+Tackle
+1
+Leer
+2
+Sand Attack
+3
+Bite
+5
+Howl
+6
+Rock Throw
+7
+Odor Sleuth
+9
+Rock Tomb
+10
+Evo.
+11
+Roar
+12
+Stealth Rock
+14
+Rock Slide
+15
+Scary Face
+16
+Crunch
+18
+Rock Climb
+19
+Stone Edge
+0
+
+$
 Selene
 10001
 Fairy
