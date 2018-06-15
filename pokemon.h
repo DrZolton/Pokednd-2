@@ -51,7 +51,7 @@ class Pokemon{
 		void outputFile(std::ostream& fout);
 		void inputFile(std::istream& fin);
 		int generate(const int& lvl); //-1 return value signals errors
-		void outputBase();
+		void outputBase(std::ostream & outs);
 		void outputAll();
 		int inputBase();
 
@@ -508,8 +508,8 @@ int Pokemon::generate(const int& lvl){
 	return 0;
 }
 
-void Pokemon::outputBase(){
-	std::cout << "--------------------\n"
+void Pokemon::outputBase(std::ostream & outs){
+	outs << "--------------------\n"
 		 << name << std::endl
 		 << "--------------------\n"
 		 << "Index: " << index << std::endl
@@ -530,16 +530,16 @@ void Pokemon::outputBase(){
 		 << "Movement Speed: " << speed << std::endl << std::endl;
 
 	if(hitDie == 1 || hitDie == 2 || hitDie == 3)
-		std::cout << "Hit Die: 1d12 + " << hitDie << std::endl << std::endl;
+		outs << "Hit Die: 1d12 + " << hitDie << std::endl << std::endl;
 
 	else if(hitDie > 3 && hitDie < 13)
-		std::cout << "Hit Die: 1d" << hitDie << std::endl << std::endl;
+		outs << "Hit Die: 1d" << hitDie << std::endl << std::endl;
 
-	std::cout << "Moves\nLvl:   Name:\n";
+	outs << "Moves\nLvl:   Name:\n";
 	for(int i = 0; i <= numMoves; i++)
-		std::cout << moves[i].level << " ---- " << moves[i].name << std::endl;
-	std::cout << "--------------------\n";
-	std::cout << std::endl << std::endl;
+		outs << moves[i].level << " ---- " << moves[i].name << std::endl;
+	outs << "--------------------\n";
+	outs << std::endl << std::endl;
 }
 
 void Pokemon::outputAll(){

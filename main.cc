@@ -1,3 +1,4 @@
+#include <sstream>
 #include <iostream>
 #include <fstream>
 #include "pokemon.h"
@@ -92,17 +93,19 @@ pokedex.temporary1();*/
 				std::cout << std::endl;
 				if(save == 'y' || save == 'Y'){
 					std::ofstream saveFile;
-					std::string saveName = target /*+ "Lvl" + std::to_string(lvl)*/ + ".tmp";
+					std::stringstream ss;
+					ss << lvl;
+					std::string saveName = target + "Lvl" + ss.str() + ".tmp";
 					saveFile.open(saveName.c_str());
 					if(saveFile.fail()){
 						std::cout << "\nunable to save file\n\n";
 						break;
 					}
-					canvas.outputFile(saveFile);
-					std::cout << "saved\n\n";
+					canvas.outputBase(saveFile);
+					std::cout << "saved " << target << "\n\n";
 				}
 				else if(save == 'n' || save == 'N')
-					std::cout << "not saving\n\n";
+					std::cout << "not saving " << target << "\n\n";
 				else
 					std::cout << "invalid choice\n\n";
 
@@ -144,7 +147,7 @@ pokedex.temporary1();*/
 					std::cout << "Pokemon not found\n\n";
 					break;
 				}
-				canvas.outputBase();
+				canvas.outputBase(std::cout);
 				break;
 			}
 			case 'd':{

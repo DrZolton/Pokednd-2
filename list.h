@@ -17,6 +17,8 @@
 #define LIST_H
 
 #include "pokemon.h"
+#include <string>
+#include <algorithm>
 
 struct node{
 	Pokemon data;
@@ -87,7 +89,7 @@ void list::consoleOutputBase(){
 	else{
 		node* cursor = head;
 		while(cursor != NULL){
-			cursor -> data.outputBase();
+			cursor -> data.outputBase(std::cout);
 			cursor = cursor -> link;
 		}
 		return;
@@ -123,7 +125,11 @@ int list::findName(const std::string target, Pokemon& canvas){
 
 	node* cursor = head;
 	while(cursor != NULL){ //while not at the end
-		if(cursor -> data.getName() == target){ //found
+		if(
+			(cursor -> data.getName()).substr(1) == target.substr(1)
+			&& tolower(cursor -> data.getName()[0]) == tolower(target[0])
+		)
+		{ //found
 			canvas = cursor -> data;
 			return 0;
 		}
