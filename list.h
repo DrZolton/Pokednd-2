@@ -34,6 +34,7 @@ class list{
 		int fileOutput(std::ostream& fout);
 		int findName(const std::string target, Pokemon& canvas);
 		int deletePokemon(std::string target);
+		int size();
 
 	private:
 		node* head;
@@ -155,6 +156,18 @@ int list::deletePokemon(const std::string target){
 	return -1; //not found
 }
 
+int list::size(){
+        if(head == NULL) return 0; //empty list
+
+	int size = 0;
+        node* cursor = head;
+        while(cursor != NULL){ //while not at the end
+		size++;
+		cursor = cursor -> link;
+        }
+	return size;
+}
+
 void list::temporary1(){
 	node* tmp = head;
 	while(tmp != NULL){
@@ -163,5 +176,7 @@ void list::temporary1(){
 	}
 	std::cout << "end of list\n";
 }
+
+
 
 #endif

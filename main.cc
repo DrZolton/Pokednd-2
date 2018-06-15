@@ -85,6 +85,27 @@ pokedex.temporary1();*/
 
 				if(canvas.generate(lvl) == -1) break;
 				canvas.outputAll();
+
+				char save;
+				std::cout << "Would you like to save this pokemon to a file? (y/n)\n\n > ";
+				std::cin >> save;
+				std::cout << std::endl;
+				if(save == 'y' || save == 'Y'){
+					std::ofstream saveFile;
+					std::string saveName = target /*+ "Lvl" + std::to_string(lvl)*/ + ".tmp";
+					saveFile.open(saveName.c_str());
+					if(saveFile.fail()){
+						std::cout << "\nunable to save file\n\n";
+						break;
+					}
+					canvas.outputFile(saveFile);
+					std::cout << "saved\n\n";
+				}
+				else if(save == 'n' || save == 'N')
+					std::cout << "not saving\n\n";
+				else
+					std::cout << "invalid choice\n\n";
+
 				break;
 			}
 			case 'a':{
@@ -139,12 +160,19 @@ pokedex.temporary1();*/
 				if(pokedex.deletePokemon(target) == -1)
 					std::cout << "Pokemon not found, cannot delete\n\n";
 				break;
-				
 			}
 			case 'o':{
 				pokedex.consoleOutputBase();
+				std::cout << "Total Pokemon in Pokedex: " << pokedex.size() << std::endl << std::endl;
 				break;
 			}
+			default:{
+				std::cout << "Invalid choice\n\n";
+//				break;
+			}
+                        //sometimes the choice is a string meant as a console command or the name of a pokemon
+                        //to prevent each character of the choice being read cin will be cleared
+			while( !std::cin.eof() && std::cin.get() != '\n' );
 		}
 	}
 

@@ -1,4 +1,4 @@
-//*********************************************************
+//*********************************************************//
 //
 //	Jacob Ramsey
 //	B.S.C.S, Russ College of Engineering, Ohio University
@@ -27,7 +27,7 @@
 //		-item effects to generate function(random item lists)
 //		-non-random generate function
 //
-//*********************************************************
+//*********************************************************//
 
 #ifndef POKEMON_H
 #define POKEMON_H
@@ -238,9 +238,9 @@ int Pokemon::generate(const int& lvl){
 		else if(height < 768) size = "Gargantuan(X)";
 		else size = "Colossal(X)";
 	}
-	
 
-//*******generating HP//
+
+//*******generating HP*//
 	if(hitDie == 1)
 		HP = 13;
 	else if(hitDie == 2)
@@ -300,7 +300,7 @@ int Pokemon::generate(const int& lvl){
 		nature = "Lonely";
 		strength += 2;
 		dexterity -=2;
-	}	
+	}
 	else if(die == 2){
 		nature = "Brave";
 		strength += 2;
@@ -509,9 +509,9 @@ int Pokemon::generate(const int& lvl){
 }
 
 void Pokemon::outputBase(){
-	std::cout << "--------------------\n" 
+	std::cout << "--------------------\n"
 		 << name << std::endl
-		 << "--------------------\n" 
+		 << "--------------------\n"
 		 << "Index: " << index << std::endl
 		 << "Type: " << type << std::endl
 		 << "Ability: " << ability << std::endl
@@ -543,9 +543,9 @@ void Pokemon::outputBase(){
 }
 
 void Pokemon::outputAll(){
-	std::cout << "--------------------\n" 
+	std::cout << "--------------------\n"
 		 << name << std::endl
-		 << "--------------------\n" 
+		 << "--------------------\n"
 		 << "Index: " << index << std::endl
 		 << "Type: " << type << std::endl
 		 << "Ability: " << ability << std::endl
@@ -556,7 +556,7 @@ void Pokemon::outputAll(){
 		 << "Height: " << height / 12 << "'" << height % 12 << "\"" << std::endl
 		 << "Weight: " << weight << " lbs" << std::endl
 		 << "Size: " << size << std::endl
-		 << "Level: " << level << std::endl 
+		 << "Level: " << level << std::endl
 		 << "Catch DC: " << catchDC << std::endl << std::endl
 
 		 << "Strength: " << strength << std::endl
@@ -705,13 +705,13 @@ int Pokemon::inputBase(){
 
 	std::cin.clear();
 	std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-	
+
 	return 0;
 }
 
 /*void Pokemon::resize(){
 	arrSize += 5;
-	
+
 }*/
 
 void Pokemon::addMoves(std::istream& ins){
