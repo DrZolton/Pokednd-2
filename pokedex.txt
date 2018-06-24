@@ -8820,6 +8820,561 @@ Aura Sphere
 0
 
 $
+Chikorita
+152
+Grass
+Overgrow
+Leaf Guard
+35
+14.1
+Small
+12
+14
+12
+14
+12
+14
+5
+6
+<Bayleef: Lvl 7>
+875.125
+45
+49
+65
+49
+65
+45
+1
+Tackle
+1
+Growl
+3
+Razor Leaf
+4
+Poison Powder
+5
+Synthesis
+7
+Reflect
+8
+Magical Leaf
+9
+Natural Gift
+11
+Sweet Scent
+13
+Light Screen
+14
+Body Slam
+16
+Safeguard
+17
+Aromatherapy
+18
+Solar Beam
+0
+
+$
+Bayleef
+153
+Grass
+Overgrow
+Leaf Guard
+47
+34.8
+Small
+13
+15
+13
+15
+13
+15
+6
+8
+<Meganium: Lvl 13>
+875.125
+60
+62
+80
+63
+80
+60
+1
+Tackle
+1
+Growl
+1
+Razor Leaf
+1
+Poison Powder
+3
+Razor Leaf
+4
+Poison Powder
+5
+Synthesis
+7
+Reflect
+9
+Magical Leaf
+11
+Natural Gift
+13
+Sweet Scent
+15
+Light Screen
+16
+Body Slam
+19
+Safeguard
+20
+Aromatherapy
+21
+Solar Beam
+0
+
+$
+Meganium
+154
+Grass
+Overgrow
+Leaf Guard
+71
+221.6
+Medium
+16
+18
+16
+18
+16
+18
+7
+10
+<None>
+875.125
+80
+82
+100
+83
+100
+80
+1
+Petal Dance
+1
+Petal Blizzard
+1
+Tackle
+1
+Growl
+1
+Razor Leaf
+1
+Poison Powder
+1
+Petal Dance at Evo.
+3
+Razor Leaf
+4
+Poison Powder
+5
+Synthesis
+7
+Reflect
+9
+Magical Leaf
+11
+Natural Gift
+14
+Sweet Scent
+16
+Light Screen
+19
+Body Slam
+21
+Safeguard
+22
+Aromatherapy
+24
+Petal Blizzard
+24
+Solar Beam
+0
+
+$
+Cyndaquil
+155
+Fire
+Blaze
+Flash Fire
+20
+17.4
+Tiny
+12
+11
+13
+12
+12
+11
+6
+4
+<Quilava: Lvl 6>
+875.125
+39
+52
+43
+60
+50
+65
+1
+Tackle
+1
+Leer
+3
+Smokescreen
+4
+Ember
+5
+Quick Attack
+8
+Flame Wheel
+9
+Defense Curl
+11
+Flame Charge
+13
+Swift
+15
+Lava Plume
+16
+Flamethrower
+19
+Inferno
+20
+Rollout
+21
+Double-Edge
+22
+Burn Up
+23
+Eruption
+0
+
+$
+Quilava
+156
+Fire
+Blaze
+Flash Fire
+35
+41.9
+Small
+13
+13
+15
+14
+14
+13
+7
+6
+<Typhlosion: Lvl 15>
+875.125
+58
+64
+58
+80
+65
+80
+1
+Tackle
+1
+Leer
+1
+Smokescreen
+3
+Smokescreen
+4
+Ember
+5
+Quick Attack
+8
+Flame Wheel
+10
+Defense Curl
+13
+Swift
+14
+Flame Charge
+17
+Lava Plume
+19
+Flamethrower
+21
+Inferno
+22
+Rollout
+23
+Double-Edge
+24
+Burn Up
+25
+Eruption
+0
+
+$
+Typhlosion
+157
+Fire
+Blaze
+Flash Fire
+67
+175.3
+Medium
+16
+15
+19
+16
+17
+15
+8
+8
+<None>
+875.125
+78
+84
+78
+109
+85
+100
+1
+Eruption
+1
+Double-Edge
+1
+Gyro Ball
+1
+Tackle
+1
+Leer
+1
+Smokescreen
+1
+Ember
+3
+Smokescreen
+4
+Ember
+5
+Quick Attack
+8
+Flame Wheel
+10
+Defense Curl
+13
+Swift
+14
+Flame Charge
+17
+Lava Plume
+19
+Flamethrower
+22
+Inferno
+23
+Rollout
+24
+Double-Edge
+25
+Burn Up
+27
+Eruption
+0
+
+$
+Totodile
+158
+Water
+Torrent
+Sheer Force
+24
+20.9
+Small
+14
+13
+11
+12
+12
+12
+5
+6
+<Croconaw: Lvl 7>
+875.125
+50
+65
+64
+44
+48
+43
+1
+Scratch
+1
+Leer
+3
+Water Gun
+3
+Rage
+5
+Bite
+6
+Scary Face
+8
+Ice Fang
+9
+Flail
+11
+Crunch
+12
+Chip Away
+14
+Slash
+15
+Screech
+17
+Thrash
+17
+Aqua Tail
+19
+Superpower
+20
+Hydro Pump
+0
+
+$
+Croconaw
+159
+Water
+Torrent
+Sheer Force
+43
+55.1
+Small
+15
+15
+13
+13
+14
+14
+6
+8
+<Feraligatr: Lvl 12>
+875.125
+65
+80
+80
+59
+63
+58
+1
+Scratch
+1
+Leer
+1
+Water Gun
+3
+Water Gun
+3
+Rage
+5
+Bite
+6
+Scary Face
+9
+Ice Fang
+10
+Flail
+12
+Crunch
+13
+Chip Away
+16
+Slash
+17
+Screech
+19
+Thrash
+21
+Aqua Tail
+22
+Superpower
+22
+Hydro Pump
+0
+
+$
+Feraligatr
+160
+Water
+Torrent
+Sheer Force
+91
+195.8
+Medium
+18
+18
+15
+16
+16
+17
+7
+10
+<None>
+875.125
+85
+105
+100
+79
+83
+78
+1
+Agility
+1
+Scratch
+1
+Leer
+1
+Water Gun
+1
+Rage
+3
+Water Gun
+3
+Rage
+5
+Bite
+6
+Scary Face
+9
+Ice Fang
+10
+Flail
+13
+Crunch
+15
+Chip Away
+18
+Slash
+20
+Screech
+22
+Thrash
+23
+Aqua Tail
+25
+Superpower
+26
+Hydro Pump
+0
+
+$
 Spinarak
 167
 Bug/Poison

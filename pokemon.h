@@ -704,45 +704,6 @@ int Pokemon::inputBase(){
 	std::cin.clear();
 	std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 
-	std::cout << "Type: ";
-	getline(std::cin, type);
-
-	std::cout << "Ability: ";
-	getline(std::cin, ability);
-
-	std::cout << "Hidden Ability: ";
-	getline(std::cin, hiddenAbility);
-
-	int tmp;
-	std::cout << "Height(5 4 = 5'4\"): ";
-	std::cin >> tmp >> height;
-	tmp = tmp * 12;
-	height += tmp;
-
-	std::cout << "Weight: ";
-	std::cin >> weight;
-
-	if(height < 6) size = "Fine";
-	else if(height < 12) size = "Dimunitive";
-	else if(height < 24) size = "Tiny";
-	else if(height < 48) size = "Small";
-	else if(height < 96) size = "Medium";
-	else if(height < 192) size = "Large";
-	else if(height < 384) size = "Huge";
-	else if(height < 768) size = "Gargantuan";
-	else size = "Colossal";
-
-	std::cin.clear();
-	std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-
-//	std::cout << "Input gender ratio for " << name << " in the following format: 50.50\n > ";
-	std::cout << "Gender ratio(ex. 875.125)\n"
-		<< "(0 for genderless, 1 for all male, and -1 for all female): ";
-	std::cin >> genderRatio;
-
-	std::cin.clear();
-	std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-
 	evolution = "";
 	std::string evolutionTemp;
 	int levelTemp;
@@ -814,6 +775,45 @@ int Pokemon::inputBase(){
 		if(inputTemp == 'y') doneTemp = true;
 //		else evolution += " ";
 	}
+
+	std::cin.clear();
+	std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+
+	std::cout << "Type: ";
+	getline(std::cin, type);
+
+	std::cout << "Ability: ";
+	getline(std::cin, ability);
+
+	std::cout << "Hidden Ability: ";
+	getline(std::cin, hiddenAbility);
+
+	int tmp;
+	std::cout << "Height(5 4 = 5'4\"): ";
+	std::cin >> tmp >> height;
+	tmp = tmp * 12;
+	height += tmp;
+
+	std::cout << "Weight: ";
+	std::cin >> weight;
+
+	if(height < 6) size = "Fine";
+	else if(height < 12) size = "Dimunitive";
+	else if(height < 24) size = "Tiny";
+	else if(height < 48) size = "Small";
+	else if(height < 96) size = "Medium";
+	else if(height < 192) size = "Large";
+	else if(height < 384) size = "Huge";
+	else if(height < 768) size = "Gargantuan";
+	else size = "Colossal";
+
+//	std::cout << "Input gender ratio for " << name << " in the following format: 50.50\n > ";
+	std::cout << "Gender ratio(ex. 875.125)\n"
+		<< "(0 for genderless, 1 for all male, and -1 for all female): ";
+	std::cin >> genderRatio;
+
+	std::cin.clear();
+	std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 
 //	double data;
 
