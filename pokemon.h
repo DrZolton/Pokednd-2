@@ -986,7 +986,7 @@ void Pokemon::addMoves(std::istream& ins){
 						else if(moves[numMoves].level < 91) moves[numMoves].level = 28;
 						else if(moves[numMoves].level < 96) moves[numMoves].level = 29;
 						else if(moves[numMoves].level < 101) moves[numMoves].level = 30;
-						numMoves++;
+						if(moves[numMoves].name != "Evo.") numMoves++;
 					}
 				}
 			}
@@ -1040,7 +1040,7 @@ void Pokemon::addMoves(std::istream& ins){
 			ins.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 
 			getline(ins, moves[numMoves].name);
-			numMoves++;
+			if(moves[numMoves].name != "Evo.") numMoves++;
 		}
 	}
 	moveSort();

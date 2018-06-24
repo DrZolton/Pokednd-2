@@ -37,8 +37,6 @@ Poison Powder
 Sleep Powder
 6
 Take Down
-7
-Evo.
 8
 Razor Leaf
 9
@@ -106,8 +104,6 @@ Sweet Scent
 Growth
 13
 Double-Edge
-13
-Evo.
 15
 Worry Seed
 16
@@ -218,8 +214,6 @@ Ember
 Smokescreen
 7
 Dragon Rage
-7
-Evo.
 8
 Scary Face
 10
@@ -279,8 +273,6 @@ Scary Face
 Fire Fang
 13
 Flame Burst
-15
-Evo.
 16
 Slash
 17
@@ -399,8 +391,6 @@ Withdraw
 Bubble
 7
 Bite
-7
-Evo.
 8
 Rapid Spin
 9
@@ -468,8 +458,6 @@ Protect
 Water Pulse
 13
 Aqua Tail
-15
-Evo.
 15
 Skull Bash
 17
@@ -572,8 +560,6 @@ Tiny
 Tackle
 1
 String Shot
-3
-Evo.
 4
 Bug Bite
 0
@@ -607,8 +593,6 @@ Small
 Harden
 1
 Harden at Evo.
-4
-Evo.
 0
 
 $
@@ -703,8 +687,6 @@ Tiny
 Poison Sting
 1
 String Shot
-3
-Evo.
 4
 Bug Bite
 0
@@ -738,8 +720,6 @@ Small
 Harden
 1
 Harden at Evo.
-4
-Evo.
 0
 
 $
@@ -834,8 +814,6 @@ Gust
 Quick Attack
 7
 Whirlwind
-7
-Evo.
 9
 Twister
 10
@@ -901,8 +879,6 @@ Twister
 Feather Dance
 13
 Agility
-15
-Evo.
 15
 Wing Attack
 17
@@ -1021,8 +997,6 @@ Pursuit
 Hyper Fang
 8
 Assurance
-8
-Evo.
 9
 Crunch
 10
@@ -1135,8 +1109,6 @@ Fury Attack
 Aerial Ace
 7
 Mirror Move
-8
-Evo.
 9
 Assurance
 10
@@ -1249,8 +1221,6 @@ Glare
 Screech
 8
 Acid
-9
-Evo.
 10
 Stockpile
 10
@@ -1492,8 +1462,6 @@ Swift
 8
 Fury Swipes
 9
-Evo.
-9
 Sand Tomb
 11
 Slash
@@ -1613,8 +1581,6 @@ Tail Whip
 Double Kick
 5
 Poison Sting
-7
-Evo.
 8
 Fury Swipes
 9
@@ -1766,8 +1732,6 @@ Focus Energy
 Double Kick
 5
 Poison Sting
-7
-Evo.
 8
 Fury Attack
 9
@@ -2246,8 +2210,6 @@ Confuse Ray
 8
 Air Cutter
 9
-Evo.
-9
 Swift
 10
 Poison Fang
@@ -2371,8 +2333,6 @@ Stun Spore
 Sleep Powder
 8
 Mega Drain
-9
-Evo.
 9
 Lucky Chant
 11
@@ -2532,8 +2492,6 @@ Absorb
 Fury Cutter
 9
 Spore
-10
-Evo.
 11
 Slash
 13
@@ -2652,8 +2610,6 @@ Stun Spore
 Signal Beam
 12
 Sleep Powder
-13
-Evo.
 14
 Leech Life
 15
@@ -2779,8 +2735,6 @@ Sucker Punch
 10
 Mud Bomb
 11
-Evo.
-11
 Earth Power
 13
 Dig
@@ -2900,8 +2854,6 @@ Screech
 Feint Attack
 10
 Taunt
-11
-Evo.
 12
 Pay Day
 13
@@ -3035,8 +2987,6 @@ Zen Headbutt
 11
 Aqua Tail
 13
-Evo.
-13
 Soak
 14
 Psych Up
@@ -3162,8 +3112,6 @@ Seismic Toss
 Swagger
 9
 Cross Chop
-11
-Evo.
 11
 Assurance
 12
@@ -3395,8 +3343,6 @@ Rain Dance
 9
 Body Slam
 10
-Evo.
-10
 Bubble Beam
 11
 Mud Shot
@@ -3539,8 +3485,6 @@ Small
 90
 1
 Teleport
-7
-Evo.
 0
 
 $
@@ -3710,8 +3654,6 @@ Revenge
 Knock Off
 10
 Vital Throw
-11
-Evo.
 11
 Wake-Up Slap
 13
@@ -3902,8 +3844,6 @@ Poison Powder
 7
 Stun Spore
 9
-Evo.
-9
 Acid
 11
 Knock Off
@@ -4074,8 +4014,6 @@ Acid Spray
 Bubble Beam
 11
 Barrier
-12
-Evo.
 13
 Poison Jab
 14
@@ -4206,8 +4144,6 @@ Rock Throw
 Smack Down
 9
 Bulldoze
-10
-Evo.
 10
 Self-Destruct
 11
@@ -4401,8 +4337,6 @@ Take Down
 Inferno
 15
 Agility
-16
-Evo.
 17
 Fire Blast
 18
@@ -4523,8 +4457,6 @@ Headbutt
 Water Pulse
 13
 Zen Headbutt
-15
-Evo.
 15
 Slack Off
 17
@@ -4651,8 +4583,6 @@ Spark
 Mirror Shot
 10
 Metal Sound
-12
-Evo.
 12
 Electro Ball
 13
@@ -4857,8 +4787,6 @@ Agility
 12
 Uproar
 13
-Evo.
-13
 Acupressure
 15
 Swords Dance
@@ -4986,8 +4914,6 @@ Aurora Beam
 Aqua Jet
 13
 Brine
-14
-Evo.
 15
 Take Down
 17
@@ -5120,8 +5046,6 @@ Fling
 Sludge Bomb
 13
 Sludge Wave
-15
-Evo.
 15
 Screech
 16
@@ -5348,8 +5272,6 @@ Night Shade
 Confuse Ray
 9
 Sucker Punch
-10
-Evo.
 11
 Payback
 12
@@ -5604,8 +5526,6 @@ Poison Gas
 Meditate
 10
 Psybeam
-11
-Evo.
 12
 Wake-Up Slap
 13
@@ -5742,8 +5662,6 @@ Mud Shot
 Metal Claw
 10
 Stomp
-11
-Evo.
 12
 Protect
 13
@@ -5868,8 +5786,6 @@ Swift
 Electro Ball
 11
 Self-Destruct
-12
-Evo.
 12
 Light Screen
 14
@@ -6096,8 +6012,6 @@ Focuse Energy
 Bonemerang
 9
 Rage
-11
-Evo.
 11
 False Swipe
 13
@@ -6434,8 +6348,6 @@ Haze
 12
 Gyro Ball
 14
-Evo.
-14
 Sludge Bomb
 15
 Explosion
@@ -6563,8 +6475,6 @@ Rock Blast
 Drill Run
 15
 Take Down
-17
-Evo.
 17
 Stone Edge
 18
@@ -6868,8 +6778,6 @@ Bubble Beam
 Focus Energy
 13
 Brine
-13
-Evo.
 15
 Agility
 17
@@ -6986,8 +6894,6 @@ Fury Attack
 Agility
 13
 Waterfall
-13
-Evo.
 15
 Horn Drill
 16
@@ -7629,8 +7535,6 @@ Small
 Splash
 6
 Tackle
-8
-Evo.
 12
 Flail
 0
@@ -8118,8 +8022,6 @@ Brine
 Protect
 15
 Ancient Power
-16
-Evo.
 17
 Tickle
 19
@@ -8236,8 +8138,6 @@ Endure
 Aqua Jet
 15
 Mega Drain
-16
-Evo.
 17
 Metal Sound
 19
@@ -8651,8 +8551,6 @@ Dragon Rage
 Slam
 10
 Agility
-12
-Evo.
 13
 Dragon Tail
 14
@@ -8720,8 +8618,6 @@ Aqua Tail
 Dragon Rush
 21
 Safeguard
-21
-Evo.
 23
 Dragon Dance
 24
@@ -8966,8 +8862,6 @@ Night Shade
 Shadow Sneak
 9
 Fury Swipes
-9
-Evo.
 11
 Sucker Punch
 12
@@ -9102,8 +8996,6 @@ Mud Shot
 Slam
 8
 Mud Bomb
-8
-Evo.
 9
 Amnesia
 12
@@ -9228,8 +9120,6 @@ Draining Kiss
 Calm Mind
 12
 Psychic
-12
-Evo.
 13
 Imprison
 15
@@ -9360,8 +9250,6 @@ Rock Slide
 Take Down
 13
 Metal Sound
-13
-Evo.
 14
 Iron Tail
 15
@@ -9478,8 +9366,6 @@ Slash
 Rock Slide
 13
 Earthquake
-13
-Evo.
 15
 Swords Dance
 16
@@ -9531,8 +9417,6 @@ Protect
 Poison Tail
 9
 Bug Bite
-9
-Evo.
 11
 Venoshock
 12
@@ -9598,8 +9482,6 @@ Toxic
 Synthesis
 16
 Clear Smog
-16
-Evo.
 17
 Solar Beam
 18
@@ -9655,8 +9537,6 @@ Dragon Claw
 Dragon Dance
 15
 Taunt
-15
-Evo.
 17
 Dragon Pulse
 19
@@ -9718,8 +9598,6 @@ Magnitude
 Dynamic Punch
 16
 Night Shade
-17
-Evo.
 18
 Curse
 20
@@ -9834,8 +9712,6 @@ Take Down
 Mud Shot
 8
 Double Kick
-8
-Evo.
 10
 Odor Sleuth
 12
@@ -9889,8 +9765,6 @@ Peck
 Agility
 7
 Flail
-7
-Evo.
 9
 Roost
 10
@@ -10011,8 +9885,6 @@ Rock Throw
 Odor Sleuth
 9
 Rock Tomb
-10
-Evo.
 11
 Roar
 12
@@ -10070,8 +9942,6 @@ Psybeam
 Miracle Eye
 7
 Jump Kick
-8
-Evo.
 9
 Heal Pulse
 11
@@ -10139,8 +10009,6 @@ Calm Mind
 Future Sight
 15
 Energy Ball
-16
-Evo.
 17
 Light Screen
 20
