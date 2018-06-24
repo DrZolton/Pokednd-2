@@ -19,13 +19,37 @@ int main(){
 	}
 
 	std::cout << "loading...";
+	std::cout.flush();
 	pokedex.fileInput(fileInput);
 	fileInput.close();
 	std::cout << "done\n\n";
 
 //temporary
-/*std::cout << "preparing to modify ability scores\n\n";
-pokedex.temporary1();*/
+/*std::cout << "preparing to add evolution, gender ratios, and base stats\n\n";
+node* cursor;
+pokedex.temporary1(cursor);
+std::string tempName;
+std::cout << "Enter name that you wish to stop at\n > ";
+//std::cout << "test1";
+getline(std::cin, tempName);
+//std::cout << "test2";
+//std::cout.flush();
+while(pokedex.tempAdvance(cursor) != tempName);
+//std::cout << "made it\n" << std::flush;
+while(1){
+	pokedex.temporary(cursor);
+        std::cout << "Saving...";
+        std::ofstream fileOutput;
+        fileOutput.open("pokedex.txt");
+        if(fileOutput.fail()){
+        	std::cout << "\nunable to save to file\n";
+		return 0;
+        }
+        pokedex.fileOutput(fileOutput);
+        fileOutput.close();
+        std::cout << "done\n\n";
+}*/
+//end temporary
 
 	char choice;
 	bool done = false;
@@ -85,7 +109,7 @@ pokedex.temporary1();*/
 				std::cout << std::endl;
 
 				if(canvas.generate(lvl) == -1) break;
-				canvas.outputAll();
+				canvas.outputAll(std::cout);
 
 				char save;
 				std::cout << "Would you like to save this pokemon to a file? (y/n)\n\n > ";
@@ -95,13 +119,14 @@ pokedex.temporary1();*/
 					std::ofstream saveFile;
 					std::stringstream ss;
 					ss << lvl;
-					std::string saveName = target + "Lvl" + ss.str() + ".tmp";
+					std::string saveName = "./pokeTemp/" + target + "Lvl" + ss.str() + ".tmp";
 					saveFile.open(saveName.c_str());
 					if(saveFile.fail()){
 						std::cout << "\nunable to save file\n\n";
 						break;
 					}
-					canvas.outputBase(saveFile);
+					canvas.outputAll(saveFile);
+					saveFile.close();
 					std::cout << "saved " << target << "\n\n";
 				}
 				else if(save == 'n' || save == 'N')
@@ -119,6 +144,7 @@ pokedex.temporary1();*/
 			}
 			case 's':{
 				std::cout << "Saving...";
+				std::cout.flush();
 
 				std::ofstream fileOutput;
 				fileOutput.open("pokedex.txt");
@@ -162,6 +188,8 @@ pokedex.temporary1();*/
 
 				if(pokedex.deletePokemon(target) == -1)
 					std::cout << "Pokemon not found, cannot delete\n\n";
+				else std::cout << "Pokemon deleted\n\n";
+
 				break;
 			}
 			case 'o':{

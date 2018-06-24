@@ -27,7 +27,9 @@ struct node{
 
 class list{
 	public:
-		void temporary1();
+		void temporary(node*& cursor);
+		void temporary1(node*& cursor);
+		std::string tempAdvance(node*& cursor);
 
 		list(){head = NULL;}
 		void add(Pokemon newPokemon);
@@ -174,13 +176,30 @@ int list::size(){
 	return size;
 }
 
-void list::temporary1(){
-	node* tmp = head;
-	while(tmp != NULL){
-		tmp -> data.temporary();
-		tmp = tmp -> link;
+std::string list::tempAdvance(node*& cursor){
+//std::cout << "0" << std::flush;
+	if(cursor ->link != NULL){
+		cursor = cursor -> link;
+//std::cout << "1" << std::flush;
 	}
-	std::cout << "end of list\n";
+	else{
+		cursor = head;
+//std::cout << "2" << std::flush;
+	}
+	return cursor -> data.getName();
+}
+
+void list::temporary1(node*& cursor){
+	cursor = head;
+}
+
+void list::temporary(node*& cursor){
+//	node* tmp = head;
+	if(cursor != NULL){
+		cursor -> data.temporary();
+		cursor = cursor -> link;
+	}
+	else std::cout << "end of list\n";
 }
 
 

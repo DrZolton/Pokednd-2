@@ -15,6 +15,14 @@ Small
 13
 5
 6
+<Ivysaur: Lvl 7>
+875.125
+45
+49
+49
+65
+65
+45
 1
 Tackle
 1
@@ -64,6 +72,14 @@ Small
 14
 6
 8
+<Venasaur: Lvl 13>
+875.125
+60
+62
+63
+80
+80
+60
 1
 Tackle
 1
@@ -117,6 +133,14 @@ Medium
 17
 7
 10
+<None>
+875.125
+80
+82
+83
+100
+100
+80
 1
 Petal Dance
 1
@@ -176,6 +200,14 @@ Small
 11
 6
 4
+<Charmeleon: Lvl 7>
+875.125
+39
+52
+43
+60
+50
+65
 1
 Scratch
 1
@@ -221,6 +253,14 @@ Small
 13
 7
 6
+<Charizard: Lvl 15>
+875.125
+58
+64
+58
+80
+65
+80
 1
 Scratch
 1
@@ -268,6 +308,14 @@ Medium
 15
 8
 8
+<None>
+875.125
+78
+84
+78
+109
+85
+100
 1
 Wing Attack
 1
@@ -331,6 +379,14 @@ Tiny
 13
 5
 6
+<Wartortle: Lvl 7>
+875.125
+44
+48
+65
+50
+64
+43
 1
 Tackle
 2
@@ -380,6 +436,14 @@ Small
 15
 6
 6
+<Blastoise: Lvl 15>
+875.125
+59
+63
+80
+65
+80
+58
 1
 Tackle
 1
@@ -433,6 +497,14 @@ Medium
 18
 7
 8
+<None>
+875.125
+79
+83
+100
+85
+105
+78
 1
 Flash Cannon
 1
@@ -488,6 +560,14 @@ Tiny
 9
 5
 6
+<Metapod: Lvl 3>
+500.5
+45
+30
+35
+20
+20
+45
 1
 Tackle
 1
@@ -503,7 +583,7 @@ Metapod
 11
 Bug
 Shed Skin
-N/A
+None
 28
 21.8
 Small
@@ -515,6 +595,14 @@ Small
 10
 5
 6
+<Butterfree: Lvl 4>
+500.5
+50
+20
+55
+25
+25
+30
 1
 Harden
 1
@@ -540,6 +628,14 @@ Small
 13
 7
 8
+<None>
+500.5
+60
+45
+50
+90
+80
+70
 1
 Gust
 1
@@ -595,6 +691,14 @@ Tiny
 9
 6
 6
+<Kakuna: Lvl 3>
+500.5
+40
+35
+30
+20
+20
+50
 1
 Poison Sting
 1
@@ -610,7 +714,7 @@ Kakuna
 14
 Bug/Poison
 Shed Skin
-N/A
+None
 24
 22
 Small
@@ -622,6 +726,14 @@ Small
 10
 5
 6
+<Beedrill: Lvl 4>
+500.5
+45
+25
+50
+25
+25
+35
 1
 Harden
 1
@@ -647,6 +759,14 @@ Small
 13
 7
 8
+<None>
+500.5
+65
+90
+40
+45
+80
+75
 1
 Twineedle
 1
@@ -696,6 +816,14 @@ Tiny
 10
 6
 6
+<Pidgeotto: Lvl 7>
+500.5
+40
+45
+40
+35
+35
+56
 1
 Tackle
 2
@@ -745,6 +873,14 @@ Small
 12
 7
 8
+<Pidgeot: Lvl 15>
+500.5
+63
+60
+55
+50
+50
+71
 1
 Tackle
 1
@@ -798,6 +934,14 @@ Medium
 14
 8
 10
+<None>
+500.5
+83
+80
+75
+70
+70
+101
 1
 Hurricane
 1
@@ -853,6 +997,14 @@ Tiny
 10
 7
 4
+<Raticate: Lvl 8>
+500.5
+30
+56
+35
+25
+35
+72
 1
 Tackle
 1
@@ -900,6 +1052,14 @@ Small
 13
 8
 6
+<None>
+500.5
+55
+81
+60
+50
+70
+97
 1
 Swords Dance
 1
@@ -953,6 +1113,14 @@ Tiny
 10
 7
 6
+<Fearow: Lvl 8>
+500.5
+40
+60
+30
+31
+31
+70
 1
 Peck
 1
@@ -998,6 +1166,14 @@ Small
 13
 8
 8
+<None>
+500.5
+65
+90
+65
+61
+61
+100
 1
 Drill Run
 1
@@ -1051,6 +1227,14 @@ Medium
 11
 6
 4
+<Arbok: Lvl 9>
+500.5
+35
+60
+44
+40
+54
+55
 1
 Wrap
 1
@@ -1106,6 +1290,14 @@ Large
 14
 7
 8
+<None>
+500.5
+60
+95
+69
+65
+79
+80
 1
 Crunch
 1
@@ -1173,6 +1365,14 @@ Tiny
 11
 8
 4
+<Raichu: Thunder Stone>
+500.5
+35
+55
+40
+50
+50
+90
 1
 Tail Whip
 1
@@ -1228,6 +1428,14 @@ Small
 13
 9
 8
+<None>
+500.5
+60
+90
+55
+90
+80
+110
 1
 Thunder Shock
 1
@@ -1255,6 +1463,14 @@ Small
 13
 5
 6
+<Sandslash: Lvl 9>
+500.5
+50
+75
+85
+20
+30
+40
 1
 Scratch
 1
@@ -1310,6 +1526,14 @@ Small
 15
 6
 8
+<None>
+500.5
+75
+100
+110
+45
+55
+65
 1
 Crush Claw
 1
@@ -1371,6 +1595,14 @@ Tiny
 11
 5
 6
+<Nidorina: Lvl 7>
+-1
+55
+47
+52
+40
+40
+41
 1
 Growl
 1
@@ -1418,6 +1650,14 @@ Small
 13
 6
 8
+<Nidoqueen: Moon Stone>
+-1
+70
+62
+67
+55
+55
+56
 1
 Growl
 1
@@ -1463,6 +1703,14 @@ Medium
 16
 7
 10
+<None>
+-1
+90
+92
+87
+75
+85
+76
 1
 Superpower
 1
@@ -1500,6 +1748,14 @@ Tiny
 11
 6
 6
+<Nidorino: Lvl 7>
+1
+46
+57
+40
+40
+40
+50
 1
 Leer
 1
@@ -1547,6 +1803,14 @@ Small
 12
 6
 8
+<Nidoking: Moon Stone>
+1
+61
+72
+57
+55
+55
+65
 1
 Leer
 1
@@ -1592,6 +1856,14 @@ Medium
 15
 7
 10
+<None>
+1
+81
+102
+77
+85
+75
+85
 1
 Megahorn
 1
@@ -1629,6 +1901,14 @@ Small
 13
 5
 8
+<Clefable: Moon Stone>
+250.75
+70
+45
+48
+60
+65
+35
 1
 Spotlight
 1
@@ -1694,6 +1974,14 @@ Medium
 16
 6
 10
+<None>
+250.75
+95
+70
+73
+95
+90
+60
 1
 Spotlight
 1
@@ -1725,6 +2013,14 @@ Small
 12
 6
 4
+<Ninetales: Fire Stone>
+250.75
+38
+41
+40
+50
+65
+65
 1
 Ember
 2
@@ -1784,6 +2080,14 @@ Small
 16
 8
 8
+<None>
+250.75
+73
+76
+75
+81
+100
+100
 1
 Imprison
 1
@@ -1815,6 +2119,14 @@ Tiny
 8
 4
 12
+<Wigglytuff: Moon Stone>
+250.75
+115
+45
+20
+45
+25
+20
 1
 Sing
 1
@@ -1872,6 +2184,14 @@ Small
 11
 5
 1
+<None>
+250.75
+140
+70
+45
+85
+50
+45
 1
 Double-Edge
 1
@@ -1903,6 +2223,14 @@ Small
 10
 6
 6
+<Golbat: Lvl 9>
+500.5
+40
+45
+35
+30
+40
+55
 1
 Absorb
 2
@@ -1954,6 +2282,14 @@ Medium
 14
 8
 8
+<Crobat: Friendship>
+500.5
+75
+80
+70
+65
+75
+90
 1
 Screech
 1
@@ -2011,6 +2347,14 @@ Tiny
 13
 5
 6
+<Gloom: Lvl 9>
+500.5
+45
+50
+55
+75
+65
+30
 1
 Absorb
 1
@@ -2064,6 +2408,14 @@ Small
 14
 5
 8
+<Vileplume: Leaf Stone><Bellossom: Sun Stone>
+500.5
+60
+65
+70
+85
+75
+40
 1
 Absorb
 1
@@ -2119,6 +2471,14 @@ Small
 16
 6
 8
+<None>
+500.5
+75
+80
+85
+110
+90
+50
 1
 Mega Drain
 1
@@ -2152,6 +2512,14 @@ Tiny
 12
 4
 4
+<Parasect: Lvl 10>
+500.5
+35
+70
+55
+45
+55
+25
 1
 Scratch
 3
@@ -2197,6 +2565,14 @@ Small
 15
 5
 8
+<None>
+500.5
+60
+95
+80
+60
+80
+30
 1
 Cross Poison
 1
@@ -2248,6 +2624,14 @@ Small
 12
 5
 8
+<Venomoth: Lvl 13>
+500.5
+60
+55
+50
+40
+55
+45
 1
 Tackle
 1
@@ -2297,6 +2681,14 @@ Medium
 14
 8
 8
+<None>
+500.5
+70
+65
+60
+90
+75
+90
 1
 Gust
 1
@@ -2360,6 +2752,14 @@ Dimunitive
 10
 8
 4
+<Dugtrio: Lvl 11>
+500.5
+10
+55
+25
+35
+45
+95
 1
 Sand Attack
 1
@@ -2409,6 +2809,14 @@ Small
 13
 9
 4
+<None>
+500.5
+35
+100
+50
+50
+70
+120
 1
 Sand Tomb
 1
@@ -2468,6 +2876,14 @@ Tiny
 10
 8
 6
+<Persian: Lvl 11>
+500.5
+40
+45
+35
+40
+40
+90
 1
 Scratch
 1
@@ -2519,6 +2935,14 @@ Small
 13
 9
 8
+<None>
+500.5
+65
+70
+60
+65
+65
+115
 1
 Swift
 1
@@ -2580,6 +3004,14 @@ Small
 12
 6
 6
+<Golduck: Lvl 13>
+500.5
+50
+52
+48
+65
+50
+55
 1
 Water Sport
 1
@@ -2633,6 +3065,14 @@ Medium
 15
 7
 10
+<None>
+500.5
+80
+82
+78
+95
+80
+85
 1
 Me First
 1
@@ -2692,6 +3132,14 @@ Tiny
 10
 7
 6
+<Primeape: Lvl 11>
+500.5
+40
+80
+35
+35
+45
+70
 1
 Covet
 1
@@ -2751,6 +3199,14 @@ Small
 13
 8
 8
+<None>
+500.5
+65
+105
+60
+60
+70
+95
 1
 Rage
 1
@@ -2814,6 +3270,14 @@ Small
 11
 6
 6
+<Arcanine: Fire Stone>
+750.25
+55
+70
+45
+70
+50
+60
 1
 Bite
 1
@@ -2869,6 +3333,14 @@ Medium
 15
 8
 10
+<None>
+750.25
+90
+110
+80
+100
+80
+95
 1
 Thunder Fang
 1
@@ -2900,6 +3372,14 @@ Small
 11
 8
 6
+<Poliwhirl: Lvl 10>
+500.5
+40
+50
+40
+40
+40
+90
 1
 Water Sport
 2
@@ -2947,6 +3427,14 @@ Small
 13
 8
 8
+<Poliwrath: Water Stone><Politoed: King's Rock>
+500.5
+65
+65
+65
+50
+50
+90
 1
 Water Sport
 1
@@ -2996,6 +3484,14 @@ Medium
 17
 7
 10
+<None>
+500.5
+90
+95
+95
+70
+90
+70
 1
 Submission
 1
@@ -3033,6 +3529,14 @@ Small
 10
 8
 4
+<Kadabra: Lvl 7>
+750.25
+25
+20
+15
+105
+55
+90
 1
 Teleport
 7
@@ -3056,6 +3560,14 @@ Medium
 12
 8
 6
+<Alakazam: Trade>
+750.25
+40
+35
+30
+120
+70
+105
 1
 Kinesis
 1
@@ -3109,6 +3621,14 @@ Medium
 14
 9
 6
+<None>
+750.25
+55
+50
+45
+135
+95
+120
 1
 Kinesis
 1
@@ -3162,6 +3682,14 @@ Small
 11
 5
 8
+<Machoke: Lvl 11>
+750.25
+70
+80
+50
+35
+35
+35
 1
 Low Kick
 1
@@ -3217,6 +3745,14 @@ Medium
 13
 5
 10
+<Machamp: Trade>
+750.25
+80
+100
+70
+50
+60
+45
 1
 Low Kick
 1
@@ -3274,6 +3810,14 @@ Medium
 15
 6
 10
+<None>
+750.25
+90
+130
+80
+65
+85
+55
 1
 Strength
 1
@@ -3337,6 +3881,14 @@ Small
 10
 5
 6
+<Weepinbell: Lvl 9>
+500.5
+50
+75
+35
+70
+30
+40
 1
 Vine Whip
 3
@@ -3386,6 +3938,14 @@ Small
 11
 6
 8
+<Victreebel: Leaf Stone>
+500.5
+65
+90
+50
+85
+45
+55
 1
 Vine Whip
 1
@@ -3437,6 +3997,14 @@ Medium
 14
 7
 10
+<None>
+500.5
+80
+105
+65
+100
+70
+70
 1
 Leaf Tornado
 1
@@ -3478,6 +4046,14 @@ Small
 14
 7
 6
+<Tentacruel: Lvl 12>
+500.5
+40
+40
+35
+50
+100
+70
 1
 Poison Sting
 2
@@ -3533,6 +4109,14 @@ Medium
 17
 8
 10
+<None>
+500.5
+80
+70
+65
+80
+120
+100
 1
 Reflect Type
 1
@@ -3596,6 +4180,14 @@ Tiny
 14
 4
 6
+<Graveler: Lvl 10>
+500.5
+40
+80
+100
+30
+30
+20
 1
 Tackle
 1
@@ -3649,6 +4241,14 @@ Small
 15
 5
 6
+<Golem: Trade>
+500.5
+55
+95
+115
+45
+45
+35
 1
 Tackle
 1
@@ -3704,6 +4304,14 @@ Medium
 17
 5
 10
+<None>
+500.5
+80
+120
+130
+55
+65
+45
 1
 Heavy Slam
 1
@@ -3763,6 +4371,14 @@ Small
 13
 8
 6
+<Rapidash: Lvl 16>
+500.5
+50
+85
+55
+65
+65
+90
 1
 Growl
 1
@@ -3812,6 +4428,14 @@ Medium
 14
 8
 8
+<None>
+500.5
+65
+100
+70
+80
+80
+105
 1
 Fury Attack
 1
@@ -3871,6 +4495,14 @@ Small
 12
 4
 10
+<Slowbro: Lvl 15><Slowking: King's Rock>
+500.5
+90
+65
+65
+40
+40
+15
 1
 Curse
 1
@@ -3924,6 +4556,14 @@ Medium
 17
 5
 10
+<None>
+500.5
+95
+75
+110
+100
+80
+30
 1
 Withdraw
 1
@@ -3983,6 +4623,14 @@ Tiny
 13
 5
 4
+<Magneton: Lvl 12>
+0
+25
+35
+70
+95
+55
+45
 1
 Supersonic
 1
@@ -4040,6 +4688,14 @@ Small
 15
 7
 6
+<Magnezone: Special Magnetic Field>
+0
+50
+60
+95
+120
+70
+70
 1
 Tri Attack at Evo.
 1
@@ -4107,6 +4763,14 @@ Small
 12
 6
 6
+<None>
+500.5
+52
+90
+55
+58
+62
+60
 1
 Brave Bird
 1
@@ -4164,6 +4828,14 @@ Medium
 10
 7
 4
+<Dodrio: Lvl 13>
+500.5
+35
+85
+45
+35
+35
+75
 1
 Peck
 1
@@ -4217,6 +4889,14 @@ Medium
 13
 9
 8
+<None>
+500.5
+60
+110
+70
+60
+60
+110
 1
 Tri Attack
 1
@@ -4276,6 +4956,14 @@ Small
 13
 5
 8
+<Dewgong: Lvl 14>
+500.5
+65
+45
+55
+45
+70
+45
 1
 Headbutt
 1
@@ -4331,6 +5019,14 @@ Medium
 16
 7
 10
+<None>
+500.5
+90
+70
+80
+70
+95
+70
 1
 Sheer Cold
 1
@@ -4394,6 +5090,14 @@ Small
 12
 4
 10
+<Muk: Lvl 15>
+500.5
+80
+80
+50
+40
+50
+25
 1
 Pound
 1
@@ -4447,6 +5151,14 @@ Small
 16
 6
 12
+<None>
+500.5
+105
+105
+75
+65
+100
+50
 1
 Venom Drench
 1
@@ -4506,6 +5218,14 @@ Tiny
 13
 5
 4
+<Cloyster: Water Stone>
+500.5
+30
+65
+100
+45
+25
+40
 1
 Tackle
 1
@@ -4559,6 +5279,14 @@ Medium
 19
 7
 6
+<None>
+500.5
+50
+95
+180
+85
+45
+70
 1
 Hydro Pump
 1
@@ -4586,7 +5314,7 @@ Gastly
 92
 Ghost/Poison
 Levitate
-N/A
+None
 51
 0.2
 Medium
@@ -4598,6 +5326,14 @@ Medium
 10
 7
 4
+<Haunter: Lvl 10>
+500.5
+30
+35
+30
+100
+35
+80
 1
 Hypnosis
 2
@@ -4635,7 +5371,7 @@ Haunter
 93
 Ghost/Poison
 Levitate
-N/A
+None
 63
 0.2
 Medium
@@ -4647,6 +5383,14 @@ Medium
 11
 8
 6
+<Gengar: Trade>
+500.5
+45
+50
+45
+115
+55
+95
 1
 Shadow Punch
 1
@@ -4690,7 +5434,7 @@ Gengar
 94
 Ghost/Poison
 Cursed Body
-N/A
+None
 59
 89.3
 Medium
@@ -4702,6 +5446,14 @@ Medium
 14
 9
 8
+<None>
+500.5
+60
+65
+60
+130
+75
+110
 1
 Shadow Punch
 1
@@ -4757,6 +5509,14 @@ Huge
 18
 7
 4
+<Steelix: Metal Coat>
+500.5
+35
+45
+160
+30
+45
+70
 1
 Mud Sport
 1
@@ -4820,6 +5580,14 @@ Small
 14
 5
 8
+<Hypno: Lvl 11>
+500.5
+60
+48
+45
+43
+90
+42
 1
 Hypnosis
 1
@@ -4875,6 +5643,14 @@ Medium
 16
 6
 10
+<None>
+500.5
+85
+73
+70
+73
+115
+67
 1
 Confusion
 1
@@ -4940,6 +5716,14 @@ Tiny
 13
 6
 4
+<Kingler: Lvl 11>
+500.5
+30
+105
+90
+25
+25
+50
 1
 Mud Sport
 1
@@ -4991,6 +5775,14 @@ Medium
 15
 7
 6
+<None>
+500.5
+55
+130
+115
+50
+50
+75
 1
 Wide Guard
 1
@@ -5046,6 +5838,14 @@ Tiny
 12
 8
 6
+<Electrode: Lvl 12>
+0
+40
+30
+50
+55
+55
+100
 1
 Charge
 1
@@ -5101,6 +5901,14 @@ Small
 14
 11
 8
+<None>
+0
+60
+50
+70
+80
+80
+150
 1
 Magnetic Flux
 1
@@ -5160,6 +5968,14 @@ Tiny
 13
 5
 8
+<Exeggutor: Leaf Stone>
+500.5
+60
+40
+80
+60
+45
+40
 1
 Barrage
 1
@@ -5209,6 +6025,14 @@ Medium
 15
 6
 10
+<None>
+500.5
+95
+95
+85
+125
+75
+55
 1
 Stomp
 1
@@ -5248,6 +6072,14 @@ Tiny
 14
 5
 6
+<Marowak: Lvl 11>
+500.5
+50
+50
+95
+40
+50
+35
 1
 Growl
 1
@@ -5301,6 +6133,14 @@ Small
 17
 5
 8
+<None>
+500.5
+60
+80
+110
+50
+80
+45
 1
 Growl
 1
@@ -5358,6 +6198,14 @@ Medium
 15
 7
 6
+<None>
+1
+50
+120
+53
+35
+110
+87
 1
 Double Kick
 1
@@ -5425,6 +6273,14 @@ Medium
 17
 7
 6
+<None>
+1
+50
+105
+79
+35
+110
+76
 1
 Comet Punch
 1
@@ -5492,6 +6348,14 @@ Small
 15
 5
 10
+<Lickilicky: Knows Rollout>
+500.5
+90
+55
+75
+60
+75
+30
 1
 Lick
 2
@@ -5529,7 +6393,7 @@ Koffing
 109
 Poison
 Levitate
-N/A
+None
 24
 2.2
 Small
@@ -5541,6 +6405,14 @@ Small
 14
 5
 6
+<Weezing: Lvl 14>
+500.5
+40
+65
+95
+60
+45
+35
 1
 Poison Gas
 1
@@ -5580,7 +6452,7 @@ Weezing
 110
 Poison
 Levitate
-N/A
+None
 47
 20.9
 Small
@@ -5592,6 +6464,14 @@ Small
 17
 6
 8
+<None>
+500.5
+65
+90
+120
+85
+70
+60
 1
 Double Hit
 1
@@ -5649,6 +6529,14 @@ Small
 13
 4
 10
+<Rhydon: Lvl 17>
+500.5
+80
+85
+95
+30
+30
+25
 1
 Horn Attack
 1
@@ -5704,6 +6592,14 @@ Medium
 15
 5
 12
+<Rhyperior: Protector>
+500.5
+105
+130
+120
+45
+45
+40
 1
 Hammer Arm
 1
@@ -5763,6 +6659,14 @@ Small
 12
 6
 3
+<Blissey: Friendship>
+-1
+250
+5
+5
+35
+105
+50
 1
 Defense curl
 1
@@ -5818,6 +6722,14 @@ Small
 15
 6
 8
+<Tangrowth: Ancient Power>
+500.5
+65
+55
+115
+100
+40
+60
 1
 Ingrain
 1
@@ -5875,6 +6787,14 @@ Medium
 15
 8
 12
+<None>
+-1
+105
+95
+80
+40
+80
+90
 1
 Comet Punch
 1
@@ -5924,6 +6844,14 @@ Tiny
 11
 6
 4
+<Seadra: Lvl 13>
+500.5
+30
+40
+70
+70
+25
+60
 1
 Bubble
 2
@@ -5969,6 +6897,14 @@ Small
 14
 7
 6
+<Kingdra: Dragon Scale>
+500.5
+55
+65
+95
+95
+45
+85
 1
 Hydro Pump
 1
@@ -6020,6 +6956,14 @@ Small
 12
 6
 6
+<Seaking: Lvl 13>
+500.5
+45
+67
+60
+35
+50
+63
 1
 Peck
 1
@@ -6069,6 +7013,14 @@ Medium
 14
 6
 10
+<None>
+500.5
+80
+92
+65
+65
+80
+68
 1
 Megahorn
 1
@@ -6122,6 +7074,14 @@ Small
 12
 7
 4
+<Starmie: Water Stone>
+0
+30
+45
+55
+70
+55
+85
 1
 Tackle
 1
@@ -6179,6 +7139,14 @@ Small
 16
 9
 8
+<None>
+0
+60
+75
+85
+100
+85
+115
 1
 Hydro Pump
 1
@@ -6212,6 +7180,14 @@ Medium
 17
 8
 6
+<None>
+500.5
+40
+45
+65
+100
+120
+90
 1
 Barrier
 1
@@ -6281,6 +7257,14 @@ Medium
 15
 8
 8
+<Scizor: Metal Coat>
+500.5
+70
+110
+80
+55
+80
+105
 1
 Vacuum Wave
 1
@@ -6336,6 +7320,14 @@ Medium
 13
 8
 8
+<None>
+-1
+65
+50
+35
+115
+95
+95
 1
 Draining Kiss
 1
@@ -6395,6 +7387,14 @@ Small
 14
 8
 8
+<Electivire: Electirizer>
+750.25
+65
+83
+57
+95
+85
+105
 1
 Quick Attack
 1
@@ -6444,6 +7444,14 @@ Medium
 14
 8
 8
+<Magmortar: Magmarizer>
+750.25
+65
+95
+57
+100
+85
+93
 1
 Smog
 1
@@ -6493,6 +7501,14 @@ Colossal
 16
 7
 8
+<None>
+500.5
+65
+125
+100
+55
+70
+85
 1
 Vice Grip
 1
@@ -6544,6 +7560,14 @@ Medium
 15
 9
 8
+<None>
+1
+75
+100
+95
+40
+70
+110
 1
 Tackle
 1
@@ -6593,6 +7617,14 @@ Small
 10
 7
 4
+<Gyarados: Lvl 8>
+500.5
+20
+10
+55
+15
+20
+80
 1
 Splash
 6
@@ -6620,6 +7652,14 @@ Huge
 16
 7
 10
+<None>
+500.5
+95
+125
+79
+60
+100
+81
 1
 Bite
 1
@@ -6669,6 +7709,14 @@ Large
 16
 6
 1
+<None>
+500.5
+130
+85
+80
+85
+95
+60
 1
 Sing
 1
@@ -6718,6 +7766,14 @@ Tiny
 12
 5
 6
+<None>
+0
+48
+48
+48
+48
+48
+48
 1
 Transform
 0
@@ -6739,6 +7795,14 @@ Tiny
 13
 6
 6
+<Vaporeon: Water Stone><Jolteon: Thunder Stone><Flareon: Fire Stone><Espeon: Friendship during day><Umbreon: Friendship during night><Leafeon: Moss Rock><Glaceon: Ice Rock><Sylveon: Fairy-type move>
+875.125
+55
+55
+50
+45
+65
+55
 1
 Covet
 1
@@ -6792,6 +7856,14 @@ Small
 15
 6
 1
+<None>
+875.125
+130
+65
+60
+110
+95
+65
 1
 Water Gun
 1
@@ -6843,6 +7915,14 @@ Small
 15
 10
 8
+<None>
+875.125
+65
+65
+60
+110
+95
+130
 1
 Thunder Shock
 1
@@ -6894,6 +7974,14 @@ Small
 16
 6
 8
+<None>
+875.125
+65
+130
+60
+95
+110
+65
 1
 Ember
 1
@@ -6945,6 +8033,14 @@ Small
 14
 5
 8
+<Porygon2: Up-Grade>
+0
+65
+60
+70
+85
+75
+40
 1
 Tackle
 1
@@ -6994,6 +8090,14 @@ Tiny
 15
 5
 4
+<Omastar: Lvl 16>
+875.125
+35
+40
+100
+90
+55
+35
 1
 Constrict
 1
@@ -7043,6 +8147,14 @@ Small
 17
 6
 8
+<None>
+875.125
+70
+60
+125
+115
+70
+55
 1
 Spike Cannon
 1
@@ -7098,6 +8210,14 @@ Tiny
 14
 6
 4
+<Kabutops: Lvl 16>
+875.125
+30
+80
+90
+55
+45
+55
 1
 Scratch
 1
@@ -7143,6 +8263,14 @@ Medium
 16
 7
 8
+<None>
+875.125
+60
+115
+105
+65
+70
+80
 1
 Slash
 1
@@ -7200,6 +8328,14 @@ Medium
 14
 10
 10
+<None>
+875.125
+80
+105
+65
+60
+75
+130
 1
 Iron Head
 1
@@ -7255,6 +8391,14 @@ Medium
 16
 5
 2
+<None>
+875.125
+160
+110
+65
+65
+110
+30
 1
 Tackle
 2
@@ -7308,6 +8452,14 @@ Medium
 19
 7
 10
+<None>
+0
+90
+85
+100
+95
+125
+85
 1
 Gust
 1
@@ -7359,6 +8511,14 @@ Medium
 16
 8
 10
+<None>
+0
+90
+90
+85
+125
+90
+100
 1
 Peck
 1
@@ -7410,6 +8570,14 @@ Medium
 16
 8
 10
+<None>
+0
+90
+100
+90
+125
+85
+90
 1
 Wing Attack
 1
@@ -7461,6 +8629,14 @@ Medium
 11
 6
 6
+<Dragonair: Lvl 12>
+500.5
+41
+64
+45
+50
+50
+50
 1
 Wrap
 1
@@ -7510,6 +8686,14 @@ Large
 14
 7
 8
+<Dragonite: Lvl 21>
+500.5
+61
+84
+65
+70
+70
+70
 1
 Wrap
 1
@@ -7563,6 +8747,14 @@ Medium
 17
 7
 10
+<None>
+500.5
+91
+134
+95
+100
+100
+80
 1
 Wing Attack
 1
@@ -7628,6 +8820,14 @@ Medium
 17
 10
 12
+<None>
+0
+106
+110
+90
+154
+90
+130
 1
 Laser Focus
 1
@@ -7675,7 +8875,7 @@ Mew
 151
 Psychic
 Synchronize
-N/A
+None
 16
 8.8
 Tiny
@@ -7687,6 +8887,14 @@ Tiny
 18
 8
 12
+<None>
+0
+100
+100
+100
+100
+100
+100
 1
 Pound
 1
@@ -7732,6 +8940,14 @@ Tiny
 11
 5
 6
+<Ariados: Lvl 9>
+500.5
+40
+60
+40
+40
+40
+30
 1
 Poison Sting
 1
@@ -7789,6 +9005,14 @@ Small
 14
 5
 8
+<None>
+500.5
+70
+90
+70
+60
+70
+40
 1
 Swords Dance
 1
@@ -7858,6 +9082,14 @@ Tiny
 10
 4
 6
+<Quagsire: Lvl 8>
+500.5
+55
+45
+45
+25
+25
+15
 1
 Water Gun
 1
@@ -7893,7 +9125,7 @@ Misdreavus
 200
 Ghost
 Levitate
-N/A
+None
 28
 2.2
 Small
@@ -7905,6 +9137,14 @@ Small
 14
 7
 8
+<Mismagius: Dusk Stone>
+500.5
+60
+60
+60
+85
+85
+85
 1
 Growl
 1
@@ -7952,6 +9192,14 @@ Small
 11
 6
 4
+<Gardevoir: Lvl 12><Gallade: Male and Dawn Stone>
+500.5
+38
+35
+35
+65
+55
+50
 1
 Growl
 1
@@ -8013,6 +9261,14 @@ Small
 14
 6
 6
+<None>
+500.5
+50
+85
+85
+55
+55
+50
 1
 Play Rough
 1
@@ -8072,6 +9328,14 @@ Tiny
 14
 5
 6
+<Lairon: Lvl 13>
+500.5
+50
+70
+100
+40
+40
+30
 1
 Tackle
 1
@@ -8129,6 +9393,14 @@ Tiny
 11
 7
 8
+<Swoobat: Friendship>
+500.5
+65
+45
+43
+55
+43
+72
 1
 Confusion
 2
@@ -8176,6 +9448,14 @@ Tiny
 11
 6
 8
+<Excadrill: Lvl 13>
+500.5
+60
+85
+40
+30
+45
+68
 1
 Scratch
 1
@@ -8227,6 +9507,14 @@ Tiny
 12
 6
 4
+<Whirlipede: Lvl 9>
+500.5
+30
+45
+59
+30
+39
+57
 1
 Defense Curl
 1
@@ -8278,6 +9566,14 @@ Dimunitive
 11
 4
 8
+<Amoonguss: Lvl 16>
+500.5
+69
+55
+45
+55
+55
+15
 1
 Absorb
 3
@@ -8329,6 +9625,14 @@ Small
 12
 6
 6
+<Fraxure: Lvl 15>
+500.5
+46
+87
+60
+30
+40
+57
 1
 Scratch
 2
@@ -8382,6 +9686,14 @@ Small
 12
 5
 6
+<Golurk: Lvl 17>
+0
+59
+74
+50
+35
+50
+35
 1
 Pound
 1
@@ -8435,6 +9747,14 @@ Tiny
 15
 8
 6
+<None>
+500.5
+58
+109
+112
+48
+48
+109
 1
 Metal Sound
 1
@@ -8488,6 +9808,14 @@ Tiny
 10
 6
 4
+<Diggersby: Lvl 8>
+500.5
+38
+36
+38
+32
+36
+57
 1
 Tackle
 1
@@ -8541,6 +9869,14 @@ Tiny
 10
 6
 6
+<Fletchinder: Lvl 7>
+500.5
+45
+50
+43
+40
+38
+62
 1
 Tackle
 1
@@ -8590,6 +9926,14 @@ Small
 14
 9
 8
+<None>
+500.5
+78
+92
+75
+74
+63
+118
 1
 Detect
 1
@@ -8643,6 +9987,14 @@ Tiny
 11
 6
 6
+<Lycanroc: Lvl 10>
+500.5
+45
+65
+40
+30
+40
+60
 1
 Tackle
 1
@@ -8694,6 +10046,14 @@ Medium
 13
 8
 6
+<Artemis: Lvl 8>
+400.6
+50
+65
+55
+85
+65
+90
 1
 Tackle
 1
@@ -8743,6 +10103,14 @@ Medium
 14
 8
 6
+<Phoebe: Lvl 16>
+400.6
+57
+72
+62
+92
+72
+97
 1
 Tackle
 1
@@ -8780,7 +10148,7 @@ Moonblast
 0
 
 $
-Unnamed1
+Phoebe
 10003
 Fairy/Flying
 Magic Guard
@@ -8796,6 +10164,14 @@ Medium
 14
 8
 8
+<None>
+400.6
+65
+80
+70
+100
+80
+105
 1
 Tackle
 1

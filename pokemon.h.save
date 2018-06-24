@@ -33,7 +33,6 @@
 #define POKEMON_H
 
 #include <iostream>
-#include <iomanip>
 #include <string>
 #include <cstdlib>
 #include <ctime>
@@ -80,15 +79,7 @@ class Pokemon{
 		//int arrSize;
 		int numMoves;
 
-		//base stats
-		int hp;
-		int attack;
-		int defense;
-		int spAttack;
-		int spDefense;
-		int spd;
-
-		//Base ability scores
+		//Base stats
 		int hitDie;
 		int strength;
 		int dexterity;
@@ -164,13 +155,7 @@ void Pokemon::outputFile(std::ostream& fout){ // "$" signals a new pokemon
 		 << speed << std::endl
 		 << hitDie << std::endl
 		 << evolution << std::endl
-		 << genderRatio << std::endl
-		 << hp << std::endl
-		 << attack << std::endl
-		 << defense << std::endl
-		 << spAttack << std::endl
-		 << spDefense << std::endl
-		 << spd << std::endl;
+		 << genderRatio << std::endl;
 
 	for(int i = 0; i <= numMoves; i++)
 		fout << moves[i].level << std::endl << moves[i].name << std::endl;
@@ -211,14 +196,6 @@ void Pokemon::inputFile(std::istream& fin){
 
 		getline(fin, evolution);
 		fin >> genderRatio;
-
-		fin >> hp;
-		fin >> attack;
-		fin >> defense;
-		fin >> spAttack;
-		fin >> spDefense;
-		fin >> spd;
-
 		addMoves(fin);
 }
 
@@ -229,15 +206,6 @@ int Pokemon::generate(const int& lvl){
 	if(lvl > 30 || lvl < 1){
 		std::cout << "ERROR: in GENERATE funtion\n\tinvalid lvl value\n";
 		return -1;
-	}
-
-//**Ability**//
-	if(ability.find("/") != std::string::npos){
-		int pos = ability.find("/");
-		int die = rand() % 2;
-
-		if(die == 0) ability = ability.substr(0, pos);
-		else ability = ability.substr(pos + 1);
 	}
 
 //**Size change**//
@@ -283,9 +251,6 @@ int Pokemon::generate(const int& lvl){
 		else size = "Colossal(Xtra)";
 	}
 
-	//Rounding Weight
-	weight = int((weight*10) + 0.5);
-	weight /= 10;
 
 //*******generating HP*//
 	if(hitDie == 1)
@@ -465,10 +430,8 @@ int Pokemon::generate(const int& lvl){
 	}
 
 	if(genderRatio == 0.0) gender = 'X';
-	else if(genderRatio == 1) gender = 'M';
-	else if(genderRatio == -1) gender = 'F';
 	else{
-		die = (rand() % 1000) + 1;
+		die = (rand() % 100) + 1;
 		if(die < (int)genderRatio) gender = 'M';
 		else if(die > (int)genderRatio) gender = 'F';
 		else{
@@ -576,39 +539,18 @@ void Pokemon::outputBase(std::ostream& outs){
 		 << "Hidden Ability: " << hiddenAbility << std::endl
 		 << "Height: " << height / 12 << "'" << height % 12 << "\"" << std::endl
 		 << "Weight: " << weight << " lbs" << std::endl
-		 << "Size: " << size << std::endl;
+		 << "Size: " << size << std::endl
+		 << "Gender Ratio: " << genderRatio << std::endl << std::endl
 
-		if(genderRatio == 0) outs << "Gender Ratio: Genderless\n\n";
-		if(genderRatio == 1) outs << "Gender Ratio: 100% Male, 0% Female\n\n";
-		else if(genderRatio == -1) outs << "Gender Ratio: 0% Male, 100% Female\n\n";
-		else{
-			double genderR = int(genderRatio);
-			genderR /= 10;
-			outs << "Gender Ratio: " << genderR << "% Male, ";
-			genderR = genderRatio - int(genderRatio);
-			genderR *= 100;
-			outs << genderR << "% Female\n\n";
-		}
-
-		std::string evo = evolution;
-		int pos = evo.find(">");
-		outs << "Evolution\n" << evo.substr(1, pos-1) << std::endl;
-		evo = evo.substr(pos+1);
-		while (evo.length() > 0){
-			pos = evo.find(">");
-			outs << evo.substr(1, pos-1) << std::endl;
-			evo = evo.substr(pos+1);
-		}
-		outs << std::endl;
-
-		outs << "Strength: " << strength << std::endl
+		 << "Strength: " << strength << std::endl
 		 << "Dexterity: " << dexterity << std::endl
 		 << "Intelligence: " << intelligence << std::endl
 		 << "Constitution: " << constitution << std::endl
 		 << "Charsima: " << charisma << std::endl
 		 << "Wisdom: " << wisdom << std::endl << std::endl
 
-		 << "Movement Speed: " << speed << std::endl;
+		 << "Movement Speed: " << speed << std::endl
+		 << "Evolution: " << evolution << std::endl << std::endl;
 
 	if(hitDie == 1 || hitDie == 2 || hitDie == 3)
 		outs << "Hit Die: 1d12 + " << hitDie << std::endl << std::endl;
@@ -616,12 +558,9 @@ void Pokemon::outputBase(std::ostream& outs){
 	else if(hitDie > 3 && hitDie < 13)
 		outs << "Hit Die: 1d" << hitDie << std::endl << std::endl;
 
-	outs << "Moves\nLvl:    Name:\n";
-	for(int i = 0; i <= numMoves; i++){
-		outs << moves[i].level;
-		if(moves[i].level < 10) outs << " ";
-		outs << " ---- " << moves[i].name << std::endl;
-	}
+	outs << "Moves\nLvl:   Name:\n";
+	for(int i = 0; i <= numMoves; i++)
+		outs << moves[i].level << " ---- " << moves[i].name << std::endl;
 	outs << "--------------------\n";
 	outs << std::endl << std::endl;
 }
@@ -629,33 +568,22 @@ void Pokemon::outputBase(std::ostream& outs){
 void Pokemon::outputAll(std::ostream& outs){
 	outs << "--------------------\n"
 		 << name << std::endl
-		 << "--------------------\n";
-
-		outs << "Level: " << level << std::endl
-		 << "Catch DC: " << catchDC << std::endl << std::endl
-
+		 << "--------------------\n"
 		 << "Index: " << index << std::endl
 		 << "Type: " << type << std::endl
 		 << "Ability: " << ability << std::endl
-		 << "Hidden Ability: " << hiddenAbility << std::endl
+		 << "Hidden Ability: " << hiddenAbility << std::endl << std::endl
+
+		 << "Nature: " << nature << std::endl
+		 << "Gender: " << gender << std::endl
 		 << "Height: " << height / 12 << "'" << height % 12 << "\"" << std::endl
 		 << "Weight: " << weight << " lbs" << std::endl
 		 << "Size: " << size << std::endl
-		 << "Gender: " << gender << std::endl
-		 << "Nature: " << nature << std::endl << std::endl;
+		 << "Evolution: " << evolution << std::endl
+		 << "Level: " << level << std::endl
+		 << "Catch DC: " << catchDC << std::endl << std::endl
 
-		std::string evo = evolution;
-		int pos = evo.find(">");
-		outs << "Evolution\n" << evo.substr(1, pos-1) << std::endl;
-		evo = evo.substr(pos+1);
-		while (evo.length() > 0){
-			pos = evo.find(">");
-			outs << evo.substr(1,pos-1) << std::endl;
-			evo = evo.substr(pos+1);
-		}
-		outs << std::endl;
-
-		outs << "Strength: " << strength << std::endl
+		 << "Strength: " << strength << std::endl
 		 << "Dexterity: " << dexterity << std::endl
 		 << "Intelligence: " << intelligence << std::endl
 		 << "Constitution: " << constitution << std::endl
@@ -664,26 +592,24 @@ void Pokemon::outputAll(std::ostream& outs){
 
 		 << "AC: " << AC << std::endl
 		 << "Fortitude: " << fortitude << std::endl
-		 << "Will: " << will << std::endl
-		 << "Movement Speed: " << speed << std::endl;
+		 << "Will: " << will << std::endl << std::endl
+
+		 << "Movement Speed: " << speed << std::endl << std::endl;
 
 	if(hitDie == 1 || hitDie == 2 || hitDie == 3)
 		outs << "Hit Die: 1d12 + " << hitDie << std::endl
-			 << "HP: " << HP << std::endl << std::endl;
+			 << "HP: " << HP << std::endl;
 	else if(hitDie > 3 && hitDie < 13)
 		outs << "Hit Die: 1d" << hitDie << std::endl
 			 << "HP: " << HP << std::endl << std::endl;
 	else{
-		std::cout << "ERROR: in OUTPUTALL funtion\n\tinvalid hitDie value\n";
+		std::cout << "ERROR: in GENERATE funtion\n\tinvalid hitDie value\n";
 		return;
 	}
 
-	outs << "Moves\nLvl:    Name:\n";
-	for(int i = 0; i <= numMoves; i++){
-		outs << moves[i].level;
-		if(moves[i].level < 10) outs << " ";
-		outs << " ---- " << moves[i].name << std::endl;
-	}
+	outs << "Moves\nLvl:   Name:\n";
+	for(int i = 0; i <= numMoves; i++)
+		outs << moves[i].level << " ---- " << moves[i].name << std::endl;
 	outs << "--------------------\n";
 	outs << std::endl;
 }
@@ -714,13 +640,16 @@ int Pokemon::inputBase(){
 	getline(std::cin, hiddenAbility);
 
 	int tmp;
-	std::cout << "Height(5 4 = 5'4\"): ";
+	std::cout << "(5 4 = 5'4\")Height: ";
 	std::cin >> tmp >> height;
 	tmp = tmp * 12;
 	height += tmp;
 
 	std::cout << "Weight: ";
 	std::cin >> weight;
+
+	std::cout << "Gender Ratio: ";
+	std::cin >> genderRatio;
 
 	if(height < 6) size = "Fine";
 	else if(height < 12) size = "Dimunitive";
@@ -735,127 +664,47 @@ int Pokemon::inputBase(){
 	std::cin.clear();
 	std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 
-//	std::cout << "Input gender ratio for " << name << " in the following format: 50.50\n > ";
-	std::cout << "Gender ratio(ex. 875.125)\n"
-		<< "(0 for genderless, 1 for all male, and -1 for all female): ";
-	std::cin >> genderRatio;
-
-	std::cin.clear();
-	std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-
-	evolution = "";
-	std::string evolutionTemp;
-	int levelTemp;
-	char inputTemp;
-
-	bool doneTemp = false;
-	while(!doneTemp){
-        	std::cout << "Is this a level based evolution?(y/n): ";
-        	std::cin >> inputTemp;
-        	if(inputTemp == 'y'){
-
-			std::cin.clear();
-			std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-
-                	std::cout << "Input evolution: ";
-                	getline(std::cin, evolutionTemp);
-			std::cout << "Input level: ";
-			std::cin >> levelTemp;
-
-			if(levelTemp < 4) levelTemp = 1;
-			else if(levelTemp < 6) levelTemp = 2;
-			else if(levelTemp < 9) levelTemp = 3;
-			else if(levelTemp < 11) levelTemp = 4;
-			else if(levelTemp < 14) levelTemp = 5;
-			else if(levelTemp < 16) levelTemp = 6;
-			else if(levelTemp < 19) levelTemp = 7;
-			else if(levelTemp < 21) levelTemp = 8;
-			else if(levelTemp < 24) levelTemp = 9;
-			else if(levelTemp < 26) levelTemp = 10;
-			else if(levelTemp < 29) levelTemp = 11;
-			else if(levelTemp < 31) levelTemp = 12;
-			else if(levelTemp < 34) levelTemp = 13;
-			else if(levelTemp < 36) levelTemp = 14;
-			else if(levelTemp < 39) levelTemp = 15;
-			else if(levelTemp < 41) levelTemp = 16;
-			else if(levelTemp < 44) levelTemp = 17;
-			else if(levelTemp < 46) levelTemp = 18;
-			else if(levelTemp < 49) levelTemp = 19;
-			else if(levelTemp < 51) levelTemp = 20;
-			else if(levelTemp < 56) levelTemp = 21;
-			else if(levelTemp < 61) levelTemp = 22;
-			else if(levelTemp < 66) levelTemp = 23;
-			else if(levelTemp < 71) levelTemp = 24;
-			else if(levelTemp < 76) levelTemp = 25;
-			else if(levelTemp < 81) levelTemp = 26;
-			else if(levelTemp < 86) levelTemp = 27;
-			else if(levelTemp < 91) levelTemp = 28;
-			else if(levelTemp < 96) levelTemp = 29;
-			else if(levelTemp < 101) levelTemp = 30;
-
-			std::stringstream ss;
-			ss << levelTemp;
-
-                        evolution += "<" + evolutionTemp + ": Lvl " + ss.str() + ">";
-        	}
-        	else if(inputTemp == 'n'){
-
-			std::cin.clear();
-			std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-
-	        	std::cout << "Input evolution: ";
-			getline(std::cin, evolutionTemp);
-			evolution += "<" + evolutionTemp + ">";
-		}
-		else std::cout << "Invalid Choice\n\n";
-
-		std::cout << "Are you done with evolutions?(y/n): ";
-		std::cin >> inputTemp;
-		if(inputTemp == 'y') doneTemp = true;
-//		else evolution += " ";
-	}
-
-//	double data;
+	double data;
 
 	//calculating Hit Die
 	std::cout << "\nHP: ";
-	std::cin >> hp;
-	if(hp < 40)
+	std::cin >> data;
+	if(data < 40)
 		hitDie = 4; //1d4
-	else if(hp < 60)
+	else if(data < 60)
 		hitDie = 6; //1d6
-	else if(hp < 80)
+	else if(data < 80)
 		hitDie = 8; //1d8
-	else if(hp < 100)
+	else if(data < 100)
 		hitDie = 10; //1d10
-	else if(hp < 120)
+	else if(data < 120)
 		hitDie = 12; //1d12
-	else if(hp < 160)
+	else if(data < 160)
 		hitDie = 1; //1d12 + 1
-	else if(hp < 200)
+	else if(data < 200)
 		hitDie = 2; //1d12 + 2
 	else
 		hitDie = 3; //1d12 + 3
 
 	//calculating Strength
 	std::cout << "Attack: ";
-	std::cin >> attack;
-	strength = attack * 0.1167 + 6.5;
+	std::cin >> data;
+	strength = data * 0.1167 + 6.5;
 
 	//calculating Dexterity
 	std::cout << "Defense: ";
-	std::cin >> defense;
-	dexterity = defense * 0.1167 + 6.5;
+	std::cin >> data;
+	dexterity = data * 0.1167 + 6.5;
 
 	//calculating Intelligence
 	std::cout << "Special Attack: ";
-	std::cin >> spAttack;
-	intelligence = spAttack * 0.1167 + 6.5;
+	std::cin >> data;
+	intelligence = data * 0.1167 + 6.5;
 
 	//calculating Constitution
 	std::cout << "Special Defense: ";
-	std::cin >> spDefense;
-	constitution = spDefense * 0.1167 + 6.5;
+	std::cin >> data;
+	constitution = data * 0.1167 + 6.5;
 
 	//calculating Charisma
 	charisma = (strength + intelligence) / 2;
@@ -873,8 +722,8 @@ int Pokemon::inputBase(){
 
 	//calculating Movement Speed
 	std::cout << "Speed: ";
-	std::cin >> spd;
-	speed = spd * 0.05 + 3.5;
+	std::cin >> data;
+	speed = data * 0.05 + 3.5;
 	if(speed < 2) speed = 2; //minimum 2 speed
 
 	std::cout << "\nInsert Moves:\nEnter level, then name\n";
@@ -1117,108 +966,22 @@ void Pokemon::temporary(){
 			 << "Movement Speed: " << speed << std::endl << std::endl;
 */
 
-
-
-//	std::cin.clear();
-//	std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-
-	evolution = "";
-	std::string evolutionTemp;
-	int levelTemp;
-	char inputTemp;
-
-	bool doneTemp = false;
-	while(!doneTemp){
-        	std::cout << name << ": Is this a level based evolution?(y/n)\n > ";
-        	std::cin >> inputTemp;
-        	if(inputTemp == 'y'){
-
-			std::cin.clear();
-			std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-
-                	std::cout << "Input evolution\n > ";
-                	getline(std::cin, evolutionTemp);
-			std::cout << "Input level\n > ";
-			std::cin >> levelTemp;
-
-			if(levelTemp < 4) levelTemp = 1;
-			else if(levelTemp < 6) levelTemp = 2;
-			else if(levelTemp < 9) levelTemp = 3;
-			else if(levelTemp < 11) levelTemp = 4;
-			else if(levelTemp < 14) levelTemp = 5;
-			else if(levelTemp < 16) levelTemp = 6;
-			else if(levelTemp < 19) levelTemp = 7;
-			else if(levelTemp < 21) levelTemp = 8;
-			else if(levelTemp < 24) levelTemp = 9;
-			else if(levelTemp < 26) levelTemp = 10;
-			else if(levelTemp < 29) levelTemp = 11;
-			else if(levelTemp < 31) levelTemp = 12;
-			else if(levelTemp < 34) levelTemp = 13;
-			else if(levelTemp < 36) levelTemp = 14;
-			else if(levelTemp < 39) levelTemp = 15;
-			else if(levelTemp < 41) levelTemp = 16;
-			else if(levelTemp < 44) levelTemp = 17;
-			else if(levelTemp < 46) levelTemp = 18;
-			else if(levelTemp < 49) levelTemp = 19;
-			else if(levelTemp < 51) levelTemp = 20;
-			else if(levelTemp < 56) levelTemp = 21;
-			else if(levelTemp < 61) levelTemp = 22;
-			else if(levelTemp < 66) levelTemp = 23;
-			else if(levelTemp < 71) levelTemp = 24;
-			else if(levelTemp < 76) levelTemp = 25;
-			else if(levelTemp < 81) levelTemp = 26;
-			else if(levelTemp < 86) levelTemp = 27;
-			else if(levelTemp < 91) levelTemp = 28;
-			else if(levelTemp < 96) levelTemp = 29;
-			else if(levelTemp < 101) levelTemp = 30;
-
-			std::stringstream ss;
-			ss << levelTemp;
-
-                        evolution += "<" + evolutionTemp + ": Lvl " + ss.str() + ">";
-        	}
-        	else if(inputTemp == 'n'){
-
-			std::cin.clear();
-			std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-
-	        	std::cout << "Input evolution\n > ";
-			getline(std::cin, evolutionTemp);
-			evolution += "<" + evolutionTemp + ">";
-		}
-		else std::cout << "Invalid Choice\n\n";
-
-		std::cout << "Are you done with evolutions?(y/n)\n > ";
-		std::cin >> inputTemp;
-		if(inputTemp == 'y') doneTemp = true;
-//		else evolution += " ";
-	}
-
-	std::cout << "Evolution: " << evolution << std::endl;
-
-	std::cout << "Input gender ratio for " << name << " in the following format: 875.125\n"
-		<< "(0 for genderless, 1 for all male, and -1 for all female)\n > ";
+	std::cout << "Input gender ratio for " << name << " in the following format: 50.50\n > ";
 	std::cin >> genderRatio;
-	std::cout << "Gender ratio: " << genderRatio << std::endl;
+	std::cout << "Gender ratio: " << genderRatio;
 
-	std::cout << "HP: ";
-	std::cin >> hp;
+	std::cin.clear();
+	std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 
-	std::cout << "Attack: ";
-	std::cin >> attack;
+	std::cout << "\n\nInput evolution\n > ";
+	std::cout << "Is this a level based evolution?(y/n)\n > ";
+	std::cin >> char inputTemp;
+	if(inputTemp == 'y'){
+	
+	}
+	else if(inputTemp == 'n') getline(std::cin, evolution);
+	std::cout << "Evolution: " << evolution << std::endl << std::endl;
 
-	std::cout << "Defense: ";
-	std::cin >> defense;
-
-	std::cout << "Special Attack: ";
-	std::cin >> spAttack;
-
-	std::cout << "Special Defense: ";
-	std::cin >> spDefense;
-
-	std::cout << "Speed: ";
-	std::cin >> spd;
-	std::cout << std::endl;
 }
 
 #endif
