@@ -9,6 +9,22 @@ int main(){
 	Pokemon test;
 	list pokedex;
 
+	std::cout << "\033[0;31m"
+		<< "\n        @@@@@@@"
+		<< "\n      @@@@@@@@@@@"
+		<< "\n    @@@@@@@@@@@@@@@"
+		<< "\n   @@@@@@@@@@@@@@@@@"
+		<< "\n  @@@@@@@@@@@@@@@@@@@"
+		<< "\033[0;37m"
+		<< "\n  |||||||[   ]|||||||"
+		<< "\n  |||||||[   ]|||||||"
+		<< "\n  OOOOOOOOOOOOOOOOOOO"
+		<< "\n   OOOOOOOOOOOOOOOOO"
+		<< "\n    OOOOOOOOOOOOOOO"
+		<< "\n      OOOOOOOOOOO"
+		<< "\n        OOOOOOO"
+		<< std::endl;
+
 	std::cout << "\nWelcome to the PokeDnD creation kit v.2\n\n";
 
 	std::ifstream fileInput;
