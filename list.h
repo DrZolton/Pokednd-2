@@ -27,7 +27,7 @@ struct node{
 
 class list{
 	public:
-		void temporary(node*& cursor);
+		int temporary(node*& cursor);
 		void temporary1(node*& cursor);
 		std::string tempAdvance(node*& cursor);
 
@@ -193,13 +193,17 @@ void list::temporary1(node*& cursor){
 	cursor = head;
 }
 
-void list::temporary(node*& cursor){
+int list::temporary(node*& cursor){
 //	node* tmp = head;
 	if(cursor != NULL){
 		cursor -> data.temporary();
 		cursor = cursor -> link;
+		return 0;
 	}
-	else std::cout << "end of list\n";
+	else{
+		std::cout << "end of list\n";
+		return -1;
+	}
 }
 
 

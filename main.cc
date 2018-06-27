@@ -41,7 +41,8 @@ int main(){
 	std::cout << "done\n\n";
 
 //temporary
-/*std::cout << "preparing to add evolution, gender ratios, and base stats\n\n";
+//std::cout << "preparing to add evolution, gender ratios, and base stats\n\n";
+/*std::cout << "Preparing to add sizes\n\n";
 node* cursor;
 pokedex.temporary1(cursor);
 std::string tempName;
@@ -53,17 +54,18 @@ getline(std::cin, tempName);
 while(pokedex.tempAdvance(cursor) != tempName);
 //std::cout << "made it\n" << std::flush;
 while(1){
-	pokedex.temporary(cursor);
-        std::cout << "Saving...";
-        std::ofstream fileOutput;
-        fileOutput.open("pokedex.txt");
-        if(fileOutput.fail()){
-        	std::cout << "\nunable to save to file\n";
-		return 0;
-        }
-        pokedex.fileOutput(fileOutput);
-        fileOutput.close();
-        std::cout << "done\n\n";
+	if(pokedex.temporary(cursor) != -1){
+        	std::cout << "Saving...";
+        	std::ofstream fileOutput;
+        	fileOutput.open("pokedex.txt");
+        	if(fileOutput.fail()){
+        		std::cout << "\nunable to save to file\n";
+			return 0;
+        	}
+        	pokedex.fileOutput(fileOutput);
+        	fileOutput.close();
+        	std::cout << "done\n\n";
+	}
 }*/
 //end temporary
 

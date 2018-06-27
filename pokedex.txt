@@ -6,7 +6,7 @@ Overgrow
 Chlorophyll
 28
 15.2
-Small
+Medium
 12
 12
 14
@@ -61,7 +61,7 @@ Overgrow
 Chlorophyll
 39
 28.7
-Small
+Medium
 13
 13
 15
@@ -120,7 +120,7 @@ Overgrow
 Chlorophyll
 79
 220.5
-Medium
+Large
 16
 16
 18
@@ -238,7 +238,7 @@ Blaze
 Solar Power
 43
 41.9
-Small
+Medium
 13
 13
 15
@@ -291,7 +291,7 @@ Blaze
 Solar Power
 67
 199.5
-Medium
+Large
 16
 15
 19
@@ -362,7 +362,7 @@ Torrent
 Rain Dish
 20
 19.8
-Tiny
+Small
 12
 14
 12
@@ -417,7 +417,7 @@ Torrent
 Rain Dish
 39
 49.6
-Small
+Medium
 13
 15
 14
@@ -476,7 +476,7 @@ Torrent
 Rain Dish
 63
 188.5
-Medium
+Large
 16
 18
 16
@@ -539,7 +539,7 @@ Shield Dust
 Run Away
 12
 6.4
-Tiny
+Small
 10
 10
 8
@@ -572,7 +572,7 @@ Shed Skin
 None
 28
 21.8
-Small
+Medium
 8
 12
 9
@@ -603,7 +603,7 @@ Compound Eyes
 Tinted Lens
 43
 70.5
-Small
+Medium
 11
 12
 17
@@ -666,7 +666,7 @@ Shield Dust
 Run Away
 12
 7.1
-Tiny
+Small
 10
 10
 8
@@ -730,7 +730,7 @@ Swarm
 Sniper
 39
 65
-Small
+Medium
 17
 11
 11
@@ -787,7 +787,7 @@ Keen Eye/Tangled Feet
 Big Pecks
 12
 4
-Tiny
+Small
 11
 11
 10
@@ -842,7 +842,7 @@ Keen Eye/Tangled Feet
 Big Pecks
 43
 66.1
-Small
+Medium
 13
 12
 12
@@ -964,7 +964,7 @@ Run Away/Guts
 Hustle
 12
 7.7
-Tiny
+Small
 13
 10
 9
@@ -1017,7 +1017,7 @@ Run Away/Guts
 Hustle
 28
 40.8
-Small
+Medium
 15
 13
 12
@@ -1078,7 +1078,7 @@ Keen Eye
 Sniper
 12
 4.4
-Tiny
+Small
 13
 10
 10
@@ -1129,7 +1129,7 @@ Keen Eye
 Sniper
 47
 83.8
-Small
+Medium
 17
 14
 13
@@ -1326,7 +1326,7 @@ Static
 Lightning Rod
 16
 13.2
-Tiny
+Small
 12
 11
 12
@@ -1389,7 +1389,7 @@ Static
 Lightning Rod
 31
 66.1
-Small
+Medium
 17
 12
 17
@@ -1485,7 +1485,7 @@ Sand Veil
 Sand Rush
 39
 65
-Small
+Medium
 18
 19
 11
@@ -1554,7 +1554,7 @@ Poison Point/Rivalry
 Hustle
 16
 15.4
-Tiny
+Small
 11
 12
 11
@@ -1607,7 +1607,7 @@ Poison Point/Rivalry
 Hustle
 31
 44.1
-Small
+Medium
 13
 14
 12
@@ -1705,7 +1705,7 @@ Poison Point/Rivalry
 Hustle
 20
 19.8
-Tiny
+Small
 13
 11
 11
@@ -1758,7 +1758,7 @@ Poison Point/Rivalry
 Hustle
 35
 43
-Small
+Medium
 14
 13
 12
@@ -2035,7 +2035,7 @@ Flash Fire
 Drought
 43
 43.9
-Small
+Medium
 15
 15
 15
@@ -2074,7 +2074,7 @@ Cute Charm/Competitive
 Friend Guard
 20
 12.1
-Tiny
+Small
 11
 8
 11
@@ -2139,7 +2139,7 @@ Cute Charm/Competitive
 Frisk
 39
 26.5
-Small
+Medium
 14
 11
 16
@@ -2178,7 +2178,7 @@ Inner Focus
 Infiltrator
 31
 16.5
-Small
+Medium
 11
 10
 10
@@ -2300,7 +2300,7 @@ Chlorophyll
 Run Away
 20
 11.9
-Tiny
+Small
 12
 12
 15
@@ -2359,7 +2359,7 @@ Chlorophyll
 Stench
 31
 19
-Small
+Medium
 14
 14
 16
@@ -2422,7 +2422,7 @@ Chlorophyll
 Effect Spore
 47
 41
-Small
+Medium
 15
 16
 19
@@ -2463,7 +2463,7 @@ Effect Spore/Dry Skin
 Damp
 12
 11.9
-Tiny
+Small
 14
 12
 11
@@ -2514,7 +2514,7 @@ Effect Spore/Dry Skin
 Damp
 39
 65
-Small
+Medium
 17
 15
 13
@@ -2573,7 +2573,7 @@ Compound Eyes/Tinted Lens
 Run Away
 39
 66.1
-Small
+Medium
 12
 12
 11
@@ -2699,7 +2699,7 @@ Sand Veil/Arena Trap
 Sand Force
 8
 1.8
-Dimunitive
+Small
 12
 9
 10
@@ -2754,7 +2754,7 @@ Sand Veil/Arena Trap
 Sand Force
 28
 73.4
-Small
+Medium
 18
 12
 12
@@ -2821,7 +2821,7 @@ Pickup/Technician
 Unnerve
 16
 9.3
-Tiny
+Small
 11
 10
 11
@@ -2878,7 +2878,7 @@ Limber/Technician
 Unnerve
 39
 70.5
-Small
+Medium
 14
 13
 14
@@ -2947,7 +2947,7 @@ Damp/Cloud Nine
 Swift Swim
 31
 43.2
-Small
+Medium
 12
 12
 14
@@ -3073,7 +3073,7 @@ Vital Spirit/Anger Point
 Defiant
 20
 61.7
-Tiny
+Small
 15
 10
 10
@@ -3138,7 +3138,7 @@ Vital Spirit/Anger Point
 Defiant
 39
 70.5
-Small
+Medium
 18
 13
 13
@@ -3209,7 +3209,7 @@ Intimidate/Flash Fire
 Justified
 28
 41.9
-Small
+Medium
 14
 11
 14
@@ -3272,7 +3272,7 @@ Intimidate/Flash Fire
 Justified
 75
 341.7
-Medium
+Large
 19
 15
 18
@@ -3364,7 +3364,7 @@ Water Absorb/Damp
 Swift Swim
 39
 44.1
-Small
+Medium
 14
 14
 12
@@ -3466,7 +3466,7 @@ Synchronize/Inner Focus
 Magic Guard
 35
 43
-Small
+Medium
 8
 8
 18
@@ -3617,7 +3617,7 @@ Guts/No Guard
 Steadfast
 31
 43
-Small
+Medium
 15
 12
 10
@@ -3814,7 +3814,7 @@ Chlorophyll
 Gluttony
 28
 8.8
-Small
+Medium
 15
 10
 14
@@ -3869,7 +3869,7 @@ Chlorophyll
 Gluttony
 39
 14.1
-Small
+Medium
 17
 12
 16
@@ -3928,7 +3928,7 @@ Chlorophyll
 Gluttony
 67
 34.2
-Medium
+Large
 18
 14
 18
@@ -3977,7 +3977,7 @@ Clear Body/Liquid Ooze
 Rain Dish
 35
 100.3
-Small
+Medium
 11
 10
 12
@@ -4109,7 +4109,7 @@ Rock Head/Sturdy
 Sand Veil
 16
 44.1
-Tiny
+Small
 15
 18
 10
@@ -4168,7 +4168,7 @@ Rock Head/Sturdy
 Sand Veil
 39
 231.5
-Small
+Medium
 17
 19
 11
@@ -4298,7 +4298,7 @@ Run Away/Flash Fire
 Flame Body
 39
 66.1
-Small
+Medium
 16
 12
 14
@@ -4353,7 +4353,7 @@ Run Away/Flash Fire
 Flame Body
 67
 209.4
-Medium
+Large
 18
 14
 15
@@ -4420,7 +4420,7 @@ Oblivious/Own Tempo
 Regenerator
 47
 79.4
-Small
+Medium
 14
 14
 11
@@ -4546,7 +4546,7 @@ Magnet Pull/Sturdy
 Analytic
 12
 13.2
-Tiny
+Small
 10
 14
 17
@@ -4609,7 +4609,7 @@ Magnet Pull/Sturdy
 Analytic
 39
 132.3
-Small
+Medium
 13
 17
 20
@@ -4684,7 +4684,7 @@ Keen Eye/Inner Focus
 Defiant
 31
 33.1
-Small
+Medium
 17
 12
 13
@@ -4808,7 +4808,7 @@ Run Away/Early Bird
 Tangled Feet
 71
 187.8
-Medium
+Large
 19
 14
 13
@@ -4875,7 +4875,7 @@ Thick Fat/Hydration
 Ice Body
 43
 198.4
-Small
+Medium
 11
 12
 11
@@ -4936,7 +4936,7 @@ Thick Fat/Hydration
 Ice Body
 67
 264.6
-Medium
+Large
 14
 15
 14
@@ -5007,7 +5007,7 @@ Stench/Sticky Hold
 Poison Touch
 35
 66.1
-Small
+Medium
 15
 12
 11
@@ -5066,7 +5066,7 @@ Stench/Sticky Hold
 Poison Touch
 47
 66.1
-Small
+Medium
 18
 15
 14
@@ -5133,7 +5133,7 @@ Shell Armor/Skill Link
 Overcoat
 12
 8.8
-Tiny
+Small
 14
 18
 11
@@ -5422,7 +5422,7 @@ Rock Head/Sturdy
 Weak Armor
 346
 463
-Huge
+Gargantuan
 11
 25
 10
@@ -5493,7 +5493,7 @@ Insomnia/Forewarn
 Inner Focus
 39
 71.4
-Small
+Medium
 12
 11
 11
@@ -5627,7 +5627,7 @@ Hyper Cutter/Shell Armor
 Sheer Force
 16
 14.3
-Tiny
+Small
 18
 17
 9
@@ -5747,7 +5747,7 @@ Soundproof/Static
 Aftermath
 20
 22.9
-Tiny
+Small
 10
 12
 12
@@ -5808,7 +5808,7 @@ Soundproof/Static
 Aftermath
 47
 146.8
-Small
+Medium
 12
 14
 15
@@ -5875,7 +5875,7 @@ Chlorophyll
 Harvest
 16
 5.5
-Tiny
+Small
 11
 15
 13
@@ -5932,7 +5932,7 @@ Chlorophyll
 Harvest
 79
 264.6
-Medium
+Large
 17
 16
 21
@@ -5979,7 +5979,7 @@ Rock Head/Lightning Rod
 Battle Armor
 16
 14.3
-Tiny
+Small
 12
 17
 11
@@ -6038,7 +6038,7 @@ Rock Head/Lightning Rod
 Battle Armor
 39
 99.2
-Small
+Medium
 15
 19
 12
@@ -6253,7 +6253,7 @@ Own Tempo/Oblivious
 Cloud Nine
 47
 144.4
-Small
+Medium
 12
 15
 13
@@ -6367,7 +6367,7 @@ Levitate
 None
 47
 20.9
-Small
+Medium
 17
 20
 16
@@ -6432,7 +6432,7 @@ Lightning Rod/Rock Head
 Reckless
 39
 253.5
-Small
+Medium
 16
 17
 10
@@ -6493,7 +6493,7 @@ Lightning Rod/Rock Head
 Reckless
 75
 264.6
-Medium
+Large
 21
 20
 11
@@ -6560,7 +6560,7 @@ Natural Cure/Serene Grace
 Healer
 43
 76.3
-Small
+Medium
 7
 7
 10
@@ -6623,7 +6623,7 @@ Chlorophyll/Leaf Guard
 Regenerator
 39
 77.2
-Small
+Medium
 12
 19
 18
@@ -6688,7 +6688,7 @@ Early Bird/Scrappy
 Inner Focus
 87
 176.4
-Medium
+Large
 17
 15
 11
@@ -6745,7 +6745,7 @@ Swift Swim/Sniper
 Damp
 16
 17.6
-Tiny
+Small
 11
 14
 14
@@ -6796,7 +6796,7 @@ Poison Point/Sniper
 Damp
 47
 55.1
-Small
+Medium
 14
 17
 17
@@ -6971,7 +6971,7 @@ Illuminate/Natural Cure
 Analytic
 31
 76.1
-Small
+Medium
 11
 12
 14
@@ -7036,7 +7036,7 @@ Illuminate/Natural Cure
 Analytic
 43
 176.4
-Small
+Medium
 15
 16
 18
@@ -7284,7 +7284,7 @@ Static
 Vital Spirit
 43
 66.1
-Small
+Medium
 16
 13
 17
@@ -7398,7 +7398,7 @@ Hyper Cutter/Mold Breaker
 Moxie
 59
 121.3
-Colossal
+Medium
 21
 18
 12
@@ -7514,7 +7514,7 @@ Swift Swim
 Rattled
 35
 22
-Small
+Medium
 7
 12
 8
@@ -7661,7 +7661,7 @@ Limber
 Imposter
 12
 8.8
-Tiny
+Small
 12
 12
 12
@@ -7690,7 +7690,7 @@ Run Away/Adaptability
 Anticipation
 12
 14.3
-Tiny
+Small
 12
 12
 11
@@ -7751,7 +7751,7 @@ Water Absorb
 Hydration
 39
 63.9
-Small
+Medium
 14
 13
 19
@@ -7810,7 +7810,7 @@ Volt Absorb
 Quick Feet
 31
 54
-Small
+Medium
 14
 13
 19
@@ -7869,7 +7869,7 @@ Flash Fire
 Guts
 35
 55.1
-Small
+Medium
 21
 13
 17
@@ -7928,7 +7928,7 @@ Trace/Download
 Analytic
 31
 80.5
-Small
+Medium
 13
 14
 16
@@ -7985,7 +7985,7 @@ Swift Swim/Shell Armor
 Weak Armor
 16
 16.5
-Tiny
+Small
 11
 18
 17
@@ -8040,7 +8040,7 @@ Swift Swim/Shell Armor
 Weak Armor
 39
 77.2
-Small
+Medium
 13
 21
 19
@@ -8103,7 +8103,7 @@ Swift Swim/Battle Armor
 Weak Armor
 20
 25.4
-Tiny
+Small
 15
 17
 12
@@ -8219,7 +8219,7 @@ Rock Head/Pressure
 Unnerve
 71
 130.1
-Medium
+Large
 18
 14
 13
@@ -8282,7 +8282,7 @@ Immunity/Thick Fat
 Gluttony
 83
 1014.1
-Medium
+Large
 19
 14
 14
@@ -8343,7 +8343,7 @@ Pressure
 Snow Cloak
 67
 122.1
-Medium
+Large
 16
 18
 17
@@ -8402,7 +8402,7 @@ Pressure
 Static
 63
 116
-Medium
+Large
 17
 16
 21
@@ -8461,7 +8461,7 @@ Pressure
 Flame Body
 79
 132.3
-Medium
+Large
 18
 17
 21
@@ -8634,7 +8634,7 @@ Inner Focus
 Multiscale
 87
 463
-Medium
+Large
 22
 17
 18
@@ -8707,7 +8707,7 @@ Pressure
 Unnerve
 79
 269
-Medium
+Large
 19
 17
 24
@@ -8774,7 +8774,7 @@ Synchronize
 None
 16
 8.8
-Tiny
+Small
 18
 18
 18
@@ -8827,7 +8827,7 @@ Overgrow
 Leaf Guard
 35
 14.1
-Small
+Medium
 12
 14
 12
@@ -8882,7 +8882,7 @@ Overgrow
 Leaf Guard
 47
 34.8
-Small
+Medium
 13
 15
 13
@@ -8941,7 +8941,7 @@ Overgrow
 Leaf Guard
 71
 221.6
-Medium
+Large
 16
 18
 16
@@ -9008,7 +9008,7 @@ Blaze
 Flash Fire
 20
 17.4
-Tiny
+Small
 12
 11
 13
@@ -9067,7 +9067,7 @@ Blaze
 Flash Fire
 35
 41.9
-Small
+Medium
 13
 13
 15
@@ -9128,7 +9128,7 @@ Blaze
 Flash Fire
 67
 175.3
-Medium
+Large
 16
 15
 19
@@ -9256,7 +9256,7 @@ Torrent
 Sheer Force
 43
 55.1
-Small
+Medium
 15
 15
 13
@@ -9317,7 +9317,7 @@ Torrent
 Sheer Force
 91
 195.8
-Medium
+Large
 18
 18
 15
@@ -9382,7 +9382,7 @@ Swarm/Insomnia
 Sniper
 20
 18.7
-Tiny
+Small
 13
 11
 11
@@ -9445,7 +9445,7 @@ Swarm/Insomnia
 Sniper
 43
 73.9
-Small
+Medium
 17
 14
 13
@@ -9522,7 +9522,7 @@ Damp/Water Absorb
 Unaware
 16
 18.7
-Tiny
+Small
 11
 11
 9
@@ -9575,7 +9575,7 @@ Levitate
 None
 28
 2.2
-Small
+Medium
 13
 13
 16
@@ -9630,7 +9630,7 @@ Synchronize/Trace
 Telepathy
 31
 44.5
-Small
+Medium
 10
 10
 14
@@ -9764,7 +9764,7 @@ Sturdy/Rock Head
 Heavy Metal
 16
 132.3
-Tiny
+Small
 14
 18
 11
@@ -9827,7 +9827,7 @@ Unaware/Klutz
 Simple
 16
 4.6
-Tiny
+Small
 11
 11
 12
@@ -9882,7 +9882,7 @@ Sand Rush/Sand Force
 Mold Breaker
 12
 18.7
-Tiny
+Small
 16
 11
 10
@@ -9939,7 +9939,7 @@ Poison Point/Swarm
 Speed Boost
 16
 11.7
-Tiny
+Small
 11
 13
 10
@@ -9996,7 +9996,7 @@ Effect Spore
 Regenerator
 8
 2.2
-Dimunitive
+Small
 12
 11
 12
@@ -10112,7 +10112,7 @@ Iron Fist/Klutz
 No Guard
 39
 202.8
-Small
+Medium
 15
 12
 10
@@ -10171,7 +10171,7 @@ Swarm/Hustle
 Truant
 12
 72.8
-Tiny
+Small
 19
 19
 12
@@ -10232,7 +10232,7 @@ Pickup/Cheek Pounch
 Huge Power
 16
 11
-Tiny
+Small
 10
 10
 10
@@ -10291,7 +10291,7 @@ Big Pecks
 Gale Wings
 12
 3.7
-Tiny
+Small
 12
 11
 11
@@ -10346,7 +10346,7 @@ Limber/Unburden
 Mold Breaker
 31
 47.4
-Small
+Medium
 17
 15
 15
@@ -10407,7 +10407,7 @@ Keen Eye/Vital Spirit
 Steadfast
 20
 20.3
-Tiny
+Small
 13
 11
 10
@@ -10519,7 +10519,7 @@ Magic Guard
 Healer
 72
 800
-Medium
+Large
 15
 13
 17
@@ -10578,7 +10578,7 @@ Magic Guard
 Healer
 77
 1100
-Medium
+Large
 15
 14
 18

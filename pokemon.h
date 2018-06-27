@@ -252,15 +252,15 @@ int Pokemon::generate(const int& lvl){
 						* (1.0 + (static_cast<double>(die - 10) / 100.0))
 						* (1.0 + (static_cast<double>(die - 10) / 100.0));
 
-		if(height < 6) size = "Fine";
-		else if(height < 12) size = "Dimunitive";
-		else if(height < 24) size = "Tiny";
-		else if(height < 48) size = "Small";
-		else if(height < 96) size = "Medium";
-		else if(height < 192) size = "Large";
-		else if(height < 384) size = "Huge";
-		else if(height < 768) size = "Gargantuan";
-		else size = "Colossal";
+//		if(height < 6) size = "Fine";
+//		else if(height < 12) size = "Dimunitive";
+//		else if(height < 24) size = "Tiny";
+//		else if(height < 48) size = "Small";
+//		else if(height < 96) size = "Medium";
+//		else if(height < 192) size = "Large";
+//		else if(height < 384) size = "Huge";
+//		else if(height < 768) size = "Gargantuan";
+//		else size = "Colossal";
 	}
 	if(die == 20){
 		height = height * 2;
@@ -272,15 +272,26 @@ int Pokemon::generate(const int& lvl){
 		else if(hitDie == 10) hitDie = 1;
 		else hitDie += 4;
 
-		if(height < 6) size = "Fine(Xtra)";
-		else if(height < 12) size = "Dimunitive(Xtra)";
-		else if(height < 24) size = "Tiny(Xtra)";
-		else if(height < 48) size = "Small(Xtra)";
-		else if(height < 96) size = "Medium(Xtra)";
-		else if(height < 192) size = "Large(Xtra)";
-		else if(height < 384) size = "Huge(Xtra)";
-		else if(height < 768) size = "Gargantuan(Xtra)";
-		else size = "Colossal(Xtra)";
+                if(size == "Small") size = "Medium(Xtra)";
+                else if(size == "Medium") size = "Large(Xtra)";
+                else if(size == "Large") size = "Huge(Xtra)";
+                else if(size == "Huge") size = "Gargantuan(Xtra)";
+                else if(size == "Gargantuan") size = "Colossal(Xtra)";
+		else if(size == "Colossal") size = "Colossal(Xtra)";
+                else{
+			std::cout << "Invalid size\n";
+			return -1;
+		}
+
+//		if(height < 6) size = "Fine(Xtra)";
+//		else if(height < 12) size = "Dimunitive(Xtra)";
+//		else if(height < 24) size = "Tiny(Xtra)";
+//		else if(height < 48) size = "Small(Xtra)";
+//		else if(height < 96) size = "Medium(Xtra)";
+//		else if(height < 192) size = "Large(Xtra)";
+//		else if(height < 384) size = "Huge(Xtra)";
+//		else if(height < 768) size = "Gargantuan(Xtra)";
+//		else size = "Colossal(Xtra)";
 	}
 
 	//Rounding Weight
@@ -797,15 +808,33 @@ int Pokemon::inputBase(){
 	std::cout << "Weight: ";
 	std::cin >> weight;
 
-	if(height < 6) size = "Fine";
-	else if(height < 12) size = "Dimunitive";
-	else if(height < 24) size = "Tiny";
-	else if(height < 48) size = "Small";
-	else if(height < 96) size = "Medium";
-	else if(height < 192) size = "Large";
-	else if(height < 384) size = "Huge";
-	else if(height < 768) size = "Gargantuan";
-	else size = "Colossal";
+	std::cout << "\nEnter size\n"
+		<< "Small is up to 2x2 ft -- Medium is 2x2 ft to 5x5 ft -- Large is 5x5 ft to 10x10 ft\n"
+		<< "Huge is 10x10 ft to 15x15 ft -- Gargantuan is 15x15 ft to 20x20 ft -- Colossal is 20x20ft and up\n"
+		<< "(s for Small, m for Medium, l for Large, h for Huge, g for Gargantuan, c for Colossal): ";
+	char sizeInput;
+	std::cin >> sizeInput;
+	if(sizeInput == 's') size = "Small";
+	else if(sizeInput == 'm') size = "Medium";
+	else if(sizeInput == 'l') size = "Large";
+	else if(sizeInput == 'h') size = "Huge";
+	else if(sizeInput == 'g') size = "Gargantuan";
+	else if(sizeInput == 'c') size = "Colossal";
+	else{
+		std::cout << "Invalid Size\n";
+		return -1;
+	}
+	std::cout << std::endl;
+
+//	if(height < 6) size = "Fine";
+//	else if(height < 12) size = "Dimunitive";
+//	else if(height < 24) size = "Tiny";
+//	else if(height < 48) size = "Small";
+//	else if(height < 96) size = "Medium";
+//	else if(height < 192) size = "Large";
+//	else if(height < 384) size = "Huge";
+//	else if(height < 768) size = "Gargantuan";
+//	else size = "Colossal";
 
 //	std::cout << "Input gender ratio for " << name << " in the following format: 50.50\n > ";
 	std::cout << "Gender ratio(ex. 875.125)\n"
@@ -1122,7 +1151,7 @@ void Pokemon::temporary(){
 //	std::cin.clear();
 //	std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 
-	evolution = "";
+/*	evolution = "";
 	std::string evolutionTemp;
 	int levelTemp;
 	char inputTemp;
@@ -1219,6 +1248,26 @@ void Pokemon::temporary(){
 	std::cout << "Speed: ";
 	std::cin >> spd;
 	std::cout << std::endl;
+*/
+
+        std::cout << "Enter size for " << name << std::endl
+		<< "Height: " << height/12 << "' " << height%12 << "\"" << std::endl
+		<< "Small is up to 2x2 ft -- Medium is 2x2 ft to 5x5 ft -- Large is 5x5 ft to 10x10 ft\n"
+		<< "Huge is 10x10 ft to 15x15 ft -- Gargantuan is 15x15 ft to 20x20 ft -- Colossal is 20x20ft and up\n"
+		<< "(s for Small, m for Medium, l for Large, h for Huge, g for Gargantuan, c for Colossal): ";
+	char sizeInput;
+	std::cin >> sizeInput;
+
+	if(sizeInput == 's') size = "Small";
+	else if(sizeInput == 'm') size = "Medium";
+	else if(sizeInput == 'l') size = "Large";
+	else if(sizeInput == 'h') size = "Huge";
+	else if(sizeInput == 'g') size = "Gargantuan";
+	else if(sizeInput == 'c') size = "Colossal";
+	else{
+		std::cout << "Invalid Size\n";
+	}
+	std::cout << "Size: " << size << std::endl;
 }
 
 #endif
