@@ -678,16 +678,22 @@ void Pokemon::outputAll(std::ostream& outs){
 		 << "Will: " << will << std::endl
 		 << "Movement Speed: " << speed << std::endl;
 
-	if(hitDie == 1 || hitDie == 2 || hitDie == 3)
-		outs << "Hit Die: 1d12 + " << hitDie << std::endl
-			 << "HP: " << HP << std::endl << std::endl;
-	else if(hitDie > 3 && hitDie < 13)
-		outs << "Hit Die: 1d" << hitDie << std::endl
-			 << "HP: " << HP << std::endl << std::endl;
-	else{
-		std::cout << "ERROR: in OUTPUTALL funtion\n\tinvalid hitDie value\n";
-		return;
-	}
+//	if(hitDie == 1 || hitDie == 2 || hitDie == 3)
+//		outs << "Hit Die: 1d12 + " << hitDie << std::endl
+//			 << "HP: " << HP << std::endl << std::endl;
+//	else if(hitDie > 3 && hitDie < 13)
+//		outs << "Hit Die: 1d" << hitDie << std::endl
+//			 << "HP: " << HP << std::endl << std::endl;
+//	else{
+//		std::cout << "ERROR: in OUTPUTALL funtion\n\tinvalid hitDie value\n";
+//		return;
+//	}
+
+	outs << "Hit Dice: " << level << "d";
+        if(hitDie == 1 || hitDie == 2 || hitDie == 3) outs << "12 + " << level * hitDie;
+	else outs << hitDie;
+	outs << "\n\n";
+
 
 	outs << "Moves\nLvl:    Name:\n";
 	for(int i = 0; i <= numMoves; i++){
