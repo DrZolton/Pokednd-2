@@ -6,7 +6,7 @@ Overgrow
 Chlorophyll
 28
 15.2
-Medium
+Small
 12
 12
 14
@@ -8827,7 +8827,7 @@ Overgrow
 Leaf Guard
 35
 14.1
-Medium
+Small
 12
 14
 12
@@ -10222,6 +10222,73 @@ Iron Defense
 Guillotine
 22
 Metal Sound
+0
+
+$
+Hydreigon
+635
+Dark/Dragon
+Levitate
+None
+71
+352.7
+Large
+18
+17
+21
+17
+19
+17
+8
+10
+<None>
+500.5
+92
+105
+90
+125
+90
+98
+1
+Outrage
+1
+Hyper Voice
+1
+Tri Attack
+1
+Dragon Rage
+1
+Focus Energy
+1
+Bite
+2
+Focus Energy
+4
+Bite
+5
+Headbutt
+7
+Dragon Breath
+8
+Roar
+10
+Crunch
+11
+Slam
+13
+Dragon Pulse
+15
+Work Up
+17
+Dragon Rush
+19
+Body Slam
+21
+Scary Face
+24
+Hyper Voice
+26
+Outrage
 0
 
 $
