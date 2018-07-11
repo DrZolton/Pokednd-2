@@ -380,7 +380,7 @@ int Pokemon::generate(const int& lvl){
 		if(speed < 2) speed = 2;
 	}
 	else if(die == 3){
-		nature = "Adamamant";
+		nature = "Adamant";
 		strength += 2;
 		intelligence -= 2;
 	}
@@ -626,12 +626,12 @@ void Pokemon::outputBase(std::ostream& outs){
 		}
 		outs << std::endl;
 
-		outs << "Strength: " << strength << " (" << floor(double(strength - 10)/2.0) << ")" << std::endl
-		 << "Dexterity: " << dexterity << " (" << floor(double(dexterity - 10)/2.0) << ")" << std::endl
-		 << "Intelligence: " << intelligence << " (" << floor(double(intelligence - 10)/2.0) << ")" << std::endl
-		 << "Constitution: " << constitution << " (" << floor(double(constitution - 10)/2.0) << ")" << std::endl
-		 << "Charsima: " << charisma << " (" << floor(double(charisma - 10)/2.0) << ")" << std::endl
-		 << "Wisdom: " << wisdom << " (" << floor(double(wisdom - 10)/2.0) << ")" << std::endl << std::endl
+		outs << "Strength: " << strength << " (" << std::showpos << floor(double(strength - 10)/2.0) << ")" << std::endl << std::noshowpos
+		 << "Dexterity: " << dexterity << " (" << std::showpos << floor(double(dexterity - 10)/2.0) << ")" << std::endl << std::noshowpos
+		 << "Intelligence: " << intelligence << " (" << std::showpos << floor(double(intelligence - 10)/2.0) << ")" << std::endl << std::noshowpos
+		 << "Constitution: " << constitution << " (" << std::showpos << floor(double(constitution - 10)/2.0) << ")" << std::endl << std::noshowpos
+		 << "Charsima: " << charisma << " (" << std::showpos << floor(double(charisma - 10)/2.0) << ")" << std::endl << std::noshowpos
+		 << "Wisdom: " << wisdom << " (" << std::showpos << floor(double(wisdom - 10)/2.0) << ")" << std::endl << std::endl << std::noshowpos
 
 		 << "Movement Speed: " << speed << std::endl;
 
@@ -680,12 +680,12 @@ void Pokemon::outputAll(std::ostream& outs){
 		}
 		outs << std::endl;
 
-                outs << "Strength: " << strength << " (" << floor(double(strength - 10)/2.0) << ")" << std::endl
-                 << "Dexterity: " << dexterity << " (" << floor(double(dexterity - 10)/2.0) << ")" << std::endl
-                 << "Intelligence: " << intelligence << " (" << floor(double(intelligence - 10)/2.0) << ")" << std::endl
-                 << "Constitution: " << constitution << " (" << floor(double(constitution - 10)/2.0) << ")" << std::endl
-                 << "Charsima: " << charisma << " (" << floor(double(charisma - 10)/2.0) << ")" << std::endl
-                 << "Wisdom: " << wisdom << " (" << floor(double(wisdom - 10)/2.0) << ")" << std::endl << std::endl
+                outs << "Strength: " << strength << " (" << std::showpos << floor(double(strength - 10)/2.0) << ")" << std::endl << std::noshowpos
+                 << "Dexterity: " << dexterity << " (" << std::showpos << floor(double(dexterity - 10)/2.0) << ")" << std::endl << std::noshowpos
+                 << "Intelligence: " << intelligence << " (" << std::showpos << floor(double(intelligence - 10)/2.0) << ")" << std::endl << std::noshowpos
+                 << "Constitution: " << constitution << " (" << std::showpos << floor(double(constitution - 10)/2.0) << ")" << std::endl << std::noshowpos
+                 << "Charsima: " << charisma << " (" << std::showpos << floor(double(charisma - 10)/2.0) << ")" << std::endl << std::noshowpos
+                 << "Wisdom: " << wisdom << " (" << std::showpos << floor(double(wisdom - 10)/2.0) << ")" << std::endl << std::endl << std::noshowpos
 
 		 << "AC: " << AC << std::endl
 		 << "Fortitude: " << fortitude << std::endl
