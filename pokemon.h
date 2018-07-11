@@ -38,6 +38,7 @@
 #include <cstdlib>
 #include <ctime>
 #include <limits>
+#include <math.h>
 
 struct move{
 	int level;
@@ -574,9 +575,9 @@ int Pokemon::generate(const int& lvl){
 	}
 
 //**AC, Fort, Will***//
-	AC = 10 + ( (dexterity - 10) / 2 );
-	fortitude = 10 + ( (constitution - 10) / 2 );
-	will = 10 + ( (wisdom - 10) / 2 );
+	AC = 10 + floor( double(dexterity - 10) / 2 );
+	fortitude = 10 + floor( double(constitution - 10) / 2 );
+	will = 10 + floor( double(wisdom - 10) / 2 );
 
 //**catch DC**//
 	catchDC = 20 + (lvl / 3);
@@ -625,12 +626,12 @@ void Pokemon::outputBase(std::ostream& outs){
 		}
 		outs << std::endl;
 
-		outs << "Strength: " << strength << std::endl
-		 << "Dexterity: " << dexterity << std::endl
-		 << "Intelligence: " << intelligence << std::endl
-		 << "Constitution: " << constitution << std::endl
-		 << "Charsima: " << charisma << std::endl
-		 << "Wisdom: " << wisdom << std::endl << std::endl
+		outs << "Strength: " << strength << " (" << floor(double(strength - 10)/2.0) << ")" << std::endl
+		 << "Dexterity: " << dexterity << " (" << floor(double(dexterity - 10)/2.0) << ")" << std::endl
+		 << "Intelligence: " << intelligence << " (" << floor(double(intelligence - 10)/2.0) << ")" << std::endl
+		 << "Constitution: " << constitution << " (" << floor(double(constitution - 10)/2.0) << ")" << std::endl
+		 << "Charsima: " << charisma << " (" << floor(double(charisma - 10)/2.0) << ")" << std::endl
+		 << "Wisdom: " << wisdom << " (" << floor(double(wisdom - 10)/2.0) << ")" << std::endl << std::endl
 
 		 << "Movement Speed: " << speed << std::endl;
 
@@ -679,12 +680,12 @@ void Pokemon::outputAll(std::ostream& outs){
 		}
 		outs << std::endl;
 
-		outs << "Strength: " << strength << std::endl
-		 << "Dexterity: " << dexterity << std::endl
-		 << "Intelligence: " << intelligence << std::endl
-		 << "Constitution: " << constitution << std::endl
-		 << "Charisma: " << charisma << std::endl
-		 << "Wisdom: " << wisdom << std::endl << std::endl
+                outs << "Strength: " << strength << " (" << floor(double(strength - 10)/2.0) << ")" << std::endl
+                 << "Dexterity: " << dexterity << " (" << floor(double(dexterity - 10)/2.0) << ")" << std::endl
+                 << "Intelligence: " << intelligence << " (" << floor(double(intelligence - 10)/2.0) << ")" << std::endl
+                 << "Constitution: " << constitution << " (" << floor(double(constitution - 10)/2.0) << ")" << std::endl
+                 << "Charsima: " << charisma << " (" << floor(double(charisma - 10)/2.0) << ")" << std::endl
+                 << "Wisdom: " << wisdom << " (" << floor(double(wisdom - 10)/2.0) << ")" << std::endl << std::endl
 
 		 << "AC: " << AC << std::endl
 		 << "Fortitude: " << fortitude << std::endl
