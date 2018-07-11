@@ -670,7 +670,7 @@ void Pokemon::outputAll(std::ostream& outs){
 		 << "Dexterity: " << dexterity << std::endl
 		 << "Intelligence: " << intelligence << std::endl
 		 << "Constitution: " << constitution << std::endl
-		 << "Charsima: " << charisma << std::endl
+		 << "Charisma: " << charisma << std::endl
 		 << "Wisdom: " << wisdom << std::endl << std::endl
 
 		 << "AC: " << AC << std::endl
@@ -692,7 +692,7 @@ void Pokemon::outputAll(std::ostream& outs){
 	outs << "Hit Dice: " << level << "d";
         if(hitDie == 1 || hitDie == 2 || hitDie == 3) outs << "12 + " << level * hitDie;
 	else outs << hitDie;
-	outs << "\n\n";
+	outs << "\nHP: " << HP << "\n\n";
 
 
 	outs << "Moves\nLvl:    Name:\n";

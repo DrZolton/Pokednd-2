@@ -9623,6 +9623,59 @@ Power Gem
 0
 
 $
+Taillow
+276
+Normal/Flying
+Guts
+Scrappy
+12
+5.1
+Small
+12
+10
+10
+10
+11
+10
+7
+6
+<Swellow: Lvl 9>
+500.5
+40
+55
+30
+30
+30
+85
+1
+Peck
+1
+Growl
+2
+Focus Energy
+4
+Quick Attack
+5
+Wing Attack
+7
+Double Team
+9
+Aerial Ace
+10
+Quick Guard
+12
+Agility
+13
+Air Slash
+15
+Endeavor
+17
+Brave Bird
+18
+Reversal
+0
+
+$
 Kirlia
 281
 Psychic/Fairy
@@ -9986,6 +10039,69 @@ Venom Drench
 Rock Climb
 17
 Double-Edge
+0
+
+$
+Basculin
+550
+Water
+Reckless/Rock Head/Adaptability
+Mold Breaker
+39
+39.7
+Medium
+17
+14
+15
+12
+16
+13
+8
+8
+<None>
+500.5
+70
+92
+65
+80
+55
+98
+1
+Tail Whip
+1
+Tackle
+1
+Water Gun
+1
+Uproar
+2
+Headbutt
+3
+Bite
+4
+Aqua Jet
+5
+Chip Away
+6
+Take Down
+7
+Crunch
+8
+Aqua Tail
+9
+Soak
+11
+Double-Edge
+12
+Scary Face
+14
+Flail
+15
+Final Gambit
+17
+Thrash
+19
+Head Smash
 0
 
 $
