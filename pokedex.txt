@@ -9873,6 +9873,57 @@ Metal Burst
 0
 
 $
+Starly
+396
+Normal/Flying
+Keen Eye
+Reckless
+12
+4.4
+Small
+12
+10
+10
+10
+11
+10
+6
+6
+<Staravia: Lvl 6>
+500.5
+40
+55
+30
+30
+30
+60
+1
+Tackle
+1
+Growl
+2
+Quick Attack
+4
+Wing Attack
+5
+Double Team
+7
+Endeavor
+9
+Whirlwind
+10
+Aerial Ace
+12
+Take Down
+13
+Agility
+15
+Brave Bird
+17
+Final Gambit
+0
+
+$
 Woobat
 527
 Psychic/Flying
@@ -10519,6 +10570,63 @@ Me First
 Tailwind
 19
 Steel Wing
+0
+
+$
+Litleo
+667
+Fire/Normal
+Rivalry/Unnerve
+Moxie
+24
+29.8
+Medium
+12
+13
+15
+12
+13
+12
+7
+8
+<Pyroar: Lvl 14>
+125.875
+62
+50
+58
+73
+54
+72
+1
+Tackle
+1
+Leer
+2
+Ember
+3
+Work Up
+5
+Headbutt
+6
+Noble Roar
+8
+Take Down
+9
+Fire Fang
+11
+Endeavor
+13
+Echoed Voice
+15
+Flamethrower
+16
+Crunch
+17
+Hyper Voice
+19
+Incinerate
+20
+Overheat
 0
 
 $

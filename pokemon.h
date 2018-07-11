@@ -111,6 +111,7 @@ class Pokemon{
 		std::string nature;
 		char gender;
 		int catchDC;
+		int powerPoints;
 };
 
 Pokemon::Pokemon(){
@@ -312,8 +313,7 @@ int Pokemon::generate(const int& lvl){
 		return -1;
 	}
 
-	for(int i = 1; i < lvl; i++){ //will run (lvl - 1) times
-
+	for(int i = 2; i <= lvl; i++){ //will run (lvl - 1) times
 		if(hitDie > 3 && hitDie < 13){ //do not run the "1d12 + x" options
 
 			int newHP = 0;
@@ -341,12 +341,25 @@ int Pokemon::generate(const int& lvl){
 			}
 			HP += newHP + hitDie;
 		}
-
 		else{
 			std::cout << "ERROR: in GENERATE funtion\n\tinvalid hitDie value\n";
 			return -1;
 		}
+	}
 
+//****Power Points***//
+	powerPoints = 20;
+	for(int i = 1; i <= lvl; i++){
+
+
+		if(i == 4 || i == 7 || i == 11 || i == 14 || i == 17 || i == 21 || i == 24 || i == 27){
+			die = (rand() % 8) + 1;
+			//rerolls the die until 4 or greater is rolled
+			while(die < 4){
+				die = (rand() % 8) + 1;
+			}
+			powerPoints += die;
+		}
 	}
 
 //*nature and gender*//
@@ -692,7 +705,8 @@ void Pokemon::outputAll(std::ostream& outs){
 	outs << "Hit Dice: " << level << "d";
         if(hitDie == 1 || hitDie == 2 || hitDie == 3) outs << "12 + " << level * hitDie;
 	else outs << hitDie;
-	outs << "\nHP: " << HP << "\n\n";
+	outs << "\nHP: " << HP << "\n"
+		<< "Power Points: " << powerPoints << "\n\n";
 
 
 	outs << "Moves\nLvl:    Name:\n";
