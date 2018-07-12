@@ -738,7 +738,7 @@ void Pokemon::outputAll(std::ostream& outs){
 //	}
 
 	outs << "Hit Dice: " << level << "d";
-        if(hitDie == 1 || hitDie == 2 || hitDie == 3) outs << "12 + " << level * hitDie;
+        if(hitDie == 1 || hitDie == 2 || hitDie == 3) outs << "12 + " << level << "*" << hitDie;
 	else outs << hitDie;
 	outs << "\nHP: " << HP << "\n"
 		<< "Power Points: " << powerPoints << "\n\n";
