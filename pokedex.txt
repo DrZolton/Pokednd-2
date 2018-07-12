@@ -9568,6 +9568,63 @@ Muddy Water
 0
 
 $
+Murkrow
+198
+Dark/Flying
+Insomnia/Super Luck
+Prankster
+20
+4.6
+Small
+16
+11
+16
+11
+16
+11
+8
+8
+<Honchkrow: Dusk Stone>
+500.5
+60
+85
+42
+85
+42
+91
+1
+Peck
+1
+Astonish
+2
+Pursuit
+5
+Haze
+6
+Wing Attack
+9
+Night Shade
+10
+Assurance
+13
+Taunt
+14
+Feint Attack
+17
+Mean Look
+18
+Foul Play
+20
+Tailwind
+21
+Sucker Punch
+23
+Torment
+23
+Quash
+0
+
+$
 Misdreavus
 200
 Ghost
@@ -9620,6 +9677,61 @@ Perish Song
 Grudge
 21
 Power Gem
+0
+
+$
+Dustox
+269
+Bug/Poison
+Shield Dust
+Compound Eyes
+47
+69.7
+Medium
+12
+14
+12
+17
+12
+15
+6
+8
+<None>
+500.5
+60
+50
+70
+50
+90
+65
+1
+Gust
+1
+Gust at Evo.
+5
+Confusion
+6
+Poison Powder
+7
+Moonlight
+8
+Venoshock
+9
+Psybeam
+10
+Silver Wind
+11
+Light Screen
+12
+Whirlwind
+13
+Toxic
+14
+Bug Buzz
+15
+Protect
+16
+Quiver Dance
 0
 
 $
@@ -10210,6 +10322,61 @@ Solar Beam
 Rage Powder
 20
 Spore
+0
+
+$
+Frillish
+592
+Water/Ghost
+Water Absorb/Cursed Body
+Damp
+47
+72.8
+Medium
+11
+12
+14
+16
+12
+14
+5
+6
+<Jellicent: Lvl 16>
+500.5
+55
+40
+50
+65
+85
+40
+1
+Bubble
+1
+Water Sport
+2
+Absorb
+4
+Night Shade
+5
+Bubble Beam
+7
+Recover
+9
+Water Pulse
+11
+Ominous Wind
+13
+Brine
+15
+Rain Dance
+17
+Hex
+20
+Hydro Pump
+21
+Wring Out
+23
+Water Spout
 0
 
 $
