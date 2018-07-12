@@ -68,6 +68,7 @@ class Pokemon{
 		//Info
 		std::string name;
 		int index;
+		int xp;
 		std::string type;
 		std::string ability;
 		std::string hiddenAbility;
@@ -232,6 +233,38 @@ int Pokemon::generate(const int& lvl){
 		std::cout << "ERROR: in GENERATE funtion\n\tinvalid lvl value\n";
 		return -1;
 	}
+
+//**XP Reward**//
+	if(lvl == 1) xp = 25;
+	else if(lvl == 2) xp = 30;
+	else if(lvl == 3) xp = 36;
+	else if(lvl == 4) xp = 43;
+	else if(lvl == 5) xp = 52;
+	else if(lvl == 6) xp = 62;
+	else if(lvl == 7) xp = 75;
+	else if(lvl == 8) xp = 90;
+	else if(lvl == 9) xp = 110;
+	else if(lvl == 10) xp = 130;
+	else if(lvl == 11) xp = 155;
+	else if(lvl == 12) xp = 185;
+	else if(lvl == 13) xp = 225;
+	else if(lvl == 14) xp = 270;
+	else if(lvl == 15) xp = 325;
+	else if(lvl == 16) xp = 390;
+	else if(lvl == 17) xp = 465;
+	else if(lvl == 18) xp = 560;
+	else if(lvl == 19) xp = 675;
+	else if(lvl == 20) xp = 810;
+	else if(lvl == 21) xp = 970;
+	else if(lvl == 22) xp = 1150;
+	else if(lvl == 23) xp = 1400;
+	else if(lvl == 24) xp = 1700;
+	else if(lvl == 25) xp = 2000;
+	else if(lvl == 26) xp = 2400;
+	else if(lvl == 27) xp = 2900;
+	else if(lvl == 28) xp = 3500;
+	else if(lvl == 29) xp = 4200;
+	else if(lvl == 30) xp = 5050;
 
 //**Ability**//
 	if(ability.find("/") != std::string::npos){
@@ -630,7 +663,7 @@ void Pokemon::outputBase(std::ostream& outs){
 		 << "Dexterity: " << dexterity << " (" << std::showpos << floor(double(dexterity - 10)/2.0) << ")" << std::endl << std::noshowpos
 		 << "Intelligence: " << intelligence << " (" << std::showpos << floor(double(intelligence - 10)/2.0) << ")" << std::endl << std::noshowpos
 		 << "Constitution: " << constitution << " (" << std::showpos << floor(double(constitution - 10)/2.0) << ")" << std::endl << std::noshowpos
-		 << "Charsima: " << charisma << " (" << std::showpos << floor(double(charisma - 10)/2.0) << ")" << std::endl << std::noshowpos
+		 << "Charisma: " << charisma << " (" << std::showpos << floor(double(charisma - 10)/2.0) << ")" << std::endl << std::noshowpos
 		 << "Wisdom: " << wisdom << " (" << std::showpos << floor(double(wisdom - 10)/2.0) << ")" << std::endl << std::endl << std::noshowpos
 
 		 << "Movement Speed: " << speed << std::endl;
@@ -656,7 +689,8 @@ void Pokemon::outputAll(std::ostream& outs){
 		 << name << std::endl
 		 << "--------------------\n";
 
-		outs << "Level: " << level << std::endl
+		outs << "XP Reward: " << xp << std::endl
+		 << "Level: " << level << std::endl
 		 << "Catch DC: " << catchDC << std::endl << std::endl
 
 		 << "Index: " << index << std::endl
@@ -684,7 +718,7 @@ void Pokemon::outputAll(std::ostream& outs){
                  << "Dexterity: " << dexterity << " (" << std::showpos << floor(double(dexterity - 10)/2.0) << ")" << std::endl << std::noshowpos
                  << "Intelligence: " << intelligence << " (" << std::showpos << floor(double(intelligence - 10)/2.0) << ")" << std::endl << std::noshowpos
                  << "Constitution: " << constitution << " (" << std::showpos << floor(double(constitution - 10)/2.0) << ")" << std::endl << std::noshowpos
-                 << "Charsima: " << charisma << " (" << std::showpos << floor(double(charisma - 10)/2.0) << ")" << std::endl << std::noshowpos
+                 << "Charisma: " << charisma << " (" << std::showpos << floor(double(charisma - 10)/2.0) << ")" << std::endl << std::noshowpos
                  << "Wisdom: " << wisdom << " (" << std::showpos << floor(double(wisdom - 10)/2.0) << ")" << std::endl << std::endl << std::noshowpos
 
 		 << "AC: " << AC << std::endl
