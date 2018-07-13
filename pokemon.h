@@ -99,6 +99,7 @@ class Pokemon{
 		int charisma;
 		int wisdom;
 		int speed;
+		std::string moveType;
 		std::string evolution;
 		double genderRatio;
 
@@ -165,6 +166,7 @@ void Pokemon::outputFile(std::ostream& fout){ // "$" signals a new pokemon
 		 << charisma << std::endl
 		 << wisdom << std::endl
 		 << speed << std::endl
+		 << moveType << std::endl
 		 << hitDie << std::endl
 		 << evolution << std::endl
 		 << genderRatio << std::endl
@@ -207,7 +209,14 @@ void Pokemon::inputFile(std::istream& fin){
 
 		getline(fin, size);
 		fin >> strength >> dexterity >> intelligence >> constitution >> charisma >> wisdom;
-		fin >> speed >> hitDie;
+		fin >> speed;
+
+		fin.clear();
+		fin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+
+		getline(fin, moveType);
+
+		fin >> hitDie;
 
 		fin.clear();
 		fin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
@@ -666,7 +675,7 @@ void Pokemon::outputBase(std::ostream& outs){
 		 << "Charisma: " << charisma << " (" << std::showpos << floor(double(charisma - 10)/2.0) << ")" << std::endl << std::noshowpos
 		 << "Wisdom: " << wisdom << " (" << std::showpos << floor(double(wisdom - 10)/2.0) << ")" << std::endl << std::endl << std::noshowpos
 
-		 << "Movement Speed: " << speed << std::endl;
+		 << "Movement Speed: " << speed << " (" << moveType << ")" << std::endl;
 
 	if(hitDie == 1 || hitDie == 2 || hitDie == 3)
 		outs << "Hit Die: 1d12 + " << hitDie << std::endl << std::endl;
@@ -724,7 +733,7 @@ void Pokemon::outputAll(std::ostream& outs){
 		 << "AC: " << AC << std::endl
 		 << "Fortitude: " << fortitude << std::endl
 		 << "Will: " << will << std::endl
-		 << "Movement Speed: " << speed << std::endl;
+		 << "Movement Speed: " << speed << " (" << moveType << ")" << std::endl;
 
 //	if(hitDie == 1 || hitDie == 2 || hitDie == 3)
 //		outs << "Hit Die: 1d12 + " << hitDie << std::endl
@@ -844,6 +853,9 @@ int Pokemon::inputBase(){
 
 	std::cin.clear();
 	std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+
+	std::cout << "Movement Type: ";
+	getline(std::cin, moveType);
 
 	std::cout << "Type: ";
 	getline(std::cin, type);
@@ -1305,7 +1317,7 @@ void Pokemon::temporary(){
 	std::cout << std::endl;
 */
 
-        std::cout << "Enter size for " << name << std::endl
+/*        std::cout << "Enter size for " << name << std::endl
 		<< "Height: " << height/12 << "' " << height%12 << "\"" << std::endl
 		<< "Small is up to 2x2 ft -- Medium is 2x2 ft to 5x5 ft -- Large is 5x5 ft to 10x10 ft\n"
 		<< "Huge is 10x10 ft to 15x15 ft -- Gargantuan is 15x15 ft to 20x20 ft -- Colossal is 20x20ft and up\n"
@@ -1323,6 +1335,20 @@ void Pokemon::temporary(){
 		std::cout << "Invalid Size\n";
 	}
 	std::cout << "Size: " << size << std::endl;
+*/
+/*
+        std::cout << "Enter movement type for " << name << std::endl;
+
+//	std::cin.clear();
+//	std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+
+	std::cout << "Movement Type: ";
+	getline(std::cin, moveType);
+//	outputBase(std::cout);
+*/
+	std::cout << name << " " << moveType << std::endl;
+	char junk;
+	std::cin >> junk;
 }
 
 #endif

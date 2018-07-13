@@ -14,6 +14,7 @@ Small
 13
 13
 5
+walk
 6
 <Ivysaur: Lvl 7>
 875.125
@@ -69,6 +70,7 @@ Medium
 14
 14
 6
+walk
 8
 <Venasaur: Lvl 13>
 875.125
@@ -128,6 +130,7 @@ Large
 17
 17
 7
+walk
 10
 <None>
 875.125
@@ -195,6 +198,7 @@ Small
 12
 11
 6
+walk
 4
 <Charmeleon: Lvl 7>
 875.125
@@ -246,6 +250,7 @@ Medium
 14
 13
 7
+walk
 6
 <Charizard: Lvl 15>
 875.125
@@ -299,6 +304,7 @@ Large
 17
 15
 8
+walk/fly
 8
 <None>
 875.125
@@ -370,6 +376,7 @@ Small
 12
 13
 5
+walk/swim
 6
 <Wartortle: Lvl 7>
 875.125
@@ -425,6 +432,7 @@ Medium
 13
 15
 6
+walk/swim
 6
 <Blastoise: Lvl 15>
 875.125
@@ -484,6 +492,7 @@ Large
 16
 18
 7
+walk/swim
 8
 <None>
 875.125
@@ -547,6 +556,7 @@ Small
 9
 9
 5
+walk/climb
 6
 <Metapod: Lvl 3>
 500.5
@@ -580,6 +590,7 @@ Medium
 8
 10
 5
+walk
 6
 <Butterfree: Lvl 4>
 500.5
@@ -611,6 +622,7 @@ Medium
 14
 13
 7
+walk/climb/fly
 8
 <None>
 500.5
@@ -674,6 +686,7 @@ Small
 9
 9
 6
+walk/climb
 6
 <Kakuna: Lvl 3>
 500.5
@@ -707,6 +720,7 @@ Small
 9
 10
 5
+walk
 6
 <Beedrill: Lvl 4>
 500.5
@@ -738,6 +752,7 @@ Medium
 14
 13
 7
+walk/climb/fly
 8
 <None>
 500.5
@@ -795,6 +810,7 @@ Small
 10
 10
 6
+walk/fly
 6
 <Pidgeotto: Lvl 7>
 500.5
@@ -850,6 +866,7 @@ Medium
 12
 12
 7
+walk/fly
 8
 <Pidgeot: Lvl 15>
 500.5
@@ -909,6 +926,7 @@ Medium
 14
 14
 8
+walk/fly
 10
 <None>
 500.5
@@ -972,6 +990,7 @@ Small
 11
 10
 7
+walk/climb
 4
 <Raticate: Lvl 8>
 500.5
@@ -1025,6 +1044,7 @@ Medium
 13
 13
 8
+walk/climb
 6
 <None>
 500.5
@@ -1086,6 +1106,7 @@ Small
 11
 10
 7
+walk/fly
 6
 <Fearow: Lvl 8>
 500.5
@@ -1137,6 +1158,7 @@ Medium
 15
 13
 8
+walk/fly
 8
 <None>
 500.5
@@ -1198,6 +1220,7 @@ Medium
 12
 11
 6
+walk
 4
 <Arbok: Lvl 9>
 500.5
@@ -1259,6 +1282,7 @@ Large
 15
 14
 7
+walk
 8
 <None>
 500.5
@@ -1334,6 +1358,7 @@ Small
 12
 11
 8
+walk/climb
 4
 <Raichu: Thunder Stone>
 500.5
@@ -1397,6 +1422,7 @@ Medium
 17
 13
 9
+walk/climb
 8
 <None>
 500.5
@@ -1432,6 +1458,7 @@ Small
 11
 13
 5
+walk/burrow
 6
 <Sandslash: Lvl 9>
 500.5
@@ -1493,6 +1520,7 @@ Medium
 14
 15
 6
+walk/burrow
 8
 <None>
 500.5
@@ -1562,6 +1590,7 @@ Small
 11
 11
 5
+walk
 6
 <Nidorina: Lvl 7>
 -1
@@ -1615,6 +1644,7 @@ Medium
 12
 13
 6
+walk
 8
 <Nidoqueen: Moon Stone>
 -1
@@ -1668,6 +1698,7 @@ Medium
 16
 16
 7
+walk
 10
 <None>
 -1
@@ -1713,6 +1744,7 @@ Small
 12
 11
 6
+walk
 6
 <Nidorino: Lvl 7>
 1
@@ -1766,6 +1798,7 @@ Medium
 13
 12
 6
+walk
 8
 <Nidoking: Moon Stone>
 1
@@ -1819,6 +1852,7 @@ Medium
 17
 15
 7
+walk
 10
 <None>
 1
@@ -1864,6 +1898,7 @@ Small
 12
 13
 5
+walk
 8
 <Clefable: Moon Stone>
 250.75
@@ -1937,6 +1972,7 @@ Medium
 15
 16
 6
+walk/walk on water
 10
 <None>
 250.75
@@ -1976,6 +2012,7 @@ Small
 11
 12
 6
+walk
 4
 <Ninetales: Fire Stone>
 250.75
@@ -2043,6 +2080,7 @@ Medium
 15
 16
 8
+walk
 8
 <None>
 250.75
@@ -2082,6 +2120,7 @@ Small
 11
 8
 4
+walk
 12
 <Wigglytuff: Moon Stone>
 250.75
@@ -2147,6 +2186,7 @@ Medium
 15
 11
 5
+walk
 1
 <None>
 250.75
@@ -2186,6 +2226,7 @@ Medium
 10
 10
 6
+walk/fly
 6
 <Golbat: Lvl 9>
 500.5
@@ -2243,6 +2284,7 @@ Medium
 14
 14
 8
+walk/fly
 8
 <Crobat: Friendship>
 500.5
@@ -2308,6 +2350,7 @@ Small
 13
 13
 5
+walk
 6
 <Gloom: Lvl 9>
 500.5
@@ -2367,6 +2410,7 @@ Medium
 15
 14
 5
+walk
 8
 <Vileplume: Leaf Stone><Bellossom: Sun Stone>
 500.5
@@ -2430,6 +2474,7 @@ Medium
 17
 16
 6
+walk
 8
 <None>
 500.5
@@ -2471,6 +2516,7 @@ Small
 12
 12
 4
+walk
 4
 <Parasect: Lvl 10>
 500.5
@@ -2522,6 +2568,7 @@ Medium
 15
 15
 5
+walk
 8
 <None>
 500.5
@@ -2581,6 +2628,7 @@ Medium
 11
 12
 5
+walk
 8
 <Venomoth: Lvl 13>
 500.5
@@ -2636,6 +2684,7 @@ Medium
 15
 14
 8
+walk/climb/fly
 8
 <None>
 500.5
@@ -2707,6 +2756,7 @@ Small
 11
 10
 8
+burrow
 4
 <Dugtrio: Lvl 11>
 500.5
@@ -2762,6 +2812,7 @@ Medium
 15
 13
 9
+burrow
 4
 <None>
 500.5
@@ -2829,6 +2880,7 @@ Small
 11
 10
 8
+walk/climb
 6
 <Persian: Lvl 11>
 500.5
@@ -2886,6 +2938,7 @@ Medium
 14
 13
 9
+walk/climb
 8
 <None>
 500.5
@@ -2955,6 +3008,7 @@ Medium
 13
 12
 6
+walk/swim
 6
 <Golduck: Lvl 13>
 500.5
@@ -3014,6 +3068,7 @@ Medium
 16
 15
 7
+walk/swim
 10
 <None>
 500.5
@@ -3081,6 +3136,7 @@ Small
 12
 10
 7
+walk/climb
 6
 <Primeape: Lvl 11>
 500.5
@@ -3146,6 +3202,7 @@ Medium
 15
 13
 8
+walk/climb
 8
 <None>
 500.5
@@ -3217,6 +3274,7 @@ Medium
 14
 11
 6
+walk
 6
 <Arcanine: Fire Stone>
 750.25
@@ -3280,6 +3338,7 @@ Large
 18
 15
 8
+walk
 10
 <None>
 750.25
@@ -3319,6 +3378,7 @@ Small
 11
 11
 8
+walk/swim
 6
 <Poliwhirl: Lvl 10>
 500.5
@@ -3372,6 +3432,7 @@ Medium
 13
 13
 8
+walk/swim
 8
 <Poliwrath: Water Stone><Politoed: King's Rock>
 500.5
@@ -3429,6 +3490,7 @@ Medium
 15
 17
 7
+walk/swim
 10
 <None>
 500.5
@@ -3474,6 +3536,7 @@ Medium
 13
 10
 8
+walk
 4
 <Kadabra: Lvl 7>
 750.25
@@ -3503,6 +3566,7 @@ Medium
 15
 12
 8
+walk
 6
 <Alakazam: Trade>
 750.25
@@ -3564,6 +3628,7 @@ Medium
 17
 14
 9
+walk
 6
 <None>
 750.25
@@ -3625,6 +3690,7 @@ Medium
 12
 11
 5
+walk
 8
 <Machoke: Lvl 11>
 750.25
@@ -3686,6 +3752,7 @@ Medium
 15
 13
 5
+walk
 10
 <Machamp: Trade>
 750.25
@@ -3751,6 +3818,7 @@ Medium
 17
 15
 6
+walk
 10
 <None>
 750.25
@@ -3822,6 +3890,7 @@ Medium
 14
 10
 5
+walk
 6
 <Weepinbell: Lvl 9>
 500.5
@@ -3877,6 +3946,7 @@ Medium
 16
 11
 6
+walk/climb
 8
 <Victreebel: Leaf Stone>
 500.5
@@ -3936,6 +4006,7 @@ Large
 18
 14
 7
+walk/climb
 10
 <None>
 500.5
@@ -3985,6 +4056,7 @@ Medium
 11
 14
 7
+swim
 6
 <Tentacruel: Lvl 12>
 500.5
@@ -4046,6 +4118,7 @@ Medium
 14
 17
 8
+swim
 10
 <None>
 500.5
@@ -4117,6 +4190,7 @@ Small
 12
 14
 4
+walk
 6
 <Graveler: Lvl 10>
 500.5
@@ -4176,6 +4250,7 @@ Medium
 14
 15
 5
+walk
 6
 <Golem: Trade>
 500.5
@@ -4239,6 +4314,7 @@ Medium
 16
 17
 5
+walk
 10
 <None>
 500.5
@@ -4306,6 +4382,7 @@ Medium
 15
 13
 8
+walk
 6
 <Rapidash: Lvl 16>
 500.5
@@ -4361,6 +4438,7 @@ Large
 16
 14
 8
+walk
 8
 <None>
 500.5
@@ -4428,6 +4506,7 @@ Medium
 12
 12
 4
+walk/swim
 10
 <Slowbro: Lvl 15><Slowking: King's Rock>
 500.5
@@ -4487,6 +4566,7 @@ Medium
 16
 17
 5
+walk/swim
 10
 <None>
 500.5
@@ -4554,6 +4634,7 @@ Small
 13
 13
 5
+hover
 4
 <Magneton: Lvl 12>
 0
@@ -4617,6 +4698,7 @@ Medium
 16
 15
 7
+hover
 6
 <Magnezone: Special Magnetic Field>
 0
@@ -4692,6 +4774,7 @@ Medium
 15
 12
 6
+walk/fly
 6
 <None>
 500.5
@@ -4757,6 +4840,7 @@ Medium
 13
 10
 7
+walk
 4
 <Dodrio: Lvl 13>
 500.5
@@ -4816,6 +4900,7 @@ Large
 16
 13
 9
+walk
 8
 <None>
 500.5
@@ -4883,6 +4968,7 @@ Medium
 11
 13
 5
+walk 2/swim
 8
 <Dewgong: Lvl 14>
 500.5
@@ -4944,6 +5030,7 @@ Large
 14
 16
 7
+walk 2/swim
 10
 <None>
 500.5
@@ -5015,6 +5102,7 @@ Medium
 13
 12
 4
+walk
 10
 <Muk: Lvl 15>
 500.5
@@ -5074,6 +5162,7 @@ Medium
 16
 16
 6
+walk
 12
 <None>
 500.5
@@ -5141,6 +5230,7 @@ Small
 12
 13
 5
+swim
 4
 <Cloyster: Water Stone>
 500.5
@@ -5202,6 +5292,7 @@ Medium
 16
 19
 7
+swim
 6
 <None>
 500.5
@@ -5249,6 +5340,7 @@ Medium
 14
 10
 7
+hover
 4
 <Haunter: Lvl 10>
 500.5
@@ -5304,6 +5396,7 @@ Medium
 15
 11
 8
+hover
 6
 <Gengar: Trade>
 500.5
@@ -5367,6 +5460,7 @@ Medium
 17
 14
 9
+walk/hover
 8
 <None>
 500.5
@@ -5430,6 +5524,7 @@ Gargantuan
 10
 18
 7
+walk/burrow
 4
 <Steelix: Metal Coat>
 500.5
@@ -5501,6 +5596,7 @@ Medium
 11
 14
 5
+walk
 8
 <Hypno: Lvl 11>
 500.5
@@ -5562,6 +5658,7 @@ Medium
 15
 16
 6
+walk
 10
 <None>
 500.5
@@ -5635,6 +5732,7 @@ Small
 13
 13
 6
+walk/swim
 4
 <Kingler: Lvl 11>
 500.5
@@ -5692,6 +5790,7 @@ Medium
 16
 15
 7
+walk/swim
 6
 <None>
 500.5
@@ -5755,6 +5854,7 @@ Small
 11
 12
 8
+walk
 6
 <Electrode: Lvl 12>
 0
@@ -5816,6 +5916,7 @@ Medium
 13
 14
 11
+walk
 8
 <None>
 0
@@ -5883,6 +5984,7 @@ Small
 12
 13
 5
+walk
 8
 <Exeggutor: Leaf Stone>
 500.5
@@ -5940,6 +6042,7 @@ Large
 19
 15
 6
+walk
 10
 <None>
 500.5
@@ -5987,6 +6090,7 @@ Small
 11
 14
 5
+walk
 6
 <Marowak: Lvl 11>
 500.5
@@ -6046,6 +6150,7 @@ Medium
 13
 17
 5
+walk
 8
 <None>
 500.5
@@ -6111,6 +6216,7 @@ Medium
 15
 15
 7
+walk
 6
 <None>
 1
@@ -6186,6 +6292,7 @@ Medium
 14
 17
 7
+walk
 6
 <None>
 1
@@ -6261,6 +6368,7 @@ Medium
 12
 15
 5
+walk
 10
 <Lickilicky: Knows Rollout>
 500.5
@@ -6318,6 +6426,7 @@ Small
 13
 14
 5
+fly
 6
 <Weezing: Lvl 14>
 500.5
@@ -6375,6 +6484,7 @@ Medium
 16
 17
 6
+fly
 8
 <None>
 500.5
@@ -6440,6 +6550,7 @@ Medium
 13
 13
 4
+walk
 10
 <Rhydon: Lvl 17>
 500.5
@@ -6501,6 +6612,7 @@ Large
 16
 15
 5
+walk
 12
 <Rhyperior: Protector>
 500.5
@@ -6568,6 +6680,7 @@ Medium
 8
 12
 6
+walk
 3
 <Blissey: Friendship>
 -1
@@ -6631,6 +6744,7 @@ Medium
 15
 15
 6
+walk
 8
 <Tangrowth: Ancient Power>
 500.5
@@ -6696,6 +6810,7 @@ Large
 14
 15
 8
+walk
 12
 <None>
 -1
@@ -6753,6 +6868,7 @@ Small
 12
 11
 6
+swim
 4
 <Seadra: Lvl 13>
 500.5
@@ -6804,6 +6920,7 @@ Medium
 15
 14
 7
+swim
 6
 <Kingdra: Dragon Scale>
 500.5
@@ -6863,6 +6980,7 @@ Small
 12
 12
 6
+swim
 6
 <Seaking: Lvl 13>
 500.5
@@ -6918,6 +7036,7 @@ Medium
 15
 14
 6
+swim
 10
 <None>
 500.5
@@ -6979,6 +7098,7 @@ Medium
 12
 12
 7
+walk/swim
 4
 <Starmie: Water Stone>
 0
@@ -7044,6 +7164,7 @@ Medium
 16
 16
 9
+walk/swim
 8
 <None>
 0
@@ -7085,6 +7206,7 @@ Medium
 14
 17
 8
+walk
 6
 <None>
 500.5
@@ -7162,6 +7284,7 @@ Medium
 15
 15
 8
+walk/fly
 8
 <Scizor: Metal Coat>
 500.5
@@ -7225,6 +7348,7 @@ Medium
 15
 13
 8
+walk
 8
 <None>
 -1
@@ -7292,6 +7416,7 @@ Medium
 16
 14
 8
+walk
 8
 <Electivire: Electirizer>
 750.25
@@ -7349,6 +7474,7 @@ Medium
 17
 14
 8
+walk
 8
 <Magmortar: Magmarizer>
 750.25
@@ -7406,6 +7532,7 @@ Medium
 16
 16
 7
+walk
 8
 <None>
 500.5
@@ -7465,6 +7592,7 @@ Medium
 14
 15
 9
+walk
 8
 <None>
 1
@@ -7522,6 +7650,7 @@ Medium
 7
 10
 7
+swim
 4
 <Gyarados: Lvl 8>
 500.5
@@ -7555,6 +7684,7 @@ Huge
 17
 16
 7
+swim
 10
 <None>
 500.5
@@ -7612,6 +7742,7 @@ Large
 16
 16
 6
+walk 2/swim
 1
 <None>
 500.5
@@ -7669,6 +7800,7 @@ Small
 12
 12
 5
+walk
 6
 <None>
 0
@@ -7698,6 +7830,7 @@ Small
 11
 13
 6
+walk
 6
 <Vaporeon: Water Stone><Jolteon: Thunder Stone><Flareon: Fire Stone><Espeon: Friendship during day><Umbreon: Friendship during night><Leafeon: Moss Rock><Glaceon: Ice Rock><Sylveon: Fairy-type move>
 875.125
@@ -7759,6 +7892,7 @@ Medium
 16
 15
 6
+walk/swim
 1
 <None>
 875.125
@@ -7818,6 +7952,7 @@ Medium
 16
 15
 10
+walk
 8
 <None>
 875.125
@@ -7877,6 +8012,7 @@ Medium
 19
 16
 6
+walk
 8
 <None>
 875.125
@@ -7936,6 +8072,7 @@ Medium
 14
 14
 5
+hover
 8
 <Porygon2: Up-Grade>
 0
@@ -7993,6 +8130,7 @@ Small
 14
 15
 5
+walk 2/swim
 4
 <Omastar: Lvl 16>
 875.125
@@ -8048,6 +8186,7 @@ Medium
 16
 17
 6
+walk 2/swim
 8
 <None>
 875.125
@@ -8111,6 +8250,7 @@ Small
 13
 14
 6
+walk 2/swim
 4
 <Kabutops: Lvl 16>
 875.125
@@ -8162,6 +8302,7 @@ Medium
 16
 16
 7
+walk/swim
 8
 <None>
 875.125
@@ -8227,6 +8368,7 @@ Large
 15
 14
 10
+walk/fly
 10
 <None>
 875.125
@@ -8290,6 +8432,7 @@ Large
 16
 16
 5
+walk
 2
 <None>
 875.125
@@ -8351,6 +8494,7 @@ Large
 16
 19
 7
+walk/fly
 10
 <None>
 0
@@ -8410,6 +8554,7 @@ Large
 19
 16
 8
+walk/fly
 10
 <None>
 0
@@ -8469,6 +8614,7 @@ Large
 19
 16
 8
+walk/fly
 10
 <None>
 0
@@ -8528,6 +8674,7 @@ Medium
 12
 11
 6
+walk/swim
 6
 <Dragonair: Lvl 12>
 500.5
@@ -8583,6 +8730,7 @@ Large
 15
 14
 7
+walk/swim
 8
 <Dragonite: Lvl 21>
 500.5
@@ -8642,6 +8790,7 @@ Large
 20
 17
 7
+walk/fly
 10
 <None>
 500.5
@@ -8715,6 +8864,7 @@ Large
 21
 17
 10
+walk/fly
 12
 <None>
 0
@@ -8782,6 +8932,7 @@ Small
 18
 18
 8
+walk/fly
 12
 <None>
 0
@@ -8835,6 +8986,7 @@ Small
 12
 14
 5
+walk
 6
 <Bayleef: Lvl 7>
 875.125
@@ -8890,6 +9042,7 @@ Medium
 13
 15
 6
+walk
 8
 <Meganium: Lvl 13>
 875.125
@@ -8949,6 +9102,7 @@ Large
 16
 18
 7
+walk
 10
 <None>
 875.125
@@ -9016,6 +9170,7 @@ Small
 12
 11
 6
+walk
 4
 <Quilava: Lvl 6>
 875.125
@@ -9075,6 +9230,7 @@ Medium
 14
 13
 7
+walk
 6
 <Typhlosion: Lvl 15>
 875.125
@@ -9136,6 +9292,7 @@ Large
 17
 15
 8
+walk
 8
 <None>
 875.125
@@ -9205,6 +9362,7 @@ Small
 12
 12
 5
+walk/swim
 6
 <Croconaw: Lvl 7>
 875.125
@@ -9264,6 +9422,7 @@ Medium
 14
 14
 6
+walk/swim
 8
 <Feraligatr: Lvl 12>
 875.125
@@ -9325,6 +9484,7 @@ Large
 16
 17
 7
+walk/swim
 10
 <None>
 875.125
@@ -9390,6 +9550,7 @@ Small
 12
 11
 5
+walk/climb
 6
 <Ariados: Lvl 9>
 500.5
@@ -9453,6 +9614,7 @@ Medium
 15
 14
 5
+walk/climb
 8
 <None>
 500.5
@@ -9530,6 +9692,7 @@ Small
 10
 10
 4
+walk/swim
 6
 <Quagsire: Lvl 8>
 500.5
@@ -9583,6 +9746,7 @@ Small
 16
 11
 8
+walk/fly
 8
 <Honchkrow: Dusk Stone>
 500.5
@@ -9640,6 +9804,7 @@ Medium
 14
 14
 7
+hover
 8
 <Mismagius: Dusk Stone>
 500.5
@@ -9695,6 +9860,7 @@ Medium
 12
 15
 6
+walk/climb/fly
 8
 <None>
 500.5
@@ -9750,6 +9916,7 @@ Small
 11
 10
 7
+walk/fly
 6
 <Swellow: Lvl 9>
 500.5
@@ -9803,6 +9970,7 @@ Medium
 12
 11
 6
+walk
 4
 <Gardevoir: Lvl 12><Gallade: Male and Dawn Stone>
 500.5
@@ -9870,6 +10038,7 @@ Small
 14
 14
 6
+walk
 6
 <None>
 500.5
@@ -9937,6 +10106,7 @@ Small
 12
 14
 5
+walk
 6
 <Lairon: Lvl 13>
 500.5
@@ -10000,6 +10170,7 @@ Small
 11
 10
 6
+walk/fly
 6
 <Staravia: Lvl 6>
 500.5
@@ -10051,6 +10222,7 @@ Small
 11
 11
 7
+walk/fly
 8
 <Swoobat: Friendship>
 500.5
@@ -10106,6 +10278,7 @@ Small
 13
 11
 6
+walk/burrow
 8
 <Excadrill: Lvl 13>
 500.5
@@ -10163,6 +10336,7 @@ Small
 10
 12
 6
+walk/climb
 4
 <Whirlipede: Lvl 9>
 500.5
@@ -10220,6 +10394,7 @@ Medium
 16
 13
 8
+swim
 8
 <None>
 500.5
@@ -10283,6 +10458,7 @@ Small
 12
 11
 4
+walk
 8
 <Amoonguss: Lvl 16>
 500.5
@@ -10340,6 +10516,7 @@ Medium
 12
 14
 5
+hover/swim
 6
 <Jellicent: Lvl 16>
 500.5
@@ -10395,6 +10572,7 @@ Small
 13
 12
 6
+walk
 6
 <Fraxure: Lvl 15>
 500.5
@@ -10454,6 +10632,7 @@ Medium
 12
 12
 5
+walk
 6
 <Golurk: Lvl 17>
 0
@@ -10513,6 +10692,7 @@ Small
 15
 15
 8
+walk/climb
 6
 <None>
 500.5
@@ -10574,6 +10754,7 @@ Large
 19
 17
 8
+fly
 10
 <None>
 500.5
@@ -10641,6 +10822,7 @@ Small
 10
 10
 6
+walk/burrow
 4
 <Diggersby: Lvl 8>
 500.5
@@ -10700,6 +10882,7 @@ Small
 11
 10
 6
+walk/fly
 6
 <Fletchinder: Lvl 7>
 500.5
@@ -10755,6 +10938,7 @@ Medium
 13
 12
 7
+walk
 8
 <Pyroar: Lvl 14>
 125.875
@@ -10812,6 +10996,7 @@ Medium
 16
 14
 9
+walk
 8
 <None>
 500.5
@@ -10873,6 +11058,7 @@ Small
 11
 11
 6
+walk
 6
 <Lycanroc: Lvl 10>
 500.5
@@ -10930,6 +11116,7 @@ Medium
 15
 13
 8
+walk
 6
 <Artemis: Lvl 8>
 400.6
@@ -10985,6 +11172,7 @@ Large
 16
 14
 8
+walk
 6
 <Phoebe: Lvl 16>
 400.6
@@ -11044,6 +11232,7 @@ Large
 16
 14
 8
+walk
 8
 <None>
 400.6

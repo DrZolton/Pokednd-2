@@ -39,10 +39,11 @@ int main(){
 	pokedex.fileInput(fileInput);
 	fileInput.close();
 	std::cout << "done\n\n";
-
+/*
 //temporary
 //std::cout << "preparing to add evolution, gender ratios, and base stats\n\n";
-/*std::cout << "Preparing to add sizes\n\n";
+//std::cout << "Preparing to add sizes\n\n";
+//std::cout << "Preparing to add movement type\n\n";
 node* cursor;
 pokedex.temporary1(cursor);
 std::string tempName;
