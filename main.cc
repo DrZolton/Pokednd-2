@@ -23,6 +23,7 @@ int main(){
 		<< "\n    OOOOOOOOOOOOOOO"
 		<< "\n      OOOOOOOOOOO"
 		<< "\n        OOOOOOO"
+		<< "\033[0m"
 		<< std::endl;
 
 	std::cout << "\nWelcome to the PokeDnD creation kit v.2\n\n";

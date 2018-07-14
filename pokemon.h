@@ -635,53 +635,125 @@ int Pokemon::generate(const int& lvl){
 
 void Pokemon::outputBase(std::ostream& outs){
 	outs << "--------------------\n"
-		 << name << std::endl
-		 << "--------------------\n"
-		 << "Index: " << index << std::endl
-		 << "Type: " << type << std::endl
-		 << "Ability: " << ability << std::endl
-		 << "Hidden Ability: " << hiddenAbility << std::endl
-		 << "Height: " << height / 12 << "'" << height % 12 << "\"" << std::endl
-		 << "Weight: " << weight << " lbs" << std::endl
-		 << "Size: " << size << std::endl;
+		<< name << std::endl
+		<< "--------------------\n";
 
-		if(genderRatio == 0) outs << "Gender Ratio: Genderless\n\n";
-		if(genderRatio == 1) outs << "Gender Ratio: 100% Male, 0% Female\n\n";
-		else if(genderRatio == -1) outs << "Gender Ratio: 0% Male, 100% Female\n\n";
-		else{
-			double genderR = int(genderRatio);
-			genderR /= 10;
-			outs << "Gender Ratio: " << genderR << "% Male, ";
-			genderR = genderRatio - int(genderRatio);
-			genderR *= 100;
-			outs << genderR << "% Female\n\n";
-		}
+	std::stringstream ss;
 
-		std::string evo = evolution;
-		int pos = evo.find(">");
-		outs << "Evolution\n" << evo.substr(1, pos-1) << std::endl;
-		evo = evo.substr(pos+1);
-		while (evo.length() > 0){
-			pos = evo.find(">");
-			outs << evo.substr(1, pos-1) << std::endl;
-			evo = evo.substr(pos+1);
-		}
-		outs << std::endl;
+	ss << "Index: " << index;
+	outs.width(40);
+	outs.fill(' ');
+	outs.setf(std::ios::left);
+	outs << ss.str() << "| ";
 
-		outs << "Strength: " << strength << " (" << std::showpos << floor(double(strength - 10)/2.0) << ")" << std::endl << std::noshowpos
-		 << "Dexterity: " << dexterity << " (" << std::showpos << floor(double(dexterity - 10)/2.0) << ")" << std::endl << std::noshowpos
-		 << "Intelligence: " << intelligence << " (" << std::showpos << floor(double(intelligence - 10)/2.0) << ")" << std::endl << std::noshowpos
-		 << "Constitution: " << constitution << " (" << std::showpos << floor(double(constitution - 10)/2.0) << ")" << std::endl << std::noshowpos
-		 << "Charisma: " << charisma << " (" << std::showpos << floor(double(charisma - 10)/2.0) << ")" << std::endl << std::noshowpos
-		 << "Wisdom: " << wisdom << " (" << std::showpos << floor(double(wisdom - 10)/2.0) << ")" << std::endl << std::endl << std::noshowpos
+	outs << "Strength: " << strength << " (" << std::showpos << floor(double(strength - 10)/2.0) << ")" << std::endl << std::noshowpos;
 
-		 << "Movement Speed: " << speed << " (" << moveType << ")" << std::endl;
+	ss.str("");
+	ss.clear();
+
+	ss << "Type: " << type;
+	outs.width(40);
+	outs.fill(' ');
+	outs.setf(std::ios::left);
+	outs << ss.str() << "| ";
+
+	outs << "Dexterity: " << dexterity << " (" << std::showpos << floor(double(dexterity - 10)/2.0) << ")" << std::endl << std::noshowpos;
+
+	ss.str("");
+	ss.clear();
+
+	ss << "Ability: " << ability;
+	outs.width(40);
+	outs.fill(' ');
+	outs.setf(std::ios::left);
+	outs << ss.str() << "| ";
+
+	outs << "Intelligence: " << intelligence << " (" << std::showpos << floor(double(intelligence - 10)/2.0) << ")" << std::endl << std::noshowpos;
+
+	ss.str("");
+	ss.clear();
+
+	ss << "Hidden Ability: " << hiddenAbility;
+	outs.width(40);
+	outs.fill(' ');
+	outs.setf(std::ios::left);
+	outs << ss.str() << "| ";
+
+	outs << "Constitution: " << constitution << " (" << std::showpos << floor(double(constitution - 10)/2.0) << ")" << std::endl << std::noshowpos;
+
+	ss.str("");
+	ss.clear();
+
+	ss << "Height: " << height / 12 << "'" << height % 12 << "\"";
+	outs.width(40);
+	outs.fill(' ');
+	outs.setf(std::ios::left);
+	outs << ss.str() << "| ";
+
+	outs << "Charisma: " << charisma << " (" << std::showpos << floor(double(charisma - 10)/2.0) << ")" << std::endl << std::noshowpos;
+
+	ss.str("");
+	ss.clear();
+
+	ss << "Weight: " << weight << "lbs";
+	outs.width(40);
+	outs.fill(' ');
+	outs.setf(std::ios::left);
+	outs << ss.str() << "| ";
+
+	outs << "Wisdom: " << wisdom << " (" << std::showpos << floor(double(wisdom - 10)/2.0) << ")" << std::endl << std::noshowpos;
+
+	ss.str("");
+	ss.clear();
+
+	ss << "Size: " << size;
+	outs.width(40);
+	outs.fill(' ');
+	outs.setf(std::ios::left);
+	outs << ss.str() << "|" << std::endl;
+
+	ss.str("");
+	ss.clear();
+
+	if(genderRatio == 0) ss << "Gender Ratio: Genderless";
+	else if(genderRatio == 1) ss << "Gender Ratio: 100% Male, 0% Female";
+	else if(genderRatio == -1) ss << "Gender Ratio: 0% Male, 100% Female";
+	else{
+		double genderR = int(genderRatio);
+		genderR /= 10;
+		ss << "Gender Ratio: " << genderR << "% Male, ";
+		genderR = genderRatio - int(genderRatio);
+		genderR *= 100;
+		ss << genderR << "% Female";
+	}
+        outs.width(40);
+        outs.fill(' ');
+        outs.setf(std::ios::left);
+	outs << ss.str() << "| ";
+
+	outs << "Movement Speed: " << speed << " (" << moveType << ")" << std::endl;
+
+	outs.width(40);
+	outs.fill(' ');
+	outs.setf(std::ios::left);
+	outs << " " << "| ";
 
 	if(hitDie == 1 || hitDie == 2 || hitDie == 3)
-		outs << "Hit Die: 1d12 + " << hitDie << std::endl << std::endl;
+		outs << "Hit Die: 1d12 + " << hitDie << std::endl;
 
 	else if(hitDie > 3 && hitDie < 13)
-		outs << "Hit Die: 1d" << hitDie << std::endl << std::endl;
+		outs << "Hit Die: 1d" << hitDie << std::endl;
+
+	std::string evo = evolution;
+	int pos = evo.find(">");
+	outs << "Evolution\n" << evo.substr(1, pos-1) << std::endl;
+	evo = evo.substr(pos+1);
+	while (evo.length() > 0){
+		pos = evo.find(">");
+		outs << evo.substr(1, pos-1) << std::endl;
+		evo = evo.substr(pos+1);
+	}
+	outs << std::endl;
 
 	outs << "Moves\nLvl:    Name:\n";
 	for(int i = 0; i <= numMoves; i++){
