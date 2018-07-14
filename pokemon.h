@@ -64,6 +64,7 @@ class Pokemon{
 	private:
 		void addMoves(std::istream& ins);
 		void moveSort();
+		void printMoves(std::ostream& outs);
 
 		//Info
 		std::string name;
@@ -634,9 +635,9 @@ int Pokemon::generate(const int& lvl){
 }
 
 void Pokemon::outputBase(std::ostream& outs){
-	outs << "--------------------\n"
+	outs << "---------------------------------------------------------------------------\n"
 		<< name << std::endl
-		<< "--------------------\n";
+		<< "---------------------------------------------------------------------------\n";
 
 	std::stringstream ss;
 
@@ -695,7 +696,7 @@ void Pokemon::outputBase(std::ostream& outs){
 	ss.str("");
 	ss.clear();
 
-	ss << "Weight: " << weight << "lbs";
+	ss << "Weight: " << weight << " lbs";
 	outs.width(40);
 	outs.fill(' ');
 	outs.setf(std::ios::left);
@@ -755,57 +756,172 @@ void Pokemon::outputBase(std::ostream& outs){
 	}
 	outs << std::endl;
 
-	outs << "Moves\nLvl:    Name:\n";
-	for(int i = 0; i <= numMoves; i++){
-		outs << moves[i].level;
-		if(moves[i].level < 10) outs << " ";
-		outs << " ---- " << moves[i].name << std::endl;
-	}
-	outs << "--------------------\n";
-	outs << std::endl << std::endl;
+	printMoves(outs);
+
+	outs << "\n\n\n\n";
 }
 
 void Pokemon::outputAll(std::ostream& outs){
-	outs << "--------------------\n"
-		 << name << std::endl
-		 << "--------------------\n";
+	outs << "---------------------------------------------------------------------------\n"
+		<< name << std::endl
+		<< "---------------------------------------------------------------------------\n";
 
-		outs << "XP Reward: " << xp << std::endl
-		 << "Level: " << level << std::endl
-		 << "Catch DC: " << catchDC << std::endl << std::endl
+	std::stringstream ss;
 
-		 << "Index: " << index << std::endl
-		 << "Type: " << type << std::endl
-		 << "Ability: " << ability << std::endl
-		 << "Hidden Ability: " << hiddenAbility << std::endl
-		 << "Height: " << height / 12 << "'" << height % 12 << "\"" << std::endl
-		 << "Weight: " << weight << " lbs" << std::endl
-		 << "Size: " << size << std::endl
-		 << "Gender: " << gender << std::endl
-		 << "Nature: " << nature << std::endl << std::endl;
+	ss << "XP Reward: " << xp;
+	outs.width(40);
+	outs.fill(' ');
+	outs.setf(std::ios::left);
+	outs << ss.str() << "| ";
 
-		std::string evo = evolution;
-		int pos = evo.find(">");
-		outs << "Evolution\n" << evo.substr(1, pos-1) << std::endl;
+        outs << "Strength: " << strength << " (" << std::showpos << floor(double(strength - 10)/2.0) << ")" << std::endl << std::noshowpos;
+
+	ss.str("");
+	ss.clear();
+
+	ss << "Level: " << level;
+        outs.width(40);
+        outs.fill(' ');
+        outs.setf(std::ios::left);
+	outs << ss.str() << "| ";
+
+        outs << "Dexterity: " << dexterity << " (" << std::showpos << floor(double(dexterity - 10)/2.0) << ")" << std::endl << std::noshowpos;
+
+	ss.str("");
+	ss.clear();
+
+	ss << "Catch DC: " << catchDC;
+        outs.width(40);
+        outs.fill(' ');
+        outs.setf(std::ios::left);
+        outs << ss.str() << "| ";
+
+        outs << "Intelligence: " << intelligence << " (" << std::showpos << floor(double(intelligence - 10)/2.0) << ")" << std::endl << std::noshowpos;
+
+	outs.width(40);
+        outs.fill(' ');
+        outs.setf(std::ios::left);
+	outs << " " << "| ";
+
+        outs << "Constitution: " << constitution << " (" << std::showpos << floor(double(constitution - 10)/2.0) << ")" << std::endl << std::noshowpos;
+
+	ss.str("");
+	ss.clear();
+
+	ss << "Index: " << index;
+	outs.width(40);
+        outs.fill(' ');
+        outs.setf(std::ios::left);
+        outs << ss.str() << "| ";
+
+	outs << "Charisma: " << charisma << " (" << std::showpos << floor(double(charisma - 10)/2.0) << ")" << std::endl << std::noshowpos;
+
+	ss.str("");
+	ss.clear();
+
+	ss << "Type: " << type;
+	outs.width(40);
+        outs.fill(' ');
+        outs.setf(std::ios::left);
+        outs << ss.str() << "| ";
+
+	outs << "Wisdom: " << wisdom << " (" << std::showpos << floor(double(wisdom - 10)/2.0) << ")" << std::endl << std::noshowpos;
+
+	ss.str("");
+	ss.clear();
+
+	ss << "Ability: " << ability;
+	outs.width(40);
+        outs.fill(' ');
+        outs.setf(std::ios::left);
+        outs << ss.str() << "|\n";
+
+	ss.str("");
+	ss.clear();
+
+	ss << "Hidden Ability: " << hiddenAbility;
+	outs.width(40);
+        outs.fill(' ');
+        outs.setf(std::ios::left);
+        outs << ss.str() << "| ";
+
+	outs << "AC: " << AC << std::endl;
+
+	ss.str("");
+	ss.clear();
+
+	ss << "Height: " << height / 12 << "'" << height % 12 << "\"";
+	outs.width(40);
+        outs.fill(' ');
+        outs.setf(std::ios::left);
+        outs << ss.str() << "| ";
+
+	outs << "Fortitude: " << fortitude << std::endl;
+
+	ss.str("");
+	ss.clear();
+
+	ss << "Weight: " << weight << " lbs";
+	outs.width(40);
+        outs.fill(' ');
+        outs.setf(std::ios::left);
+        outs << ss.str() << "| ";
+
+	outs << "Will: " << will << std::endl;
+
+	ss.str("");
+	ss.clear();
+
+	ss << "Size: " << size;
+	outs.width(40);
+        outs.fill(' ');
+        outs.setf(std::ios::left);
+        outs << ss.str() << "| ";
+
+	outs << "Movement Speed: " << speed << " (" << moveType << ")" << std::endl;
+
+	ss.str("");
+	ss.clear();
+
+	ss << "Gender: " << gender;
+	outs.width(40);
+        outs.fill(' ');
+        outs.setf(std::ios::left);
+        outs << ss.str() << "| ";
+
+	outs << "Hit Dice: " << level << "d";
+        if(hitDie == 1 || hitDie == 2 || hitDie == 3) outs << "12 + " << level << "*" << hitDie;
+	else outs << hitDie;
+	outs << std::endl;
+
+	ss.str("");
+	ss.clear();
+
+	ss << "Nature: " << nature;
+	outs.width(40);
+        outs.fill(' ');
+        outs.setf(std::ios::left);
+        outs << ss.str() << "| ";
+
+	outs << "HP: " << HP << "\n";
+
+	outs.width(40);
+        outs.fill(' ');
+        outs.setf(std::ios::left);
+        outs << " " << "| ";
+
+	outs << "Power Points: " << powerPoints << "\n";
+
+	std::string evo = evolution;
+	int pos = evo.find(">");
+	outs << "Evolution\n" << evo.substr(1, pos-1) << std::endl;
+	evo = evo.substr(pos+1);
+	while (evo.length() > 0){
+		pos = evo.find(">");
+		outs << evo.substr(1,pos-1) << std::endl;
 		evo = evo.substr(pos+1);
-		while (evo.length() > 0){
-			pos = evo.find(">");
-			outs << evo.substr(1,pos-1) << std::endl;
-			evo = evo.substr(pos+1);
-		}
-		outs << std::endl;
-
-                outs << "Strength: " << strength << " (" << std::showpos << floor(double(strength - 10)/2.0) << ")" << std::endl << std::noshowpos
-                 << "Dexterity: " << dexterity << " (" << std::showpos << floor(double(dexterity - 10)/2.0) << ")" << std::endl << std::noshowpos
-                 << "Intelligence: " << intelligence << " (" << std::showpos << floor(double(intelligence - 10)/2.0) << ")" << std::endl << std::noshowpos
-                 << "Constitution: " << constitution << " (" << std::showpos << floor(double(constitution - 10)/2.0) << ")" << std::endl << std::noshowpos
-                 << "Charisma: " << charisma << " (" << std::showpos << floor(double(charisma - 10)/2.0) << ")" << std::endl << std::noshowpos
-                 << "Wisdom: " << wisdom << " (" << std::showpos << floor(double(wisdom - 10)/2.0) << ")" << std::endl << std::endl << std::noshowpos
-
-		 << "AC: " << AC << std::endl
-		 << "Fortitude: " << fortitude << std::endl
-		 << "Will: " << will << std::endl
-		 << "Movement Speed: " << speed << " (" << moveType << ")" << std::endl;
+	}
+	outs << std::endl;
 
 //	if(hitDie == 1 || hitDie == 2 || hitDie == 3)
 //		outs << "Hit Die: 1d12 + " << hitDie << std::endl
@@ -818,21 +934,9 @@ void Pokemon::outputAll(std::ostream& outs){
 //		return;
 //	}
 
-	outs << "Hit Dice: " << level << "d";
-        if(hitDie == 1 || hitDie == 2 || hitDie == 3) outs << "12 + " << level << "*" << hitDie;
-	else outs << hitDie;
-	outs << "\nHP: " << HP << "\n"
-		<< "Power Points: " << powerPoints << "\n\n";
+	printMoves(outs);
 
-
-	outs << "Moves\nLvl:    Name:\n";
-	for(int i = 0; i <= numMoves; i++){
-		outs << moves[i].level;
-		if(moves[i].level < 10) outs << " ";
-		outs << " ---- " << moves[i].name << std::endl;
-	}
-	outs << "--------------------\n";
-	outs << std::endl;
+	outs << "\n\n\n\n";
 }
 
 int Pokemon::inputBase(){
@@ -1225,6 +1329,37 @@ void Pokemon::moveSort(){
 			}
 		}
 	}
+}
+
+void Pokemon::printMoves(std::ostream& outs){
+	outs << "Moves\nLvl:    Name:\n";
+
+	int repeatCount = 0;
+
+	outs << moves[0].level;
+	if(moves[0].level < 10) outs << " ";
+	outs << " ---- " << moves[0].name;
+	int currentLevel = moves[0].level;
+
+	for(int i = 1; i <= numMoves; i++){
+		if(moves[i].level != currentLevel){
+			repeatCount = 0;
+			outs << std::endl << moves[i].level;
+			if(moves[i].level < 10) outs << " ";
+			outs << " ---- " << moves[i].name;
+		}
+		else{
+			repeatCount++;
+			if(repeatCount > 4){
+				outs << std::endl << "   ---- ";
+				repeatCount = 0;
+			}
+			else outs << ", ";
+			outs << moves[i].name;
+		}
+		currentLevel = moves[i].level;
+	}
+	outs << "\n---------------------------------------------------------------------------\n";
 }
 
 void Pokemon::temporary(){
