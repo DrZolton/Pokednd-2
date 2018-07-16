@@ -16,7 +16,6 @@ Small
 5
 walk
 6
-<Ivysaur: Lvl 7>
 875.125
 45
 49
@@ -24,6 +23,9 @@ walk
 65
 65
 45
+Ivysaur
+Lvl 7
+>
 1
 Tackle
 1
@@ -72,7 +74,6 @@ Medium
 6
 walk
 8
-<Venasaur: Lvl 13>
 875.125
 60
 62
@@ -80,14 +81,15 @@ walk
 80
 80
 60
+Venasaur
+Lvl 13
+>
 1
 Tackle
 1
 Growl
 1
 Leech Seed
-1
-Growl
 3
 Leech Seed
 4
@@ -102,10 +104,20 @@ Take Down
 Razor Leaf
 9
 Sweet Scent
+10
+Growth(Bulbasaur)
 11
 Growth
+11
+Double-Edge(Bulbasaur)
+13
+Synthesis(Bulbasaur)
 13
 Double-Edge
+13
+Worry Seed(Bulbasaur)
+15
+Seed Bomb(Bulbasaur)
 15
 Worry Seed
 16
@@ -132,7 +144,6 @@ Large
 7
 walk
 10
-<None>
 875.125
 80
 82
@@ -140,6 +151,7 @@ walk
 100
 100
 80
+>
 1
 Petal Dance
 1
@@ -150,10 +162,6 @@ Growl
 Leech Seed
 1
 Vine Whip
-1
-Petal Dance at Evo.
-1
-Growl
 3
 Leech Seed
 4
@@ -168,12 +176,28 @@ Take Down
 Razor Leaf
 9
 Sweet Scent
+10
+Growth(Bulbasaur)(Ivysaur)
+11
+Double-Edge(Bulbasaur)(Ivysaur)
 11
 Growth
 13
+Worry Seed(Bulbasaur)(Ivysaur)
+13
+Synthesis(Bulbasaur)(Ivysaur)
+13
 Double-Edge
+15
+Worry Seed(Ivysaur)
+15
+Seed Bomb(Bulbasaur)(Ivysaur)
 16
 Worry Seed
+16
+Synthesis(Ivysaur)
+18
+Solar Beam(Ivysaur)
 18
 Synthesis
 20
@@ -200,7 +224,6 @@ Small
 6
 walk
 4
-<Charmeleon: Lvl 7>
 875.125
 39
 52
@@ -208,6 +231,9 @@ walk
 60
 50
 65
+Charmeleon
+Lvl 7
+>
 1
 Scratch
 1
@@ -252,7 +278,6 @@ Medium
 7
 walk
 6
-<Charizard: Lvl 15>
 875.125
 58
 64
@@ -260,6 +285,9 @@ walk
 80
 65
 80
+Charizard
+Lvl 15
+>
 1
 Scratch
 1
@@ -272,16 +300,30 @@ Ember
 Smokescreen
 7
 Dragon Rage
+8
+Scary Face(Charmander)
 9
 Scary Face
+10
+Fire Fang(Charmander)
+11
+Flame Burst(Charmander)
 11
 Fire Fang
 13
 Flame Burst
+14
+Slash(Charmander)
+15
+Flamethrower(Charmander)
 16
 Slash
 17
 Flamethrower
+17
+Fire Spin(Charmander)
+19
+Inferno(Charmander)
 20
 Fire Spin
 21
@@ -306,7 +348,6 @@ Large
 8
 walk/fly
 8
-<None>
 875.125
 78
 84
@@ -314,6 +355,7 @@ walk/fly
 109
 85
 100
+>
 1
 Wing Attack
 1
@@ -332,24 +374,44 @@ Scratch
 Growl
 1
 Ember
-1
-Wing Attack at Evo.
 3
 Ember
 4
 Smokescreen
 7
 Dragon Rage
+8
+Scary Face(Charmander)(Charmeleon)
 9
 Scary Face
+10
+Fire Fang(Charmander)(Charmeleon)
+11
+Flame Burst(Charmander)(Charmeleon)
 11
 Fire Fang
 13
 Flame Burst
+14
+Slash(Charmander)(Charmeleon)
+15
+Flamethrower(Charmander)(Charmeleon)
+16
+Slash(Charmeleon)
 17
 Slash
+17
+Flamethrower(Charmeleon)
+17
+Fire Spin(Charmander)(Charmeleon)
+19
+Inferno(Charmander)(Charmeleon)
 19
 Flamethrower
+20
+Fire Spin(Charmeleon)
+21
+Inferno(Charmeleon)
 22
 Fire Spin
 23
@@ -378,7 +440,6 @@ Small
 5
 walk/swim
 6
-<Wartortle: Lvl 7>
 875.125
 44
 48
@@ -386,6 +447,9 @@ walk/swim
 50
 64
 43
+Wartortle
+Lvl 7
+>
 1
 Tackle
 2
@@ -434,7 +498,6 @@ Medium
 6
 walk/swim
 6
-<Blastoise: Lvl 15>
 875.125
 59
 63
@@ -442,6 +505,9 @@ walk/swim
 65
 80
 58
+Blastoise
+Lvl 15
+>
 1
 Tackle
 1
@@ -458,16 +524,32 @@ Withdraw
 Bubble
 7
 Bite
+8
+Rapid Spin(Squirtle)
+9
+Protect(Squirtle)
 9
 Rapid Spin
 10
 Protect
+10
+Water Pulse(Squirtle)
+11
+Aqua Tail(Squirtle)
 12
 Water Pulse
 13
 Aqua Tail
+13
+Skull Bash(Squirtle)
+14
+Iron Defense(Squirtle)
 15
 Skull Bash
+15
+Rain Dance(Squirtle)
+16
+Hydro Pump(Squirtle)
 17
 Iron Defense
 18
@@ -494,7 +576,6 @@ Large
 7
 walk/swim
 8
-<None>
 875.125
 79
 83
@@ -502,6 +583,7 @@ walk/swim
 85
 105
 78
+>
 1
 Flash Cannon
 1
@@ -522,18 +604,42 @@ Withdraw
 Bubble
 7
 Bite
+8
+Rapid Spin(Squirtle)(Wartortle)
+9
+Protect(Squirtle)(Wartortle)
 9
 Rapid Spin
 10
+Water Pulse(Squirtle)(Wartortle)
+10
 Protect
+11
+Aqua Tail(Squirtle)(Wartortle)
 12
 Water Pulse
 13
+Skull Bash(Squirtle)(Wartortle)
+13
 Aqua Tail
+14
+Iron Defense(Squirtle)(Wartortle)
+15
+Skull Bash(Wartortle)
+15
+Rain Dance(Squirtle)(Wartortle)
 16
 Skull Bash
+16
+Hydro Pump(Squirtle)(Wartortle)
+17
+Iron Defense(Wartortle)
+18
+Rain Dance(Wartortle)
 19
 Iron Defense
+20
+Hydro Pump(Wartortle)
 21
 Rain Dance
 22
@@ -558,7 +664,6 @@ Small
 5
 walk/climb
 6
-<Metapod: Lvl 3>
 500.5
 45
 30
@@ -566,6 +671,9 @@ walk/climb
 20
 20
 45
+Metapod
+Lvl 3
+>
 1
 Tackle
 1
@@ -592,7 +700,6 @@ Medium
 5
 walk
 6
-<Butterfree: Lvl 4>
 500.5
 50
 20
@@ -600,10 +707,13 @@ walk
 25
 25
 30
+Butterfree
+Lvl 4
+>
 1
 Harden
 1
-Harden at Evo.
+Tackle(Caterpie)
 0
 
 $
@@ -624,7 +734,6 @@ Medium
 7
 walk/climb/fly
 8
-<None>
 500.5
 60
 45
@@ -632,20 +741,27 @@ walk/climb/fly
 90
 80
 70
+>
 1
 Gust
 1
 Confusion
 1
-Gust at Evo.
-5
-Confusion
-5
-Poison Powder
+Harden(Metapod)
+1
+Tackle(Caterpie)(Metapod)
+1
+String Shot(Caterpie)(Metapod)
+4
+Bug Bite(Caterpie)(Metapod)
 5
 Stun Spore
 5
 Sleep Powder
+5
+Confusion
+5
+Poison Powder
 7
 Psybeam
 8
@@ -688,7 +804,6 @@ Small
 6
 walk/climb
 6
-<Kakuna: Lvl 3>
 500.5
 40
 35
@@ -696,6 +811,9 @@ walk/climb
 20
 20
 50
+Kakuna
+Lvl 3
+>
 1
 Poison Sting
 1
@@ -722,7 +840,6 @@ Small
 5
 walk
 6
-<Beedrill: Lvl 4>
 500.5
 45
 25
@@ -730,10 +847,13 @@ walk
 25
 25
 35
+Beedrill
+Lvl 4
+>
 1
 Harden
 1
-Harden at Evo.
+Poison Sting(Weedle)
 0
 
 $
@@ -754,7 +874,6 @@ Medium
 7
 walk/climb/fly
 8
-<None>
 500.5
 65
 90
@@ -762,12 +881,19 @@ walk/climb/fly
 45
 80
 75
+>
 1
 Twineedle
 1
 Fury Attack
 1
-Twineedle at Evo.
+Harden(Kakuna)
+1
+Poison Sting(Weedle)(Kakuna)
+1
+String Shot(Weedle)(Kakuna)
+4
+Bug Bite(Weedle)(Kakuna)
 5
 Fury Attack
 6
@@ -812,7 +938,6 @@ Small
 6
 walk/fly
 6
-<Pidgeotto: Lvl 7>
 500.5
 40
 45
@@ -820,6 +945,9 @@ walk/fly
 35
 35
 56
+Pidgeotto
+Lvl 7
+>
 1
 Tackle
 2
@@ -868,7 +996,6 @@ Medium
 7
 walk/fly
 8
-<Pidgeot: Lvl 15>
 500.5
 63
 60
@@ -876,6 +1003,9 @@ walk/fly
 50
 50
 71
+Pidgeot
+Lvl 15
+>
 1
 Tackle
 1
@@ -892,16 +1022,32 @@ Quick Attack
 Whirlwind
 9
 Twister
+10
+Feather Dance(Pidgey)
 11
 Feather Dance
+12
+Agility(Pidgey)
 13
 Agility
+13
+Wing Attack(Pidgey)
+15
+Roost(Pidgey)
 15
 Wing Attack
 17
 Roost
+17
+Tailwind(Pidgey)
+18
+Mirror Move(Pidgey)
 19
 Tailwind
+20
+Air Slash(Pidgey)
+21
+Hurricane(Pidgey)
 21
 Mirror Move
 22
@@ -928,7 +1074,6 @@ Medium
 8
 walk/fly
 10
-<None>
 500.5
 83
 80
@@ -936,6 +1081,7 @@ walk/fly
 70
 70
 101
+>
 1
 Hurricane
 1
@@ -956,18 +1102,44 @@ Quick Attack
 Whirlwind
 9
 Twister
+10
+Feather Dance(Pidgey)(Pidgeotto)
 11
 Feather Dance
+12
+Agility(Pidgey)(Pidgeotto)
+13
+Wing Attack(Pidgey)(Pidgeotto)
 13
 Agility
 15
+Roost(Pidgey)(Pidgeotto)
+15
 Wing Attack
+17
+Tailwind(Pidgey)(Pidgeotto)
+17
+Roost(Pidgeotto)
+18
+Mirror Move(Pidgey)(Pidgeotto)
 18
 Roost
+19
+Tailwind(Pidgeotto)
+20
+Air Slash(Pidgey)(Pidgeotto)
 20
 Tailwind
+21
+Mirror Move(Pidgeotto)
+21
+Hurricane(Pidgey)(Pidgeotto)
 22
 Mirror Move
+22
+Air Slash(Pidgeotto)
+23
+Hurricane(Pidgeotto)
 23
 Air Slash
 24
@@ -992,7 +1164,6 @@ Small
 7
 walk/climb
 4
-<Raticate: Lvl 8>
 500.5
 30
 56
@@ -1000,6 +1171,9 @@ walk/climb
 25
 35
 72
+Raticate
+Lvl 8
+>
 1
 Tackle
 1
@@ -1046,7 +1220,6 @@ Medium
 8
 walk/climb
 6
-<None>
 500.5
 55
 81
@@ -1054,6 +1227,7 @@ walk/climb
 50
 70
 97
+>
 1
 Swords Dance
 1
@@ -1078,12 +1252,22 @@ Pursuit
 Hyper Fang
 8
 Assurance
+9
+Crunch(Rattata)
+10
+Sucker Punch(Rattata)
 10
 Crunch
+11
+Super Fang(Rattata)
 12
 Sucker Punch
+13
+Double-Edge(Rattata)
 14
 Super Fang
+14
+Endeavor(Rattata)
 16
 Double-Edge
 18
@@ -1108,7 +1292,6 @@ Small
 7
 walk/fly
 6
-<Fearow: Lvl 8>
 500.5
 40
 60
@@ -1116,6 +1299,9 @@ walk/fly
 31
 31
 70
+Fearow
+Lvl 8
+>
 1
 Peck
 1
@@ -1160,7 +1346,6 @@ Medium
 8
 walk/fly
 8
-<None>
 500.5
 65
 90
@@ -1168,6 +1353,7 @@ walk/fly
 61
 61
 100
+>
 1
 Drill Run
 1
@@ -1192,10 +1378,18 @@ Aerial Ace
 Mirror Move
 9
 Assurance
+10
+Agility(Spearow)
 11
 Agility
+12
+Focus Energy(Spearow)
 13
 Focus Energy
+13
+Roost(Spearow)
+15
+Drill Peck(Spearow)
 15
 Roost
 17
@@ -1222,7 +1416,6 @@ Medium
 6
 walk
 4
-<Arbok: Lvl 9>
 500.5
 35
 60
@@ -1230,6 +1423,9 @@ walk
 40
 54
 55
+Arbok
+Lvl 9
+>
 1
 Wrap
 1
@@ -1284,7 +1480,6 @@ Large
 7
 walk
 8
-<None>
 500.5
 60
 95
@@ -1292,6 +1487,7 @@ walk
 65
 79
 80
+>
 1
 Crunch
 1
@@ -1308,8 +1504,6 @@ Leer
 Poison Sting
 1
 Bite
-1
-Crunch at Evo.
 2
 Poison Sting
 4
@@ -1320,20 +1514,40 @@ Glare
 Screech
 8
 Acid
+10
+Swallow(Ekans)
+10
+Spit Up(Ekans)
+10
+Stockpile(Ekans)
 11
 Stockpile
+11
+Acid Spray(Ekans)
 11
 Swallow
 11
 Spit Up
 13
+Mud Bomb(Ekans)
+13
 Acid Spray
+15
+Gastro Acid(Ekans)
+15
+Belch(Ekans)
 16
 Mud Bomb
+17
+Haze(Ekans)
+18
+Coil(Ekans)
 18
 Gastro Acid
 19
 Belch
+20
+Gunk Shot(Ekans)
 21
 Haze
 22
@@ -1360,7 +1574,6 @@ Small
 8
 walk/climb
 4
-<Raichu: Thunder Stone>
 500.5
 35
 55
@@ -1368,6 +1581,9 @@ walk/climb
 50
 50
 90
+Raichu
+Thunder Stone
+>
 1
 Tail Whip
 1
@@ -1424,7 +1640,6 @@ Medium
 9
 walk/climb
 8
-<None>
 500.5
 60
 90
@@ -1432,6 +1647,7 @@ walk/climb
 90
 80
 110
+>
 1
 Thunder Shock
 1
@@ -1440,6 +1656,34 @@ Tail Whip
 Quick Attack
 1
 Thunderbolt
+2
+Growl(Pikachu)
+3
+Play Nice(Pikachu)
+4
+Quick Attack(Pikachu)
+5
+Electro Ball(Pikachu)
+7
+Thunder Wave(Pikachu)
+9
+Double Team(Pikachu)
+9
+Feint(Pikachu)
+11
+Spark(Pikachu)
+12
+Nuzzle(Pikachu)
+14
+Discharge(Pikachu)
+15
+Slam(Pikachu)
+17
+Thunderbolt(Pikachu)
+18
+Agility(Pikachu)
+20
+Wild Charge(Pikachu)
 0
 
 $
@@ -1460,7 +1704,6 @@ Small
 5
 walk/burrow
 6
-<Sandslash: Lvl 9>
 500.5
 50
 75
@@ -1468,6 +1711,9 @@ walk/burrow
 20
 30
 40
+Sandslash
+Lvl 9
+>
 1
 Scratch
 1
@@ -1522,7 +1768,6 @@ Medium
 6
 walk/burrow
 8
-<None>
 500.5
 75
 100
@@ -1530,6 +1775,7 @@ walk/burrow
 45
 55
 65
+>
 1
 Crush Claw
 1
@@ -1540,10 +1786,6 @@ Defense Curl
 Sand Attack
 1
 Poison Sting
-1
-Crush Claw at Evo.
-1
-Sand Attack
 2
 Poison Sting
 3
@@ -1558,18 +1800,30 @@ Magnitude
 Swift
 8
 Fury Swipes
+9
+Sand Tomb(Sandshrew)
 10
 Sand Tomb
 11
 Slash
+12
+Dig(Sandshrew)
 13
 Dig
+14
+Gyro Ball(Sandshrew)
 15
 Gyro Ball
+15
+Swords Dance(Sandshrew)
+17
+Sandstorm(Sandshrew)
 17
 Swords Dance
 19
 Sandstorm
+19
+Earthquake(Sandshrew)
 21
 Earthquake
 0
@@ -1592,7 +1846,6 @@ Small
 5
 walk
 6
-<Nidorina: Lvl 7>
 -1
 55
 47
@@ -1600,6 +1853,9 @@ walk
 40
 40
 41
+Nidorina
+Lvl 7
+>
 1
 Growl
 1
@@ -1646,7 +1902,6 @@ Medium
 6
 walk
 8
-<Nidoqueen: Moon Stone>
 -1
 70
 62
@@ -1654,6 +1909,9 @@ walk
 55
 55
 56
+Nidoqueen
+Moon Stone
+>
 1
 Growl
 1
@@ -1668,14 +1926,26 @@ Poison Sting
 Fury Swipes
 9
 Bite
+10
+Helping Hand(Nidoran(F))
 11
 Helping Hand
+13
+Toxic Spikes(Nidoran(F))
+13
+Flatter(Nidoran(F))
 14
 Toxic Spikes
 15
 Flatter
+15
+Crunch(Nidoran(F))
+17
+Captivate(Nidoran(F))
 17
 Crunch
+18
+Poison Fang(Nidoran(F))
 20
 Captivate
 22
@@ -1700,7 +1970,6 @@ Medium
 7
 walk
 10
-<None>
 -1
 90
 92
@@ -1708,6 +1977,7 @@ walk
 75
 85
 76
+>
 1
 Superpower
 1
@@ -1718,14 +1988,46 @@ Tail Whip
 Double Kick
 1
 Poison Sting
+1
+Growl(Nidorina)
+3
+Tail Whip(Nidorina)
+4
+Double Kick(Nidorina)
+5
+Poison Sting(Nidorina)
+8
+Fury Swipes(Nidorina)
 9
 Chip Away
+9
+Bite(Nidorina)
+10
+Helping Hand(Nidoran(F))(Nidorina)
+11
+Helping Hand(Nidorina)
+13
+Flatter(Nidoran(F))(Nidorina)
+13
+Toxic Spikes(Nidoran(F))(Nidorina)
+14
+Toxic Spikes(Nidorina)
 14
 Body Slam
+15
+Flatter(Nidorina)
+15
+Crunch(Nidoran(F))(Nidorina)
+17
+Captivate(Nidoran(F))(Nidorina)
 17
 Earth Power
-22
-Superpower
+17
+Crunch(Nidorina)
+18
+Poison Fang(Nidoran(F))(Nidorina)
+20
+Captivate(Nidorina)
 0
 
 $
@@ -1746,7 +2048,6 @@ Small
 6
 walk
 6
-<Nidorino: Lvl 7>
 1
 46
 57
@@ -1754,6 +2055,9 @@ walk
 40
 40
 50
+Nidorino
+Lvl 7
+>
 1
 Leer
 1
@@ -1800,7 +2104,6 @@ Medium
 6
 walk
 8
-<Nidoking: Moon Stone>
 1
 61
 72
@@ -1808,6 +2111,9 @@ walk
 55
 55
 65
+Nidoking
+Moon Stone
+>
 1
 Leer
 1
@@ -1822,14 +2128,26 @@ Poison Sting
 Fury Attack
 9
 Horn Attack
+10
+Helping Hand(Nidoran(M))
 11
 Helping Hand
+13
+Toxic Spikes(Nidoran(M))
+13
+Flatter(Nidoran(M))
 14
 Toxic Spikes
 15
 Flatter
+15
+Poison Jab(Nidoran(M))
+17
+Captivate(Nidoran(M))
 17
 Poison Jab
+18
+Horn Drill(Nidoran(M))
 20
 Captivate
 22
@@ -1854,7 +2172,6 @@ Medium
 7
 walk
 10
-<None>
 1
 81
 102
@@ -1862,6 +2179,7 @@ walk
 85
 75
 85
+>
 1
 Megahorn
 1
@@ -1872,14 +2190,46 @@ Focus Energy
 Double Kick
 1
 Poison Sting
+1
+Leer(Nidorino)
+3
+Focus Energy(Nidorino)
+4
+Double Kick(Nidorino)
+5
+Poison Sting(Nidorino)
+8
+Fury Attack(Nidorino)
 9
 Chip Away
+9
+Horn Attack(Nidorino)
+10
+Helping Hand(Nidoran(M))(Nidorino)
+11
+Helping Hand(Nidorino)
+13
+Flatter(Nidoran(M))(Nidorino)
+13
+Toxic Spikes(Nidoran(M))(Nidorino)
+14
+Toxic Spikes(Nidorino)
 14
 Thrash
+15
+Flatter(Nidorino)
+15
+Poison Jab(Nidoran(M))(Nidorino)
+17
+Captivate(Nidoran(M))(Nidorino)
 17
 Earth Power
-22
-Megahorn
+17
+Poison Jab(Nidorino)
+18
+Horn Drill(Nidoran(M))(Nidorino)
+20
+Captivate(Nidorino)
 0
 
 $
@@ -1900,7 +2250,6 @@ Small
 5
 walk
 8
-<Clefable: Moon Stone>
 250.75
 70
 45
@@ -1908,6 +2257,9 @@ walk
 60
 65
 35
+Clefable
+Moon Stone
+>
 1
 Spotlight
 1
@@ -1974,7 +2326,6 @@ Medium
 6
 walk/walk on water
 10
-<None>
 250.75
 95
 70
@@ -1982,6 +2333,7 @@ walk/walk on water
 95
 90
 60
+>
 1
 Spotlight
 1
@@ -1994,6 +2346,44 @@ Double Slap
 Minimize
 1
 Metronome
+1
+Pound(Clefairy)
+1
+Growl(Clefairy)
+1
+Encore(Clefairy)
+3
+Sing(Clefairy)
+4
+Double Slap(Clefairy)
+5
+Defense Curl(Clefairy)
+7
+Follow Me(Clefairy)
+8
+Bestow(Clefairy)
+9
+Wake-Up Slap(Clefairy)
+10
+Minimize(Clefairy)
+11
+Stored Power(Clefairy)
+13
+Metronome(Clefairy)
+14
+Cosmic Power(Clefairy)
+15
+Lucky Chant(Clefairy)
+16
+Body Slam(Clefairy)
+17
+Moonlight(Clefairy)
+19
+Moonblast(Clefairy)
+20
+Meteor Mash(Clefairy)
+20
+Gravity(Clefairy)
 0
 
 $
@@ -2014,7 +2404,6 @@ Small
 6
 walk
 4
-<Ninetales: Fire Stone>
 250.75
 38
 41
@@ -2022,6 +2411,9 @@ walk
 50
 65
 65
+Ninetales
+Fire Stone
+>
 1
 Ember
 2
@@ -2082,7 +2474,6 @@ Medium
 8
 walk
 8
-<None>
 250.75
 73
 76
@@ -2090,6 +2481,7 @@ walk
 81
 100
 100
+>
 1
 Imprison
 1
@@ -2102,6 +2494,42 @@ Quick Attack
 Confuse Ray
 1
 Safeguard
+1
+Ember(Vulpix)
+2
+Tail Whip(Vulpix)
+3
+Roar(Vulpix)
+4
+Quick Attack(Vulpix)
+4
+Baby-Doll Eyes(Vulpix)
+5
+Confuse Ray(Vulpix)
+6
+Fire Spin(Vulpix)
+7
+Payback(Vulpix)
+8
+Will-O-Wisp(Vulpix)
+9
+Feint Attack(Vulpix)
+11
+Hex(Vulpix)
+11
+Flame Burst(Vulpix)
+13
+Extrasensory(Vulpix)
+14
+Safeguard(Vulpix)
+15
+Flamethrower(Vulpix)
+16
+Imprison(Vulpix)
+17
+Fire Blast(Vulpix)
+18
+Grudge(Vulpix)
 0
 
 $
@@ -2122,7 +2550,6 @@ Small
 4
 walk
 12
-<Wigglytuff: Moon Stone>
 250.75
 115
 45
@@ -2130,6 +2557,9 @@ walk
 45
 25
 20
+Wigglytuff
+Moon Stone
+>
 1
 Sing
 1
@@ -2188,7 +2618,6 @@ Medium
 5
 walk
 1
-<None>
 250.75
 140
 70
@@ -2196,6 +2625,7 @@ walk
 85
 50
 45
+>
 1
 Double-Edge
 1
@@ -2208,6 +2638,36 @@ Defense Curl
 Disable
 1
 Double Slap
+2
+Pound(Jigglypuff)
+4
+Play Nice(Jigglypuff)
+5
+Disarming Voice(Jigglypuff)
+6
+Disable(Jigglypuff)
+7
+Double Slap(Jigglypuff)
+8
+Rollout(Jigglypuff)
+9
+Round(Jigglypuff)
+10
+Stockpile(Jigglypuff)
+10
+Swallow(Jigglypuff)
+10
+Spit Up(Jigglypuff)
+11
+Wake-Up Slap(Jigglypuff)
+12
+Rest(Jigglypuff)
+13
+Body Slam(Jigglypuff)
+14
+Gyro Ball(Jigglypuff)
+15
+Mimic(Jigglypuff)
 0
 
 $
@@ -2228,7 +2688,6 @@ Medium
 6
 walk/fly
 6
-<Golbat: Lvl 9>
 500.5
 40
 45
@@ -2236,6 +2695,9 @@ walk/fly
 30
 40
 55
+Golbat
+Lvl 9
+>
 1
 Absorb
 2
@@ -2286,7 +2748,6 @@ Medium
 8
 walk/fly
 8
-<Crobat: Friendship>
 500.5
 75
 80
@@ -2294,6 +2755,9 @@ walk/fly
 65
 75
 90
+Crobat
+Friendship
+>
 1
 Screech
 1
@@ -2316,16 +2780,32 @@ Wing Attack
 Confuse Ray
 8
 Air Cutter
+9
+Swift(Zubat)
 10
 Swift
+10
+Poison Fang(Zubat)
 11
 Poison Fang
+12
+Mean Look(Zubat)
 13
 Mean Look
+13
+Leech Life(Zubat)
+14
+Haze(Zubat)
 14
 Leech Life
+15
+Venoshock(Zubat)
 16
 Haze
+17
+Air Slash(Zubat)
+17
+Quick Guard(Zubat)
 17
 Venoshock
 19
@@ -2352,7 +2832,6 @@ Small
 5
 walk
 6
-<Gloom: Lvl 9>
 500.5
 45
 50
@@ -2360,6 +2839,9 @@ walk
 75
 65
 30
+Gloom
+Lvl 9
+>
 1
 Absorb
 1
@@ -2412,7 +2894,6 @@ Medium
 5
 walk
 8
-<Vileplume: Leaf Stone><Bellossom: Sun Stone>
 500.5
 60
 65
@@ -2420,6 +2901,11 @@ walk
 85
 75
 40
+Vileplume
+Leaf Stone
+Bellossom
+Sun Stone
+>
 1
 Absorb
 1
@@ -2440,18 +2926,34 @@ Stun Spore
 Sleep Powder
 8
 Mega Drain
+9
+Lucky Chant(Oddish)
 10
 Lucky Chant
+11
+Moonlight(Oddish)
 12
 Moonlight
+13
+Giga Drain(Oddish)
+14
+Toxic(Oddish)
 14
 Giga Drain
 16
 Toxic
+16
+Natural Gift(Oddish)
+17
+Moonblast(Oddish)
 18
 Natural Gift
+19
+Grassy Drain(Oddish)
 20
 Petal Blizzard
+21
+Petal Dance(Oddish)
 21
 Grassy Terrain
 22
@@ -2476,7 +2978,6 @@ Medium
 6
 walk
 8
-<None>
 500.5
 75
 80
@@ -2484,6 +2985,7 @@ walk
 110
 90
 50
+>
 1
 Mega Drain
 1
@@ -2492,8 +2994,56 @@ Aromatherapy
 Poison Powder
 1
 Stun Spore
+1
+Absorb(Gloom)
+1
+Growth(Gloom)
+1
+Sweet Scent(Gloom)
+1
+Acid(Gloom)
+2
+Sweet Scent(Gloom)
+4
+Acid(Gloom)
+5
+Poison Powder(Gloom)
+6
+Stun Spore(Gloom)
+6
+Sleep Powder(Gloom)
+8
+Mega Drain(Gloom)
+9
+Lucky Chant(Oddish)(Gloom)
+10
+Lucky Chant(Gloom)
+11
+Moonlight(Oddish)(Gloom)
+12
+Moonlight(Gloom)
+13
+Giga Drain(Oddish)(Gloom)
+14
+Toxic(Oddish)(Gloom)
+14
+Giga Drain(Gloom)
+16
+Natural Gift(Oddish)(Gloom)
+16
+Toxic(Gloom)
+17
+Moonblast(Oddish)(Gloom)
+18
+Natural Gift(Gloom)
+19
+Grassy Drain(Oddish)(Gloom)
 20
 Petal Blizzard
+21
+Petal Dance(Oddish)(Gloom)
+21
+Grassy Terrain(Gloom)
 22
 Petal Dance
 24
@@ -2518,7 +3068,6 @@ Small
 4
 walk
 4
-<Parasect: Lvl 10>
 500.5
 35
 70
@@ -2526,6 +3075,9 @@ walk
 45
 55
 25
+Parasect
+Lvl 10
+>
 1
 Scratch
 3
@@ -2570,7 +3122,6 @@ Medium
 5
 walk
 8
-<None>
 500.5
 60
 95
@@ -2578,6 +3129,7 @@ walk
 60
 80
 30
+>
 1
 Cross Poison
 1
@@ -2598,12 +3150,24 @@ Absorb
 Fury Cutter
 9
 Spore
+11
+Slash(Paras)
 12
 Slash
+13
+Growth(Paras)
 15
 Growth
+15
+Giga Drain(Paras)
+17
+Aromatherapy(Paras)
 18
 Giga Drain
+20
+Rage Powder(Paras)
+21
+X-Scissor(Paras)
 21
 Aromatherapy
 22
@@ -2630,7 +3194,6 @@ Medium
 5
 walk
 8
-<Venomoth: Lvl 13>
 500.5
 60
 55
@@ -2638,6 +3201,9 @@ walk
 40
 55
 45
+Venomoth
+Lvl 13
+>
 1
 Tackle
 1
@@ -2686,7 +3252,6 @@ Medium
 8
 walk/climb/fly
 8
-<None>
 500.5
 70
 65
@@ -2694,6 +3259,7 @@ walk/climb/fly
 90
 75
 90
+>
 1
 Gust
 1
@@ -2710,8 +3276,6 @@ Disable
 Foresight
 1
 Supersonic
-1
-Gust at Evo.
 2
 Supersonic
 5
@@ -2726,10 +3290,18 @@ Stun Spore
 Signal Beam
 12
 Sleep Powder
+14
+Leech Life(Venonat)
+15
+Zen Headbutt(Venonat)
 15
 Leech Life
 17
 Zen Headbutt
+17
+Poison Fang(Venonat)
+19
+Psychic(Venonat)
 19
 Poison Fang
 21
@@ -2758,7 +3330,6 @@ Small
 8
 burrow
 4
-<Dugtrio: Lvl 11>
 500.5
 10
 55
@@ -2766,6 +3337,9 @@ burrow
 35
 45
 95
+Dugtrio
+Lvl 11
+>
 1
 Sand Attack
 1
@@ -2814,7 +3388,6 @@ Medium
 9
 burrow
 4
-<None>
 500.5
 35
 100
@@ -2822,6 +3395,7 @@ burrow
 50
 70
 120
+>
 1
 Sand Tomb
 1
@@ -2836,8 +3410,6 @@ Scratch
 Sand Attack
 1
 Growl
-1
-Sand Tomb at Evo.
 2
 Growl
 3
@@ -2852,10 +3424,18 @@ Bulldoze
 Sucker Punch
 10
 Mud Bomb
+11
+Earth Power(Diglett)
 12
 Earth Power
+13
+Dig(Diglett)
 14
 Dig
+16
+Earthquake(Diglett)
+17
+Fissure(Diglett)
 17
 Slash
 19
@@ -2882,7 +3462,6 @@ Small
 8
 walk/climb
 6
-<Persian: Lvl 11>
 500.5
 40
 45
@@ -2890,6 +3469,9 @@ walk/climb
 40
 40
 90
+Persian
+Lvl 11
+>
 1
 Scratch
 1
@@ -2940,7 +3522,6 @@ Medium
 9
 walk/climb
 8
-<None>
 500.5
 65
 70
@@ -2948,6 +3529,7 @@ walk/climb
 65
 65
 115
+>
 1
 Swift
 1
@@ -2962,8 +3544,6 @@ Growl
 Bite
 1
 Fake Out
-1
-Swift at Evo.
 3
 Bite
 4
@@ -2976,12 +3556,26 @@ Screech
 Feint Attack
 10
 Taunt
+12
+Pay Day(Meowth)
+13
+Slash(Meowth)
 13
 Power Gem
 15
 Slash
+15
+Nasty Plot(Meowth)
+17
+Assurance(Meowth)
 18
 Nasty Plot
+19
+Captivate(Meowth)
+20
+Night Slash(Meowth)
+20
+Feint(Meowth)
 20
 Assurance
 22
@@ -3010,7 +3604,6 @@ Medium
 6
 walk/swim
 6
-<Golduck: Lvl 13>
 500.5
 50
 52
@@ -3018,6 +3611,9 @@ walk/swim
 65
 50
 55
+Golduck
+Lvl 13
+>
 1
 Water Sport
 1
@@ -3070,7 +3666,6 @@ Medium
 7
 walk/swim
 10
-<None>
 500.5
 80
 82
@@ -3078,6 +3673,7 @@ walk/swim
 95
 80
 85
+>
 1
 Me First
 1
@@ -3110,8 +3706,16 @@ Zen Headbutt
 Aqua Tail
 13
 Soak
+14
+Psych Up(Psyduck)
+15
+Amnesia(Psyduck)
 15
 Psych Up
+16
+Hydro Pump(Psyduck)
+17
+Wonder Room(Psyduck)
 17
 Amnesia
 19
@@ -3138,7 +3742,6 @@ Small
 7
 walk/climb
 6
-<Primeape: Lvl 11>
 500.5
 40
 80
@@ -3146,6 +3749,9 @@ walk/climb
 35
 45
 70
+Primeape
+Lvl 11
+>
 1
 Covet
 1
@@ -3204,7 +3810,6 @@ Medium
 8
 walk/climb
 8
-<None>
 500.5
 65
 105
@@ -3212,6 +3817,7 @@ walk/climb
 60
 70
 95
+>
 1
 Rage
 1
@@ -3227,7 +3833,7 @@ Leer
 1
 Focus Energy
 1
-Rage at Evo.
+Covet(Mankey)
 2
 Fury Swipes
 3
@@ -3244,14 +3850,26 @@ Cross Chop
 Assurance
 12
 Punishment
+13
+Thrash(Mankey)
 14
 Thrash
+15
+Close Combat(Mankey)
+16
+Screech(Mankey)
 16
 Close Combat
+17
+Stomping Tantrum(Mankey)
 18
 Screech
 19
+Outrage(Mankey)
+19
 Stomping Tantrum
+20
+Final Gambit(Mankey)
 21
 Outrage
 22
@@ -3276,7 +3894,6 @@ Medium
 6
 walk
 6
-<Arcanine: Fire Stone>
 750.25
 55
 70
@@ -3284,6 +3901,9 @@ walk
 70
 50
 60
+Arcanine
+Fire Stone
+>
 1
 Bite
 1
@@ -3340,7 +3960,6 @@ Large
 8
 walk
 10
-<None>
 750.25
 90
 110
@@ -3348,6 +3967,7 @@ walk
 100
 80
 95
+>
 1
 Thunder Fang
 1
@@ -3358,8 +3978,36 @@ Roar
 Odor Sleuth
 1
 Fire Fang
+3
+Ember(Growlithe)
+3
+Leer(Growlithe)
+4
+Odor Sleuth(Growlithe)
+5
+Helping Hand(Growlithe)
+7
+Flame Wheel(Growlithe)
+8
+Reversal(Growlithe)
+9
+Fire Fang(Growlithe)
+9
+Take Down(Growlithe)
+11
+Flame Burst(Growlithe)
+12
+Agility(Growlithe)
+13
+Retaliate(Growlithe)
+14
+Flamethrower(Growlithe)
 14
 Extreme Speed
+16
+Crunch(Growlithe)
+17
+Outrage(Growlithe)
 0
 
 $
@@ -3380,7 +4028,6 @@ Small
 8
 walk/swim
 6
-<Poliwhirl: Lvl 10>
 500.5
 40
 50
@@ -3388,6 +4035,9 @@ walk/swim
 40
 40
 90
+Poliwhirl
+Lvl 10
+>
 1
 Water Sport
 2
@@ -3434,7 +4084,6 @@ Medium
 8
 walk/swim
 8
-<Poliwrath: Water Stone><Politoed: King's Rock>
 500.5
 65
 65
@@ -3442,6 +4091,11 @@ walk/swim
 50
 50
 90
+Poliwrath
+Water Stone
+Politoed
+King's Rock
+>
 1
 Water Sport
 1
@@ -3460,14 +4114,26 @@ Double Slap
 Rain Dance
 9
 Body Slam
+10
+Bubble Beam(Poliwag)
 11
 Bubble Beam
+11
+Mud Shot(Poliwag)
+13
+Belly Drum(Poliwag)
 13
 Mud Shot
+14
+Wake-Up Slap(Poliwag)
+15
+Hydro Pump(Poliwag)
 15
 Belly Drum
 17
 Wake-Up Slap
+17
+Mud Bomb(Poliwag)
 19
 Hydro Pump
 21
@@ -3492,7 +4158,6 @@ Medium
 7
 walk/swim
 10
-<None>
 500.5
 90
 95
@@ -3500,6 +4165,7 @@ walk/swim
 70
 90
 70
+>
 1
 Submission
 1
@@ -3511,13 +4177,47 @@ Hypnosis
 1
 Double Slap
 1
-Submission at Evo.
+Water Sport(Poliwhirl)
+1
+Water Gun(Poliwhirl)
+2
+Water Gun(Poliwhirl)
+3
+Hypnosis(Poliwhirl)
+5
+Bubble(Poliwhirl)
+6
+Double Slap(Poliwhirl)
+7
+Rain Dance(Poliwhirl)
+9
+Body Slam(Poliwhirl)
+10
+Bubble Beam(Poliwag)(Poliwhirl)
+11
+Bubble Beam(Poliwhirl)
+11
+Mud Shot(Poliwag)(Poliwhirl)
 13
 Dynamic Punch
+13
+Mud Shot(Poliwhirl)
+13
+Belly Drum(Poliwag)(Poliwhirl)
+14
+Wake-Up Slap(Poliwag)(Poliwhirl)
+15
+Hydro Pump(Poliwag)(Poliwhirl)
+15
+Belly Drum(Poliwhirl)
+17
+Mud Bomb(Poliwag)(Poliwhirl)
 17
 Mind Reader
-21
-Circle Throw
+17
+Wake-Up Slap(Poliwhirl)
+19
+Hydro Pump(Poliwhirl)
 0
 
 $
@@ -3538,7 +4238,6 @@ Medium
 8
 walk
 4
-<Kadabra: Lvl 7>
 750.25
 25
 20
@@ -3546,6 +4245,9 @@ walk
 105
 55
 90
+Kadabra
+Lvl 7
+>
 1
 Teleport
 0
@@ -3568,7 +4270,6 @@ Medium
 8
 walk
 6
-<Alakazam: Trade>
 750.25
 40
 35
@@ -3576,14 +4277,15 @@ walk
 120
 70
 105
+Alakazam
+Trade
+>
 1
 Kinesis
 1
 Teleport
 1
 Confusion
-1
-Kinesis at Evo.
 7
 Confusion
 7
@@ -3630,7 +4332,6 @@ Medium
 9
 walk
 6
-<None>
 750.25
 55
 50
@@ -3638,6 +4339,7 @@ walk
 135
 95
 120
+>
 1
 Kinesis
 1
@@ -3645,7 +4347,9 @@ Teleport
 1
 confusion
 1
-Kinesis at Evo.
+Confusion(Kadabra)
+7
+Disable(Kadabra)
 7
 Confusion
 8
@@ -3668,6 +4372,8 @@ Ally Switch
 Psychic
 17
 Calm Mind
+17
+Role Play(Kadabra)
 17
 Future Sight
 19
@@ -3692,7 +4398,6 @@ Medium
 5
 walk
 8
-<Machoke: Lvl 11>
 750.25
 70
 80
@@ -3700,6 +4405,9 @@ walk
 35
 35
 35
+Machoke
+Lvl 11
+>
 1
 Low Kick
 1
@@ -3754,7 +4462,6 @@ Medium
 5
 walk
 10
-<Machamp: Trade>
 750.25
 80
 100
@@ -3762,6 +4469,9 @@ walk
 50
 60
 45
+Machamp
+Trade
+>
 1
 Low Kick
 1
@@ -3770,8 +4480,6 @@ Leer
 Focus Energy
 1
 Karate Chop
-1
-Focus Energy
 3
 Karate Chop
 4
@@ -3789,11 +4497,21 @@ Vital Throw
 11
 Wake-Up Slap
 13
+Submission(Machop)
+13
 Dual Chop
 15
+Bulk Up(Machop)
+15
 Submission
+16
+Cross Chop(Machop)
+17
+Scary Face(Machop)
 17
 Bulk Up
+18
+Dynamic Punch(Machop)
 19
 Cross Chop
 21
@@ -3820,7 +4538,6 @@ Medium
 6
 walk
 10
-<None>
 750.25
 90
 130
@@ -3828,6 +4545,7 @@ walk
 65
 85
 55
+>
 1
 Strength
 1
@@ -3840,10 +4558,6 @@ Leer
 Focus Energy
 1
 Karate Chop
-1
-Strength at Evo.
-1
-Focus Energy
 3
 Karate Chop
 4
@@ -3862,10 +4576,20 @@ Vital Throw
 Wake-Up Slap
 13
 Dual Chop
+13
+Submission(Machop)(Machoke)
 15
 Submission
+15
+Bulk Up(Machop)(Machoke)
+16
+Cross Chop(Machop)(Machoke)
+17
+Scary Face(Machop)(Machoke)
 17
 Bulk Up
+18
+Dynamic Punch(Machop)(Machoke)
 19
 Cross Chop
 21
@@ -3892,7 +4616,6 @@ Medium
 5
 walk
 6
-<Weepinbell: Lvl 9>
 500.5
 50
 75
@@ -3900,6 +4623,9 @@ walk
 70
 30
 40
+Weepinbell
+Lvl 9
+>
 1
 Vine Whip
 3
@@ -3948,7 +4674,6 @@ Medium
 6
 walk/climb
 8
-<Victreebel: Leaf Stone>
 500.5
 65
 90
@@ -3956,6 +4681,9 @@ walk/climb
 85
 45
 55
+Victreebel
+Leaf Stone
+>
 1
 Vine Whip
 1
@@ -3972,18 +4700,34 @@ Sleep Powder
 Poison Powder
 7
 Stun Spore
+9
+Acid(Bellsprout)
 10
 Acid
+11
+Knock Off(Bellsprout)
 12
 Knock Off
+12
+Sweet Scent(Bellsprout)
 13
 Sweet Scent
+14
+Gastro Acid(Bellsprout)
 16
 Gastro Acid
+16
+Razor Leaf(Bellsprout)
+17
+Poison Jab(Bellsprout)
 18
 Razor Leaf
 19
 Poison Jab
+19
+Slam(Bellsprout)
+20
+Wring Out(Bellsprout)
 21
 Slam
 22
@@ -4008,7 +4752,6 @@ Large
 7
 walk/climb
 10
-<None>
 500.5
 80
 105
@@ -4016,6 +4759,7 @@ walk/climb
 100
 70
 70
+>
 1
 Leaf Tornado
 1
@@ -4033,11 +4777,51 @@ Sweet Scent
 1
 Razor Leaf
 1
-Leaf Tornado at Evo.
+Growth(Weepinbell)
+1
+Wrap(Weepinbell)
+3
+Growth(Weepinbell)
+5
+Wrap(Weepinbell)
+5
+Sleep Powder(Weepinbell)
+6
+Poison Powder(Weepinbell)
+7
+Stun Spore(Weepinbell)
+9
+Acid(Bellsprout)(Weepinbell)
+10
+Acid(Weepinbell)
+11
+Knock Off(Bellsprout)(Weepinbell)
+12
+Sweet Scent(Bellsprout)(Weepinbell)
+12
+Knock Off(Weepinbell)
+13
+Sweet Scent(Weepinbell)
 13
 Leaf Storm
+14
+Gastro Acid(Bellsprout)(Weepinbell)
+16
+Razor Leaf(Bellsprout)(Weepinbell)
+16
+Gastro Acid(Weepinbell)
+17
+Poison Jab(Bellsprout)(Weepinbell)
 18
 Leaf Blade
+18
+Razor Leaf(Weepinbell)
+19
+Slam(Bellsprout)(Weepinbell)
+19
+Poison Jab(Weepinbell)
+20
+Wring Out(Bellsprout)(Weepinbell)
 0
 
 $
@@ -4058,7 +4842,6 @@ Medium
 7
 swim
 6
-<Tentacruel: Lvl 12>
 500.5
 40
 40
@@ -4066,6 +4849,9 @@ swim
 50
 100
 70
+Tentacruel
+Lvl 12
+>
 1
 Poison Sting
 2
@@ -4120,7 +4906,6 @@ Medium
 8
 swim
 10
-<None>
 500.5
 80
 70
@@ -4128,6 +4913,7 @@ swim
 80
 120
 100
+>
 1
 Reflect Type
 1
@@ -4160,14 +4946,26 @@ Bubble Beam
 Barrier
 13
 Poison Jab
+14
+Brine(Tentacool)
 15
 Brine
+15
+Screech(Tentacool)
+16
+Hex(Tentacool)
 16
 Screech
+17
+Sludge Wave(Tentacool)
 18
 Hex
 19
+Hydro Pump(Tentacool)
+19
 Sludge Wave
+20
+Wring Out(Tentacool)
 21
 Hydro Pump
 22
@@ -4192,7 +4990,6 @@ Small
 4
 walk
 6
-<Graveler: Lvl 10>
 500.5
 40
 80
@@ -4200,6 +4997,9 @@ walk
 30
 30
 20
+Graveler
+Lvl 10
+>
 1
 Tackle
 1
@@ -4252,7 +5052,6 @@ Medium
 5
 walk
 6
-<Golem: Trade>
 500.5
 55
 95
@@ -4260,6 +5059,9 @@ walk
 45
 45
 35
+Golem
+Trade
+>
 1
 Tackle
 1
@@ -4284,12 +5086,24 @@ Smack Down
 Bulldoze
 10
 Self-Destruct
+11
+Stealth Rock(Geodude)
+12
+Rock Blast(Geodude)
 12
 Stealth Rock
 14
 Rock Blast
+14
+Earthquake(Geodude)
+15
+Explosion(Geodude)
 16
 Earthquake
+16
+Double-Edge(Geodude)
+17
+Stone Edge(Geodude)
 18
 Explosion
 20
@@ -4316,7 +5130,6 @@ Medium
 5
 walk
 10
-<None>
 500.5
 80
 120
@@ -4324,6 +5137,7 @@ walk
 55
 65
 45
+>
 1
 Heavy Slam
 1
@@ -4340,6 +5154,8 @@ Mud Sport
 Rock Polish
 4
 Steam Roller
+4
+Rollout(Graveler)
 5
 Magnitude
 7
@@ -4350,12 +5166,24 @@ Smack Down
 Bulldoze
 10
 Self-Destruct
+11
+Stealth Rock(Geodude)(Graveler)
+12
+Rock Blast(Geodude)(Graveler)
 12
 Stealth Rock
 14
+Earthquake(Geodude)(Graveler)
+14
 Rock Blast
+15
+Explosion(Geodude)(Graveler)
 16
 Earthquake
+16
+Double-Edge(Geodude)(Graveler)
+17
+Stone Edge(Geodude)(Graveler)
 18
 Explosion
 20
@@ -4384,7 +5212,6 @@ Medium
 8
 walk
 6
-<Rapidash: Lvl 16>
 500.5
 50
 85
@@ -4392,6 +5219,9 @@ walk
 65
 65
 90
+Rapidash
+Lvl 16
+>
 1
 Growl
 1
@@ -4440,7 +5270,6 @@ Large
 8
 walk
 8
-<None>
 500.5
 65
 100
@@ -4448,6 +5277,7 @@ walk
 80
 80
 105
+>
 1
 Fury Attack
 1
@@ -4463,7 +5293,7 @@ Tail Whip
 1
 Ember
 1
-Fury Attack at Evo.
+Tackle(Ponyta)
 2
 Tail Whip
 4
@@ -4508,7 +5338,6 @@ Medium
 4
 walk/swim
 10
-<Slowbro: Lvl 15><Slowking: King's Rock>
 500.5
 90
 65
@@ -4516,6 +5345,11 @@ walk/swim
 40
 40
 15
+Slowbro
+Lvl 15
+Slowking
+King's Rock
+>
 1
 Curse
 1
@@ -4568,7 +5402,6 @@ Medium
 5
 walk/swim
 10
-<None>
 500.5
 95
 75
@@ -4576,6 +5409,7 @@ walk/swim
 100
 80
 30
+>
 1
 Withdraw
 1
@@ -4588,8 +5422,6 @@ Yawn
 Tackle
 1
 Growl
-1
-Withdraw at Evo.
 2
 Growl
 4
@@ -4608,10 +5440,18 @@ Zen Headbutt
 Slack Off
 17
 Amnesia
+18
+Psychic(Slowpoke)
+20
+Rain Dance(Slowpoke)
 20
 Psychic
 21
 Rain Dance
+21
+Psych Up(Slowpoke)
+22
+Heal Pulse(Slowpoke)
 23
 Psych Up
 24
@@ -4636,7 +5476,6 @@ Small
 5
 hover
 4
-<Magneton: Lvl 12>
 0
 25
 35
@@ -4644,6 +5483,9 @@ hover
 95
 55
 45
+Magneton
+Lvl 12
+>
 1
 Supersonic
 1
@@ -4700,7 +5542,6 @@ Medium
 7
 hover
 6
-<Magnezone: Special Magnetic Field>
 0
 50
 60
@@ -4708,6 +5549,9 @@ hover
 120
 70
 70
+Magnezone
+Special Magnetic Field
+>
 1
 Tri Attack at Evo.
 1
@@ -4720,8 +5564,6 @@ Tackle
 Thunder Shock
 1
 Thunder Wave
-1
-Tri Attack
 1
 Zap Attack
 2
@@ -4744,10 +5586,22 @@ Metal Sound
 Electro Ball
 13
 Flash Cannon
+14
+Screech(Magnemite)
+15
+Discharge(Magnemite)
 16
 Screech
 17
+Magnet Rise(Magnemite)
+17
 Discharge
+17
+Lock-On(Magnemite)
+19
+Gyro Ball(Magnemite)
+20
+Zap Cannon(Magnemite)
 20
 Lock-On
 21
@@ -4776,7 +5630,6 @@ Medium
 6
 walk/fly
 6
-<None>
 500.5
 52
 90
@@ -4784,6 +5637,7 @@ walk/fly
 58
 62
 60
+>
 1
 Brave Bird
 1
@@ -4842,7 +5696,6 @@ Medium
 7
 walk
 4
-<Dodrio: Lvl 13>
 500.5
 35
 85
@@ -4850,6 +5703,9 @@ walk
 35
 35
 75
+Dodrio
+Lvl 13
+>
 1
 Peck
 1
@@ -4902,7 +5758,6 @@ Large
 9
 walk
 8
-<None>
 500.5
 60
 110
@@ -4910,6 +5765,7 @@ walk
 60
 60
 110
+>
 1
 Tri Attack
 1
@@ -4920,14 +5776,14 @@ Growl
 Quick Attack
 1
 Rage
-1
-Tri Attack at Evo.
 2
 Quick Attack
 3
 Rage
 5
 Fury Attack
+6
+Pusuit(Doduo)
 6
 Pursuit
 8
@@ -4938,14 +5794,24 @@ Double Hit
 Agility
 12
 Uproar
+13
+Acupressure(Doduo)
 14
 Acupressure
 15
 Swords Dance
+16
+Jump Kick(Doduo)
+17
+Drill Peck(Doduo)
 17
 Jump Kick
 19
 Drill Peck
+19
+Endeavor(Doduo)
+20
+Thrash(Doduo)
 21
 Endeavor
 22
@@ -4970,7 +5836,6 @@ Medium
 5
 walk 2/swim
 8
-<Dewgong: Lvl 14>
 500.5
 65
 45
@@ -4978,6 +5843,9 @@ walk 2/swim
 45
 70
 45
+Dewgong
+Lvl 14
+>
 1
 Headbutt
 1
@@ -5032,7 +5900,6 @@ Large
 7
 walk 2/swim
 10
-<None>
 500.5
 90
 70
@@ -5040,6 +5907,7 @@ walk 2/swim
 70
 95
 70
+>
 1
 Sheer Cold
 1
@@ -5050,12 +5918,10 @@ Growl
 Signal Beam
 1
 Icy Wind
-1
-Sheer Cold at Evo.
-1
-Growl
 3
 Signal Beam
+3
+Water Sport(Seel)
 5
 Icy Wind
 5
@@ -5072,14 +5938,26 @@ Aurora Beam
 Aqua Jet
 13
 Brine
+15
+Take Down(Seel)
 16
 Take Down
+17
+Dive(Seel)
+17
+Aqua Tail(Seel)
 18
 Dive
+19
+Ice Beam(Seel)
 20
 Aqua Tail
 21
 Ice Beam
+21
+Safeguard(Seel)
+21
+Hail(Seel)
 23
 Safeguard
 23
@@ -5104,7 +5982,6 @@ Medium
 4
 walk
 10
-<Muk: Lvl 15>
 500.5
 80
 80
@@ -5112,6 +5989,9 @@ walk
 40
 50
 25
+Muk
+Lvl 15
+>
 1
 Pound
 1
@@ -5164,7 +6044,6 @@ Medium
 6
 walk
 12
-<None>
 500.5
 105
 105
@@ -5172,6 +6051,7 @@ walk
 65
 100
 50
+>
 1
 Venom Drench
 1
@@ -5182,8 +6062,6 @@ Poison Gas
 Harden
 1
 Mud-Slap
-1
-Venom Drench at Evo.
 2
 Harden
 3
@@ -5206,8 +6084,14 @@ Sludge Wave
 Screech
 16
 Gunk Shot
+17
+Acid Armor(Grimer)
+19
+Memento(Grimer)
 19
 Acid Armor
+19
+Belch(Grimer)
 21
 Belch
 22
@@ -5232,7 +6116,6 @@ Small
 5
 swim
 4
-<Cloyster: Water Stone>
 500.5
 30
 65
@@ -5240,6 +6123,9 @@ swim
 45
 25
 40
+Cloyster
+Water Stone
+>
 1
 Tackle
 1
@@ -5294,7 +6180,6 @@ Medium
 7
 swim
 6
-<None>
 500.5
 50
 95
@@ -5302,6 +6187,7 @@ swim
 85
 45
 70
+>
 1
 Hydro Pump
 1
@@ -5316,12 +6202,42 @@ Supersonic
 Protect
 1
 Aurora Beam
+1
+Tackle(Shellder)
+1
+Water Gun(Shellder)
+2
+Withdraw(Shellder)
+3
+Supersonic(Shellder)
 5
 Spike Cannon
+5
+Icicle Spear(Shellder)
+7
+Protect(Shellder)
+8
+Leer(Shellder)
+10
+Clamp(Shellder)
 11
 Spikes
+11
+Ice Shard(Shellder)
+13
+Razor Shell(Shellder)
+15
+Aurora Beam(Shellder)
+16
+Whirlpool(Shellder)
+18
+Brine(Shellder)
+20
+Iron Defense(Shellder)
 20
 Icicle Crash
+21
+Ice Beam(Shellder)
 0
 
 $
@@ -5342,7 +6258,6 @@ Medium
 7
 hover
 4
-<Haunter: Lvl 10>
 500.5
 30
 35
@@ -5350,6 +6265,9 @@ hover
 100
 35
 80
+Haunter
+Lvl 10
+>
 1
 Hypnosis
 2
@@ -5398,7 +6316,6 @@ Medium
 8
 hover
 6
-<Gengar: Trade>
 500.5
 45
 50
@@ -5406,6 +6323,9 @@ hover
 115
 55
 95
+Gengar
+Trade
+>
 1
 Shadow Punch
 1
@@ -5414,8 +6334,6 @@ Hypnosis
 Lick
 1
 Spite
-1
-Shadow Punch at Evo.
 2
 Spite
 3
@@ -5430,12 +6348,24 @@ Confuse Ray
 Sucker Punch
 11
 Payback
+12
+Shadow Ball(Gastly)
+13
+Dream Eater(Gastly)
 13
 Shadow Ball
+15
+Dark Pulse(Gastly)
+16
+Destiny Bond(Gastly)
 16
 Dream Eater
+17
+Hex(Gastly)
 18
 Dark Pulse
+19
+Nightmare(Gastly)
 20
 Destiny Bond
 21
@@ -5462,7 +6392,6 @@ Medium
 9
 walk/hover
 8
-<None>
 500.5
 60
 65
@@ -5470,6 +6399,7 @@ walk/hover
 130
 75
 110
+>
 1
 Shadow Punch
 1
@@ -5478,8 +6408,6 @@ Hypnosis
 Lick
 1
 Spite
-1
-Shadow Punch at Evo.
 2
 Spite
 3
@@ -5494,12 +6422,24 @@ Confuse Ray
 Sucker Punch
 11
 Payback
+12
+Shadow Ball(Gastly)(Haunter)
 13
 Shadow Ball
+13
+Dream Eater(Gastly)(Haunter)
+15
+Dark Pulse(Gastly)(Haunter)
+16
+Destiny Bond(Gastly)(Haunter)
 16
 Dream Eater
+17
+Hex(Gastly)(Haunter)
 18
 Dark Pulse
+19
+Nightmare(Gastly)(Haunter)
 20
 Destiny Bond
 21
@@ -5526,7 +6466,6 @@ Gargantuan
 7
 walk/burrow
 4
-<Steelix: Metal Coat>
 500.5
 35
 45
@@ -5534,6 +6473,9 @@ walk/burrow
 30
 45
 70
+Steelix
+Metal Coat
+>
 1
 Mud Sport
 1
@@ -5598,7 +6540,6 @@ Medium
 5
 walk
 8
-<Hypno: Lvl 11>
 500.5
 60
 48
@@ -5606,6 +6547,9 @@ walk
 43
 90
 42
+Hypno
+Lvl 11
+>
 1
 Hypnosis
 1
@@ -5660,7 +6604,6 @@ Medium
 6
 walk
 10
-<None>
 500.5
 85
 73
@@ -5668,6 +6611,7 @@ walk
 73
 115
 67
+>
 1
 Confusion
 1
@@ -5734,7 +6678,6 @@ Small
 6
 walk/swim
 4
-<Kingler: Lvl 11>
 500.5
 30
 105
@@ -5742,6 +6685,9 @@ walk/swim
 25
 25
 50
+Kingler
+Lvl 11
+>
 1
 Mud Sport
 1
@@ -5792,7 +6738,6 @@ Medium
 7
 walk/swim
 6
-<None>
 500.5
 55
 130
@@ -5800,6 +6745,7 @@ walk/swim
 50
 50
 75
+>
 1
 Wide Guard
 1
@@ -5824,12 +6770,24 @@ Mud Shot
 Metal Claw
 10
 Stomp
+12
+Protect(Krabby)
 13
 Protect
+13
+Guillotine(Krabby)
+14
+Slam(Krabby)
 15
 Guillotine
+16
+Brine(Krabby)
+17
+Crabhammer(Krabby)
 18
 Slam
+18
+Flail(Krabby)
 21
 Brine
 22
@@ -5856,7 +6814,6 @@ Small
 8
 walk
 6
-<Electrode: Lvl 12>
 0
 40
 30
@@ -5864,6 +6821,9 @@ walk
 55
 55
 100
+Electrode
+Lvl 12
+>
 1
 Charge
 1
@@ -5918,7 +6878,6 @@ Medium
 11
 walk
 8
-<None>
 0
 60
 50
@@ -5926,6 +6885,7 @@ walk
 80
 80
 150
+>
 1
 Magnetic Flux
 1
@@ -5956,12 +6916,22 @@ Electro Ball
 Self-Destruct
 12
 Light Screen
+14
+Magnet Rise(Voltorb)
+15
+Discharge(Voltorb)
 15
 Magnet Rise
 17
 Discharge
+17
+Explosion(Voltorb)
 19
 Explosion
+19
+Gyro Ball(Voltorb)
+19
+Mirror Coat(Voltorb)
 21
 Gyro Ball
 22
@@ -5986,7 +6956,6 @@ Small
 5
 walk
 8
-<Exeggutor: Leaf Stone>
 500.5
 60
 40
@@ -5994,6 +6963,9 @@ walk
 60
 45
 40
+Exeggutor
+Leaf Stone
+>
 1
 Barrage
 1
@@ -6044,7 +7016,6 @@ Large
 6
 walk
 10
-<None>
 500.5
 95
 95
@@ -6052,6 +7023,7 @@ walk
 125
 75
 55
+>
 1
 Stomp
 1
@@ -6063,15 +7035,35 @@ Hypnosis
 1
 Confusion
 1
-Stomp at Evo.
+Uproar(Exeggcute)
+3
+Reflect(Exeggcute)
+5
+Leech Seed(Exeggcute)
+7
+Bullet Seed(Exeggcute)
 7
 Psyshock
+8
+Stun Spore(Exeggcute)
+9
+Sleep Powder(Exeggcute)
+9
+Poison Powder(Exeggcute)
+11
+Confusion(Exeggcute)
 11
 Egg Bomb
+13
+Worry Seed(Exeggcute)
+15
+Natural Gift(Exeggcute)
 15
 Wood Hammer
+17
+Solar Beam(Exeggcute)
 19
-Leaf Storm
+Extrasensory(Exeggcute)
 0
 
 $
@@ -6092,7 +7084,6 @@ Small
 5
 walk
 6
-<Marowak: Lvl 11>
 500.5
 50
 50
@@ -6100,6 +7091,9 @@ walk
 40
 50
 35
+Marowak
+Lvl 11
+>
 1
 Growl
 1
@@ -6152,7 +7146,6 @@ Medium
 5
 walk
 8
-<None>
 500.5
 60
 80
@@ -6160,6 +7153,7 @@ walk
 50
 80
 45
+>
 1
 Growl
 1
@@ -6168,14 +7162,14 @@ Tail Whip
 Bone Club
 1
 Headbutt
-1
-Tail Whip
 3
 Bone Club
 5
 Headbutt
 5
 Leer
+7
+Focuse Energy(Cubone)
 7
 Focus Energy
 9
@@ -6185,13 +7179,25 @@ Rage
 11
 False Swipe
 13
+Fling(Cubone)
+13
 Thrash
+15
+Stomping Tantrum(Cubone)
 15
 Fling
 17
 Stomping Tantrum
+17
+Endeavor(Cubone)
+17
+Double-Edge(Cubone)
+19
+Retaliate(Cubone)
 20
 Endeavor
+21
+Bone Rush(Cubone)
 21
 Double-Edge
 22
@@ -6218,7 +7224,6 @@ Medium
 7
 walk
 6
-<None>
 1
 50
 120
@@ -6226,6 +7231,7 @@ walk
 35
 110
 87
+>
 1
 Double Kick
 1
@@ -6294,7 +7300,6 @@ Medium
 7
 walk
 6
-<None>
 1
 50
 105
@@ -6302,6 +7307,7 @@ walk
 35
 110
 76
+>
 1
 Comet Punch
 1
@@ -6370,7 +7376,6 @@ Medium
 5
 walk
 10
-<Lickilicky: Knows Rollout>
 500.5
 90
 55
@@ -6378,6 +7383,9 @@ walk
 60
 75
 30
+Lickilicky
+Knows Rollout
+>
 1
 Lick
 2
@@ -6428,7 +7436,6 @@ Small
 5
 fly
 6
-<Weezing: Lvl 14>
 500.5
 40
 65
@@ -6436,6 +7443,9 @@ fly
 60
 45
 35
+Weezing
+Lvl 14
+>
 1
 Poison Gas
 1
@@ -6486,7 +7496,6 @@ Medium
 6
 fly
 8
-<None>
 500.5
 65
 90
@@ -6494,6 +7503,7 @@ fly
 85
 70
 60
+>
 1
 Double Hit
 1
@@ -6504,8 +7514,6 @@ Tackle
 Smog
 1
 Smokescreen
-1
-Double Hit at Evo.
 2
 Smog
 3
@@ -6524,8 +7532,16 @@ Haze
 Gyro Ball
 14
 Sludge Bomb
+15
+Explosion(Koffing)
 16
 Explosion
+16
+Destiny Bond(Koffing)
+17
+Belch(Koffing)
+18
+Memento(Koffing)
 19
 Destiny Bond
 21
@@ -6552,7 +7568,6 @@ Medium
 4
 walk
 10
-<Rhydon: Lvl 17>
 500.5
 80
 85
@@ -6560,6 +7575,9 @@ walk
 30
 30
 25
+Rhydon
+Lvl 17
+>
 1
 Horn Attack
 1
@@ -6614,7 +7632,6 @@ Large
 5
 walk
 12
-<Rhyperior: Protector>
 500.5
 105
 130
@@ -6622,6 +7639,9 @@ walk
 45
 45
 40
+Rhyperior
+Protector
+>
 1
 Hammer Arm
 1
@@ -6634,8 +7654,6 @@ Tail Whip
 Fury Attack
 1
 Scary Face
-1
-Hammer Arm at Evo.
 2
 Fury Attack
 4
@@ -6656,10 +7674,16 @@ Drill Run
 Take Down
 17
 Stone Edge
+18
+Earthquake(Rhyhorn)
 19
 Earthquake
+20
+Megahorn(Rhyhorn)
 21
 Megahorn
+21
+Horn Drill(Rhyhorn)
 23
 Horn Drill
 0
@@ -6682,7 +7706,6 @@ Medium
 6
 walk
 3
-<Blissey: Friendship>
 -1
 250
 5
@@ -6690,6 +7713,9 @@ walk
 35
 105
 50
+Blissey
+Friendship
+>
 1
 Defense curl
 1
@@ -6746,7 +7772,6 @@ Medium
 6
 walk
 8
-<Tangrowth: Ancient Power>
 500.5
 65
 55
@@ -6754,6 +7779,9 @@ walk
 100
 40
 60
+Tangrowth
+Ancient Power
+>
 1
 Ingrain
 1
@@ -6812,7 +7840,6 @@ Large
 8
 walk
 12
-<None>
 -1
 105
 95
@@ -6820,6 +7847,7 @@ walk
 40
 80
 90
+>
 1
 Comet Punch
 1
@@ -6870,7 +7898,6 @@ Small
 6
 swim
 4
-<Seadra: Lvl 13>
 500.5
 30
 40
@@ -6878,6 +7905,9 @@ swim
 70
 25
 60
+Seadra
+Lvl 13
+>
 1
 Bubble
 2
@@ -6922,7 +7952,6 @@ Medium
 7
 swim
 6
-<Kingdra: Dragon Scale>
 500.5
 55
 65
@@ -6930,6 +7959,9 @@ swim
 95
 45
 85
+Kingdra
+Dragon Scale
+>
 1
 Hydro Pump
 1
@@ -6956,8 +7988,14 @@ Focus Energy
 Brine
 15
 Agility
+17
+Dragon Pulse(Horsea)
 18
 Dragon Pulse
+19
+Dragon Dance(Horsea)
+21
+Hydro Pump(Horsea)
 21
 Dragon Dance
 22
@@ -6982,7 +8020,6 @@ Small
 6
 swim
 6
-<Seaking: Lvl 13>
 500.5
 45
 67
@@ -6990,6 +8027,9 @@ swim
 35
 50
 63
+Seaking
+Lvl 13
+>
 1
 Peck
 1
@@ -7038,7 +8078,6 @@ Medium
 6
 swim
 10
-<None>
 500.5
 80
 92
@@ -7046,6 +8085,7 @@ swim
 65
 80
 68
+>
 1
 Megahorn
 1
@@ -7074,8 +8114,14 @@ Fury Attack
 Agility
 13
 Waterfall
+15
+Horn Drill(Goldeen)
 16
 Horn Drill
+16
+Soak(Goldeen)
+18
+Megahorn(Goldeen)
 19
 Soak
 21
@@ -7100,7 +8146,6 @@ Medium
 7
 walk/swim
 4
-<Starmie: Water Stone>
 0
 30
 45
@@ -7108,6 +8153,9 @@ walk/swim
 70
 55
 85
+Starmie
+Water Stone
+>
 1
 Tackle
 1
@@ -7166,7 +8214,6 @@ Medium
 9
 walk/swim
 8
-<None>
 0
 60
 75
@@ -7174,6 +8221,7 @@ walk/swim
 100
 85
 115
+>
 1
 Hydro Pump
 1
@@ -7186,8 +8234,40 @@ Rapid Spin
 Recover
 1
 Swift
+1
+Tackle(Staryu)
+1
+Harden(Staryu)
+2
+Water Gun(Staryu)
+3
+Rapid Spin(Staryu)
+4
+Recover(Staryu)
+5
+Psywave(Staryu)
+7
+Swift(Staryu)
+7
+Bubble Beam(Staryu)
+9
+Camouflage(Staryu)
+10
+Gyro Ball(Staryu)
+11
+Brine(Staryu)
+13
+Minimize(Staryu)
+14
+Reflect Type(Staryu)
+15
+Power Gem(Staryu)
 16
 Confuse Ray
+17
+Psychic(Staryu)
+19
+Light Screen(Staryu)
 0
 
 $
@@ -7208,7 +8288,6 @@ Medium
 8
 walk
 6
-<None>
 500.5
 40
 45
@@ -7216,6 +8295,7 @@ walk
 100
 120
 90
+>
 1
 Barrier
 1
@@ -7286,7 +8366,6 @@ Medium
 8
 walk/fly
 8
-<Scizor: Metal Coat>
 500.5
 70
 110
@@ -7294,6 +8373,9 @@ walk/fly
 55
 80
 105
+Scizor
+Metal Coat
+>
 1
 Vacuum Wave
 1
@@ -7350,7 +8432,6 @@ Medium
 8
 walk
 8
-<None>
 -1
 65
 50
@@ -7358,6 +8439,7 @@ walk
 115
 95
 95
+>
 1
 Draining Kiss
 1
@@ -7418,7 +8500,6 @@ Medium
 8
 walk
 8
-<Electivire: Electirizer>
 750.25
 65
 83
@@ -7426,6 +8507,9 @@ walk
 95
 85
 105
+Electivire
+Electirizer
+>
 1
 Quick Attack
 1
@@ -7476,7 +8560,6 @@ Medium
 8
 walk
 8
-<Magmortar: Magmarizer>
 750.25
 65
 95
@@ -7484,6 +8567,9 @@ walk
 100
 85
 93
+Magmortar
+Magmarizer
+>
 1
 Smog
 1
@@ -7534,7 +8620,6 @@ Medium
 7
 walk
 8
-<None>
 500.5
 65
 125
@@ -7542,6 +8627,7 @@ walk
 55
 70
 85
+>
 1
 Vice Grip
 1
@@ -7594,7 +8680,6 @@ Medium
 9
 walk
 8
-<None>
 1
 75
 100
@@ -7602,6 +8687,7 @@ walk
 40
 70
 110
+>
 1
 Tackle
 1
@@ -7652,7 +8738,6 @@ Medium
 7
 swim
 4
-<Gyarados: Lvl 8>
 500.5
 20
 10
@@ -7660,6 +8745,9 @@ swim
 15
 20
 80
+Gyarados
+Lvl 8
+>
 1
 Splash
 6
@@ -7686,7 +8774,6 @@ Huge
 7
 swim
 10
-<None>
 500.5
 95
 125
@@ -7694,12 +8781,15 @@ swim
 60
 100
 81
+>
 1
 Bite
 1
 Thrash
 1
-Bite at Evo.
+Splash(Magikarp)
+6
+Tackle(Magikarp)
 9
 Leer
 10
@@ -7708,6 +8798,8 @@ Twister
 Ice Fang
 12
 Aqua Tail
+12
+Flail(Magikarp)
 13
 Scary Face
 15
@@ -7744,7 +8836,6 @@ Large
 6
 walk 2/swim
 1
-<None>
 500.5
 130
 85
@@ -7752,6 +8843,7 @@ walk 2/swim
 85
 95
 60
+>
 1
 Sing
 1
@@ -7802,7 +8894,6 @@ Small
 5
 walk
 6
-<None>
 0
 48
 48
@@ -7810,6 +8901,7 @@ walk
 48
 48
 48
+>
 1
 Transform
 0
@@ -7832,7 +8924,6 @@ Small
 6
 walk
 6
-<Vaporeon: Water Stone><Jolteon: Thunder Stone><Flareon: Fire Stone><Espeon: Friendship during day><Umbreon: Friendship during night><Leafeon: Moss Rock><Glaceon: Ice Rock><Sylveon: Fairy-type move>
 875.125
 55
 55
@@ -7840,6 +8931,23 @@ walk
 45
 65
 55
+Vaporeon
+Water Stone
+Jolteon
+Thunder Stone
+Flareon
+Fire Stone
+Espeon
+Friendship during day
+Umbreon
+Friendship during night
+Leafeon
+Moss Rock
+Glaceon
+Ice Rock
+Sylveon
+Fairy-type move
+>
 1
 Covet
 1
@@ -7894,7 +9002,6 @@ Medium
 6
 walk/swim
 1
-<None>
 875.125
 130
 65
@@ -7902,6 +9009,7 @@ walk/swim
 110
 95
 65
+>
 1
 Water Gun
 1
@@ -7913,27 +9021,41 @@ Tail Whip
 1
 Doll Eyes
 1
-Water Gun at Evo.
+Covet(Eevee)
+1
+Growl(Eevee)
 2
 Sand Attack
 5
 Quick Attack
 7
+Swift(Eevee)
+7
 Water Pulse
+7
+Bite(Eevee)
 8
 Aurora Beam
+8
+Refresh(Eevee)
+10
+Take Down(Eevee)
 10
 Aqua Ring
 12
 Acid Armor
+12
+Charm(Eevee)
+13
+Baton Pass(Eevee)
 13
 Haze
 15
 Muddy Water
+15
+Double-Edge(Eevee)
 17
 Last Resort
-18
-Hydro Pump
 0
 
 $
@@ -7954,7 +9076,6 @@ Medium
 10
 walk
 8
-<None>
 875.125
 65
 65
@@ -7962,6 +9083,7 @@ walk
 110
 95
 130
+>
 1
 Thunder Shock
 1
@@ -7973,27 +9095,41 @@ Tail Whip
 1
 Doll Eyes
 1
-Thunder Shock at Evo.
+Covet(Eevee)
+1
+Growl(Eevee)
 2
 Sand Attack
 5
 Quick Attack
 7
+Swift(Eevee)
+7
 Double Kick
+7
+Bite(Eevee)
 8
 Thunder Fang
+8
+Refresh(Eevee)
+10
+Take Down(Eevee)
 10
 Pin Missile
 12
 Agility
+12
+Charm(Eevee)
+13
+Baton Pass(Eevee)
 13
 Thunder Wave
 15
 Discharge
+15
+Double-Edge(Eevee)
 17
 Last Resort
-18
-Thunder
 0
 
 $
@@ -8014,7 +9150,6 @@ Medium
 6
 walk
 8
-<None>
 875.125
 65
 130
@@ -8022,6 +9157,7 @@ walk
 95
 110
 65
+>
 1
 Ember
 1
@@ -8033,27 +9169,39 @@ Tail Whip
 1
 Doll Eyes
 1
-Ember at Evo.
+Covet(Eevee)
+1
+Growl(Eevee)
 2
 Sand Attack
 5
 Quick Attack
 7
 Bite
+7
+Swift(Eevee)
 8
 Fire Fang
+8
+Refresh(Eevee)
+10
+Take Down(Eevee)
 10
 Fire Spin
 12
 Scary Face
+12
+Charm(Eevee)
+13
+Baton Pass(Eevee)
 13
 Smog
 15
 Lava Plume
+15
+Double-Edge(Eevee)
 17
 Last Resort
-18
-Flare Blitz
 0
 
 $
@@ -8074,7 +9222,6 @@ Medium
 5
 hover
 8
-<Porygon2: Up-Grade>
 0
 65
 60
@@ -8082,6 +9229,9 @@ hover
 85
 75
 40
+Porygon2
+Up-Grade
+>
 1
 Tackle
 1
@@ -8132,7 +9282,6 @@ Small
 5
 walk 2/swim
 4
-<Omastar: Lvl 16>
 875.125
 35
 40
@@ -8140,6 +9289,9 @@ walk 2/swim
 90
 55
 35
+Omastar
+Lvl 16
+>
 1
 Constrict
 1
@@ -8188,7 +9340,6 @@ Medium
 6
 walk 2/swim
 8
-<None>
 875.125
 70
 60
@@ -8196,6 +9347,7 @@ walk 2/swim
 115
 70
 55
+>
 1
 Spike Cannon
 1
@@ -8206,8 +9358,6 @@ Constrict
 Withdraw
 1
 Bite
-1
-Spike Cannon at Evo.
 3
 Bite
 4
@@ -8224,8 +9374,16 @@ Brine
 Protect
 15
 Ancient Power
+17
+Tickle(Omanyte)
+19
+Rock Blast(Omanyte)
 19
 Tickle
+20
+Shell Smash(Omanyte)
+21
+Hydro Pump(Omanyte)
 22
 Rock Blast
 24
@@ -8252,7 +9410,6 @@ Small
 6
 walk 2/swim
 4
-<Kabutops: Lvl 16>
 875.125
 30
 80
@@ -8260,6 +9417,9 @@ walk 2/swim
 55
 45
 55
+Kabutops
+Lvl 16
+>
 1
 Scratch
 1
@@ -8304,7 +9464,6 @@ Medium
 7
 walk/swim
 8
-<None>
 875.125
 60
 115
@@ -8312,10 +9471,9 @@ walk/swim
 65
 70
 80
+>
 1
 Slash
-1
-Night Slash
 1
 Feint
 1
@@ -8326,8 +9484,6 @@ Harden
 Absorb
 1
 Leer
-1
-Slash at Evo.
 3
 Absorb
 5
@@ -8342,8 +9498,14 @@ Endure
 Aqua Jet
 15
 Mega Drain
+17
+Metal Sound(Kabuto)
 18
 Metal Sound
+19
+Ancient Power(Kabuto)
+20
+Wring Out(Kabuto)
 21
 Ancient Power
 23
@@ -8370,7 +9532,6 @@ Large
 10
 walk/fly
 10
-<None>
 875.125
 80
 105
@@ -8378,6 +9539,7 @@ walk/fly
 60
 75
 130
+>
 1
 Iron Head
 1
@@ -8434,7 +9596,6 @@ Large
 5
 walk
 2
-<None>
 875.125
 160
 110
@@ -8442,6 +9603,7 @@ walk
 65
 110
 30
+>
 1
 Tackle
 2
@@ -8496,7 +9658,6 @@ Large
 7
 walk/fly
 10
-<None>
 0
 90
 85
@@ -8504,6 +9665,7 @@ walk/fly
 95
 125
 85
+>
 1
 Gust
 1
@@ -8556,7 +9718,6 @@ Large
 8
 walk/fly
 10
-<None>
 0
 90
 90
@@ -8564,6 +9725,7 @@ walk/fly
 125
 90
 100
+>
 1
 Peck
 1
@@ -8616,7 +9778,6 @@ Large
 8
 walk/fly
 10
-<None>
 0
 90
 100
@@ -8624,6 +9785,7 @@ walk/fly
 125
 85
 90
+>
 1
 Wing Attack
 1
@@ -8676,7 +9838,6 @@ Medium
 6
 walk/swim
 6
-<Dragonair: Lvl 12>
 500.5
 41
 64
@@ -8684,6 +9845,9 @@ walk/swim
 50
 50
 50
+Dragonair
+Lvl 12
+>
 1
 Wrap
 1
@@ -8732,7 +9896,6 @@ Large
 7
 walk/swim
 8
-<Dragonite: Lvl 21>
 500.5
 61
 84
@@ -8740,6 +9903,9 @@ walk/swim
 70
 70
 70
+Dragonite
+Lvl 21
+>
 1
 Wrap
 1
@@ -8760,12 +9926,24 @@ Slam
 Agility
 13
 Dragon Tail
+14
+Aqua Tail(Dratini)
 16
 Aqua Tail
+17
+Dragon Rush(Dratini)
+18
+Safeguard(Dratini)
 19
 Dragon Rush
 21
+Dragon Dance(Dratini)
+21
 Safeguard
+21
+Outrage(Dratini)
+23
+Hyper Beam(Dratini)
 23
 Dragon Dance
 24
@@ -8792,7 +9970,6 @@ Large
 7
 walk/fly
 10
-<None>
 500.5
 91
 134
@@ -8800,6 +9977,7 @@ walk/fly
 100
 100
 80
+>
 1
 Wing Attack
 1
@@ -8818,8 +9996,6 @@ Leer
 Thunder Wave
 1
 Twister
-1
-Wing Attack at Evo.
 2
 Thunder Wave
 5
@@ -8832,14 +10008,26 @@ Slam
 Agility
 13
 Dragon Tail
+14
+Aqua Tail(Dratini)(Dragonair)
 16
 Aqua Tail
+17
+Dragon Rush(Dratini)(Dragonair)
+18
+Safeguard(Dratini)(Dragonair)
 19
 Dragon Rush
 21
 Safeguard
+21
+Outrage(Dratini)(Dragonair)
+21
+Dragon Dance(Dratini)(Dragonair)
 23
 Dragon Dance
+23
+Hyper Beam(Dratini)(Dragonair)
 24
 Outrage
 25
@@ -8866,7 +10054,6 @@ Large
 10
 walk/fly
 12
-<None>
 0
 106
 110
@@ -8874,6 +10061,7 @@ walk/fly
 154
 90
 130
+>
 1
 Laser Focus
 1
@@ -8934,7 +10122,6 @@ Small
 8
 walk/fly
 12
-<None>
 0
 100
 100
@@ -8942,6 +10129,7 @@ walk/fly
 100
 100
 100
+>
 1
 Pound
 1
@@ -8988,7 +10176,6 @@ Small
 5
 walk
 6
-<Bayleef: Lvl 7>
 875.125
 45
 49
@@ -8996,6 +10183,9 @@ walk
 49
 65
 45
+Bayleef
+Lvl 7
+>
 1
 Tackle
 1
@@ -9044,7 +10234,6 @@ Medium
 6
 walk
 8
-<Meganium: Lvl 13>
 875.125
 60
 62
@@ -9052,6 +10241,9 @@ walk
 63
 80
 60
+Meganium
+Lvl 13
+>
 1
 Tackle
 1
@@ -9068,16 +10260,32 @@ Poison Powder
 Synthesis
 7
 Reflect
+8
+Magical Leaf(Chikorita)
+9
+Natural Gift(Chikorita)
 9
 Magical Leaf
 11
 Natural Gift
+11
+Sweet Scent(Chikorita)
+13
+Light Screen(Chikorita)
 13
 Sweet Scent
+14
+Body Slam(Chikorita)
 15
 Light Screen
 16
+Safeguard(Chikorita)
+16
 Body Slam
+17
+Aromatherapy(Chikorita)
+18
+Solar Beam(Chikorita)
 19
 Safeguard
 20
@@ -9104,7 +10312,6 @@ Large
 7
 walk
 10
-<None>
 875.125
 80
 82
@@ -9112,6 +10319,7 @@ walk
 83
 100
 80
+>
 1
 Petal Dance
 1
@@ -9124,8 +10332,6 @@ Growl
 Razor Leaf
 1
 Poison Powder
-1
-Petal Dance at Evo.
 3
 Razor Leaf
 4
@@ -9134,16 +10340,44 @@ Poison Powder
 Synthesis
 7
 Reflect
+8
+Magical Leaf(Chikorita)(Bayleef)
+9
+Natural Gift(Chikorita)(Bayleef)
 9
 Magical Leaf
 11
+Sweet Scent(Chikorita)(Bayleef)
+11
 Natural Gift
+13
+Light Screen(Chikorita)(Bayleef)
+13
+Sweet Scent(Bayleef)
+14
+Body Slam(Chikorita)(Bayleef)
 14
 Sweet Scent
+15
+Light Screen(Bayleef)
+16
+Safeguard(Chikorita)(Bayleef)
 16
 Light Screen
+16
+Body Slam(Bayleef)
+17
+Aromatherapy(Chikorita)(Bayleef)
+18
+Solar Beam(Chikorita)(Bayleef)
+19
+Safeguard(Bayleef)
 19
 Body Slam
+20
+Aromatherapy(Bayleef)
+21
+Solar Beam(Bayleef)
 21
 Safeguard
 22
@@ -9172,7 +10406,6 @@ Small
 6
 walk
 4
-<Quilava: Lvl 6>
 875.125
 39
 52
@@ -9180,6 +10413,9 @@ walk
 60
 50
 65
+Quilava
+Lvl 6
+>
 1
 Tackle
 1
@@ -9232,7 +10468,6 @@ Medium
 7
 walk
 6
-<Typhlosion: Lvl 15>
 875.125
 58
 64
@@ -9240,6 +10475,9 @@ walk
 80
 65
 80
+Typhlosion
+Lvl 15
+>
 1
 Tackle
 1
@@ -9254,20 +10492,38 @@ Ember
 Quick Attack
 8
 Flame Wheel
+9
+Defense Curl(Cyndaquil)
 10
 Defense Curl
+11
+Flame Charge(Cyndaquil)
 13
 Swift
 14
 Flame Charge
+15
+Lava Plume(Cyndaquil)
+16
+Flamethrower(Cyndaquil)
 17
 Lava Plume
 19
+Inferno(Cyndaquil)
+19
 Flamethrower
+20
+Rollout(Cyndaquil)
+21
+Double-Edge(Cyndaquil)
 21
 Inferno
 22
 Rollout
+22
+Burn Up(Cyndaquil)
+23
+Eruption(Cyndaquil)
 23
 Double-Edge
 24
@@ -9294,7 +10550,6 @@ Large
 8
 walk
 8
-<None>
 875.125
 78
 84
@@ -9302,6 +10557,7 @@ walk
 109
 85
 100
+>
 1
 Eruption
 1
@@ -9324,22 +10580,50 @@ Ember
 Quick Attack
 8
 Flame Wheel
+9
+Defense Curl(Cyndaquil)(Quilava)
 10
 Defense Curl
+11
+Flame Charge(Cyndaquil)(Quilava)
 13
 Swift
 14
 Flame Charge
+15
+Lava Plume(Cyndaquil)(Quilava)
+16
+Flamethrower(Cyndaquil)(Quilava)
 17
 Lava Plume
 19
+Inferno(Cyndaquil)(Quilava)
+19
 Flamethrower
+20
+Rollout(Cyndaquil)(Quilava)
+21
+Inferno(Quilava)
+21
+Double-Edge(Cyndaquil)(Quilava)
+22
+Burn Up(Cyndaquil)(Quilava)
 22
 Inferno
+22
+Rollout(Quilava)
+23
+Double-Edge(Quilava)
+23
+Eruption(Cyndaquil)(Quilava)
 23
 Rollout
 24
 Double-Edge
+24
+Burn Up(Quilava)
+25
+Eruption(Quilava)
 25
 Burn Up
 27
@@ -9364,7 +10648,6 @@ Small
 5
 walk/swim
 6
-<Croconaw: Lvl 7>
 875.125
 50
 65
@@ -9372,6 +10655,9 @@ walk/swim
 44
 48
 43
+Croconaw
+Lvl 7
+>
 1
 Scratch
 1
@@ -9424,7 +10710,6 @@ Medium
 6
 walk/swim
 8
-<Feraligatr: Lvl 12>
 875.125
 65
 80
@@ -9432,6 +10717,9 @@ walk/swim
 59
 63
 58
+Feraligatr
+Lvl 12
+>
 1
 Scratch
 1
@@ -9446,20 +10734,40 @@ Rage
 Bite
 6
 Scary Face
+8
+Ice Fang(Totodile)
+9
+Flail(Totodile)
 9
 Ice Fang
 10
 Flail
+11
+Crunch(Totodile)
+12
+Chip Away(Totodile)
 12
 Crunch
 13
 Chip Away
+14
+Slash(Totodile)
+15
+Screech(Totodile)
 16
 Slash
 17
 Screech
+17
+Thrash(Totodile)
+17
+Aqua Tail(Totodile)
 19
 Thrash
+19
+Superpower(Totodile)
+20
+Hydro Pump(Totodile)
 21
 Aqua Tail
 22
@@ -9486,7 +10794,6 @@ Large
 7
 walk/swim
 10
-<None>
 875.125
 85
 105
@@ -9494,6 +10801,7 @@ walk/swim
 79
 83
 78
+>
 1
 Agility
 1
@@ -9512,18 +10820,54 @@ Rage
 Bite
 6
 Scary Face
+8
+Ice Fang(Totodile)(Croconaw)
 9
 Ice Fang
+9
+Flail(Totodile)(Croconaw)
 10
 Flail
+11
+Crunch(Totodile)(Croconaw)
+12
+Crunch(Croconaw)
+12
+Chip Away(Totodile)(Croconaw)
 13
 Crunch
+13
+Chip Away(Croconaw)
+14
+Slash(Totodile)(Croconaw)
 15
 Chip Away
+15
+Screech(Totodile)(Croconaw)
+16
+Slash(Croconaw)
+17
+Screech(Croconaw)
+17
+Thrash(Totodile)(Croconaw)
+17
+Aqua Tail(Totodile)(Croconaw)
 18
 Slash
+19
+Superpower(Totodile)(Croconaw)
+19
+Thrash(Croconaw)
+20
+Hydro Pump(Totodile)(Croconaw)
 20
 Screech
+21
+Aqua Tail(Croconaw)
+22
+Superpower(Croconaw)
+22
+Hydro Pump(Croconaw)
 22
 Thrash
 23
@@ -9552,7 +10896,6 @@ Small
 5
 walk/climb
 6
-<Ariados: Lvl 9>
 500.5
 40
 60
@@ -9560,6 +10903,9 @@ walk/climb
 40
 40
 30
+Ariados
+Lvl 9
+>
 1
 Poison Sting
 1
@@ -9616,7 +10962,6 @@ Medium
 5
 walk/climb
 8
-<None>
 500.5
 70
 90
@@ -9624,6 +10969,7 @@ walk/climb
 60
 70
 40
+>
 1
 Swords Dance
 1
@@ -9642,8 +10988,6 @@ String Shot
 Constrict
 1
 Absorb
-1
-Swords Dance at Evo.
 2
 Absorb
 3
@@ -9658,16 +11002,32 @@ Shadow Sneak
 Fury Swipes
 11
 Sucker Punch
+12
+Spider Web(Spinarak)
+13
+Agility(Spinarak)
 13
 Spider Web
 15
 Agility
+15
+Pin Missile(Spinarak)
+16
+Psychic(Spinarak)
 17
 Pin Missile
+17
+Poison Jab(Spinarak)
+19
+Cross Poison(Spinarak)
 19
 Psychic
 20
 Poison Jab
+20
+Sticky Web(Spinarak)
+21
+Toxic Thread(Spinarak)
 21
 Cross Poison
 22
@@ -9694,7 +11054,6 @@ Small
 4
 walk/swim
 6
-<Quagsire: Lvl 8>
 500.5
 55
 45
@@ -9702,6 +11061,9 @@ walk/swim
 25
 25
 15
+Quagsire
+Lvl 8
+>
 1
 Water Gun
 1
@@ -9748,7 +11110,6 @@ Small
 8
 walk/fly
 8
-<Honchkrow: Dusk Stone>
 500.5
 60
 85
@@ -9756,6 +11117,9 @@ walk/fly
 85
 42
 91
+Honchkrow
+Dusk Stone
+>
 1
 Peck
 1
@@ -9806,7 +11170,6 @@ Medium
 7
 hover
 8
-<Mismagius: Dusk Stone>
 500.5
 60
 60
@@ -9814,6 +11177,9 @@ hover
 85
 85
 85
+Mismagius
+Dusk Stone
+>
 1
 Growl
 1
@@ -9862,7 +11228,6 @@ Medium
 6
 walk/climb/fly
 8
-<None>
 500.5
 60
 50
@@ -9870,6 +11235,7 @@ walk/climb/fly
 50
 90
 65
+>
 1
 Gust
 1
@@ -9918,7 +11284,6 @@ Small
 7
 walk/fly
 6
-<Swellow: Lvl 9>
 500.5
 40
 55
@@ -9926,6 +11291,9 @@ walk/fly
 30
 30
 85
+Swellow
+Lvl 9
+>
 1
 Peck
 1
@@ -9972,7 +11340,6 @@ Medium
 6
 walk
 4
-<Gardevoir: Lvl 12><Gallade: Male and Dawn Stone>
 500.5
 38
 35
@@ -9980,6 +11347,11 @@ walk
 65
 55
 50
+Gardevoir
+Lvl 12
+Gallade
+Male and Dawn Stone
+>
 1
 Growl
 1
@@ -10040,7 +11412,6 @@ Small
 6
 walk
 6
-<None>
 500.5
 50
 85
@@ -10048,6 +11419,7 @@ walk
 55
 55
 50
+>
 1
 Play Rough
 1
@@ -10108,7 +11480,6 @@ Small
 5
 walk
 6
-<Lairon: Lvl 13>
 500.5
 50
 70
@@ -10116,6 +11487,9 @@ walk
 40
 40
 30
+Lairon
+Lvl 13
+>
 1
 Tackle
 1
@@ -10172,7 +11546,6 @@ Small
 6
 walk/fly
 6
-<Staravia: Lvl 6>
 500.5
 40
 55
@@ -10180,6 +11553,9 @@ walk/fly
 30
 30
 60
+Staravia
+Lvl 6
+>
 1
 Tackle
 1
@@ -10224,7 +11600,6 @@ Small
 7
 walk/fly
 8
-<Swoobat: Friendship>
 500.5
 65
 45
@@ -10232,6 +11607,9 @@ walk/fly
 55
 43
 72
+Swoobat
+Friendship
+>
 1
 Confusion
 2
@@ -10280,7 +11658,6 @@ Small
 6
 walk/burrow
 8
-<Excadrill: Lvl 13>
 500.5
 60
 85
@@ -10288,6 +11665,9 @@ walk/burrow
 30
 45
 68
+Excadrill
+Lvl 13
+>
 1
 Scratch
 1
@@ -10338,7 +11718,6 @@ Small
 6
 walk/climb
 4
-<Whirlipede: Lvl 9>
 500.5
 30
 45
@@ -10346,6 +11725,9 @@ walk/climb
 30
 39
 57
+Whirlipede
+Lvl 9
+>
 1
 Defense Curl
 1
@@ -10396,7 +11778,6 @@ Medium
 8
 swim
 8
-<None>
 500.5
 70
 92
@@ -10404,6 +11785,7 @@ swim
 80
 55
 98
+>
 1
 Tail Whip
 1
@@ -10460,7 +11842,6 @@ Small
 4
 walk
 8
-<Amoonguss: Lvl 16>
 500.5
 69
 55
@@ -10468,6 +11849,9 @@ walk
 55
 55
 15
+Amoonguss
+Lvl 16
+>
 1
 Absorb
 3
@@ -10518,7 +11902,6 @@ Medium
 5
 hover/swim
 6
-<Jellicent: Lvl 16>
 500.5
 55
 40
@@ -10526,6 +11909,9 @@ hover/swim
 65
 85
 40
+Jellicent
+Lvl 16
+>
 1
 Bubble
 1
@@ -10574,7 +11960,6 @@ Small
 6
 walk
 6
-<Fraxure: Lvl 15>
 500.5
 46
 87
@@ -10582,6 +11967,9 @@ walk
 30
 40
 57
+Fraxure
+Lvl 15
+>
 1
 Scratch
 2
@@ -10634,7 +12022,6 @@ Medium
 5
 walk
 6
-<Golurk: Lvl 17>
 0
 59
 74
@@ -10642,6 +12029,9 @@ walk
 35
 50
 35
+Golurk
+Lvl 17
+>
 1
 Pound
 1
@@ -10694,7 +12084,6 @@ Small
 8
 walk/climb
 6
-<None>
 500.5
 58
 109
@@ -10702,6 +12091,7 @@ walk/climb
 48
 48
 109
+>
 1
 Metal Sound
 1
@@ -10756,7 +12146,6 @@ Large
 8
 fly
 10
-<None>
 500.5
 92
 105
@@ -10764,6 +12153,7 @@ fly
 125
 90
 98
+>
 1
 Outrage
 1
@@ -10824,7 +12214,6 @@ Small
 6
 walk/burrow
 4
-<Diggersby: Lvl 8>
 500.5
 38
 36
@@ -10832,6 +12221,9 @@ walk/burrow
 32
 36
 57
+Diggersby
+Lvl 8
+>
 1
 Tackle
 1
@@ -10884,7 +12276,6 @@ Small
 6
 walk/fly
 6
-<Fletchinder: Lvl 7>
 500.5
 45
 50
@@ -10892,6 +12283,9 @@ walk/fly
 40
 38
 62
+Fletchinder
+Lvl 7
+>
 1
 Tackle
 1
@@ -10940,7 +12334,6 @@ Medium
 7
 walk
 8
-<Pyroar: Lvl 14>
 125.875
 62
 50
@@ -10948,6 +12341,9 @@ walk
 73
 54
 72
+Pyroar
+Lvl 14
+>
 1
 Tackle
 1
@@ -10998,7 +12394,6 @@ Medium
 9
 walk
 8
-<None>
 500.5
 78
 92
@@ -11006,6 +12401,7 @@ walk
 74
 63
 118
+>
 1
 Detect
 1
@@ -11060,7 +12456,6 @@ Small
 6
 walk
 6
-<Lycanroc: Lvl 10>
 500.5
 45
 65
@@ -11068,6 +12463,9 @@ walk
 30
 40
 60
+Lycanroc
+Lvl 10
+>
 1
 Tackle
 1
@@ -11118,7 +12516,6 @@ Medium
 8
 walk
 6
-<Artemis: Lvl 8>
 400.6
 50
 65
@@ -11126,6 +12523,9 @@ walk
 85
 65
 90
+Artemis
+Lvl 8
+>
 1
 Tackle
 1
@@ -11174,7 +12574,6 @@ Large
 8
 walk
 6
-<Phoebe: Lvl 16>
 400.6
 57
 72
@@ -11182,6 +12581,9 @@ walk
 92
 72
 97
+Phoebe
+Lvl 16
+>
 1
 Tackle
 1
@@ -11212,6 +12614,8 @@ Future Sight
 Energy Ball
 17
 Light Screen
+17
+Refresh(Selene)
 20
 Moonblast
 0
@@ -11234,7 +12638,6 @@ Large
 8
 walk
 8
-<None>
 400.6
 65
 80
@@ -11242,6 +12645,7 @@ walk
 100
 80
 105
+>
 1
 Tackle
 1
@@ -11252,6 +12656,8 @@ Magical Leaf
 Aerial Ace
 1
 Sky Attack at Evo.
+1
+Hypnosis at Evo.(Artemis)
 2
 Fairy Wind
 3
@@ -11273,7 +12679,11 @@ Future Sight
 15
 Energy Ball
 17
+Refresh(Selene)(Artemis)
+17
 Perish Song
+17
+Light Screen(Artemis)
 20
 Moonblast
 0

@@ -40,6 +40,11 @@
 #include <limits>
 #include <math.h>
 
+struct evolution{
+	std::string evoName;
+	std::string evoRequirement;
+};
+
 struct move{
 	int level;
 	std::string name;
@@ -60,11 +65,16 @@ class Pokemon{
 		//accessor function
 		int getIndex(){return index;}
 		std::string getName(){return name;}
+		move* getMoves(int& numberMoves){numberMoves = numMoves; return moves;}
+		evolution* getEvos(){return evos;}
 
+		void addMove(move newMove);
 	private:
 		void addMoves(std::istream& ins);
 		void moveSort();
 		void printMoves(std::ostream& outs);
+		void printEvos(std::ostream& outs);
+		void cleanMoves();
 
 		//Info
 		std::string name;
@@ -79,7 +89,7 @@ class Pokemon{
 
 		//Moves
 		//void resize();
-		move moves[50];
+		move moves[200];
 		//int arrSize;
 		int numMoves;
 
@@ -101,7 +111,9 @@ class Pokemon{
 		int wisdom;
 		int speed;
 		std::string moveType;
-		std::string evolution;
+
+		evolution evos[50];
+		std::string evolutionOld;
 		double genderRatio;
 
 		//score dependant
@@ -138,7 +150,7 @@ Pokemon::Pokemon(){
 	charisma = 0;
 	wisdom = 0;
 	speed = 0;
-	std::string evolution = "";
+	std::string evolutionOld = "";
 	genderRatio = 0.0;
 
 	AC = 0;
@@ -169,7 +181,7 @@ void Pokemon::outputFile(std::ostream& fout){ // "$" signals a new pokemon
 		 << speed << std::endl
 		 << moveType << std::endl
 		 << hitDie << std::endl
-		 << evolution << std::endl
+//		 << evolutionOld << std::endl
 		 << genderRatio << std::endl
 		 << hp << std::endl
 		 << attack << std::endl
@@ -177,6 +189,13 @@ void Pokemon::outputFile(std::ostream& fout){ // "$" signals a new pokemon
 		 << spAttack << std::endl
 		 << spDefense << std::endl
 		 << spd << std::endl;
+
+	if(evos[0].evoName != "None" && evos[0].evoName != "none"){
+		for(int index = 0; evos[index].evoName.length() > 0; index++){
+			fout << evos[index].evoName << std::endl << evos[index].evoRequirement << std::endl;
+		}
+	}
+	fout << ">\n";
 
 	for(int i = 0; i <= numMoves; i++)
 		fout << moves[i].level << std::endl << moves[i].name << std::endl;
@@ -218,11 +237,6 @@ void Pokemon::inputFile(std::istream& fin){
 		getline(fin, moveType);
 
 		fin >> hitDie;
-
-		fin.clear();
-		fin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-
-		getline(fin, evolution);
 		fin >> genderRatio;
 
 		fin >> hp;
@@ -231,6 +245,22 @@ void Pokemon::inputFile(std::istream& fin){
 		fin >> spAttack;
 		fin >> spDefense;
 		fin >> spd;
+
+		fin.clear();
+		fin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+
+//		getline(fin, evolutionOld);
+
+		getline(fin, input);
+		if(input.length() == 0);
+		else if(input == ">") evos[0].evoName = "None";
+		else{
+			for(int index = 0; input != ">"; index++){
+				evos[index].evoName = input;
+				getline(fin, evos[index].evoRequirement);
+				getline(fin, input);
+			}
+		}
 
 		addMoves(fin);
 }
@@ -635,9 +665,9 @@ int Pokemon::generate(const int& lvl){
 }
 
 void Pokemon::outputBase(std::ostream& outs){
-	outs << "---------------------------------------------------------------------------\n"
+	outs << "--------------------------------------------------------------------------------\n"
 		<< name << std::endl
-		<< "---------------------------------------------------------------------------\n";
+		<< "--------------------------------------------------------------------------------\n";
 
 	std::stringstream ss;
 
@@ -745,7 +775,8 @@ void Pokemon::outputBase(std::ostream& outs){
 	else if(hitDie > 3 && hitDie < 13)
 		outs << "Hit Die: 1d" << hitDie << std::endl;
 
-	std::string evo = evolution;
+//old method
+/*	std::string evo = evolutionOld;
 	int pos = evo.find(">");
 	outs << "Evolution\n" << evo.substr(1, pos-1) << std::endl;
 	evo = evo.substr(pos+1);
@@ -754,17 +785,18 @@ void Pokemon::outputBase(std::ostream& outs){
 		outs << evo.substr(1, pos-1) << std::endl;
 		evo = evo.substr(pos+1);
 	}
-	outs << std::endl;
+	outs << std::endl;*/
 
+	printEvos(outs);
 	printMoves(outs);
 
 	outs << "\n\n\n\n";
 }
 
 void Pokemon::outputAll(std::ostream& outs){
-	outs << "---------------------------------------------------------------------------\n"
+	outs << "--------------------------------------------------------------------------------\n"
 		<< name << std::endl
-		<< "---------------------------------------------------------------------------\n";
+		<< "--------------------------------------------------------------------------------\n";
 
 	std::stringstream ss;
 
@@ -912,7 +944,9 @@ void Pokemon::outputAll(std::ostream& outs){
 
 	outs << "Power Points: " << powerPoints << "\n";
 
-	std::string evo = evolution;
+//old method
+/*
+	std::string evo = evolutionOld;
 	int pos = evo.find(">");
 	outs << "Evolution\n" << evo.substr(1, pos-1) << std::endl;
 	evo = evo.substr(pos+1);
@@ -922,7 +956,7 @@ void Pokemon::outputAll(std::ostream& outs){
 		evo = evo.substr(pos+1);
 	}
 	outs << std::endl;
-
+*/
 //	if(hitDie == 1 || hitDie == 2 || hitDie == 3)
 //		outs << "Hit Die: 1d12 + " << hitDie << std::endl
 //			 << "HP: " << HP << std::endl << std::endl;
@@ -934,6 +968,7 @@ void Pokemon::outputAll(std::ostream& outs){
 //		return;
 //	}
 
+	printEvos(outs);
 	printMoves(outs);
 
 	outs << "\n\n\n\n";
@@ -955,10 +990,11 @@ int Pokemon::inputBase(){
 	std::cin.clear();
 	std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 
-	evolution = "";
+	evolutionOld = "";
 	std::string evolutionTemp;
 	int levelTemp;
 	char inputTemp;
+	int index = 0;
 
 	bool doneTemp = false;
 	while(!doneTemp){
@@ -970,7 +1006,7 @@ int Pokemon::inputBase(){
 			std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 
                 	std::cout << "Input evolution: ";
-                	getline(std::cin, evolutionTemp);
+                	getline(std::cin, evos[index].evoName);
 			std::cout << "Input level: ";
 			std::cin >> levelTemp;
 
@@ -1007,8 +1043,9 @@ int Pokemon::inputBase(){
 
 			std::stringstream ss;
 			ss << levelTemp;
+			evos[index].evoRequirement = ss.str();
 
-                        evolution += "<" + evolutionTemp + ": Lvl " + ss.str() + ">";
+//                      evolutionOld += "<" + evolutionTemp + ": Lvl " + ss.str() + ">";
         	}
         	else if(inputTemp == 'n'){
 
@@ -1016,15 +1053,21 @@ int Pokemon::inputBase(){
 			std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 
 	        	std::cout << "Input evolution: ";
-			getline(std::cin, evolutionTemp);
-			evolution += "<" + evolutionTemp + ">";
+			getline(std::cin, evos[index].evoName);
+			std::cout << "Input requirement: ";
+			getline(std::cin, evos[index].evoRequirement);
+//			evolutionOld += "<" + evolutionTemp + ">";
 		}
-		else std::cout << "Invalid Choice\n\n";
+		else{
+			std::cout << "Invalid Choice\n" << std::endl;
+			index--;
+		}
 
 		std::cout << "Are you done with evolutions?(y/n): ";
 		std::cin >> inputTemp;
 		if(inputTemp == 'y') doneTemp = true;
 //		else evolution += " ";
+		index++;
 	}
 
 	std::cin.clear();
@@ -1319,6 +1362,16 @@ void Pokemon::addMoves(std::istream& ins){
 	//std::cout << std::endl;
 }
 
+void Pokemon::addMove(move newMove){
+	numMoves++;
+
+	moves[numMoves].name = newMove.name;
+	moves[numMoves].level = newMove.level;
+
+	moveSort();
+	cleanMoves();
+}
+
 void Pokemon::moveSort(){
 	for(int i = 0; i < numMoves; i++){
 		for(int j = i + 1; j <= numMoves; j++){
@@ -1331,35 +1384,77 @@ void Pokemon::moveSort(){
 	}
 }
 
+void Pokemon::cleanMoves(){
+	for(int i = 0; i < numMoves; i++){
+		for(int j = i + 1; j <= numMoves; j++){
+			if(moves[i].name == moves[j].name && moves[i].level == moves[j].level){
+//std::cout << "erasing " << moves[j].name << std::endl;
+				for(int k = j, l = j +1; l <= numMoves; k++, l++) moves[k] = moves[l];
+				numMoves--;
+			}
+			if(moves[j].name.find(moves[i].name) != std::string::npos && moves[i].level == moves[j].level){
+                                for(int k = j, l = j +1; l <= numMoves; k++, l++) moves[k] = moves[l];
+                                numMoves--;
+			}
+                        if(moves[i].name.find(moves[j].name) != std::string::npos && moves[i].level == moves[j].level){
+                                for(int k = j, l = j +1; l <= numMoves; k++, l++) moves[k] = moves[l];
+                                numMoves--;
+                        }
+		}
+	}
+}
+
 void Pokemon::printMoves(std::ostream& outs){
 	outs << "Moves\nLvl:    Name:\n";
 
-	int repeatCount = 0;
+//	int lineLength = 8;
 
 	outs << moves[0].level;
 	if(moves[0].level < 10) outs << " ";
 	outs << " ---- " << moves[0].name;
 	int currentLevel = moves[0].level;
+        int lineLength = 8 + moves[0].name.length() + 2;
 
 	for(int i = 1; i <= numMoves; i++){
+//std::cout << lineLength + moves[i].name.length() + 2;
 		if(moves[i].level != currentLevel){
-			repeatCount = 0;
 			outs << std::endl << moves[i].level;
 			if(moves[i].level < 10) outs << " ";
 			outs << " ---- " << moves[i].name;
+                        lineLength = 8 + moves[i].name.length() + 2;
 		}
 		else{
-			repeatCount++;
-			if(repeatCount > 4){
+//std::cout << lineLength + moves[i].name.length() + 2 << std::endl;
+			if(lineLength + moves[i].name.length() + 2 > 80){
 				outs << std::endl << "   ---- ";
-				repeatCount = 0;
+				lineLength = 8;
 			}
-			else outs << ", ";
+			else{
+				outs << ", ";
+				lineLength += moves[i].name.length() + 2;
+			}
 			outs << moves[i].name;
 		}
 		currentLevel = moves[i].level;
 	}
-	outs << "\n---------------------------------------------------------------------------\n";
+	outs << "\n--------------------------------------------------------------------------------\n";
+}
+
+void Pokemon::printEvos(std::ostream& outs){
+	outs << "Evolution\n---------\n";
+
+	if(evos[0].evoName == "None" || evos[0].evoName == "none"){
+		outs << "None\n\n";
+		return;
+	}
+
+	int index = 0;
+	while(evos[index].evoName.length() > 0){
+		outs << evos[index].evoName << ":" << evos[index].evoRequirement << std::endl;
+		index++;
+	}
+	outs << std::endl;
+
 }
 
 void Pokemon::temporary(){
@@ -1553,9 +1648,30 @@ void Pokemon::temporary(){
 	getline(std::cin, moveType);
 //	outputBase(std::cout);
 */
-	std::cout << name << " " << moveType << std::endl;
+/*	std::cout << name << " " << moveType << std::endl;
 	char junk;
 	std::cin >> junk;
+*/
+	if(evolutionOld == "<None>" || evolutionOld == "<none>"){
+		evos[0].evoName = "None";
+		return;
+	}
+
+	std::string evo = evolutionOld;
+	int pos;
+	int count = 0;
+
+	while(evo.length() > 0){
+		pos = evo.find(":");
+		evos[count].evoName = evo.substr(1, pos-1);
+		evo = evo.substr(pos+1);
+
+		pos = evo.find(">");
+		evos[count].evoRequirement = evo.substr(1, pos-1);
+		evo = evo.substr(pos+1);
+		count++;
+	}
+	return;
 }
 
 #endif

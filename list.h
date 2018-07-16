@@ -39,6 +39,7 @@ class list{
 		int findName(const std::string target, Pokemon& canvas);
 		int deletePokemon(std::string target);
 		int size();
+		void prevStageMoves();
 
 	private:
 		node* head;
@@ -174,6 +175,50 @@ int list::size(){
 		cursor = cursor -> link;
         }
 	return size;
+}
+
+void list::prevStageMoves(){
+	if(head == NULL) return; //empty list
+
+	node* sourceCursor = head;
+	Pokemon source, target;
+	while(sourceCursor != NULL){ //iterate through entire pokedex
+		source = sourceCursor -> data;
+//		source.outputBase(std::cout);
+
+		evolution* evolutions = source.getEvos();
+		if(evolutions[0].evoName != "None" && evolutions[0].evoName != "none"){
+			int index = 0;
+			while(evolutions[index].evoName.length() > 0){ //iterate through every evolution
+				std::string targetName = evolutions[index].evoName;
+				std::string targetRequirement = evolutions[index].evoRequirement;
+//std::cout << source.getName() << ":" << targetName << ":" << targetRequirement << std::endl;
+
+				node* targetCursor = head;
+				while(targetCursor != NULL){ //iterate through entire pokemon for evolution
+					if(targetCursor -> data.getName() == targetName){
+						int numberMoves;
+						move* sourceMoves = source.getMoves(numberMoves);
+//targetCursor -> data.outputBase(std::cout);
+						for(int i = 0; i <= numberMoves; i++){ //iterate through entire source move list
+							move newMove = sourceMoves[i];
+							newMove.name += "(" + source.getName() + ")";
+//std::cout << "adding " << newMove.name << ":" << newMove.level << std::endl;
+							targetCursor -> data.addMove(newMove);
+//std::cout << sourceMoves[i].name << std::endl;
+						}
+//target = targetCursor -> data;
+//std::cout << target.getName() << std::endl;
+					}
+					targetCursor = targetCursor -> link;
+				}
+
+				index++;
+			}
+		}
+
+		sourceCursor = sourceCursor -> link;
+	}
 }
 
 std::string list::tempAdvance(node*& cursor){

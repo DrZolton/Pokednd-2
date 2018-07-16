@@ -39,7 +39,14 @@ int main(){
 	std::cout.flush();
 	pokedex.fileInput(fileInput);
 	fileInput.close();
-	std::cout << "done\n\n";
+	std::cout << "done\n";
+
+	std::cout << "checking early stage moves...";
+	std::cout.flush();
+	pokedex.prevStageMoves();
+	pokedex.prevStageMoves();
+	std::cout << "done\n" << std::endl;
+
 /*
 //temporary
 //std::cout << "preparing to add evolution, gender ratios, and base stats\n\n";
@@ -47,15 +54,15 @@ int main(){
 //std::cout << "Preparing to add movement type\n\n";
 node* cursor;
 pokedex.temporary1(cursor);
-std::string tempName;
-std::cout << "Enter name that you wish to stop at\n > ";
+//std::string tempName;
+//std::cout << "Enter name that you wish to stop at\n > ";
 //std::cout << "test1";
-getline(std::cin, tempName);
+//getline(std::cin, tempName);
 //std::cout << "test2";
 //std::cout.flush();
-while(pokedex.tempAdvance(cursor) != tempName);
+//while(pokedex.tempAdvance(cursor) != tempName);
 //std::cout << "made it\n" << std::flush;
-while(1){
+while(pokedex.temporary(cursor) != -1){
 	if(pokedex.temporary(cursor) != -1){
         	std::cout << "Saving...";
         	std::ofstream fileOutput;
