@@ -380,13 +380,13 @@ int Pokemon::generate(const int& lvl){
 
 //*******generating HP*//
 	if(hitDie == 1)
-		HP = 13;
+		HP = 13*2;
 	else if(hitDie == 2)
-		HP = 14;
+		HP = 14*2;
 	else if(hitDie == 3)
-		HP = 15;
+		HP = 15*2;
 	else if(hitDie > 3 && hitDie < 13)
-		HP = hitDie;
+		HP = hitDie*2;
 	else{
 		std::cout << "ERROR: in GENERATE funtion\n\tinvalid hitDie value\n";
 		return -1;
