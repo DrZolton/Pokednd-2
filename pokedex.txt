@@ -83,6 +83,8 @@ walk
 60
 Venasaur
 Lvl 13
+From Bulbasaur
+Lvl 7
 >
 1
 Tackle
@@ -90,8 +92,6 @@ Tackle
 Growl
 1
 Leech Seed
-1
-Growl
 3
 Leech Seed
 4
@@ -106,10 +106,20 @@ Take Down
 Razor Leaf
 9
 Sweet Scent
+10
+Growth(Bulbasaur)
 11
 Growth
+11
+Double-Edge(Bulbasaur)
+13
+Synthesis(Bulbasaur)
 13
 Double-Edge
+13
+Worry Seed(Bulbasaur)
+15
+Seed Bomb(Bulbasaur)
 15
 Worry Seed
 16
@@ -143,6 +153,8 @@ walk
 100
 100
 80
+From Ivysaur
+Lvl 13
 >
 1
 Petal Dance
@@ -156,8 +168,6 @@ Leech Seed
 Vine Whip
 1
 Petal Dance at Evo.
-1
-Growl
 3
 Leech Seed
 4
@@ -172,12 +182,28 @@ Take Down
 Razor Leaf
 9
 Sweet Scent
+10
+Growth(Bulbasaur)
+11
+Double-Edge(Bulbasaur)
 11
 Growth
 13
+Worry Seed(Bulbasaur)
+13
+Synthesis(Bulbasaur)
+13
 Double-Edge
+15
+Worry Seed(Ivysaur)
+15
+Seed Bomb(Bulbasaur)
 16
 Worry Seed
+16
+Synthesis(Ivysaur)
+18
+Solar Beam(Ivysaur)
 18
 Synthesis
 20
@@ -267,6 +293,8 @@ walk
 80
 Charizard
 Lvl 15
+From Charmander
+Lvl 7
 >
 1
 Scratch
@@ -280,16 +308,30 @@ Ember
 Smokescreen
 7
 Dragon Rage
+8
+Scary Face(Charmander)
 9
 Scary Face
+10
+Fire Fang(Charmander)
+11
+Flame Burst(Charmander)
 11
 Fire Fang
 13
 Flame Burst
+14
+Slash(Charmander)
+15
+Flamethrower(Charmander)
 16
 Slash
 17
 Flamethrower
+17
+Fire Spin(Charmander)
+19
+Inferno(Charmander)
 20
 Fire Spin
 21
@@ -321,6 +363,8 @@ walk/fly
 109
 85
 100
+From Charmeleon
+Lvl 15
 >
 1
 Wing Attack
@@ -348,16 +392,38 @@ Ember
 Smokescreen
 7
 Dragon Rage
+8
+Scary Face(Charmander)
 9
 Scary Face
+10
+Fire Fang(Charmander)
+11
+Flame Burst(Charmander)
 11
 Fire Fang
 13
 Flame Burst
+14
+Slash(Charmander)
+15
+Flamethrower(Charmander)
+16
+Slash(Charmeleon)
 17
 Slash
+17
+Flamethrower(Charmeleon)
+17
+Fire Spin(Charmander)
+19
+Inferno(Charmander)
 19
 Flamethrower
+20
+Fire Spin(Charmeleon)
+21
+Inferno(Charmeleon)
 22
 Fire Spin
 23
@@ -453,6 +519,8 @@ walk/swim
 58
 Blastoise
 Lvl 15
+From Squirtle
+Lvl 7
 >
 1
 Tackle
@@ -470,16 +538,32 @@ Withdraw
 Bubble
 7
 Bite
+8
+Rapid Spin(Squirtle)
+9
+Protect(Squirtle)
 9
 Rapid Spin
 10
 Protect
+10
+Water Pulse(Squirtle)
+11
+Aqua Tail(Squirtle)
 12
 Water Pulse
 13
 Aqua Tail
+13
+Skull Bash(Squirtle)
+14
+Iron Defense(Squirtle)
 15
 Skull Bash
+15
+Rain Dance(Squirtle)
+16
+Hydro Pump(Squirtle)
 17
 Iron Defense
 18
@@ -513,6 +597,8 @@ walk/swim
 85
 105
 78
+From Wartortle
+Lvl 15
 >
 1
 Flash Cannon
@@ -534,18 +620,42 @@ Withdraw
 Bubble
 7
 Bite
+8
+Rapid Spin(Squirtle)
+9
+Protect(Squirtle)
 9
 Rapid Spin
 10
+Water Pulse(Squirtle)
+10
 Protect
+11
+Aqua Tail(Squirtle)
 12
 Water Pulse
 13
+Skull Bash(Squirtle)
+13
 Aqua Tail
+14
+Iron Defense(Squirtle)
+15
+Skull Bash(Wartortle)
+15
+Rain Dance(Squirtle)
 16
 Skull Bash
+16
+Hydro Pump(Squirtle)
+17
+Iron Defense(Wartortle)
+18
+Rain Dance(Wartortle)
 19
 Iron Defense
+20
+Hydro Pump(Wartortle)
 21
 Rain Dance
 22
@@ -615,11 +725,19 @@ walk
 30
 Butterfree
 Lvl 4
+From Caterpie
+Lvl 3
 >
 1
 Harden
 1
 Harden at Evo.
+1
+Tackle(Caterpie)
+1
+String Shot(Caterpie)
+4
+Bug Bite(Caterpie)
 0
 
 $
@@ -647,6 +765,8 @@ walk/climb/fly
 90
 80
 70
+From Metapod
+Lvl 4
 >
 1
 Gust
@@ -654,14 +774,24 @@ Gust
 Gust at Evo.
 1
 Confusion
-5
-Confusion
-5
-Poison Powder
+1
+Harden(Metapod)
+1
+Harden at Evo.(Metapod)
+1
+Tackle(Caterpie)
+1
+String Shot(Caterpie)
+4
+Bug Bite(Caterpie)
 5
 Stun Spore
 5
 Sleep Powder
+5
+Confusion
+5
+Poison Powder
 7
 Psybeam
 8
@@ -749,11 +879,19 @@ walk
 35
 Beedrill
 Lvl 4
+From Weedle
+Lvl 3
 >
 1
 Harden
 1
 Harden at Evo.
+1
+Poison Sting(Weedle)
+1
+String Shot(Weedle)
+4
+Bug Bite(Weedle)
 0
 
 $
@@ -781,6 +919,8 @@ walk/climb/fly
 45
 80
 75
+From Kakuna
+Lvl 4
 >
 1
 Twineedle
@@ -788,6 +928,16 @@ Twineedle
 Fury Attack
 1
 Twineedle at Evo.
+1
+Harden(Kakuna)
+1
+Harden at Evo.(Kakuna)
+1
+Poison Sting(Weedle)
+1
+String Shot(Weedle)
+4
+Bug Bite(Weedle)
 5
 Fury Attack
 6
@@ -899,6 +1049,8 @@ walk/fly
 71
 Pidgeot
 Lvl 15
+From Pidgey
+Lvl 7
 >
 1
 Tackle
@@ -916,16 +1068,32 @@ Quick Attack
 Whirlwind
 9
 Twister
+10
+Feather Dance(Pidgey)
 11
 Feather Dance
+12
+Agility(Pidgey)
 13
 Agility
+13
+Wing Attack(Pidgey)
+15
+Roost(Pidgey)
 15
 Wing Attack
 17
 Roost
+17
+Tailwind(Pidgey)
+18
+Mirror Move(Pidgey)
 19
 Tailwind
+20
+Air Slash(Pidgey)
+21
+Hurricane(Pidgey)
 21
 Mirror Move
 22
@@ -959,6 +1127,8 @@ walk/fly
 70
 70
 101
+From Pidgeotto
+Lvl 15
 >
 1
 Hurricane
@@ -980,18 +1150,44 @@ Quick Attack
 Whirlwind
 9
 Twister
+10
+Feather Dance(Pidgey)
 11
 Feather Dance
+12
+Agility(Pidgey)
+13
+Wing Attack(Pidgey)
 13
 Agility
 15
+Roost(Pidgey)
+15
 Wing Attack
+17
+Tailwind(Pidgey)
+17
+Roost(Pidgeotto)
+18
+Mirror Move(Pidgey)
 18
 Roost
+19
+Tailwind(Pidgeotto)
+20
+Air Slash(Pidgey)
 20
 Tailwind
+21
+Mirror Move(Pidgeotto)
+21
+Hurricane(Pidgey)
 22
 Mirror Move
+22
+Air Slash(Pidgeotto)
+23
+Hurricane(Pidgeotto)
 23
 Air Slash
 24
@@ -1079,6 +1275,8 @@ walk/climb
 50
 70
 97
+From Rattata
+Lvl 8
 >
 1
 Swords Dance
@@ -1104,12 +1302,22 @@ Pursuit
 Hyper Fang
 8
 Assurance
+9
+Crunch(Rattata)
+10
+Sucker Punch(Rattata)
 10
 Crunch
+11
+Super Fang(Rattata)
 12
 Sucker Punch
+13
+Double-Edge(Rattata)
 14
 Super Fang
+14
+Endeavor(Rattata)
 16
 Double-Edge
 18
@@ -1195,6 +1403,8 @@ walk/fly
 61
 61
 100
+From Spearow
+Lvl 8
 >
 1
 Drill Run
@@ -1220,10 +1430,18 @@ Aerial Ace
 Mirror Move
 9
 Assurance
+10
+Agility(Spearow)
 11
 Agility
+12
+Focus Energy(Spearow)
 13
 Focus Energy
+13
+Roost(Spearow)
+15
+Drill Peck(Spearow)
 15
 Roost
 17
@@ -1321,6 +1539,8 @@ walk
 65
 79
 80
+From Ekans
+Lvl 9
 >
 1
 Crunch
@@ -1350,20 +1570,40 @@ Glare
 Screech
 8
 Acid
+10
+Swallow(Ekans)
+10
+Spit Up(Ekans)
+10
+Stockpile(Ekans)
 11
 Stockpile
+11
+Acid Spray(Ekans)
 11
 Swallow
 11
 Spit Up
 13
+Mud Bomb(Ekans)
+13
 Acid Spray
+15
+Gastro Acid(Ekans)
+15
+Belch(Ekans)
 16
 Mud Bomb
+17
+Haze(Ekans)
+18
+Coil(Ekans)
 18
 Gastro Acid
 19
 Belch
+20
+Gunk Shot(Ekans)
 21
 Haze
 22
@@ -1463,6 +1703,8 @@ walk/climb
 90
 80
 110
+From Pikachu
+Thunder Stone
 >
 1
 Thunder Shock
@@ -1472,6 +1714,38 @@ Tail Whip
 Quick Attack
 1
 Thunderbolt
+2
+Growl(Pikachu)
+3
+Play Nice(Pikachu)
+4
+Quick Attack(Pikachu)
+5
+Electro Ball(Pikachu)
+7
+Thunder Wave(Pikachu)
+9
+Double Team(Pikachu)
+9
+Feint(Pikachu)
+11
+Spark(Pikachu)
+12
+Nuzzle(Pikachu)
+14
+Discharge(Pikachu)
+15
+Slam(Pikachu)
+17
+Thunderbolt(Pikachu)
+18
+Agility(Pikachu)
+20
+Wild Charge(Pikachu)
+21
+Light Screen(Pikachu)
+22
+Thunder(Pikachu)
 0
 
 $
@@ -1563,6 +1837,8 @@ walk/burrow
 45
 55
 65
+From Sandshrew
+Lvl 9
 >
 1
 Crush Claw
@@ -1576,8 +1852,6 @@ Sand Attack
 Poison Sting
 1
 Crush Claw at Evo.
-1
-Sand Attack
 2
 Poison Sting
 3
@@ -1592,18 +1866,30 @@ Magnitude
 Swift
 8
 Fury Swipes
+9
+Sand Tomb(Sandshrew)
 10
 Sand Tomb
 11
 Slash
+12
+Dig(Sandshrew)
 13
 Dig
+14
+Gyro Ball(Sandshrew)
 15
 Gyro Ball
+15
+Swords Dance(Sandshrew)
+17
+Sandstorm(Sandshrew)
 17
 Swords Dance
 19
 Sandstorm
+19
+Earthquake(Sandshrew)
 21
 Earthquake
 0
@@ -1691,6 +1977,8 @@ walk
 56
 Nidoqueen
 Moon Stone
+From Nidoran(F)
+Lvl 7
 >
 1
 Growl
@@ -1706,14 +1994,26 @@ Poison Sting
 Fury Swipes
 9
 Bite
+10
+Helping Hand(Nidoran
 11
 Helping Hand
+13
+Toxic Spikes(Nidoran
+13
+Flatter(Nidoran
 14
 Toxic Spikes
 15
 Flatter
+15
+Crunch(Nidoran
+17
+Captivate(Nidoran
 17
 Crunch
+18
+Poison Fang(Nidoran
 20
 Captivate
 22
@@ -1745,6 +2045,8 @@ walk
 75
 85
 76
+From Nidorina
+Moon Stone
 >
 1
 Superpower
@@ -1756,14 +2058,50 @@ Tail Whip
 Double Kick
 1
 Poison Sting
+1
+Growl(Nidorina)
+3
+Tail Whip(Nidorina)
+4
+Double Kick(Nidorina)
+5
+Poison Sting(Nidorina)
+8
+Fury Swipes(Nidorina)
 9
 Chip Away
+9
+Bite(Nidorina)
+10
+Helping Hand(Nidoran
+11
+Helping Hand(Nidorina)
+13
+Flatter(Nidoran
+13
+Toxic Spikes(Nidoran
+14
+Toxic Spikes(Nidorina)
 14
 Body Slam
+15
+Flatter(Nidorina)
+15
+Crunch(Nidoran
+17
+Captivate(Nidoran
 17
 Earth Power
+17
+Crunch(Nidorina)
+18
+Poison Fang(Nidoran
+20
+Captivate(Nidorina)
 22
 Superpower
+22
+Poison Fang(Nidorina)
 0
 
 $
@@ -1849,6 +2187,8 @@ walk
 65
 Nidoking
 Moon Stone
+From Nidoran(M)
+Lvl 7
 >
 1
 Leer
@@ -1864,14 +2204,26 @@ Poison Sting
 Fury Attack
 9
 Horn Attack
+10
+Helping Hand(Nidoran
 11
 Helping Hand
+13
+Toxic Spikes(Nidoran
+13
+Flatter(Nidoran
 14
 Toxic Spikes
 15
 Flatter
+15
+Poison Jab(Nidoran
+17
+Captivate(Nidoran
 17
 Poison Jab
+18
+Horn Drill(Nidoran
 20
 Captivate
 22
@@ -1903,6 +2255,8 @@ walk
 85
 75
 85
+From Nidorino
+Moon Stone
 >
 1
 Megahorn
@@ -1914,14 +2268,50 @@ Focus Energy
 Double Kick
 1
 Poison Sting
+1
+Leer(Nidorino)
+3
+Focus Energy(Nidorino)
+4
+Double Kick(Nidorino)
+5
+Poison Sting(Nidorino)
+8
+Fury Attack(Nidorino)
 9
 Chip Away
+9
+Horn Attack(Nidorino)
+10
+Helping Hand(Nidoran
+11
+Helping Hand(Nidorino)
+13
+Flatter(Nidoran
+13
+Toxic Spikes(Nidoran
+14
+Toxic Spikes(Nidorino)
 14
 Thrash
+15
+Flatter(Nidorino)
+15
+Poison Jab(Nidoran
+17
+Captivate(Nidoran
 17
 Earth Power
+17
+Poison Jab(Nidorino)
+18
+Horn Drill(Nidoran
+20
+Captivate(Nidorino)
 22
 Megahorn
+22
+Horn Drill(Nidorino)
 0
 
 $
@@ -2025,6 +2415,8 @@ walk/walk on water
 95
 90
 60
+From Clefairy
+Moon Stone
 >
 1
 Spotlight
@@ -2038,6 +2430,48 @@ Double Slap
 Minimize
 1
 Metronome
+1
+Pound(Clefairy)
+1
+Growl(Clefairy)
+1
+Encore(Clefairy)
+3
+Sing(Clefairy)
+4
+Double Slap(Clefairy)
+5
+Defense Curl(Clefairy)
+7
+Follow Me(Clefairy)
+8
+Bestow(Clefairy)
+9
+Wake-Up Slap(Clefairy)
+10
+Minimize(Clefairy)
+11
+Stored Power(Clefairy)
+13
+Metronome(Clefairy)
+14
+Cosmic Power(Clefairy)
+15
+Lucky Chant(Clefairy)
+16
+Body Slam(Clefairy)
+17
+Moonlight(Clefairy)
+19
+Moonblast(Clefairy)
+20
+Meteor Mash(Clefairy)
+20
+Gravity(Clefairy)
+21
+Healing Wish(Clefairy)
+22
+After You(Clefairy)
 0
 
 $
@@ -2135,6 +2569,8 @@ walk
 81
 100
 100
+From Vulpix
+Fire Stone
 >
 1
 Imprison
@@ -2148,6 +2584,46 @@ Quick Attack
 Confuse Ray
 1
 Safeguard
+1
+Ember(Vulpix)
+2
+Tail Whip(Vulpix)
+3
+Roar(Vulpix)
+4
+Quick Attack(Vulpix)
+4
+Baby-Doll Eyes(Vulpix)
+5
+Confuse Ray(Vulpix)
+6
+Fire Spin(Vulpix)
+7
+Payback(Vulpix)
+8
+Will-O-Wisp(Vulpix)
+9
+Feint Attack(Vulpix)
+11
+Hex(Vulpix)
+11
+Flame Burst(Vulpix)
+13
+Extrasensory(Vulpix)
+14
+Safeguard(Vulpix)
+15
+Flamethrower(Vulpix)
+16
+Imprison(Vulpix)
+17
+Fire Blast(Vulpix)
+18
+Grudge(Vulpix)
+19
+Captivate(Vulpix)
+20
+Inferno(Vulpix)
 0
 
 $
@@ -2243,6 +2719,8 @@ walk
 85
 50
 45
+From Jigglypuff
+Moon Stone
 >
 1
 Double-Edge
@@ -2256,6 +2734,40 @@ Defense Curl
 Disable
 1
 Double Slap
+2
+Pound(Jigglypuff)
+4
+Play Nice(Jigglypuff)
+5
+Disarming Voice(Jigglypuff)
+6
+Disable(Jigglypuff)
+7
+Double Slap(Jigglypuff)
+8
+Rollout(Jigglypuff)
+9
+Round(Jigglypuff)
+10
+Stockpile(Jigglypuff)
+10
+Swallow(Jigglypuff)
+10
+Spit Up(Jigglypuff)
+11
+Wake-Up Slap(Jigglypuff)
+12
+Rest(Jigglypuff)
+13
+Body Slam(Jigglypuff)
+14
+Gyro Ball(Jigglypuff)
+15
+Mimic(Jigglypuff)
+17
+Hyper Voice(Jigglypuff)
+18
+Double-Edge(Jigglypuff)
 0
 
 $
@@ -2345,6 +2857,8 @@ walk/fly
 90
 Crobat
 Friendship
+From Zubat
+Lvl 9
 >
 1
 Screech
@@ -2368,16 +2882,32 @@ Wing Attack
 Confuse Ray
 8
 Air Cutter
+9
+Swift(Zubat)
 10
 Swift
+10
+Poison Fang(Zubat)
 11
 Poison Fang
+12
+Mean Look(Zubat)
 13
 Mean Look
+13
+Leech Life(Zubat)
+14
+Haze(Zubat)
 14
 Leech Life
+15
+Venoshock(Zubat)
 16
 Haze
+17
+Air Slash(Zubat)
+17
+Quick Guard(Zubat)
 17
 Venoshock
 19
@@ -2477,6 +3007,8 @@ Vileplume
 Leaf Stone
 Bellossom
 Sun Stone
+From Oddish
+Lvl 9
 >
 1
 Absorb
@@ -2498,18 +3030,34 @@ Stun Spore
 Sleep Powder
 8
 Mega Drain
+9
+Lucky Chant(Oddish)
 10
 Lucky Chant
+11
+Moonlight(Oddish)
 12
 Moonlight
+13
+Giga Drain(Oddish)
+14
+Toxic(Oddish)
 14
 Giga Drain
 16
 Toxic
+16
+Natural Gift(Oddish)
+17
+Moonblast(Oddish)
 18
 Natural Gift
+19
+Grassy Drain(Oddish)
 20
 Petal Blizzard
+21
+Petal Dance(Oddish)
 21
 Grassy Terrain
 22
@@ -2541,6 +3089,8 @@ walk
 110
 90
 50
+From Gloom
+Leaf Stone
 >
 1
 Mega Drain
@@ -2550,8 +3100,56 @@ Aromatherapy
 Poison Powder
 1
 Stun Spore
+1
+Absorb(Gloom)
+1
+Growth(Gloom)
+1
+Sweet Scent(Gloom)
+1
+Acid(Gloom)
+2
+Sweet Scent(Gloom)
+4
+Acid(Gloom)
+5
+Poison Powder(Gloom)
+6
+Stun Spore(Gloom)
+6
+Sleep Powder(Gloom)
+8
+Mega Drain(Gloom)
+9
+Lucky Chant(Oddish)
+10
+Lucky Chant(Gloom)
+11
+Moonlight(Oddish)
+12
+Moonlight(Gloom)
+13
+Giga Drain(Oddish)
+14
+Toxic(Oddish)
+14
+Giga Drain(Gloom)
+16
+Natural Gift(Oddish)
+16
+Toxic(Gloom)
+17
+Moonblast(Oddish)
+18
+Natural Gift(Gloom)
+19
+Grassy Drain(Oddish)
 20
 Petal Blizzard
+21
+Petal Dance(Oddish)
+21
+Grassy Terrain(Gloom)
 22
 Petal Dance
 24
@@ -2637,6 +3235,8 @@ walk
 60
 80
 30
+From Paras
+Lvl 10
 >
 1
 Cross Poison
@@ -2658,12 +3258,24 @@ Absorb
 Fury Cutter
 9
 Spore
+11
+Slash(Paras)
 12
 Slash
+13
+Growth(Paras)
 15
 Growth
+15
+Giga Drain(Paras)
+17
+Aromatherapy(Paras)
 18
 Giga Drain
+20
+Rage Powder(Paras)
+21
+X-Scissor(Paras)
 21
 Aromatherapy
 22
@@ -2755,6 +3367,8 @@ walk/climb/fly
 90
 75
 90
+From Venonat
+Lvl 13
 >
 1
 Gust
@@ -2788,10 +3402,18 @@ Stun Spore
 Signal Beam
 12
 Sleep Powder
+14
+Leech Life(Venonat)
+15
+Zen Headbutt(Venonat)
 15
 Leech Life
 17
 Zen Headbutt
+17
+Poison Fang(Venonat)
+19
+Psychic(Venonat)
 19
 Poison Fang
 21
@@ -2885,6 +3507,8 @@ burrow
 50
 70
 120
+From Diglett
+Lvl 11
 >
 1
 Sand Tomb
@@ -2916,10 +3540,20 @@ Bulldoze
 Sucker Punch
 10
 Mud Bomb
+11
+Earth Power(Diglett)
 12
 Earth Power
+13
+Dig(Diglett)
+14
+Slash(Diglett)
 14
 Dig
+16
+Earthquake(Diglett)
+17
+Fissure(Diglett)
 17
 Slash
 19
@@ -3013,6 +3647,8 @@ walk/climb
 65
 65
 115
+From Meowth
+Lvl 11
 >
 1
 Swift
@@ -3042,12 +3678,26 @@ Screech
 Feint Attack
 10
 Taunt
+12
+Pay Day(Meowth)
+13
+Slash(Meowth)
 13
 Power Gem
 15
 Slash
+15
+Nasty Plot(Meowth)
+17
+Assurance(Meowth)
 18
 Nasty Plot
+19
+Captivate(Meowth)
+20
+Night Slash(Meowth)
+20
+Feint(Meowth)
 20
 Assurance
 22
@@ -3145,6 +3795,8 @@ walk/swim
 95
 80
 85
+From Psyduck
+Lvl 13
 >
 1
 Me First
@@ -3178,8 +3830,16 @@ Zen Headbutt
 Aqua Tail
 13
 Soak
+14
+Psych Up(Psyduck)
+15
+Amnesia(Psyduck)
 15
 Psych Up
+16
+Hydro Pump(Psyduck)
+17
+Wonder Room(Psyduck)
 17
 Amnesia
 19
@@ -3281,6 +3941,8 @@ walk/climb
 60
 70
 95
+From Mankey
+Lvl 11
 >
 1
 Rage
@@ -3298,6 +3960,8 @@ Leer
 Focus Energy
 1
 Rage at Evo.
+1
+Covet(Mankey)
 2
 Fury Swipes
 3
@@ -3314,14 +3978,26 @@ Cross Chop
 Assurance
 12
 Punishment
+13
+Thrash(Mankey)
 14
 Thrash
+15
+Close Combat(Mankey)
+16
+Screech(Mankey)
 16
 Close Combat
+17
+Stomping Tantrum(Mankey)
 18
 Screech
 19
+Outrage(Mankey)
+19
 Stomping Tantrum
+20
+Final Gambit(Mankey)
 21
 Outrage
 22
@@ -3419,6 +4095,8 @@ walk
 100
 80
 95
+From Growlithe
+Fire Stone
 >
 1
 Thunder Fang
@@ -3430,8 +4108,40 @@ Roar
 Odor Sleuth
 1
 Fire Fang
+3
+Ember(Growlithe)
+3
+Leer(Growlithe)
+4
+Odor Sleuth(Growlithe)
+5
+Helping Hand(Growlithe)
+7
+Flame Wheel(Growlithe)
+8
+Reversal(Growlithe)
+9
+Fire Fang(Growlithe)
+9
+Take Down(Growlithe)
+11
+Flame Burst(Growlithe)
+12
+Agility(Growlithe)
+13
+Retaliate(Growlithe)
+14
+Flamethrower(Growlithe)
 14
 Extreme Speed
+16
+Crunch(Growlithe)
+17
+Outrage(Growlithe)
+17
+Heat Wave(Growlithe)
+18
+Flare Blitz(Growlithe)
 0
 
 $
@@ -3519,6 +4229,8 @@ Poliwrath
 Water Stone
 Politoed
 King's Rock
+From Poliwag
+Lvl 10
 >
 1
 Water Sport
@@ -3538,14 +4250,26 @@ Double Slap
 Rain Dance
 9
 Body Slam
+10
+Bubble Beam(Poliwag)
 11
 Bubble Beam
+11
+Mud Shot(Poliwag)
+13
+Belly Drum(Poliwag)
 13
 Mud Shot
+14
+Wake-Up Slap(Poliwag)
+15
+Hydro Pump(Poliwag)
 15
 Belly Drum
 17
 Wake-Up Slap
+17
+Mud Bomb(Poliwag)
 19
 Hydro Pump
 21
@@ -3577,6 +4301,8 @@ walk/swim
 70
 90
 70
+From Poliwhirl
+Water Stone
 >
 1
 Submission
@@ -3590,12 +4316,52 @@ Hypnosis
 Double Slap
 1
 Submission at Evo.
+1
+Water Sport(Poliwhirl)
+1
+Water Gun(Poliwhirl)
+2
+Water Gun(Poliwhirl)
+3
+Hypnosis(Poliwhirl)
+5
+Bubble(Poliwhirl)
+6
+Double Slap(Poliwhirl)
+7
+Rain Dance(Poliwhirl)
+9
+Body Slam(Poliwhirl)
+10
+Bubble Beam(Poliwag)
+11
+Bubble Beam(Poliwhirl)
+11
+Mud Shot(Poliwag)
 13
 Dynamic Punch
+13
+Mud Shot(Poliwhirl)
+13
+Belly Drum(Poliwag)
+14
+Wake-Up Slap(Poliwag)
+15
+Hydro Pump(Poliwag)
+15
+Belly Drum(Poliwhirl)
+17
+Mud Bomb(Poliwag)
 17
 Mind Reader
+17
+Wake-Up Slap(Poliwhirl)
+19
+Hydro Pump(Poliwhirl)
 21
 Circle Throw
+21
+Mud Bomb(Poliwhirl)
 0
 
 $
@@ -3657,6 +4423,8 @@ walk
 105
 Alakazam
 Trade
+From Abra
+Lvl 7
 >
 1
 Kinesis
@@ -3719,6 +4487,8 @@ walk
 135
 95
 120
+From Kadabra
+Trade
 >
 1
 Kinesis
@@ -3728,8 +4498,12 @@ Teleport
 confusion
 1
 Kinesis at Evo.
+1
+Confusion(Kadabra)
 7
 Confusion
+7
+Disable(Kadabra)
 8
 Disable
 9
@@ -3748,6 +4522,8 @@ Telekinesis
 Ally Switch
 15
 Psychic
+17
+Role Play(Kadabra)
 17
 Calm Mind
 17
@@ -3847,6 +4623,8 @@ walk
 45
 Machamp
 Trade
+From Machop
+Lvl 11
 >
 1
 Low Kick
@@ -3856,8 +4634,6 @@ Leer
 Focus Energy
 1
 Karate Chop
-1
-Focus Energy
 3
 Karate Chop
 4
@@ -3875,11 +4651,21 @@ Vital Throw
 11
 Wake-Up Slap
 13
+Submission(Machop)
+13
 Dual Chop
 15
+Bulk Up(Machop)
+15
 Submission
+16
+Cross Chop(Machop)
+17
+Scary Face(Machop)
 17
 Bulk Up
+18
+Dynamic Punch(Machop)
 19
 Cross Chop
 21
@@ -3913,6 +4699,8 @@ walk
 65
 85
 55
+From Machoke
+Trade
 >
 1
 Strength
@@ -3928,8 +4716,6 @@ Focus Energy
 Karate Chop
 1
 Strength at Evo.
-1
-Focus Energy
 3
 Karate Chop
 4
@@ -3948,10 +4734,20 @@ Vital Throw
 Wake-Up Slap
 13
 Dual Chop
+13
+Submission(Machop)
 15
 Submission
+15
+Bulk Up(Machop)
+16
+Cross Chop(Machop)
+17
+Scary Face(Machop)
 17
 Bulk Up
+18
+Dynamic Punch(Machop)
 19
 Cross Chop
 21
@@ -4045,6 +4841,8 @@ walk/climb
 55
 Victreebel
 Leaf Stone
+From Bellsprout
+Lvl 9
 >
 1
 Vine Whip
@@ -4062,18 +4860,34 @@ Sleep Powder
 Poison Powder
 7
 Stun Spore
+9
+Acid(Bellsprout)
 10
 Acid
+11
+Knock Off(Bellsprout)
 12
 Knock Off
+12
+Sweet Scent(Bellsprout)
 13
 Sweet Scent
+14
+Gastro Acid(Bellsprout)
 16
 Gastro Acid
+16
+Razor Leaf(Bellsprout)
+17
+Poison Jab(Bellsprout)
 18
 Razor Leaf
 19
 Poison Jab
+19
+Slam(Bellsprout)
+20
+Wring Out(Bellsprout)
 21
 Slam
 22
@@ -4105,6 +4919,8 @@ walk/climb
 100
 70
 70
+From Weepinbell
+Leaf Stone
 >
 1
 Leaf Tornado
@@ -4124,10 +4940,56 @@ Sweet Scent
 Razor Leaf
 1
 Leaf Tornado at Evo.
+1
+Growth(Weepinbell)
+1
+Wrap(Weepinbell)
+3
+Growth(Weepinbell)
+5
+Wrap(Weepinbell)
+5
+Sleep Powder(Weepinbell)
+6
+Poison Powder(Weepinbell)
+7
+Stun Spore(Weepinbell)
+9
+Acid(Bellsprout)
+10
+Acid(Weepinbell)
+11
+Knock Off(Bellsprout)
+12
+Sweet Scent(Bellsprout)
+12
+Knock Off(Weepinbell)
+13
+Sweet Scent(Weepinbell)
 13
 Leaf Storm
+14
+Gastro Acid(Bellsprout)
+16
+Razor Leaf(Bellsprout)
+16
+Gastro Acid(Weepinbell)
+17
+Poison Jab(Bellsprout)
 18
 Leaf Blade
+18
+Razor Leaf(Weepinbell)
+19
+Slam(Bellsprout)
+19
+Poison Jab(Weepinbell)
+20
+Wring Out(Bellsprout)
+21
+Slam(Weepinbell)
+22
+Wring Out(Weepinbell)
 0
 
 $
@@ -4219,6 +5081,8 @@ swim
 80
 120
 100
+From Tentacool
+Lvl 12
 >
 1
 Reflect Type
@@ -4252,14 +5116,26 @@ Bubble Beam
 Barrier
 13
 Poison Jab
+14
+Brine(Tentacool)
 15
 Brine
+15
+Screech(Tentacool)
+16
+Hex(Tentacool)
 16
 Screech
+17
+Sludge Wave(Tentacool)
 18
 Hex
 19
+Hydro Pump(Tentacool)
+19
 Sludge Wave
+20
+Wring Out(Tentacool)
 21
 Hydro Pump
 22
@@ -4355,6 +5231,8 @@ walk
 35
 Golem
 Trade
+From Geodude
+Lvl 10
 >
 1
 Tackle
@@ -4380,12 +5258,24 @@ Smack Down
 Bulldoze
 10
 Self-Destruct
+11
+Stealth Rock(Geodude)
+12
+Rock Blast(Geodude)
 12
 Stealth Rock
 14
 Rock Blast
+14
+Earthquake(Geodude)
+15
+Explosion(Geodude)
 16
 Earthquake
+16
+Double-Edge(Geodude)
+17
+Stone Edge(Geodude)
 18
 Explosion
 20
@@ -4419,6 +5309,8 @@ walk
 55
 65
 45
+From Graveler
+Trade
 >
 1
 Heavy Slam
@@ -4436,6 +5328,8 @@ Mud Sport
 Rock Polish
 4
 Steam Roller
+4
+Rollout(Graveler)
 5
 Magnitude
 7
@@ -4446,12 +5340,24 @@ Smack Down
 Bulldoze
 10
 Self-Destruct
+11
+Stealth Rock(Geodude)
+12
+Rock Blast(Geodude)
 12
 Stealth Rock
 14
+Earthquake(Geodude)
+14
 Rock Blast
+15
+Explosion(Geodude)
 16
 Earthquake
+16
+Double-Edge(Geodude)
+17
+Stone Edge(Geodude)
 18
 Explosion
 20
@@ -4545,6 +5451,8 @@ walk
 80
 80
 105
+From Ponyta
+Lvl 16
 >
 1
 Fury Attack
@@ -4562,6 +5470,8 @@ Tail Whip
 Ember
 1
 Fury Attack at Evo.
+1
+Tackle(Ponyta)
 2
 Tail Whip
 4
@@ -4677,6 +5587,8 @@ walk/swim
 100
 80
 30
+From Slowpoke
+Lvl 15
 >
 1
 Withdraw
@@ -4710,10 +5622,18 @@ Zen Headbutt
 Slack Off
 17
 Amnesia
+18
+Psychic(Slowpoke)
+20
+Rain Dance(Slowpoke)
 20
 Psychic
 21
 Rain Dance
+21
+Psych Up(Slowpoke)
+22
+Heal Pulse(Slowpoke)
 23
 Psych Up
 24
@@ -4813,6 +5733,8 @@ hover
 70
 Magnezone
 Special Magnetic Field
+From Magnemite
+Lvl 12
 >
 1
 Tri Attack at Evo.
@@ -4850,10 +5772,22 @@ Metal Sound
 Electro Ball
 13
 Flash Cannon
+14
+Screech(Magnemite)
+15
+Discharge(Magnemite)
 16
 Screech
 17
+Magnet Rise(Magnemite)
+17
 Discharge
+17
+Lock-On(Magnemite)
+19
+Gyro Ball(Magnemite)
+20
+Zap Cannon(Magnemite)
 20
 Lock-On
 21
@@ -5017,6 +5951,8 @@ walk
 60
 60
 110
+From Doduo
+Lvl 13
 >
 1
 Tri Attack
@@ -5037,6 +5973,8 @@ Rage
 5
 Fury Attack
 6
+Pusuit(Doduo)
+6
 Pursuit
 8
 Pluck
@@ -5046,14 +5984,24 @@ Double Hit
 Agility
 12
 Uproar
+13
+Acupressure(Doduo)
 14
 Acupressure
 15
 Swords Dance
+16
+Jump Kick(Doduo)
+17
+Drill Peck(Doduo)
 17
 Jump Kick
 19
 Drill Peck
+19
+Endeavor(Doduo)
+20
+Thrash(Doduo)
 21
 Endeavor
 22
@@ -5149,6 +6097,8 @@ walk 2/swim
 70
 95
 70
+From Seel
+Lvl 14
 >
 1
 Sheer Cold
@@ -5162,10 +6112,10 @@ Signal Beam
 Icy Wind
 1
 Sheer Cold at Evo.
-1
-Growl
 3
 Signal Beam
+3
+Water Sport(Seel)
 5
 Icy Wind
 5
@@ -5182,14 +6132,26 @@ Aurora Beam
 Aqua Jet
 13
 Brine
+15
+Take Down(Seel)
 16
 Take Down
+17
+Dive(Seel)
+17
+Aqua Tail(Seel)
 18
 Dive
+19
+Ice Beam(Seel)
 20
 Aqua Tail
 21
 Ice Beam
+21
+Safeguard(Seel)
+21
+Hail(Seel)
 23
 Safeguard
 23
@@ -5283,6 +6245,8 @@ walk
 65
 100
 50
+From Grimer
+Lvl 15
 >
 1
 Venom Drench
@@ -5318,8 +6282,14 @@ Sludge Wave
 Screech
 16
 Gunk Shot
+17
+Acid Armor(Grimer)
+19
+Memento(Grimer)
 19
 Acid Armor
+19
+Belch(Grimer)
 21
 Belch
 22
@@ -5415,6 +6385,8 @@ swim
 85
 45
 70
+From Shellder
+Water Stone
 >
 1
 Hydro Pump
@@ -5430,12 +6402,46 @@ Supersonic
 Protect
 1
 Aurora Beam
+1
+Tackle(Shellder)
+1
+Water Gun(Shellder)
+2
+Withdraw(Shellder)
+3
+Supersonic(Shellder)
 5
 Spike Cannon
+5
+Icicle Spear(Shellder)
+7
+Protect(Shellder)
+8
+Leer(Shellder)
+10
+Clamp(Shellder)
 11
 Spikes
+11
+Ice Shard(Shellder)
+13
+Razor Shell(Shellder)
+15
+Aurora Beam(Shellder)
+16
+Whirlpool(Shellder)
+18
+Brine(Shellder)
+20
+Iron Defense(Shellder)
 20
 Icicle Crash
+21
+Ice Beam(Shellder)
+22
+Shell Smash(Shellder)
+23
+Hydro Pump(Shellder)
 0
 
 $
@@ -5523,6 +6529,8 @@ hover
 95
 Gengar
 Trade
+From Gastly
+Lvl 10
 >
 1
 Shadow Punch
@@ -5548,12 +6556,24 @@ Confuse Ray
 Sucker Punch
 11
 Payback
+12
+Shadow Ball(Gastly)
+13
+Dream Eater(Gastly)
 13
 Shadow Ball
+15
+Dark Pulse(Gastly)
+16
+Destiny Bond(Gastly)
 16
 Dream Eater
+17
+Hex(Gastly)
 18
 Dark Pulse
+19
+Nightmare(Gastly)
 20
 Destiny Bond
 21
@@ -5587,6 +6607,8 @@ walk/hover
 130
 75
 110
+From Haunter
+Trade
 >
 1
 Shadow Punch
@@ -5612,12 +6634,24 @@ Confuse Ray
 Sucker Punch
 11
 Payback
+12
+Shadow Ball(Gastly)
+13
+Dream Eater(Gastly)
 13
 Shadow Ball
+15
+Dark Pulse(Gastly)
 16
 Dream Eater
+16
+Destiny Bond(Gastly)
+17
+Hex(Gastly)
 18
 Dark Pulse
+19
+Nightmare(Gastly)
 20
 Destiny Bond
 21
@@ -5789,6 +6823,8 @@ walk
 73
 115
 67
+From Drowzee
+Lvl 11
 >
 1
 Confusion
@@ -5923,6 +6959,8 @@ walk/swim
 50
 50
 75
+From Krabby
+Lvl 11
 >
 1
 Wide Guard
@@ -5948,12 +6986,24 @@ Mud Shot
 Metal Claw
 10
 Stomp
+12
+Protect(Krabby)
 13
 Protect
+13
+Guillotine(Krabby)
+14
+Slam(Krabby)
 15
 Guillotine
+16
+Brine(Krabby)
+17
+Crabhammer(Krabby)
 18
 Slam
+18
+Flail(Krabby)
 21
 Brine
 22
@@ -6051,6 +7101,8 @@ walk
 80
 80
 150
+From Voltorb
+Lvl 12
 >
 1
 Magnetic Flux
@@ -6082,12 +7134,22 @@ Electro Ball
 Self-Destruct
 12
 Light Screen
+14
+Magnet Rise(Voltorb)
+15
+Discharge(Voltorb)
 15
 Magnet Rise
 17
 Discharge
+17
+Explosion(Voltorb)
 19
 Explosion
+19
+Gyro Ball(Voltorb)
+19
+Mirror Coat(Voltorb)
 21
 Gyro Ball
 22
@@ -6179,6 +7241,8 @@ walk
 125
 75
 55
+From Exeggcute
+Leaf Stone
 >
 1
 Stomp
@@ -6192,14 +7256,40 @@ Hypnosis
 Confusion
 1
 Stomp at Evo.
+1
+Uproar(Exeggcute)
+3
+Reflect(Exeggcute)
+5
+Leech Seed(Exeggcute)
+7
+Bullet Seed(Exeggcute)
 7
 Psyshock
+8
+Stun Spore(Exeggcute)
+9
+Sleep Powder(Exeggcute)
+9
+Poison Powder(Exeggcute)
+11
+Confusion(Exeggcute)
 11
 Egg Bomb
+13
+Worry Seed(Exeggcute)
+15
+Natural Gift(Exeggcute)
 15
 Wood Hammer
+17
+Solar Beam(Exeggcute)
+19
+Extrasensory(Exeggcute)
 19
 Leaf Storm
+20
+Bestow(Exeggcute)
 0
 
 $
@@ -6289,6 +7379,8 @@ walk
 50
 80
 45
+From Cubone
+Lvl 11
 >
 1
 Growl
@@ -6298,14 +7390,14 @@ Tail Whip
 Bone Club
 1
 Headbutt
-1
-Tail Whip
 3
 Bone Club
 5
 Headbutt
 5
 Leer
+7
+Focuse Energy(Cubone)
 7
 Focus Energy
 9
@@ -6315,13 +7407,25 @@ Rage
 11
 False Swipe
 13
+Fling(Cubone)
+13
 Thrash
+15
+Stomping Tantrum(Cubone)
 15
 Fling
 17
 Stomping Tantrum
+17
+Endeavor(Cubone)
+17
+Double-Edge(Cubone)
+19
+Retaliate(Cubone)
 20
 Endeavor
+21
+Bone Rush(Cubone)
 21
 Double-Edge
 22
@@ -6627,6 +7731,8 @@ fly
 85
 70
 60
+From Koffing
+Lvl 14
 >
 1
 Double Hit
@@ -6658,8 +7764,16 @@ Haze
 Gyro Ball
 14
 Sludge Bomb
+15
+Explosion(Koffing)
 16
 Explosion
+16
+Destiny Bond(Koffing)
+17
+Belch(Koffing)
+18
+Memento(Koffing)
 19
 Destiny Bond
 21
@@ -6759,6 +7873,8 @@ walk
 40
 Rhyperior
 Protector
+From Rhyhorn
+Lvl 17
 >
 1
 Hammer Arm
@@ -6794,10 +7910,16 @@ Drill Run
 Take Down
 17
 Stone Edge
+18
+Earthquake(Rhyhorn)
 19
 Earthquake
+20
+Megahorn(Rhyhorn)
 21
 Megahorn
+21
+Horn Drill(Rhyhorn)
 23
 Horn Drill
 0
@@ -7075,6 +8197,8 @@ swim
 85
 Kingdra
 Dragon Scale
+From Horsea
+Lvl 13
 >
 1
 Hydro Pump
@@ -7102,8 +8226,14 @@ Focus Energy
 Brine
 15
 Agility
+17
+Dragon Pulse(Horsea)
 18
 Dragon Pulse
+19
+Dragon Dance(Horsea)
+21
+Hydro Pump(Horsea)
 21
 Dragon Dance
 22
@@ -7193,6 +8323,8 @@ swim
 65
 80
 68
+From Goldeen
+Lvl 13
 >
 1
 Megahorn
@@ -7222,8 +8354,14 @@ Fury Attack
 Agility
 13
 Waterfall
+15
+Horn Drill(Goldeen)
 16
 Horn Drill
+16
+Soak(Goldeen)
+18
+Megahorn(Goldeen)
 19
 Soak
 21
@@ -7323,6 +8461,8 @@ walk/swim
 100
 85
 115
+From Staryu
+Water Stone
 >
 1
 Hydro Pump
@@ -7336,8 +8476,44 @@ Rapid Spin
 Recover
 1
 Swift
+1
+Tackle(Staryu)
+1
+Harden(Staryu)
+2
+Water Gun(Staryu)
+3
+Rapid Spin(Staryu)
+4
+Recover(Staryu)
+5
+Psywave(Staryu)
+7
+Swift(Staryu)
+7
+Bubble Beam(Staryu)
+9
+Camouflage(Staryu)
+10
+Gyro Ball(Staryu)
+11
+Brine(Staryu)
+13
+Minimize(Staryu)
+14
+Reflect Type(Staryu)
+15
+Power Gem(Staryu)
 16
 Confuse Ray
+17
+Psychic(Staryu)
+19
+Light Screen(Staryu)
+20
+Cosmic Power(Staryu)
+21
+Hydro Pump(Staryu)
 0
 
 $
@@ -7851,6 +9027,8 @@ swim
 60
 100
 81
+From Magikarp
+Lvl 8
 >
 1
 Bite
@@ -7858,6 +9036,10 @@ Bite
 Thrash
 1
 Bite at Evo.
+1
+Splash(Magikarp)
+6
+Tackle(Magikarp)
 9
 Leer
 10
@@ -7866,6 +9048,8 @@ Twister
 Ice Fang
 12
 Aqua Tail
+12
+Flail(Magikarp)
 13
 Scary Face
 15
@@ -8075,6 +9259,8 @@ walk/swim
 110
 95
 65
+From Eevee
+Water Stone
 >
 1
 Water Gun
@@ -8088,26 +9274,46 @@ Tail Whip
 Doll Eyes
 1
 Water Gun at Evo.
+1
+Covet(Eevee)
+1
+Growl(Eevee)
 2
 Sand Attack
 5
 Quick Attack
 7
+Swift(Eevee)
+7
 Water Pulse
+7
+Bite(Eevee)
 8
 Aurora Beam
+8
+Refresh(Eevee)
+10
+Take Down(Eevee)
 10
 Aqua Ring
 12
 Acid Armor
+12
+Charm(Eevee)
+13
+Baton Pass(Eevee)
 13
 Haze
 15
 Muddy Water
+15
+Double-Edge(Eevee)
 17
 Last Resort
 18
 Hydro Pump
+18
+Trump Card(Eevee)
 0
 
 $
@@ -8135,6 +9341,8 @@ walk
 110
 95
 130
+From Eevee
+Thunder Stone
 >
 1
 Thunder Shock
@@ -8148,26 +9356,46 @@ Tail Whip
 Doll Eyes
 1
 Thunder Shock at Evo.
+1
+Covet(Eevee)
+1
+Growl(Eevee)
 2
 Sand Attack
 5
 Quick Attack
 7
+Swift(Eevee)
+7
 Double Kick
+7
+Bite(Eevee)
 8
 Thunder Fang
+8
+Refresh(Eevee)
+10
+Take Down(Eevee)
 10
 Pin Missile
 12
 Agility
+12
+Charm(Eevee)
+13
+Baton Pass(Eevee)
 13
 Thunder Wave
 15
 Discharge
+15
+Double-Edge(Eevee)
 17
 Last Resort
 18
 Thunder
+18
+Trump Card(Eevee)
 0
 
 $
@@ -8195,6 +9423,8 @@ walk
 95
 110
 65
+From Eevee
+Fire Stone
 >
 1
 Ember
@@ -8208,26 +9438,44 @@ Tail Whip
 Doll Eyes
 1
 Ember at Evo.
+1
+Covet(Eevee)
+1
+Growl(Eevee)
 2
 Sand Attack
 5
 Quick Attack
 7
 Bite
+7
+Swift(Eevee)
 8
 Fire Fang
+8
+Refresh(Eevee)
+10
+Take Down(Eevee)
 10
 Fire Spin
 12
 Scary Face
+12
+Charm(Eevee)
+13
+Baton Pass(Eevee)
 13
 Smog
 15
 Lava Plume
+15
+Double-Edge(Eevee)
 17
 Last Resort
 18
 Flare Blitz
+18
+Trump Card(Eevee)
 0
 
 $
@@ -8373,6 +9621,8 @@ walk 2/swim
 115
 70
 55
+From Omanyte
+Lvl 16
 >
 1
 Spike Cannon
@@ -8402,8 +9652,16 @@ Brine
 Protect
 15
 Ancient Power
+17
+Tickle(Omanyte)
+19
+Rock Blast(Omanyte)
 19
 Tickle
+20
+Shell Smash(Omanyte)
+21
+Hydro Pump(Omanyte)
 22
 Rock Blast
 24
@@ -8491,6 +9749,8 @@ walk/swim
 65
 70
 80
+From Kabuto
+Lvl 16
 >
 1
 Slash
@@ -8522,8 +9782,14 @@ Endure
 Aqua Jet
 15
 Mega Drain
+17
+Metal Sound(Kabuto)
 18
 Metal Sound
+19
+Ancient Power(Kabuto)
+20
+Wring Out(Kabuto)
 21
 Ancient Power
 23
@@ -8923,6 +10189,8 @@ walk/swim
 70
 Dragonite
 Lvl 21
+From Dratini
+Lvl 12
 >
 1
 Wrap
@@ -8944,12 +10212,24 @@ Slam
 Agility
 13
 Dragon Tail
+14
+Aqua Tail(Dratini)
 16
 Aqua Tail
+17
+Dragon Rush(Dratini)
+18
+Safeguard(Dratini)
 19
 Dragon Rush
 21
+Dragon Dance(Dratini)
+21
 Safeguard
+21
+Outrage(Dratini)
+23
+Hyper Beam(Dratini)
 23
 Dragon Dance
 24
@@ -8983,6 +10263,8 @@ walk/fly
 100
 100
 80
+From Dragonair
+Lvl 21
 >
 1
 Wing Attack
@@ -9016,14 +10298,26 @@ Slam
 Agility
 13
 Dragon Tail
+14
+Aqua Tail(Dratini)
 16
 Aqua Tail
+17
+Dragon Rush(Dratini)
+18
+Safeguard(Dratini)
 19
 Dragon Rush
 21
 Safeguard
+21
+Outrage(Dratini)
+21
+Dragon Dance(Dratini)
 23
 Dragon Dance
+23
+Hyper Beam(Dratini)
 24
 Outrage
 25
@@ -9239,6 +10533,8 @@ walk
 60
 Meganium
 Lvl 13
+From Chikorita
+Lvl 7
 >
 1
 Tackle
@@ -9256,16 +10552,32 @@ Poison Powder
 Synthesis
 7
 Reflect
+8
+Magical Leaf(Chikorita)
+9
+Natural Gift(Chikorita)
 9
 Magical Leaf
 11
 Natural Gift
+11
+Sweet Scent(Chikorita)
+13
+Light Screen(Chikorita)
 13
 Sweet Scent
+14
+Body Slam(Chikorita)
 15
 Light Screen
 16
+Safeguard(Chikorita)
+16
 Body Slam
+17
+Aromatherapy(Chikorita)
+18
+Solar Beam(Chikorita)
 19
 Safeguard
 20
@@ -9299,6 +10611,8 @@ walk
 83
 100
 80
+From Bayleef
+Lvl 13
 >
 1
 Petal Dance
@@ -9322,16 +10636,44 @@ Poison Powder
 Synthesis
 7
 Reflect
+8
+Magical Leaf(Chikorita)
+9
+Natural Gift(Chikorita)
 9
 Magical Leaf
 11
+Sweet Scent(Chikorita)
+11
 Natural Gift
+13
+Light Screen(Chikorita)
+13
+Sweet Scent(Bayleef)
+14
+Body Slam(Chikorita)
 14
 Sweet Scent
+15
+Light Screen(Bayleef)
+16
+Safeguard(Chikorita)
 16
 Light Screen
+16
+Body Slam(Bayleef)
+17
+Aromatherapy(Chikorita)
+18
+Solar Beam(Chikorita)
+19
+Safeguard(Bayleef)
 19
 Body Slam
+20
+Aromatherapy(Bayleef)
+21
+Solar Beam(Bayleef)
 21
 Safeguard
 22
@@ -9431,6 +10773,8 @@ walk
 80
 Typhlosion
 Lvl 15
+From Cyndaquil
+Lvl 6
 >
 1
 Tackle
@@ -9446,20 +10790,38 @@ Ember
 Quick Attack
 8
 Flame Wheel
+9
+Defense Curl(Cyndaquil)
 10
 Defense Curl
+11
+Flame Charge(Cyndaquil)
 13
 Swift
 14
 Flame Charge
+15
+Lava Plume(Cyndaquil)
+16
+Flamethrower(Cyndaquil)
 17
 Lava Plume
 19
+Inferno(Cyndaquil)
+19
 Flamethrower
+20
+Rollout(Cyndaquil)
+21
+Double-Edge(Cyndaquil)
 21
 Inferno
 22
 Rollout
+22
+Burn Up(Cyndaquil)
+23
+Eruption(Cyndaquil)
 23
 Double-Edge
 24
@@ -9493,6 +10855,8 @@ walk
 109
 85
 100
+From Quilava
+Lvl 15
 >
 1
 Eruption
@@ -9516,22 +10880,50 @@ Ember
 Quick Attack
 8
 Flame Wheel
+9
+Defense Curl(Cyndaquil)
 10
 Defense Curl
+11
+Flame Charge(Cyndaquil)
 13
 Swift
 14
 Flame Charge
+15
+Lava Plume(Cyndaquil)
+16
+Flamethrower(Cyndaquil)
 17
 Lava Plume
 19
+Inferno(Cyndaquil)
+19
 Flamethrower
+20
+Rollout(Cyndaquil)
+21
+Inferno(Quilava)
+21
+Double-Edge(Cyndaquil)
+22
+Burn Up(Cyndaquil)
 22
 Inferno
+22
+Rollout(Quilava)
+23
+Double-Edge(Quilava)
+23
+Eruption(Cyndaquil)
 23
 Rollout
 24
 Double-Edge
+24
+Burn Up(Quilava)
+25
+Eruption(Quilava)
 25
 Burn Up
 27
@@ -9627,6 +11019,8 @@ walk/swim
 58
 Feraligatr
 Lvl 12
+From Totodile
+Lvl 7
 >
 1
 Scratch
@@ -9642,20 +11036,40 @@ Rage
 Bite
 6
 Scary Face
+8
+Ice Fang(Totodile)
+9
+Flail(Totodile)
 9
 Ice Fang
 10
 Flail
+11
+Crunch(Totodile)
+12
+Chip Away(Totodile)
 12
 Crunch
 13
 Chip Away
+14
+Slash(Totodile)
+15
+Screech(Totodile)
 16
 Slash
 17
 Screech
+17
+Thrash(Totodile)
+17
+Aqua Tail(Totodile)
 19
 Thrash
+19
+Superpower(Totodile)
+20
+Hydro Pump(Totodile)
 21
 Aqua Tail
 22
@@ -9689,6 +11103,8 @@ walk/swim
 79
 83
 78
+From Croconaw
+Lvl 12
 >
 1
 Agility
@@ -9708,18 +11124,54 @@ Rage
 Bite
 6
 Scary Face
+8
+Ice Fang(Totodile)
 9
 Ice Fang
+9
+Flail(Totodile)
 10
 Flail
+11
+Crunch(Totodile)
+12
+Crunch(Croconaw)
+12
+Chip Away(Totodile)
 13
 Crunch
+13
+Chip Away(Croconaw)
+14
+Slash(Totodile)
 15
 Chip Away
+15
+Screech(Totodile)
+16
+Slash(Croconaw)
+17
+Screech(Croconaw)
+17
+Thrash(Totodile)
+17
+Aqua Tail(Totodile)
 18
 Slash
+19
+Superpower(Totodile)
+19
+Thrash(Croconaw)
+20
+Hydro Pump(Totodile)
 20
 Screech
+21
+Aqua Tail(Croconaw)
+22
+Superpower(Croconaw)
+22
+Hydro Pump(Croconaw)
 22
 Thrash
 23
@@ -9821,6 +11273,8 @@ walk/climb
 60
 70
 40
+From Spinarak
+Lvl 9
 >
 1
 Swords Dance
@@ -9856,16 +11310,32 @@ Shadow Sneak
 Fury Swipes
 11
 Sucker Punch
+12
+Spider Web(Spinarak)
+13
+Agility(Spinarak)
 13
 Spider Web
 15
 Agility
+15
+Pin Missile(Spinarak)
+16
+Psychic(Spinarak)
 17
 Pin Missile
+17
+Poison Jab(Spinarak)
+19
+Cross Poison(Spinarak)
 19
 Psychic
 20
 Poison Jab
+20
+Sticky Web(Spinarak)
+21
+Toxic Thread(Spinarak)
 21
 Cross Poison
 22
@@ -11421,6 +12891,8 @@ walk
 97
 Phoebe
 Lvl 16
+From Selene
+Lvl 8
 >
 1
 Tackle
@@ -11452,6 +12924,8 @@ Future Sight
 Energy Ball
 17
 Light Screen
+17
+Refresh(Selene)
 20
 Moonblast
 0
@@ -11481,6 +12955,8 @@ walk
 100
 80
 105
+From Artemis
+Lvl 16
 >
 1
 Tackle
@@ -11492,6 +12968,8 @@ Magical Leaf
 Aerial Ace
 1
 Sky Attack at Evo.
+1
+Hypnosis at Evo.(Artemis)
 2
 Fairy Wind
 3
@@ -11513,7 +12991,11 @@ Future Sight
 15
 Energy Ball
 17
+Refresh(Selene)
+17
 Perish Song
+17
+Light Screen(Artemis)
 20
 Moonblast
 0
