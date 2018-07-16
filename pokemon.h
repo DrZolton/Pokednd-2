@@ -1458,7 +1458,7 @@ void Pokemon::printMoves(std::ostream& outs){
 		int pos = moves[0].name.find(" at Evo.");
 		outs << moves[0].name.substr(0, pos) << moves[0].name.substr(pos + 8);
 //                currentLevel = moves[0].level;
-                lineLength = moves[0].name.length();
+                lineLength = moves[0].name.length() - 8;
         }
 
         for(int i = 1; i <= numMoves; i++){
@@ -1469,7 +1469,7 @@ void Pokemon::printMoves(std::ostream& outs){
                                 printHead = true;
 		                int pos = moves[i].name.find(" at Evo.");
                 		outs << std::endl << moves[i].name.substr(0, pos) << moves[i].name.substr(pos + 8);
-				lineLength = moves[i].name.length();
+				lineLength = moves[i].name.length() - 8;
                         }
 /*                        if(moves[i].level != currentLevel){
                                 outs << std::endl << moves[i].level;
@@ -1480,15 +1480,16 @@ void Pokemon::printMoves(std::ostream& outs){
                         }*/
                         else{
 //std::cout << lineLength + moves[i].name.length() + 2 << std::endl;
-                                if(lineLength + moves[i].name.length() + 2 > 80){
+                                if(lineLength + moves[i].name.length() - 6 > 80){
 //                                        outs << std::endl << "   ---- ";
                 			int pos = moves[i].name.find(" at Evo.");
 		                	outs << std::endl << moves[i].name.substr(0, pos) << moves[i].name.substr(pos + 8);
-                                        lineLength = moves[i].name.length();
+                                        lineLength = moves[i].name.length() - 8;
                                 }
                                 else{
-                                        outs << ", " << moves[i].name;
-                                        lineLength += moves[i].name.length() + 2;
+                			int pos = moves[i].name.find(" at Evo.");
+		                	outs << ", " << moves[i].name.substr(0, pos) << moves[i].name.substr(pos + 8);
+                                        lineLength += moves[i].name.length() - 6;
                                 }
 //                                outs << moves[i].name;
                         }

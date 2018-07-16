@@ -651,9 +651,9 @@ walk/climb/fly
 1
 Gust
 1
-Confusion
-1
 Gust at Evo.
+1
+Confusion
 5
 Confusion
 5

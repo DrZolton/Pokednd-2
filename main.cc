@@ -43,11 +43,11 @@ int main(){
 
 	std::cout << "checking early stage moves...";
 	std::cout.flush();
-//	pokedex.prevStageMoves();
-//	pokedex.prevStageMoves();
+	pokedex.prevStageMoves();
+	pokedex.prevStageMoves();
 	std::cout << "done\n" << std::endl;
 
-
+/*
 //temporary
 //std::cout << "preparing to add evolution, gender ratios, and base stats\n\n";
 //std::cout << "Preparing to add sizes\n\n";
@@ -63,7 +63,7 @@ pokedex.temporary1(cursor);
 //while(pokedex.tempAdvance(cursor) != tempName);
 //std::cout << "made it\n" << std::flush;
 while(pokedex.temporary(cursor) != -1){
-/*	if(pokedex.temporary(cursor) != -1){
+	if(pokedex.temporary(cursor) != -1){
         	std::cout << "Saving...";
         	std::ofstream fileOutput;
         	fileOutput.open("pokedex.txt");
@@ -74,8 +74,8 @@ while(pokedex.temporary(cursor) != -1){
         	pokedex.fileOutput(fileOutput);
         	fileOutput.close();
         	std::cout << "done\n\n";
-	}*/
-}
+	}
+}*/
 //end temporary
 
 	char choice;
