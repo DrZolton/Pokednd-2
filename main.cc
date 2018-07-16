@@ -63,18 +63,18 @@ pokedex.temporary1(cursor);
 //while(pokedex.tempAdvance(cursor) != tempName);
 //std::cout << "made it\n" << std::flush;
 while(pokedex.temporary(cursor) != -1){
-	if(pokedex.temporary(cursor) != -1){
-        	std::cout << "Saving...";
-        	std::ofstream fileOutput;
-        	fileOutput.open("pokedex.txt");
-        	if(fileOutput.fail()){
-        		std::cout << "\nunable to save to file\n";
-			return 0;
-        	}
-        	pokedex.fileOutput(fileOutput);
-        	fileOutput.close();
-        	std::cout << "done\n\n";
-	}
+//	if(pokedex.temporary(cursor) != -1){
+//        	std::cout << "Saving...";
+//        	std::ofstream fileOutput;
+//        	fileOutput.open("pokedex.txt");
+//        	if(fileOutput.fail()){
+//        		std::cout << "\nunable to save to file\n";
+//			return 0;
+//        	}
+//        	pokedex.fileOutput(fileOutput);
+//        	fileOutput.close();
+//        	std::cout << "done\n\n";
+//	}
 }*/
 //end temporary
 

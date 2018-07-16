@@ -1140,19 +1140,19 @@ int Pokemon::inputBase(){
 	//calculating Hit Die
 	std::cout << "\nHP: ";
 	std::cin >> hp;
-	if(hp < 40)
+	if(hp < 30)
 		hitDie = 4; //1d4
 	else if(hp < 60)
 		hitDie = 6; //1d6
-	else if(hp < 80)
+	else if(hp < 90)
 		hitDie = 8; //1d8
-	else if(hp < 100)
-		hitDie = 10; //1d10
 	else if(hp < 120)
+		hitDie = 10; //1d10
+	else if(hp < 150)
 		hitDie = 12; //1d12
-	else if(hp < 160)
-		hitDie = 1; //1d12 + 1
 	else if(hp < 200)
+		hitDie = 1; //1d12 + 1
+	else if(hp < 250)
 		hitDie = 2; //1d12 + 2
 	else
 		hitDie = 3; //1d12 + 3
@@ -1800,7 +1800,7 @@ void Pokemon::temporary(){
 	char junk;
 	std::cin >> junk;
 */
-	if(evolutionOld == "<None>" || evolutionOld == "<none>"){
+/*	if(evolutionOld == "<None>" || evolutionOld == "<none>"){
 		evos[0].evoName = "None";
 		return;
 	}
@@ -1819,7 +1819,23 @@ void Pokemon::temporary(){
 		evo = evo.substr(pos+1);
 		count++;
 	}
-	return;
+	return;*/
+        if(hp < 30)
+                hitDie = 4; //1d4
+        else if(hp < 60)
+                hitDie = 6; //1d6
+        else if(hp < 90)
+                hitDie = 8; //1d8
+        else if(hp < 120)
+                hitDie = 10; //1d10
+        else if(hp < 150)
+                hitDie = 12; //1d12
+        else if(hp < 200)
+                hitDie = 1; //1d12 + 1
+        else if(hp < 250)
+                hitDie = 2; //1d12 + 2
+        else
+                hitDie = 3; //1d12 + 3
 }
 
 #endif
