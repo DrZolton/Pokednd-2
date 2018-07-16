@@ -239,6 +239,11 @@ void Pokemon::inputFile(std::istream& fin){
 		getline(fin, moveType);
 
 		fin >> hitDie;
+
+//                fin.clear();
+//                fin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+//		getline(fin, evolutionOld);
+
 		fin >> genderRatio;
 
 		fin >> hp;
@@ -250,8 +255,6 @@ void Pokemon::inputFile(std::istream& fin){
 
 		fin.clear();
 		fin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-
-//		getline(fin, evolutionOld);
 
 		getline(fin, input);
 		if(input.length() == 0);
