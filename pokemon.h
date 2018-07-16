@@ -1526,7 +1526,7 @@ void Pokemon::printMoves(std::ostream& outs){
                         else{
 //std::cout << lineLength + moves[i].name.length() + 2 << std::endl;
                                 if(lineLength + moves[i].name.length() + 2 > 80){
-                                        outs << std::endl << "   ---- ";
+                                        outs << std::endl << "        ";
                                         lineLength = 8;
                                 }
                                 else{
@@ -1573,7 +1573,7 @@ void Pokemon::printMoves(std::ostream& outs){
 			else{
 //std::cout << lineLength + moves[i].name.length() + 2 << std::endl;
 				if(lineLength + moves[i].name.length() + 2 > 80){
-					outs << std::endl << "   ---- ";
+					outs << std::endl << "        ";
 					lineLength = 8;
 				}
 				else{
