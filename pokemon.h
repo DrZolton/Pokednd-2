@@ -1440,37 +1440,143 @@ void Pokemon::cleanMoves(){
 }
 
 void Pokemon::printMoves(std::ostream& outs){
-	outs << "Moves\nLvl:    Name:\n";
+	int currentLevel = 0;
+	int lineLength = 8;
+	bool printHead = false;
+//	outs << "Moves\n-----";
+
+        if(moves[0].name.find("Evo.") != std::string::npos){
+                outs << "\nMoves Learned from Evolving\n----------------------------------------\n";
+                printHead = true;
+
+//                outs << moves[0].level;
+//                if(moves[0].level < 10) outs << " ";
+//                outs << " ---- " << moves[0].name;
+		outs << moves[0].name;
+//                currentLevel = moves[0].level;
+                lineLength = moves[0].name.length();
+        }
+
+        for(int i = 1; i <= numMoves; i++){
+                if(moves[i].name.find("Evo.") != std::string::npos){
+//std::cout << lineLength + moves[i].name.length() + 2;
+                        if(printHead == false){
+                                outs << "\nMoves Learned from Evolving\n----------------------------------------";
+                                printHead = true;
+				outs << std::endl << moves[i].name;
+				lineLength = moves[0].name.length();
+                        }
+/*                        if(moves[i].level != currentLevel){
+                                outs << std::endl << moves[i].level;
+//                                if(moves[i].level < 10) outs << " ";
+//                                outs << " ---- " << moves[i].name;
+				outs << moves [i].name;
+                                lineLength = moves[i].name.length();
+                        }*/
+                        else{
+//std::cout << lineLength + moves[i].name.length() + 2 << std::endl;
+                                if(lineLength + moves[i].name.length() + 2 > 80){
+//                                        outs << std::endl << "   ---- ";
+					outs << std::endl << moves[i].name;
+                                        lineLength = moves[0].name.length();
+                                }
+                                else{
+                                        outs << ", " << moves[i].name;
+                                        lineLength += moves[i].name.length() + 2;
+                                }
+//                                outs << moves[i].name;
+                        }
+//                        currentLevel = moves[i].level;
+                }
+        }
+	if(printHead == true) outs << std::endl;
+        printHead = false;
+
+        if(moves[0].name.find("(") != std::string::npos && moves[0].name.find("Evo.") == std::string::npos){
+                outs << "\nMoves Learned from Previous Evolutions\n----------------------------------------\nLvl:    Name:\n";
+                printHead = true;
+
+		outs << moves[0].level;
+                if(moves[0].level < 10) outs << " ";
+                outs << " ---- " << moves[0].name;
+                currentLevel = moves[0].level;
+                lineLength = 8 + moves[0].name.length();
+        }
+
+        for(int i = 1; i <= numMoves; i++){
+                if(moves[i].name.find("(") != std::string::npos && moves[i].name.find("Evo.") == std::string::npos){
+//std::cout << lineLength + moves[i].name.length() + 2;
+			if(printHead == false){
+				outs << "\nMoves Learned from Previous Evolutions\n----------------------------------------\nLvl:    Name:";
+				printHead = true;
+			}
+                        if(moves[i].level != currentLevel){
+                                outs << std::endl << moves[i].level;
+                                if(moves[i].level < 10) outs << " ";
+                                outs << " ---- " << moves[i].name;
+                                lineLength = 8 + moves[i].name.length();
+                        }
+                        else{
+//std::cout << lineLength + moves[i].name.length() + 2 << std::endl;
+                                if(lineLength + moves[i].name.length() + 2 > 80){
+                                        outs << std::endl << "   ---- ";
+                                        lineLength = 8;
+                                }
+                                else{
+                                        outs << ", ";
+                                        lineLength += moves[i].name.length() + 2;
+                                }
+                                outs << moves[i].name;
+                        }
+                        currentLevel = moves[i].level;
+                }
+        }
+        if(printHead == true) outs << std::endl;
+	printHead = false;
 
 //	int lineLength = 8;
 
-	outs << moves[0].level;
-	if(moves[0].level < 10) outs << " ";
-	outs << " ---- " << moves[0].name;
-	int currentLevel = moves[0].level;
-        int lineLength = 8 + moves[0].name.length() + 2;
+	currentLevel = 0;
+	lineLength = 8;
+
+	if(moves[0].name.find("(") == std::string::npos && moves[0].name.find("Evo.") == std::string::npos){
+        	outs << "\nMoves Learned from Leveling Up\n----------------------------------------\nLvl:    Name:\n";
+		printHead = true;
+
+		outs << moves[0].level;
+		if(moves[0].level < 10) outs << " ";
+		outs << " ---- " << moves[0].name;
+		currentLevel = moves[0].level;
+        	lineLength = 8 + moves[0].name.length();
+	}
 
 	for(int i = 1; i <= numMoves; i++){
+		if(moves[i].name.find("(") == std::string::npos && moves[i].name.find("Evo.") == std::string::npos){
 //std::cout << lineLength + moves[i].name.length() + 2;
-		if(moves[i].level != currentLevel){
-			outs << std::endl << moves[i].level;
-			if(moves[i].level < 10) outs << " ";
-			outs << " ---- " << moves[i].name;
-                        lineLength = 8 + moves[i].name.length() + 2;
-		}
-		else{
-//std::cout << lineLength + moves[i].name.length() + 2 << std::endl;
-			if(lineLength + moves[i].name.length() + 2 > 80){
-				outs << std::endl << "   ---- ";
-				lineLength = 8;
+                        if(printHead == false){
+                                outs << "\nMoves Learned from Leveling Up\n----------------------------------------\nLvl:    Name:\n";
+                                printHead = true;
+                        }
+			if(moves[i].level != currentLevel){
+				outs << std::endl << moves[i].level;
+				if(moves[i].level < 10) outs << " ";
+				outs << " ---- " << moves[i].name;
+                        	lineLength = 8 + moves[i].name.length();
 			}
 			else{
-				outs << ", ";
-				lineLength += moves[i].name.length() + 2;
+//std::cout << lineLength + moves[i].name.length() + 2 << std::endl;
+				if(lineLength + moves[i].name.length() + 2 > 80){
+					outs << std::endl << "   ---- ";
+					lineLength = 8;
+				}
+				else{
+					outs << ", ";
+					lineLength += moves[i].name.length() + 2;
+				}
+				outs << moves[i].name;
 			}
-			outs << moves[i].name;
+			currentLevel = moves[i].level;
 		}
-		currentLevel = moves[i].level;
 	}
 	outs << "\n--------------------------------------------------------------------------------\n";
 }
