@@ -1427,13 +1427,13 @@ void Pokemon::cleanMoves(){
 				for(int k = j, l = j +1; l <= numMoves; k++, l++) moves[k] = moves[l];
 				numMoves--;
 			}
-			if(moves[j].name.find(moves[i].name) != std::string::npos && moves[i].level == moves[j].level){
-                                for(int k = j, l = j +1; l <= numMoves; k++, l++) moves[k] = moves[l];
-                                numMoves--;
+			if(moves[j].name.find(moves[i].name + "(") != std::string::npos && moves[i].level == moves[j].level){
+        	                for(int k = j, l = j +1; l <= numMoves; k++, l++) moves[k] = moves[l];
+                	        numMoves--;
 			}
-                        if(moves[i].name.find(moves[j].name) != std::string::npos && moves[i].level == moves[j].level){
-                                for(int k = j, l = j +1; l <= numMoves; k++, l++) moves[k] = moves[l];
-                                numMoves--;
+	                if(moves[i].name.find(moves[j].name + "(") != std::string::npos && moves[i].level == moves[j].level){
+        	                for(int k = j, l = j +1; l <= numMoves; k++, l++) moves[k] = moves[l];
+                	        numMoves--;
                         }
 		}
 	}
@@ -1452,7 +1452,8 @@ void Pokemon::printMoves(std::ostream& outs){
 //                outs << moves[0].level;
 //                if(moves[0].level < 10) outs << " ";
 //                outs << " ---- " << moves[0].name;
-		outs << moves[0].name;
+		int pos = moves[0].name.find(" at Evo.");
+		outs << moves[0].name.substr(0, pos) << moves[0].name.substr(pos + 8);
 //                currentLevel = moves[0].level;
                 lineLength = moves[0].name.length();
         }
@@ -1463,8 +1464,9 @@ void Pokemon::printMoves(std::ostream& outs){
                         if(printHead == false){
                                 outs << "\nMoves Learned from Evolving\n----------------------------------------";
                                 printHead = true;
-				outs << std::endl << moves[i].name;
-				lineLength = moves[0].name.length();
+		                int pos = moves[i].name.find(" at Evo.");
+                		outs << std::endl << moves[i].name.substr(0, pos) << moves[i].name.substr(pos + 8);
+				lineLength = moves[i].name.length();
                         }
 /*                        if(moves[i].level != currentLevel){
                                 outs << std::endl << moves[i].level;
@@ -1477,8 +1479,9 @@ void Pokemon::printMoves(std::ostream& outs){
 //std::cout << lineLength + moves[i].name.length() + 2 << std::endl;
                                 if(lineLength + moves[i].name.length() + 2 > 80){
 //                                        outs << std::endl << "   ---- ";
-					outs << std::endl << moves[i].name;
-                                        lineLength = moves[0].name.length();
+                			int pos = moves[i].name.find(" at Evo.");
+		                	outs << std::endl << moves[i].name.substr(0, pos) << moves[i].name.substr(pos + 8);
+                                        lineLength = moves[i].name.length();
                                 }
                                 else{
                                         outs << ", " << moves[i].name;
