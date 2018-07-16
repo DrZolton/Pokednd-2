@@ -83,6 +83,8 @@ walk
 60
 Venasaur
 Lvl 13
+From Bulbasaur
+Lvl 7
 >
 1
 Tackle
@@ -111,11 +113,11 @@ Growth
 11
 Double-Edge(Bulbasaur)
 13
+Worry Seed(Bulbasaur)
+13
 Synthesis(Bulbasaur)
 13
 Double-Edge
-13
-Worry Seed(Bulbasaur)
 15
 Seed Bomb(Bulbasaur)
 15
@@ -151,6 +153,8 @@ walk
 100
 100
 80
+From Ivysaur
+Lvl 13
 >
 1
 Petal Dance
@@ -183,11 +187,11 @@ Double-Edge(Bulbasaur)(Ivysaur)
 11
 Growth
 13
-Worry Seed(Bulbasaur)(Ivysaur)
-13
 Synthesis(Bulbasaur)(Ivysaur)
 13
 Double-Edge
+13
+Worry Seed(Bulbasaur)(Ivysaur)
 15
 Worry Seed(Ivysaur)
 15
@@ -287,6 +291,8 @@ walk
 80
 Charizard
 Lvl 15
+From Charmander
+Lvl 7
 >
 1
 Scratch
@@ -355,6 +361,8 @@ walk/fly
 109
 85
 100
+From Charmeleon
+Lvl 15
 >
 1
 Wing Attack
@@ -507,6 +515,8 @@ walk/swim
 58
 Blastoise
 Lvl 15
+From Squirtle
+Lvl 7
 >
 1
 Tackle
@@ -583,6 +593,8 @@ walk/swim
 85
 105
 78
+From Wartortle
+Lvl 15
 >
 1
 Flash Cannon
@@ -709,9 +721,9 @@ walk
 30
 Butterfree
 Lvl 4
+From Caterpie
+Lvl 3
 >
-1
-Harden
 1
 Tackle(Caterpie)
 0
@@ -741,6 +753,8 @@ walk/climb/fly
 90
 80
 70
+From Metapod
+Lvl 4
 >
 1
 Gust
@@ -755,13 +769,13 @@ String Shot(Caterpie)(Metapod)
 4
 Bug Bite(Caterpie)(Metapod)
 5
-Stun Spore
-5
 Sleep Powder
 5
 Confusion
 5
 Poison Powder
+5
+Stun Spore
 7
 Psybeam
 8
@@ -779,9 +793,9 @@ Rage Powder
 15
 Captivate
 17
-Tail Wind
-17
 Air Slash
+17
+Tail Wind
 19
 Quiver Dance
 0
@@ -849,9 +863,9 @@ walk
 35
 Beedrill
 Lvl 4
+From Weedle
+Lvl 3
 >
-1
-Harden
 1
 Poison Sting(Weedle)
 0
@@ -881,6 +895,8 @@ walk/climb/fly
 45
 80
 75
+From Kakuna
+Lvl 4
 >
 1
 Twineedle
@@ -1005,6 +1021,8 @@ walk/fly
 71
 Pidgeot
 Lvl 15
+From Pidgey
+Lvl 7
 >
 1
 Tackle
@@ -1081,6 +1099,8 @@ walk/fly
 70
 70
 101
+From Pidgeotto
+Lvl 15
 >
 1
 Hurricane
@@ -1227,6 +1247,8 @@ walk/climb
 50
 70
 97
+From Rattata
+Lvl 8
 >
 1
 Swords Dance
@@ -1353,6 +1375,8 @@ walk/fly
 61
 61
 100
+From Spearow
+Lvl 8
 >
 1
 Drill Run
@@ -1487,6 +1511,8 @@ walk
 65
 79
 80
+From Ekans
+Lvl 9
 >
 1
 Crunch
@@ -1515,11 +1541,11 @@ Screech
 8
 Acid
 10
-Swallow(Ekans)
-10
 Spit Up(Ekans)
 10
 Stockpile(Ekans)
+10
+Swallow(Ekans)
 11
 Stockpile
 11
@@ -1647,6 +1673,8 @@ walk/climb
 90
 80
 110
+From Pikachu
+Thunder Stone
 >
 1
 Thunder Shock
@@ -1775,6 +1803,8 @@ walk/burrow
 45
 55
 65
+From Sandshrew
+Lvl 9
 >
 1
 Crush Claw
@@ -1911,6 +1941,8 @@ walk
 56
 Nidoqueen
 Moon Stone
+From Nidoran(F)
+Lvl 7
 >
 1
 Growl
@@ -1977,6 +2009,8 @@ walk
 75
 85
 76
+From Nidorina
+Moon Stone
 >
 1
 Superpower
@@ -2026,8 +2060,6 @@ Earth Power
 Crunch(Nidorina)
 18
 Poison Fang(Nidoran(F))(Nidorina)
-20
-Captivate(Nidorina)
 0
 
 $
@@ -2113,6 +2145,8 @@ walk
 65
 Nidoking
 Moon Stone
+From Nidoran(M)
+Lvl 7
 >
 1
 Leer
@@ -2179,6 +2213,8 @@ walk
 85
 75
 85
+From Nidorino
+Moon Stone
 >
 1
 Megahorn
@@ -2228,8 +2264,6 @@ Earth Power
 Poison Jab(Nidorino)
 18
 Horn Drill(Nidoran(M))(Nidorino)
-20
-Captivate(Nidorino)
 0
 
 $
@@ -2333,6 +2367,8 @@ walk/walk on water
 95
 90
 60
+From Clefairy
+Moon Stone
 >
 1
 Spotlight
@@ -2481,6 +2517,8 @@ walk
 81
 100
 100
+From Vulpix
+Fire Stone
 >
 1
 Imprison
@@ -2625,6 +2663,8 @@ walk
 85
 50
 45
+From Jigglypuff
+Moon Stone
 >
 1
 Double-Edge
@@ -2757,6 +2797,8 @@ walk/fly
 90
 Crobat
 Friendship
+From Zubat
+Lvl 9
 >
 1
 Screech
@@ -2803,11 +2845,11 @@ Venoshock(Zubat)
 16
 Haze
 17
-Air Slash(Zubat)
-17
 Quick Guard(Zubat)
 17
 Venoshock
+17
+Air Slash(Zubat)
 19
 Air Slash
 21
@@ -2905,6 +2947,8 @@ Vileplume
 Leaf Stone
 Bellossom
 Sun Stone
+From Oddish
+Lvl 9
 >
 1
 Absorb
@@ -2985,6 +3029,8 @@ walk
 110
 90
 50
+From Gloom
+Leaf Stone
 >
 1
 Mega Drain
@@ -3129,6 +3175,8 @@ walk
 60
 80
 30
+From Paras
+Lvl 10
 >
 1
 Cross Poison
@@ -3259,6 +3307,8 @@ walk/climb/fly
 90
 75
 90
+From Venonat
+Lvl 13
 >
 1
 Gust
@@ -3395,6 +3445,8 @@ burrow
 50
 70
 120
+From Diglett
+Lvl 11
 >
 1
 Sand Tomb
@@ -3529,6 +3581,8 @@ walk/climb
 65
 65
 115
+From Meowth
+Lvl 11
 >
 1
 Swift
@@ -3573,11 +3627,11 @@ Nasty Plot
 19
 Captivate(Meowth)
 20
-Night Slash(Meowth)
-20
 Feint(Meowth)
 20
 Assurance
+20
+Night Slash(Meowth)
 22
 Captivate
 23
@@ -3673,6 +3727,8 @@ walk/swim
 95
 80
 85
+From Psyduck
+Lvl 13
 >
 1
 Me First
@@ -3817,6 +3873,8 @@ walk/climb
 60
 70
 95
+From Mankey
+Lvl 11
 >
 1
 Rage
@@ -3967,6 +4025,8 @@ walk
 100
 80
 95
+From Growlithe
+Fire Stone
 >
 1
 Thunder Fang
@@ -4095,6 +4155,8 @@ Poliwrath
 Water Stone
 Politoed
 King's Rock
+From Poliwag
+Lvl 10
 >
 1
 Water Sport
@@ -4165,6 +4227,8 @@ walk/swim
 70
 90
 70
+From Poliwhirl
+Water Stone
 >
 1
 Submission
@@ -4213,11 +4277,7 @@ Belly Drum(Poliwhirl)
 17
 Mud Bomb(Poliwag)(Poliwhirl)
 17
-Mind Reader
-17
 Wake-Up Slap(Poliwhirl)
-19
-Hydro Pump(Poliwhirl)
 0
 
 $
@@ -4279,6 +4339,8 @@ walk
 105
 Alakazam
 Trade
+From Abra
+Lvl 7
 >
 1
 Kinesis
@@ -4339,6 +4401,8 @@ walk
 135
 95
 120
+From Kadabra
+Trade
 >
 1
 Kinesis
@@ -4371,11 +4435,11 @@ Ally Switch
 15
 Psychic
 17
-Calm Mind
-17
 Role Play(Kadabra)
 17
 Future Sight
+17
+Calm Mind
 19
 Trick
 0
@@ -4471,6 +4535,8 @@ walk
 45
 Machamp
 Trade
+From Machop
+Lvl 11
 >
 1
 Low Kick
@@ -4545,6 +4611,8 @@ walk
 65
 85
 55
+From Machoke
+Trade
 >
 1
 Strength
@@ -4683,6 +4751,8 @@ walk/climb
 55
 Victreebel
 Leaf Stone
+From Bellsprout
+Lvl 9
 >
 1
 Vine Whip
@@ -4759,6 +4829,8 @@ walk/climb
 100
 70
 70
+From Weepinbell
+Leaf Stone
 >
 1
 Leaf Tornado
@@ -4913,6 +4985,8 @@ swim
 80
 120
 100
+From Tentacool
+Lvl 12
 >
 1
 Reflect Type
@@ -5061,6 +5135,8 @@ walk
 35
 Golem
 Trade
+From Geodude
+Lvl 10
 >
 1
 Tackle
@@ -5137,6 +5213,8 @@ walk
 55
 65
 45
+From Graveler
+Trade
 >
 1
 Heavy Slam
@@ -5277,6 +5355,8 @@ walk
 80
 80
 105
+From Ponyta
+Lvl 16
 >
 1
 Fury Attack
@@ -5409,6 +5489,8 @@ walk/swim
 100
 80
 30
+From Slowpoke
+Lvl 15
 >
 1
 Withdraw
@@ -5551,6 +5633,8 @@ hover
 70
 Magnezone
 Special Magnetic Field
+From Magnemite
+Lvl 12
 >
 1
 Tri Attack at Evo.
@@ -5593,11 +5677,11 @@ Discharge(Magnemite)
 16
 Screech
 17
+Lock-On(Magnemite)
+17
 Magnet Rise(Magnemite)
 17
 Discharge
-17
-Lock-On(Magnemite)
 19
 Gyro Ball(Magnemite)
 20
@@ -5765,6 +5849,8 @@ walk
 60
 60
 110
+From Doduo
+Lvl 13
 >
 1
 Tri Attack
@@ -5907,6 +5993,8 @@ walk 2/swim
 70
 95
 70
+From Seel
+Lvl 14
 >
 1
 Sheer Cold
@@ -6051,6 +6139,8 @@ walk
 65
 100
 50
+From Grimer
+Lvl 15
 >
 1
 Venom Drench
@@ -6087,11 +6177,11 @@ Gunk Shot
 17
 Acid Armor(Grimer)
 19
+Belch(Grimer)
+19
 Memento(Grimer)
 19
 Acid Armor
-19
-Belch(Grimer)
 21
 Belch
 22
@@ -6187,6 +6277,8 @@ swim
 85
 45
 70
+From Shellder
+Water Stone
 >
 1
 Hydro Pump
@@ -6234,8 +6326,6 @@ Whirlpool(Shellder)
 Brine(Shellder)
 20
 Iron Defense(Shellder)
-20
-Icicle Crash
 21
 Ice Beam(Shellder)
 0
@@ -6325,6 +6415,8 @@ hover
 95
 Gengar
 Trade
+From Gastly
+Lvl 10
 >
 1
 Shadow Punch
@@ -6399,6 +6491,8 @@ walk/hover
 130
 75
 110
+From Haunter
+Trade
 >
 1
 Shadow Punch
@@ -6611,6 +6705,8 @@ walk
 73
 115
 67
+From Drowzee
+Lvl 11
 >
 1
 Confusion
@@ -6745,6 +6841,8 @@ walk/swim
 50
 50
 75
+From Krabby
+Lvl 11
 >
 1
 Wide Guard
@@ -6885,6 +6983,8 @@ walk
 80
 80
 150
+From Voltorb
+Lvl 12
 >
 1
 Magnetic Flux
@@ -7023,6 +7123,8 @@ walk
 125
 75
 55
+From Exeggcute
+Leaf Stone
 >
 1
 Stomp
@@ -7057,13 +7159,11 @@ Egg Bomb
 13
 Worry Seed(Exeggcute)
 15
-Natural Gift(Exeggcute)
-15
 Wood Hammer
+15
+Natural Gift(Exeggcute)
 17
 Solar Beam(Exeggcute)
-19
-Extrasensory(Exeggcute)
 0
 
 $
@@ -7153,6 +7253,8 @@ walk
 50
 80
 45
+From Cubone
+Lvl 11
 >
 1
 Growl
@@ -7503,6 +7605,8 @@ fly
 85
 70
 60
+From Koffing
+Lvl 14
 >
 1
 Double Hit
@@ -7641,6 +7745,8 @@ walk
 40
 Rhyperior
 Protector
+From Rhyhorn
+Lvl 17
 >
 1
 Hammer Arm
@@ -7961,6 +8067,8 @@ swim
 85
 Kingdra
 Dragon Scale
+From Horsea
+Lvl 13
 >
 1
 Hydro Pump
@@ -8085,6 +8193,8 @@ swim
 65
 80
 68
+From Goldeen
+Lvl 13
 >
 1
 Megahorn
@@ -8221,6 +8331,8 @@ walk/swim
 100
 85
 115
+From Staryu
+Water Stone
 >
 1
 Hydro Pump
@@ -8781,6 +8893,8 @@ swim
 60
 100
 81
+From Magikarp
+Lvl 8
 >
 1
 Bite
@@ -9009,6 +9123,8 @@ walk/swim
 110
 95
 65
+From Eevee
+Water Stone
 >
 1
 Water Gun
@@ -9029,11 +9145,11 @@ Sand Attack
 5
 Quick Attack
 7
+Bite(Eevee)
+7
 Swift(Eevee)
 7
 Water Pulse
-7
-Bite(Eevee)
 8
 Aurora Beam
 8
@@ -9051,11 +9167,7 @@ Baton Pass(Eevee)
 13
 Haze
 15
-Muddy Water
-15
 Double-Edge(Eevee)
-17
-Last Resort
 0
 
 $
@@ -9083,6 +9195,8 @@ walk
 110
 95
 130
+From Eevee
+Thunder Stone
 >
 1
 Thunder Shock
@@ -9103,11 +9217,11 @@ Sand Attack
 5
 Quick Attack
 7
+Bite(Eevee)
+7
 Swift(Eevee)
 7
 Double Kick
-7
-Bite(Eevee)
 8
 Thunder Fang
 8
@@ -9125,11 +9239,7 @@ Baton Pass(Eevee)
 13
 Thunder Wave
 15
-Discharge
-15
 Double-Edge(Eevee)
-17
-Last Resort
 0
 
 $
@@ -9157,6 +9267,8 @@ walk
 95
 110
 65
+From Eevee
+Fire Stone
 >
 1
 Ember
@@ -9197,11 +9309,7 @@ Baton Pass(Eevee)
 13
 Smog
 15
-Lava Plume
-15
 Double-Edge(Eevee)
-17
-Last Resort
 0
 
 $
@@ -9347,6 +9455,8 @@ walk 2/swim
 115
 70
 55
+From Omanyte
+Lvl 16
 >
 1
 Spike Cannon
@@ -9471,6 +9581,8 @@ walk/swim
 65
 70
 80
+From Kabuto
+Lvl 16
 >
 1
 Slash
@@ -9905,6 +10017,8 @@ walk/swim
 70
 Dragonite
 Lvl 21
+From Dratini
+Lvl 12
 >
 1
 Wrap
@@ -9937,11 +10051,11 @@ Safeguard(Dratini)
 19
 Dragon Rush
 21
+Outrage(Dratini)
+21
 Dragon Dance(Dratini)
 21
 Safeguard
-21
-Outrage(Dratini)
 23
 Hyper Beam(Dratini)
 23
@@ -9977,6 +10091,8 @@ walk/fly
 100
 100
 80
+From Dragonair
+Lvl 21
 >
 1
 Wing Attack
@@ -10243,6 +10359,8 @@ walk
 60
 Meganium
 Lvl 13
+From Chikorita
+Lvl 7
 >
 1
 Tackle
@@ -10319,6 +10437,8 @@ walk
 83
 100
 80
+From Bayleef
+Lvl 13
 >
 1
 Petal Dance
@@ -10361,11 +10481,11 @@ Sweet Scent
 15
 Light Screen(Bayleef)
 16
+Body Slam(Bayleef)
+16
 Safeguard(Chikorita)(Bayleef)
 16
 Light Screen
-16
-Body Slam(Bayleef)
 17
 Aromatherapy(Chikorita)(Bayleef)
 18
@@ -10477,6 +10597,8 @@ walk
 80
 Typhlosion
 Lvl 15
+From Cyndaquil
+Lvl 6
 >
 1
 Tackle
@@ -10557,6 +10679,8 @@ walk
 109
 85
 100
+From Quilava
+Lvl 15
 >
 1
 Eruption
@@ -10607,17 +10731,17 @@ Inferno(Quilava)
 21
 Double-Edge(Cyndaquil)(Quilava)
 22
+Rollout(Quilava)
+22
 Burn Up(Cyndaquil)(Quilava)
 22
 Inferno
-22
-Rollout(Quilava)
-23
-Double-Edge(Quilava)
 23
 Eruption(Cyndaquil)(Quilava)
 23
 Rollout
+23
+Double-Edge(Quilava)
 24
 Double-Edge
 24
@@ -10719,6 +10843,8 @@ walk/swim
 58
 Feraligatr
 Lvl 12
+From Totodile
+Lvl 7
 >
 1
 Scratch
@@ -10801,6 +10927,8 @@ walk/swim
 79
 83
 78
+From Croconaw
+Lvl 12
 >
 1
 Agility
@@ -10865,11 +10993,11 @@ Screech
 21
 Aqua Tail(Croconaw)
 22
-Superpower(Croconaw)
-22
 Hydro Pump(Croconaw)
 22
 Thrash
+22
+Superpower(Croconaw)
 23
 Aqua Tail
 25
@@ -10969,6 +11097,8 @@ walk/climb
 60
 70
 40
+From Spinarak
+Lvl 9
 >
 1
 Swords Dance
@@ -12583,6 +12713,8 @@ walk
 97
 Phoebe
 Lvl 16
+From Selene
+Lvl 8
 >
 1
 Tackle
@@ -12645,6 +12777,8 @@ walk
 100
 80
 105
+From Artemis
+Lvl 16
 >
 1
 Tackle
@@ -12679,11 +12813,11 @@ Future Sight
 15
 Energy Ball
 17
+Light Screen(Artemis)
+17
 Refresh(Selene)(Artemis)
 17
 Perish Song
-17
-Light Screen(Artemis)
 20
 Moonblast
 0

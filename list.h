@@ -195,8 +195,13 @@ void list::prevStageMoves(){
 //std::cout << source.getName() << ":" << targetName << ":" << targetRequirement << std::endl;
 
 				node* targetCursor = head;
-				while(targetCursor != NULL){ //iterate through entire pokemon for evolution
+				while(targetCursor != NULL){ //iterate through entire pokedex for target evolution
 					if(targetCursor -> data.getName() == targetName){
+						evolution newEvo = evolutions[index];
+						newEvo.evoName = "From " + source.getName();
+//std::cout << "Adding \"" << newEvo.evoName << "\"" << std::endl;
+						targetCursor -> data.addEvo(newEvo);
+
 						int numberMoves;
 						move* sourceMoves = source.getMoves(numberMoves);
 //targetCursor -> data.outputBase(std::cout);

@@ -69,12 +69,14 @@ class Pokemon{
 		evolution* getEvos(){return evos;}
 
 		void addMove(move newMove);
+		void addEvo(evolution newEvo);
 	private:
 		void addMoves(std::istream& ins);
 		void moveSort();
 		void printMoves(std::ostream& outs);
 		void printEvos(std::ostream& outs);
 		void cleanMoves();
+		void cleanEvos();
 
 		//Info
 		std::string name;
@@ -1372,6 +1374,32 @@ void Pokemon::addMove(move newMove){
 	cleanMoves();
 }
 
+void Pokemon::addEvo(evolution newEvo){
+	if(evos[0].evoName == "None" || evos[0].evoName == "none"){
+		evos[0] = newEvo;
+		return;
+	}
+
+	int index = 0;
+	while(evos[index].evoName.length() > 0) index++;
+	evos[index] = newEvo;
+
+	cleanEvos();
+}
+
+void Pokemon::cleanEvos(){
+        if(evos[0].evoName == "None" || evos[0].evoName == "none") return;
+
+        for(int i = 0; evos[i].evoName.length() > 0; i++){
+                for(int j = i + 1; evos[j].evoName.length() > 0; j++){
+			if(evos[i].evoName == evos[j].evoName){
+//std::cout << "found duplicate" << std::endl;
+				for(int k = i + 1, l = j + 1; evos[k].evoName.length() > 0; k++, l++) evos[k] = evos[l];
+			}
+		}
+	}
+}
+
 void Pokemon::moveSort(){
 	for(int i = 0; i < numMoves; i++){
 		for(int j = i + 1; j <= numMoves; j++){
@@ -1386,6 +1414,13 @@ void Pokemon::moveSort(){
 
 void Pokemon::cleanMoves(){
 	for(int i = 0; i < numMoves; i++){
+		if(moves[i].name.find("(") != std::string::npos){
+			int pos = moves[i].name.find("(");
+			if(moves[i].name.find("(", pos+1) != std::string::npos){
+				pos = moves[i].name.find("(", pos+1);
+				moves[i].name = moves[i].name.substr(0, pos);
+			}
+		}
 		for(int j = i + 1; j <= numMoves; j++){
 			if(moves[i].name == moves[j].name && moves[i].level == moves[j].level){
 //std::cout << "erasing " << moves[j].name << std::endl;
