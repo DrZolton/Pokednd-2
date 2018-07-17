@@ -324,14 +324,14 @@ int Pokemon::generate(const int& lvl){
 //**Size change**//
 	int die;
 	die = (rand() % 100);
-	if(die == 99) die = 20;
-	else die = (rand() % 20) + 1;
+	if(die == 99);// die = 40;
+	else die = (rand() % 40) + 1;
 
-	if(die != 10 && die != 20){
-		height = height * (1.0 + (static_cast<double>(die - 10) / 100.0));
-		weight = weight * (1.0 + (static_cast<double>(die - 10) / 100.0))
-						* (1.0 + (static_cast<double>(die - 10) / 100.0))
-						* (1.0 + (static_cast<double>(die - 10) / 100.0));
+	if(die != 20 && die != 99){
+		height = height * (1.0 + (static_cast<double>(die - 20) / 100.0));
+		weight = weight * (1.0 + (static_cast<double>(die - 20) / 100.0))
+						* (1.0 + (static_cast<double>(die - 20) / 100.0))
+						* (1.0 + (static_cast<double>(die - 20) / 100.0));
 
 //		if(height < 6) size = "Fine";
 //		else if(height < 12) size = "Dimunitive";
@@ -343,7 +343,7 @@ int Pokemon::generate(const int& lvl){
 //		else if(height < 768) size = "Gargantuan";
 //		else size = "Colossal";
 	}
-	if(die == 20){
+	if(die == 99){
 		height = height * 2;
 		weight = weight * 8;
 		if(hitDie == 1) hitDie = 3;
