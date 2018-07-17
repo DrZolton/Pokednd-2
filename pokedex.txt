@@ -113,11 +113,11 @@ Growth
 11
 Double-Edge(Bulbasaur)
 13
-Synthesis(Bulbasaur)
-13
 Double-Edge
 13
 Worry Seed(Bulbasaur)
+13
+Synthesis(Bulbasaur)
 15
 Seed Bomb(Bulbasaur)
 15
@@ -189,11 +189,11 @@ Double-Edge(Bulbasaur)
 11
 Growth
 13
+Double-Edge
+13
 Worry Seed(Bulbasaur)
 13
 Synthesis(Bulbasaur)
-13
-Double-Edge
 15
 Worry Seed(Ivysaur)
 15
@@ -785,13 +785,13 @@ String Shot(Caterpie)
 4
 Bug Bite(Caterpie)
 5
-Confusion
-5
-Poison Powder
-5
 Stun Spore
 5
 Sleep Powder
+5
+Confusion
+5
+Poison Powder
 7
 Psybeam
 8
@@ -1571,11 +1571,11 @@ Screech
 8
 Acid
 10
+Stockpile(Ekans)
+10
 Swallow(Ekans)
 10
 Spit Up(Ekans)
-10
-Stockpile(Ekans)
 11
 Stockpile
 11
@@ -2089,11 +2089,11 @@ Flatter(Nidorina)
 15
 Crunch(Nidoran
 17
-Captivate(Nidoran
-17
 Earth Power
 17
 Crunch(Nidorina)
+17
+Captivate(Nidoran
 18
 Poison Fang(Nidoran
 20
@@ -2299,11 +2299,11 @@ Flatter(Nidorino)
 15
 Poison Jab(Nidoran
 17
-Captivate(Nidoran
-17
 Earth Power
 17
 Poison Jab(Nidorino)
+17
+Captivate(Nidoran
 18
 Horn Drill(Nidoran
 20
@@ -2927,11 +2927,11 @@ Venoshock(Zubat)
 16
 Haze
 17
+Venoshock
+17
 Air Slash(Zubat)
 17
 Quick Guard(Zubat)
-17
-Venoshock
 19
 Air Slash
 21
@@ -3717,11 +3717,11 @@ Nasty Plot
 19
 Captivate(Meowth)
 20
+Assurance
+20
 Night Slash(Meowth)
 20
 Feint(Meowth)
-20
-Assurance
 22
 Captivate
 23
@@ -4373,11 +4373,11 @@ Hydro Pump(Poliwag)
 15
 Belly Drum(Poliwhirl)
 17
-Mud Bomb(Poliwag)
-17
 Mind Reader
 17
 Wake-Up Slap(Poliwhirl)
+17
+Mud Bomb(Poliwag)
 19
 Hydro Pump(Poliwhirl)
 21
@@ -4545,11 +4545,11 @@ Ally Switch
 15
 Psychic
 17
-Role Play(Kadabra)
-17
 Calm Mind
 17
 Future Sight
+17
+Role Play(Kadabra)
 19
 Trick
 0
@@ -5801,11 +5801,11 @@ Discharge(Magnemite)
 16
 Screech
 17
-Magnet Rise(Magnemite)
-17
 Discharge
 17
 Lock-On(Magnemite)
+17
+Magnet Rise(Magnemite)
 19
 Gyro Ball(Magnemite)
 20
@@ -6307,11 +6307,11 @@ Gunk Shot
 17
 Acid Armor(Grimer)
 19
-Memento(Grimer)
-19
 Acid Armor
 19
 Belch(Grimer)
+19
+Memento(Grimer)
 21
 Belch
 22
@@ -9305,11 +9305,11 @@ Sand Attack
 5
 Quick Attack
 7
-Swift(Eevee)
-7
 Water Pulse
 7
 Bite(Eevee)
+7
+Swift(Eevee)
 8
 Aurora Beam
 8
@@ -9387,11 +9387,11 @@ Sand Attack
 5
 Quick Attack
 7
-Swift(Eevee)
-7
 Double Kick
 7
 Bite(Eevee)
+7
+Swift(Eevee)
 8
 Thunder Fang
 8
@@ -10245,11 +10245,11 @@ Safeguard(Dratini)
 19
 Dragon Rush
 21
-Dragon Dance(Dratini)
-21
 Safeguard
 21
 Outrage(Dratini)
+21
+Dragon Dance(Dratini)
 23
 Hyper Beam(Dratini)
 23
@@ -10679,11 +10679,11 @@ Sweet Scent
 15
 Light Screen(Bayleef)
 16
-Safeguard(Chikorita)
-16
 Light Screen
 16
 Body Slam(Bayleef)
+16
+Safeguard(Chikorita)
 17
 Aromatherapy(Chikorita)
 18
@@ -10929,17 +10929,17 @@ Inferno(Quilava)
 21
 Double-Edge(Cyndaquil)
 22
-Burn Up(Cyndaquil)
-22
 Inferno
 22
 Rollout(Quilava)
+22
+Burn Up(Cyndaquil)
+23
+Rollout
 23
 Double-Edge(Quilava)
 23
 Eruption(Cyndaquil)
-23
-Rollout
 24
 Double-Edge
 24
@@ -11191,11 +11191,11 @@ Screech
 21
 Aqua Tail(Croconaw)
 22
+Thrash
+22
 Superpower(Croconaw)
 22
 Hydro Pump(Croconaw)
-22
-Thrash
 23
 Aqua Tail
 25
@@ -11766,6 +11766,74 @@ Hypnosis
 Dream Eater
 21
 Stored Power
+0
+
+$
+Sableye
+302
+Dark/Ghost
+Keen Eye/Stall
+Prankster
+20
+24.3
+Small
+15
+15
+14
+14
+14
+14
+6
+walk
+6
+500.5
+50
+75
+75
+65
+65
+50
+>
+1
+Leer
+1
+Scratch
+2
+Foresight
+3
+Night Shade
+4
+Astonish
+5
+Fury Swipes
+6
+Detect
+7
+Shadow Sneak
+8
+Feint Attack
+9
+Fake Out
+10
+Punishment
+11
+Knock Off
+12
+Shadow Claw
+13
+Confuse Ray
+14
+Zen Headbutt
+15
+Power Gem
+16
+Shadow Ball
+17
+Foul Play
+18
+Quash
+19
+Mean Look
 0
 
 $
@@ -13057,11 +13125,11 @@ Future Sight
 15
 Energy Ball
 17
-Refresh(Selene)
-17
 Perish Song
 17
 Light Screen(Artemis)
+17
+Refresh(Selene)
 20
 Moonblast
 0
