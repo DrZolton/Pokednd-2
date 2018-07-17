@@ -671,9 +671,9 @@ int Pokemon::generate(const int& lvl){
 }
 
 void Pokemon::outputBase(std::ostream& outs){
-	outs << "--------------------------------------------------------------------------------\n"
-		<< name << std::endl
-		<< "--------------------------------------------------------------------------------\n";
+	outs << "|---------------------------------------------------------------------------------\n| "
+		<< name << std::endl << "|-"
+		<< "--------------------------------------------------------------------------------\n| ";
 
 	std::stringstream ss;
 
@@ -683,7 +683,7 @@ void Pokemon::outputBase(std::ostream& outs){
 	outs.setf(std::ios::left);
 	outs << ss.str() << "| ";
 
-	outs << "Strength: " << strength << " (" << std::showpos << floor(double(strength - 10)/2.0) << ")" << std::endl << std::noshowpos;
+	outs << "Strength: " << strength << " (" << std::showpos << floor(double(strength - 10)/2.0) << ")" << std::endl << "| " << std::noshowpos;
 
 	ss.str("");
 	ss.clear();
@@ -694,7 +694,7 @@ void Pokemon::outputBase(std::ostream& outs){
 	outs.setf(std::ios::left);
 	outs << ss.str() << "| ";
 
-	outs << "Dexterity: " << dexterity << " (" << std::showpos << floor(double(dexterity - 10)/2.0) << ")" << std::endl << std::noshowpos;
+	outs << "Dexterity: " << dexterity << " (" << std::showpos << floor(double(dexterity - 10)/2.0) << ")" << std::endl << "| " << std::noshowpos;
 
 	ss.str("");
 	ss.clear();
@@ -705,7 +705,7 @@ void Pokemon::outputBase(std::ostream& outs){
 	outs.setf(std::ios::left);
 	outs << ss.str() << "| ";
 
-	outs << "Intelligence: " << intelligence << " (" << std::showpos << floor(double(intelligence - 10)/2.0) << ")" << std::endl << std::noshowpos;
+	outs << "Intelligence: " << intelligence << " (" << std::showpos << floor(double(intelligence - 10)/2.0) << ")" << std::endl << "| " << std::noshowpos;
 
 	ss.str("");
 	ss.clear();
@@ -716,7 +716,7 @@ void Pokemon::outputBase(std::ostream& outs){
 	outs.setf(std::ios::left);
 	outs << ss.str() << "| ";
 
-	outs << "Constitution: " << constitution << " (" << std::showpos << floor(double(constitution - 10)/2.0) << ")" << std::endl << std::noshowpos;
+	outs << "Constitution: " << constitution << " (" << std::showpos << floor(double(constitution - 10)/2.0) << ")" << std::endl << "| " << std::noshowpos;
 
 	ss.str("");
 	ss.clear();
@@ -727,7 +727,7 @@ void Pokemon::outputBase(std::ostream& outs){
 	outs.setf(std::ios::left);
 	outs << ss.str() << "| ";
 
-	outs << "Charisma: " << charisma << " (" << std::showpos << floor(double(charisma - 10)/2.0) << ")" << std::endl << std::noshowpos;
+	outs << "Charisma: " << charisma << " (" << std::showpos << floor(double(charisma - 10)/2.0) << ")" << std::endl << "| " << std::noshowpos;
 
 	ss.str("");
 	ss.clear();
@@ -738,7 +738,7 @@ void Pokemon::outputBase(std::ostream& outs){
 	outs.setf(std::ios::left);
 	outs << ss.str() << "| ";
 
-	outs << "Wisdom: " << wisdom << " (" << std::showpos << floor(double(wisdom - 10)/2.0) << ")" << std::endl << std::noshowpos;
+	outs << "Wisdom: " << wisdom << " (" << std::showpos << floor(double(wisdom - 10)/2.0) << ")" << std::endl << "| " << std::noshowpos;
 
 	ss.str("");
 	ss.clear();
@@ -747,7 +747,7 @@ void Pokemon::outputBase(std::ostream& outs){
 	outs.width(40);
 	outs.fill(' ');
 	outs.setf(std::ios::left);
-	outs << ss.str() << "|" << std::endl;
+	outs << ss.str() << "|" << std::endl << "| ";
 
 	ss.str("");
 	ss.clear();
@@ -768,7 +768,7 @@ void Pokemon::outputBase(std::ostream& outs){
         outs.setf(std::ios::left);
 	outs << ss.str() << "| ";
 
-	outs << "Movement Speed: " << speed << " (" << moveType << ")" << std::endl;
+	outs << "Movement Speed: " << speed << " (" << moveType << ")" << std::endl << "| ";
 
 	outs.width(40);
 	outs.fill(' ');
@@ -776,10 +776,10 @@ void Pokemon::outputBase(std::ostream& outs){
 	outs << " " << "| ";
 
 	if(hitDie == 1 || hitDie == 2 || hitDie == 3)
-		outs << "Hit Die: 1d12 + " << hitDie << std::endl;
+		outs << "Hit Die: 1d12 + " << hitDie << std::endl << "| ";
 
 	else if(hitDie > 3 && hitDie < 13)
-		outs << "Hit Die: 1d" << hitDie << std::endl;
+		outs << "Hit Die: 1d" << hitDie << std::endl << "| ";
 
 //old method
 /*	std::string evo = evolutionOld;
@@ -801,9 +801,9 @@ void Pokemon::outputBase(std::ostream& outs){
 }
 
 void Pokemon::outputAll(std::ostream& outs){
-	outs << "--------------------------------------------------------------------------------\n"
-		<< name << std::endl
-		<< "--------------------------------------------------------------------------------\n";
+	outs << "|---------------------------------------------------------------------------------\n| "
+		<< name << std::endl << "|-"
+		<< "--------------------------------------------------------------------------------\n| ";
 
 	std::stringstream ss;
 
@@ -813,7 +813,7 @@ void Pokemon::outputAll(std::ostream& outs){
 	outs.setf(std::ios::left);
 	outs << ss.str() << "| ";
 
-        outs << "Strength: " << strength << " (" << std::showpos << floor(double(strength - 10)/2.0) << ")" << std::endl << std::noshowpos;
+        outs << "Strength: " << strength << " (" << std::showpos << floor(double(strength - 10)/2.0) << ")" << std::endl << "| " << std::noshowpos;
 
 	ss.str("");
 	ss.clear();
@@ -824,7 +824,7 @@ void Pokemon::outputAll(std::ostream& outs){
         outs.setf(std::ios::left);
 	outs << ss.str() << "| ";
 
-        outs << "Dexterity: " << dexterity << " (" << std::showpos << floor(double(dexterity - 10)/2.0) << ")" << std::endl << std::noshowpos;
+        outs << "Dexterity: " << dexterity << " (" << std::showpos << floor(double(dexterity - 10)/2.0) << ")" << std::endl << "| " << std::noshowpos;
 
 	ss.str("");
 	ss.clear();
@@ -835,14 +835,14 @@ void Pokemon::outputAll(std::ostream& outs){
         outs.setf(std::ios::left);
         outs << ss.str() << "| ";
 
-        outs << "Intelligence: " << intelligence << " (" << std::showpos << floor(double(intelligence - 10)/2.0) << ")" << std::endl << std::noshowpos;
+        outs << "Intelligence: " << intelligence << " (" << std::showpos << floor(double(intelligence - 10)/2.0) << ")" << std::endl << "| " << std::noshowpos;
 
 	outs.width(40);
         outs.fill(' ');
         outs.setf(std::ios::left);
 	outs << " " << "| ";
 
-        outs << "Constitution: " << constitution << " (" << std::showpos << floor(double(constitution - 10)/2.0) << ")" << std::endl << std::noshowpos;
+        outs << "Constitution: " << constitution << " (" << std::showpos << floor(double(constitution - 10)/2.0) << ")" << std::endl << "| " << std::noshowpos;
 
 	ss.str("");
 	ss.clear();
@@ -853,7 +853,7 @@ void Pokemon::outputAll(std::ostream& outs){
         outs.setf(std::ios::left);
         outs << ss.str() << "| ";
 
-	outs << "Charisma: " << charisma << " (" << std::showpos << floor(double(charisma - 10)/2.0) << ")" << std::endl << std::noshowpos;
+	outs << "Charisma: " << charisma << " (" << std::showpos << floor(double(charisma - 10)/2.0) << ")" << std::endl << "| " << std::noshowpos;
 
 	ss.str("");
 	ss.clear();
@@ -864,7 +864,7 @@ void Pokemon::outputAll(std::ostream& outs){
         outs.setf(std::ios::left);
         outs << ss.str() << "| ";
 
-	outs << "Wisdom: " << wisdom << " (" << std::showpos << floor(double(wisdom - 10)/2.0) << ")" << std::endl << std::noshowpos;
+	outs << "Wisdom: " << wisdom << " (" << std::showpos << floor(double(wisdom - 10)/2.0) << ")" << std::endl << "| " << std::noshowpos;
 
 	ss.str("");
 	ss.clear();
@@ -873,7 +873,7 @@ void Pokemon::outputAll(std::ostream& outs){
 	outs.width(40);
         outs.fill(' ');
         outs.setf(std::ios::left);
-        outs << ss.str() << "|\n";
+        outs << ss.str() << "|\n| ";
 
 	ss.str("");
 	ss.clear();
@@ -884,7 +884,7 @@ void Pokemon::outputAll(std::ostream& outs){
         outs.setf(std::ios::left);
         outs << ss.str() << "| ";
 
-	outs << "AC: " << AC << std::endl;
+	outs << "AC: " << AC << std::endl << "| ";
 
 	ss.str("");
 	ss.clear();
@@ -895,7 +895,7 @@ void Pokemon::outputAll(std::ostream& outs){
         outs.setf(std::ios::left);
         outs << ss.str() << "| ";
 
-	outs << "Fortitude: " << fortitude << std::endl;
+	outs << "Fortitude: " << fortitude << std::endl << "| ";
 
 	ss.str("");
 	ss.clear();
@@ -906,7 +906,7 @@ void Pokemon::outputAll(std::ostream& outs){
         outs.setf(std::ios::left);
         outs << ss.str() << "| ";
 
-	outs << "Will: " << will << std::endl;
+	outs << "Will: " << will << std::endl << "| ";
 
 	ss.str("");
 	ss.clear();
@@ -917,7 +917,7 @@ void Pokemon::outputAll(std::ostream& outs){
         outs.setf(std::ios::left);
         outs << ss.str() << "| ";
 
-	outs << "Movement Speed: " << speed << " (" << moveType << ")" << std::endl;
+	outs << "Movement Speed: " << speed << " (" << moveType << ")" << std::endl << "| ";
 
 	ss.str("");
 	ss.clear();
@@ -931,7 +931,7 @@ void Pokemon::outputAll(std::ostream& outs){
 	outs << "Hit Dice: " << level << "d";
         if(hitDie == 1 || hitDie == 2 || hitDie == 3) outs << "12 + " << level << "*" << hitDie;
 	else outs << hitDie;
-	outs << std::endl;
+	outs << std::endl << "| ";
 
 	ss.str("");
 	ss.clear();
@@ -942,14 +942,14 @@ void Pokemon::outputAll(std::ostream& outs){
         outs.setf(std::ios::left);
         outs << ss.str() << "| ";
 
-	outs << "HP: " << HP << "\n";
+	outs << "HP: " << HP << "\n| ";
 
 	outs.width(40);
         outs.fill(' ');
         outs.setf(std::ios::left);
         outs << " " << "| ";
 
-	outs << "Power Points: " << powerPoints << "\n";
+	outs << "Power Points: " << powerPoints << "\n| ";
 
 //old method
 /*
@@ -1452,7 +1452,7 @@ void Pokemon::printMoves(std::ostream& outs){
 //	outs << "Moves\n-----";
 
         if(moves[0].name.find("Evo.") != std::string::npos){
-                outs << "Moves Learned from Evolving\n----------------------------------------";
+                outs << "Moves Learned from Evolving\n| ----------------------------------------";
                 printHead = true;
 
 //                outs << moves[0].level;
@@ -1468,10 +1468,10 @@ void Pokemon::printMoves(std::ostream& outs){
                 if(moves[i].name.find("Evo.") != std::string::npos){
 //std::cout << lineLength + moves[i].name.length() + 2;
                         if(printHead == false){
-                                outs << "Moves Learned from Evolving\n----------------------------------------";
+                                outs << "Moves Learned from Evolving\n| ----------------------------------------";
                                 printHead = true;
 		                int pos = moves[i].name.find(" at Evo.");
-                		outs << std::endl << moves[i].name.substr(0, pos) << moves[i].name.substr(pos + 8);
+                		outs << std::endl << "| " << moves[i].name.substr(0, pos) << moves[i].name.substr(pos + 8);
 				lineLength = moves[i].name.length() - 8;
                         }
 /*                        if(moves[i].level != currentLevel){
@@ -1486,7 +1486,7 @@ void Pokemon::printMoves(std::ostream& outs){
                                 if(lineLength + moves[i].name.length() - 6 > 80){
 //                                        outs << std::endl << "   ---- ";
                 			int pos = moves[i].name.find(" at Evo.");
-		                	outs << std::endl << moves[i].name.substr(0, pos) << moves[i].name.substr(pos + 8);
+		                	outs << std::endl << "| " << moves[i].name.substr(0, pos) << moves[i].name.substr(pos + 8);
                                         lineLength = moves[i].name.length() - 8;
                                 }
                                 else{
@@ -1499,11 +1499,11 @@ void Pokemon::printMoves(std::ostream& outs){
 //                        currentLevel = moves[i].level;
                 }
         }
-	if(printHead == true) outs << std::endl << std::endl;
+	if(printHead == true) outs << std::endl << "| " << std::endl << "| ";
         printHead = false;
 
         if(moves[0].name.find("(") != std::string::npos && moves[0].name.find("Evo.") == std::string::npos){
-                outs << "Moves Learned from Previous Evolutions\n----------------------------------------\nLvl:    Name:\n";
+                outs << "Moves Learned from Previous Evolutions\n| ----------------------------------------\n| Lvl:    Name:\n| ";
                 printHead = true;
 
 		outs << moves[0].level;
@@ -1517,11 +1517,11 @@ void Pokemon::printMoves(std::ostream& outs){
                 if(moves[i].name.find("(") != std::string::npos && moves[i].name.find("Evo.") == std::string::npos){
 //std::cout << lineLength + moves[i].name.length() + 2;
 			if(printHead == false){
-				outs << "Moves Learned from Previous Evolutions\n----------------------------------------\nLvl:    Name:";
+				outs << "Moves Learned from Previous Evolutions\n| ----------------------------------------\n| Lvl:    Name:";
 				printHead = true;
 			}
                         if(moves[i].level != currentLevel){
-                                outs << std::endl << moves[i].level;
+                                outs << std::endl << "| " << moves[i].level;
                                 if(moves[i].level < 10) outs << " ";
                                 outs << " ---- " << moves[i].name;
                                 lineLength = 8 + moves[i].name.length();
@@ -1529,7 +1529,7 @@ void Pokemon::printMoves(std::ostream& outs){
                         else{
 //std::cout << lineLength + moves[i].name.length() + 2 << std::endl;
                                 if(lineLength + moves[i].name.length() + 2 > 80){
-                                        outs << std::endl << "        ";
+                                        outs << std::endl << "| " << "        ";
                                         lineLength = 8;
                                 }
                                 else{
@@ -1541,7 +1541,7 @@ void Pokemon::printMoves(std::ostream& outs){
                         currentLevel = moves[i].level;
                 }
         }
-        if(printHead == true) outs << std::endl << std::endl;
+        if(printHead == true) outs << std::endl << "| " << std::endl << "| ";
 	printHead = false;
 
 //	int lineLength = 8;
@@ -1550,7 +1550,7 @@ void Pokemon::printMoves(std::ostream& outs){
 	lineLength = 8;
 
 	if(moves[0].name.find("(") == std::string::npos && moves[0].name.find("Evo.") == std::string::npos){
-        	outs << "Moves Learned from Leveling Up\n----------------------------------------\nLvl:    Name:\n";
+        	outs << "Moves Learned from Leveling Up\n| ----------------------------------------\n| Lvl:    Name:\n| ";
 		printHead = true;
 
 		outs << moves[0].level;
@@ -1564,19 +1564,19 @@ void Pokemon::printMoves(std::ostream& outs){
 		if(moves[i].name.find("(") == std::string::npos && moves[i].name.find("Evo.") == std::string::npos){
 //std::cout << lineLength + moves[i].name.length() + 2;
                         if(printHead == false){
-                                outs << "Moves Learned from Leveling Up\n----------------------------------------\nLvl:    Name:\n";
+                                outs << "Moves Learned from Leveling Up\n| ----------------------------------------\n| Lvl:    Name:\n| ";
                                 printHead = true;
                         }
 			if(moves[i].level != currentLevel){
-				outs << std::endl << moves[i].level;
+				outs << std::endl << "| " << moves[i].level;
 				if(moves[i].level < 10) outs << " ";
 				outs << " ---- " << moves[i].name;
                         	lineLength = 8 + moves[i].name.length();
 			}
 			else{
-//std::cout << lineLength + moves[i].name.length() + 2 << std::endl;
+//std::cout << lineLength + moves[i].name.length() + 2 << std::endl << "| ";
 				if(lineLength + moves[i].name.length() + 2 > 80){
-					outs << std::endl << "        ";
+					outs << std::endl << "| " << "        ";
 					lineLength = 8;
 				}
 				else{
@@ -1588,23 +1588,23 @@ void Pokemon::printMoves(std::ostream& outs){
 			currentLevel = moves[i].level;
 		}
 	}
-	outs << "\n--------------------------------------------------------------------------------\n";
+	outs << "\n|---------------------------------------------------------------------------------\n";
 }
 
 void Pokemon::printEvos(std::ostream& outs){
-	outs << "Evolution\n---------\n";
+	outs << "Evolution\n| ---------\n| ";
 
 	if(evos[0].evoName == "None" || evos[0].evoName == "none"){
-		outs << "None\n\n";
+		outs << "None\n| \n| ";
 		return;
 	}
 
 	int index = 0;
 	while(evos[index].evoName.length() > 0){
-		outs << evos[index].evoName << ":" << evos[index].evoRequirement << std::endl;
+		outs << evos[index].evoName << ":" << evos[index].evoRequirement << std::endl << "| ";
 		index++;
 	}
-	outs << std::endl;
+	outs << std::endl << "| ";
 
 }
 
@@ -2099,463 +2099,463 @@ void Pokemon::printTypeEffective(std::ostream& outs){
 	//printing immunities
 	if(normal == 0.0){
 		if(header == false){
-			outs << "Immunities\n----------\n";
+			outs << "Immunities\n| ----------\n| ";
 			header = true;
 		}
-		outs << "Normal\n";
+		outs << "Normal\n| ";
 	}
         if(fight == 0.0){
                 if(header == false){
-                        outs << "Immunities\n----------\n";
+                        outs << "Immunities\n| ----------\n| ";
                         header = true;
                 }
-                outs << "Fighting\n";
+                outs << "Fighting\n| ";
         }
         if(fly == 0.0){
                 if(header == false){
-                        outs << "Immunities\n----------\n";
+                        outs << "Immunities\n| ----------\n| ";
                         header = true;
                 }
-                outs << "Flying\n";
+                outs << "Flying\n| ";
         }
         if(poison == 0.0){
                 if(header == false){
-                        outs << "Immunities\n----------\n";
+                        outs << "Immunities\n| ----------\n| ";
                         header = true;
                 }
-                outs << "Poison\n";
+                outs << "Poison\n| ";
         }
         if(ground == 0.0){
                 if(header == false){
-                        outs << "Immunities\n----------\n";
+                        outs << "Immunities\n| ----------\n| ";
                         header = true;
                 }
-                outs << "Ground\n";
+                outs << "Ground\n| ";
         }
         if(rock == 0.0){
                 if(header == false){
-                        outs << "Immunities\n----------\n";
+                        outs << "Immunities\n| ----------\n| ";
                         header = true;
                 }
-                outs << "Rock\n";
+                outs << "Rock\n| ";
         }
         if(bug == 0.0){
                 if(header == false){
-                        outs << "Immunities\n----------\n";
+                        outs << "Immunities\n| ----------\n| ";
                         header = true;
                 }
-                outs << "Bug\n";
+                outs << "Bug\n| ";
         }
         if(ghost == 0.0){
                 if(header == false){
-                        outs << "Immunities\n----------\n";
+                        outs << "Immunities\n| ----------\n| ";
                         header = true;
                 }
-                outs << "Ghost\n";
+                outs << "Ghost\n| ";
         }
         if(steel == 0.0){
                 if(header == false){
-                        outs << "Immunities\n----------\n";
+                        outs << "Immunities\n| ----------\n| ";
                         header = true;
                 }
-                outs << "Steel\n";
+                outs << "Steel\n| ";
         }
         if(fire == 0.0){
                 if(header == false){
-                        outs << "Immunities\n----------\n";
+                        outs << "Immunities\n| ----------\n| ";
                         header = true;
                 }
-                outs << "Fire\n";
+                outs << "Fire\n| ";
         }
         if(water == 0.0){
                 if(header == false){
-                        outs << "Immunities\n----------\n";
+                        outs << "Immunities\n| ----------\n| ";
                         header = true;
                 }
-                outs << "Water\n";
+                outs << "Water\n| ";
         }
         if(grass == 0.0){
                 if(header == false){
-                        outs << "Immunities\n----------\n";
+                        outs << "Immunities\n| ----------\n| ";
                         header = true;
                 }
-                outs << "Grass\n";
+                outs << "Grass\n| ";
         }
         if(electric == 0.0){
                 if(header == false){
-                        outs << "Immunities\n----------\n";
+                        outs << "Immunities\n| ----------\n| ";
                         header = true;
                 }
-                outs << "Electric\n";
+                outs << "Electric\n| ";
         }
         if(psychic == 0.0){
                 if(header == false){
-                        outs << "Immunities\n----------\n";
+                        outs << "Immunities\n| ----------\n| ";
                         header = true;
                 }
-                outs << "Psychic\n";
+                outs << "Psychic\n| ";
         }
         if(ice == 0.0){
                 if(header == false){
-                        outs << "Immunities\n----------\n";
+                        outs << "Immunities\n| ----------\n| ";
                         header = true;
                 }
-                outs << "Ice\n";
+                outs << "Ice\n| ";
         }
         if(dragon == 0.0){
                 if(header == false){
-                        outs << "Immunities\n----------\n";
+                        outs << "Immunities\n| ----------\n| ";
                         header = true;
                 }
-                outs << "Dragon\n";
+                outs << "Dragon\n| ";
         }
         if(dark == 0.0){
                 if(header == false){
-                        outs << "Immunities\n----------\n";
+                        outs << "Immunities\n| ----------\n| ";
                         header = true;
                 }
-                outs << "Dark\n";
+                outs << "Dark\n| ";
         }
         if(fairy == 0.0){
                 if(header == false){
-                        outs << "Immunities\n----------\n";
+                        outs << "Immunities\n| ----------\n| ";
                         header = true;
                 }
-                outs << "Fairy\n";
+                outs << "Fairy\n| ";
         }
-	if(header == true) outs << std::endl;
+	if(header == true) outs << std::endl << "| ";
 	header = false;
 
 	//printing resistances
 	if(normal < 1 && normal > 0){
 		if(header == false){
-			outs << "Resistances\n-----------\n";
+			outs << "Resistances\n| -----------\n| ";
 			header = true;
 		}
 		outs << "Normal";
 		if(normal < 0.3 && normal > 0.2) outs << "(1/4x)";
-		outs << "\n";
+		outs << "\n| ";
 	}
         if(fight < 1 && fight > 0){
                 if(header == false){
-                        outs << "Resistances\n-----------\n";
+                        outs << "Resistances\n| -----------\n| ";
                         header = true;
                 }
                 outs << "Fighting";
                 if(fight < 0.3 && fight > 0.2) outs << "(1/4x)";
-                outs << "\n";
+                outs << "\n| ";
         }
         if(fly < 1 && fly > 0){
                 if(header == false){
-                        outs << "Resistances\n-----------\n";
+                        outs << "Resistances\n| -----------\n| ";
                         header = true;
                 }
                 outs << "Flying";
                 if(fly < 0.3 && fly > 0.2) outs << "(1/4x)";
-                outs << "\n";
+                outs << "\n| ";
         }
         if(poison < 1 && poison > 0){
                 if(header == false){
-                        outs << "Resistances\n-----------\n";
+                        outs << "Resistances\n| -----------\n| ";
                         header = true;
                 }
                 outs << "Poison";
                 if(poison < 0.3 && poison > 0.2) outs << "(1/4x)";
-                outs << "\n";
+                outs << "\n| ";
         }
         if(ground < 1 && ground > 0){
                 if(header == false){
-                        outs << "Resistances\n-----------\n";
+                        outs << "Resistances\n| -----------\n| ";
                         header = true;
                 }
                 outs << "Ground";
                 if(ground < 0.3 && ground > 0.2) outs << "(1/4x)";
-                outs << "\n";
+                outs << "\n| ";
         }
         if(rock < 1 && rock > 0){
                 if(header == false){
-                        outs << "Resistances\n-----------\n";
+                        outs << "Resistances\n| -----------\n| ";
                         header = true;
                 }
                 outs << "Rock";
                 if(rock < 0.3 && rock > 0.2) outs << "(1/4x)";
-                outs << "\n";
+                outs << "\n| ";
         }
         if(bug < 1 && bug > 0){
                 if(header == false){
-                        outs << "Resistances\n-----------\n";
+                        outs << "Resistances\n| -----------\n| ";
                         header = true;
                 }
                 outs << "Bug";
                 if(bug < 0.3 && bug > 0.2) outs << "(1/4x)";
-                outs << "\n";
+                outs << "\n| ";
         }
         if(ghost < 1 && ghost > 0){
                 if(header == false){
-                        outs << "Resistances\n-----------\n";
+                        outs << "Resistances\n| -----------\n| ";
                         header = true;
                 }
                 outs << "Ghost";
                 if(ghost < 0.3 && ghost > 0.2) outs << "(1/4x)";
-                outs << "\n";
+                outs << "\n| ";
         }
         if(steel < 1 && steel > 0){
                 if(header == false){
-                        outs << "Resistances\n-----------\n";
+                        outs << "Resistances\n| -----------\n| ";
                         header = true;
                 }
                 outs << "Steel";
                 if(steel < 0.3 && steel > 0.2) outs << "(1/4x)";
-                outs << "\n";
+                outs << "\n| ";
         }
         if(fire < 1 && fire > 0){
                 if(header == false){
-                        outs << "Resistances\n-----------\n";
+                        outs << "Resistances\n| -----------\n| ";
                         header = true;
                 }
                 outs << "Fire";
                 if(fire < 0.3 && fire > 0.2) outs << "(1/4x)";
-                outs << "\n";
+                outs << "\n| ";
         }
         if(water < 1 && water > 0){
                 if(header == false){
-                        outs << "Resistances\n-----------\n";
+                        outs << "Resistances\n| -----------\n| ";
                         header = true;
                 }
                 outs << "Water";
                 if(water < 0.3 && water > 0.2) outs << "(1/4x)";
-                outs << "\n";
+                outs << "\n| ";
         }
         if(grass < 1 && grass > 0){
                 if(header == false){
-                        outs << "Resistances\n-----------\n";
+                        outs << "Resistances\n| -----------\n| ";
                         header = true;
                 }
                 outs << "Grass";
                 if(grass < 0.3 && grass > 0.2) outs << "(1/4x)";
-                outs << "\n";
+                outs << "\n| ";
         }
         if(electric < 1 && electric > 0){
                 if(header == false){
-                        outs << "Resistances\n-----------\n";
+                        outs << "Resistances\n| -----------\n| ";
                         header = true;
                 }
                 outs << "Electric";
                 if(electric < 0.3 && electric > 0.2) outs << "(1/4x)";
-                outs << "\n";
+                outs << "\n| ";
         }
         if(psychic < 1 && psychic > 0){
                 if(header == false){
-                        outs << "Resistances\n-----------\n";
+                        outs << "Resistances\n| -----------\n| ";
                         header = true;
                 }
                 outs << "Psychic";
                 if(psychic < 0.3 && psychic > 0.2) outs << "(1/4x)";
-                outs << "\n";
+                outs << "\n| ";
         }
         if(ice < 1 && ice > 0){
                 if(header == false){
-                        outs << "Resistances\n-----------\n";
+                        outs << "Resistances\n| -----------\n| ";
                         header = true;
                 }
                 outs << "Ice";
                 if(ice < 0.3 && ice > 0.2) outs << "(1/4x)";
-                outs << "\n";
+                outs << "\n| ";
         }
         if(dragon < 1 && dragon > 0){
                 if(header == false){
-                        outs << "Resistances\n-----------\n";
+                        outs << "Resistances\n| -----------\n| ";
                         header = true;
                 }
                 outs << "Dragon";
                 if(dragon < 0.3 && dragon > 0.2) outs << "(1/4x)";
-                outs << "\n";
+                outs << "\n| ";
         }
         if(dark < 1 && dark > 0){
                 if(header == false){
-                        outs << "Resistances\n-----------\n";
+                        outs << "Resistances\n| -----------\n| ";
                         header = true;
                 }
                 outs << "Dark";
                 if(dark < 0.3 && dark > 0.2) outs << "(1/4x)";
-                outs << "\n";
+                outs << "\n| ";
         }
         if(fairy < 1 && fairy > 0){
                 if(header == false){
-                        outs << "Resistances\n-----------\n";
+                        outs << "Resistances\n| -----------\n| ";
                         header = true;
                 }
                 outs << "Fairy";
                 if(fairy < 0.3 && fairy > 0.2) outs << "(1/4x)";
-                outs << "\n";
+                outs << "\n| ";
         }
-	if(header == true) outs << std::endl;
+	if(header == true) outs << std::endl << "| ";
 	header = false;
 
 	//printing weaknesses
 	if(normal > 1){
 		if(header == false){
-			outs << "Weaknesses\n----------\n";
+			outs << "Weaknesses\n| ----------\n| ";
 			header = true;
 		}
 		outs << "Normal";
 		if(normal > 2.0) outs << "(4x)";
-		outs << "\n";
+		outs << "\n| ";
 	}
         if(fight > 1){
                 if(header == false){
-                        outs << "Weaknesses\n----------\n";
+                        outs << "Weaknesses\n| ----------\n| ";
                         header = true;
                 }
                 outs << "Fighting";
                 if(fight > 2.0) outs << "(4x)";
-                outs << "\n";
+                outs << "\n| ";
         }
         if(fly > 1){
                 if(header == false){
-                        outs << "Weaknesses\n----------\n";
+                        outs << "Weaknesses\n| ----------\n| ";
                         header = true;
                 }
                 outs << "Flying";
                 if(fly > 2.0) outs << "(4x)";
-                outs << "\n";
+                outs << "\n| ";
         }
         if(poison > 1){
                 if(header == false){
-                        outs << "Weaknesses\n----------\n";
+                        outs << "Weaknesses\n| ----------\n| ";
                         header = true;
                 }
                 outs << "Poison";
                 if(poison > 2.0) outs << "(4x)";
-                outs << "\n";
+                outs << "\n| ";
         }
         if(ground > 1){
                 if(header == false){
-                        outs << "Weaknesses\n----------\n";
+                        outs << "Weaknesses\n| ----------\n| ";
                         header = true;
                 }
                 outs << "Ground";
                 if(ground > 2.0) outs << "(4x)";
-                outs << "\n";
+                outs << "\n| ";
         }
         if(rock > 1){
                 if(header == false){
-                        outs << "Weaknesses\n----------\n";
+                        outs << "Weaknesses\n| ----------\n| ";
                         header = true;
                 }
                 outs << "Rock";
                 if(rock > 2.0) outs << "(4x)";
-                outs << "\n";
+                outs << "\n| ";
         }
         if(bug > 1){
                 if(header == false){
-                        outs << "Weaknesses\n----------\n";
+                        outs << "Weaknesses\n| ----------\n| ";
                         header = true;
                 }
                 outs << "Bug";
                 if(bug > 2.0) outs << "(4x)";
-                outs << "\n";
+                outs << "\n| ";
         }
         if(ghost > 1){
                 if(header == false){
-                        outs << "Weaknesses\n----------\n";
+                        outs << "Weaknesses\n| ----------\n| ";
                         header = true;
                 }
                 outs << "Ghost";
                 if(ghost > 2.0) outs << "(4x)";
-                outs << "\n";
+                outs << "\n| ";
         }
         if(steel > 1){
                 if(header == false){
-                        outs << "Weaknesses\n----------\n";
+                        outs << "Weaknesses\n| ----------\n| ";
                         header = true;
                 }
                 outs << "Steel";
                 if(steel > 2.0) outs << "(4x)";
-                outs << "\n";
+                outs << "\n| ";
         }
         if(fire > 1){
                 if(header == false){
-                        outs << "Weaknesses\n----------\n";
+                        outs << "Weaknesses\n| ----------\n| ";
                         header = true;
                 }
                 outs << "Fire";
                 if(fire > 2.0) outs << "(4x)";
-                outs << "\n";
+                outs << "\n| ";
         }
         if(water > 1){
                 if(header == false){
-                        outs << "Weaknesses\n----------\n";
+                        outs << "Weaknesses\n| ----------\n| ";
                         header = true;
                 }
                 outs << "Water";
                 if(water > 2.0) outs << "(4x)";
-                outs << "\n";
+                outs << "\n| ";
         }
         if(grass > 1){
                 if(header == false){
-                        outs << "Weaknesses\n----------\n";
+                        outs << "Weaknesses\n| ----------\n| ";
                         header = true;
                 }
                 outs << "Grass";
                 if(grass > 2.0) outs << "(4x)";
-                outs << "\n";
+                outs << "\n| ";
         }
         if(electric > 1){
                 if(header == false){
-                        outs << "Weaknesses\n----------\n";
+                        outs << "Weaknesses\n| ----------\n| ";
                         header = true;
                 }
                 outs << "Electric";
                 if(electric > 2.0) outs << "(4x)";
-                outs << "\n";
+                outs << "\n| ";
         }
         if(psychic > 1){
                 if(header == false){
-                        outs << "Weaknesses\n----------\n";
+                        outs << "Weaknesses\n| ----------\n| ";
                         header = true;
                 }
                 outs << "Psychic";
                 if(psychic > 2.0) outs << "(4x)";
-                outs << "\n";
+                outs << "\n| ";
         }
         if(ice > 1){
                 if(header == false){
-                        outs << "Weaknesses\n----------\n";
+                        outs << "Weaknesses\n| ----------\n| ";
                         header = true;
                 }
                 outs << "Ice";
                 if(ice > 2.0) outs << "(4x)";
-                outs << "\n";
+                outs << "\n| ";
         }
         if(dragon > 1){
                 if(header == false){
-                        outs << "Weaknesses\n----------\n";
+                        outs << "Weaknesses\n| ----------\n| ";
                         header = true;
                 }
                 outs << "Dragon";
                 if(dragon > 2.0) outs << "(4x)";
-                outs << "\n";
+                outs << "\n| ";
         }
         if(dark > 1){
                 if(header == false){
-                        outs << "Weaknesses\n----------\n";
+                        outs << "Weaknesses\n| ----------\n| ";
                         header = true;
                 }
                 outs << "Dark";
                 if(dark > 2.0) outs << "(4x)";
-                outs << "\n";
+                outs << "\n| ";
         }
         if(fairy > 1){
                 if(header == false){
-                        outs << "Weaknesses\n----------\n";
+                        outs << "Weaknesses\n| ----------\n| ";
                         header = true;
                 }
                 outs << "Fairy";
                 if(fairy > 2.0) outs << "(4x)";
-                outs << "\n";
+                outs << "\n| ";
         }
-	if(header == true) outs << std::endl;
+	if(header == true) outs << std::endl << "| ";
 	header = false;
 
 }
