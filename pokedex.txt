@@ -13012,7 +13012,7 @@ Large
 16
 14
 8
-walk
+walk/fly
 8
 400.6
 65
