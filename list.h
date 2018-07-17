@@ -3,7 +3,6 @@
 //	Jacob Ramsey
 //	B.S.C.S, Russ College of Engineering, Ohio University
 //	jakeramsey202@gmail.com
-//	February 18, 2018
 //
 //	Class: list.h
 //

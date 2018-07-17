@@ -3,7 +3,6 @@
 //	Jacob Ramsey
 //	B.S.C.S, Russ College of Engineering, Ohio University
 //	jakeramsey202@gmail.com
-//	February 18, 2018
 //
 //	Class: Pokemon.h
 //
@@ -11,21 +10,6 @@
 //		This includes the info that is static for each
 //		species along with info that changes per specific
 //		Pokemon.
-//
-//	Implemented:
-//		-read/write file
-//		-generate a pokemon given a level
-//		-output all info(including instance specific)
-//		-read in data from the console for new pokemon
-//		-ability score increases to generate function
-//		-natures and genders to generate function
-//		-pokeball DC checks to generate function
-//
-//	Planned:
-//		-dynamic allocation of move list
-//		-copy constructor
-//		-item effects to generate function(random item lists)
-//		-non-random generate function
 //
 //*********************************************************//
 
