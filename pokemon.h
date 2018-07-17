@@ -75,6 +75,7 @@ class Pokemon{
 		void moveSort();
 		void printMoves(std::ostream& outs);
 		void printEvos(std::ostream& outs);
+		void printTypeEffective(std::ostream& outs);
 		void cleanMoves();
 		void cleanEvos();
 
@@ -793,6 +794,7 @@ void Pokemon::outputBase(std::ostream& outs){
 	outs << std::endl;*/
 
 	printEvos(outs);
+	printTypeEffective(outs);
 	printMoves(outs);
 
 	outs << "\n\n\n\n";
@@ -974,6 +976,7 @@ void Pokemon::outputAll(std::ostream& outs){
 //	}
 
 	printEvos(outs);
+	printTypeEffective(outs);
 	printMoves(outs);
 
 	outs << "\n\n\n\n";
@@ -1449,7 +1452,7 @@ void Pokemon::printMoves(std::ostream& outs){
 //	outs << "Moves\n-----";
 
         if(moves[0].name.find("Evo.") != std::string::npos){
-                outs << "\nMoves Learned from Evolving\n----------------------------------------\n";
+                outs << "Moves Learned from Evolving\n----------------------------------------";
                 printHead = true;
 
 //                outs << moves[0].level;
@@ -1465,7 +1468,7 @@ void Pokemon::printMoves(std::ostream& outs){
                 if(moves[i].name.find("Evo.") != std::string::npos){
 //std::cout << lineLength + moves[i].name.length() + 2;
                         if(printHead == false){
-                                outs << "\nMoves Learned from Evolving\n----------------------------------------";
+                                outs << "Moves Learned from Evolving\n----------------------------------------";
                                 printHead = true;
 		                int pos = moves[i].name.find(" at Evo.");
                 		outs << std::endl << moves[i].name.substr(0, pos) << moves[i].name.substr(pos + 8);
@@ -1496,11 +1499,11 @@ void Pokemon::printMoves(std::ostream& outs){
 //                        currentLevel = moves[i].level;
                 }
         }
-	if(printHead == true) outs << std::endl;
+	if(printHead == true) outs << std::endl << std::endl;
         printHead = false;
 
         if(moves[0].name.find("(") != std::string::npos && moves[0].name.find("Evo.") == std::string::npos){
-                outs << "\nMoves Learned from Previous Evolutions\n----------------------------------------\nLvl:    Name:\n";
+                outs << "Moves Learned from Previous Evolutions\n----------------------------------------\nLvl:    Name:\n";
                 printHead = true;
 
 		outs << moves[0].level;
@@ -1514,7 +1517,7 @@ void Pokemon::printMoves(std::ostream& outs){
                 if(moves[i].name.find("(") != std::string::npos && moves[i].name.find("Evo.") == std::string::npos){
 //std::cout << lineLength + moves[i].name.length() + 2;
 			if(printHead == false){
-				outs << "\nMoves Learned from Previous Evolutions\n----------------------------------------\nLvl:    Name:";
+				outs << "Moves Learned from Previous Evolutions\n----------------------------------------\nLvl:    Name:";
 				printHead = true;
 			}
                         if(moves[i].level != currentLevel){
@@ -1538,7 +1541,7 @@ void Pokemon::printMoves(std::ostream& outs){
                         currentLevel = moves[i].level;
                 }
         }
-        if(printHead == true) outs << std::endl;
+        if(printHead == true) outs << std::endl << std::endl;
 	printHead = false;
 
 //	int lineLength = 8;
@@ -1547,7 +1550,7 @@ void Pokemon::printMoves(std::ostream& outs){
 	lineLength = 8;
 
 	if(moves[0].name.find("(") == std::string::npos && moves[0].name.find("Evo.") == std::string::npos){
-        	outs << "\nMoves Learned from Leveling Up\n----------------------------------------\nLvl:    Name:\n";
+        	outs << "Moves Learned from Leveling Up\n----------------------------------------\nLvl:    Name:\n";
 		printHead = true;
 
 		outs << moves[0].level;
@@ -1561,7 +1564,7 @@ void Pokemon::printMoves(std::ostream& outs){
 		if(moves[i].name.find("(") == std::string::npos && moves[i].name.find("Evo.") == std::string::npos){
 //std::cout << lineLength + moves[i].name.length() + 2;
                         if(printHead == false){
-                                outs << "\nMoves Learned from Leveling Up\n----------------------------------------\nLvl:    Name:\n";
+                                outs << "Moves Learned from Leveling Up\n----------------------------------------\nLvl:    Name:\n";
                                 printHead = true;
                         }
 			if(moves[i].level != currentLevel){
@@ -1602,6 +1605,958 @@ void Pokemon::printEvos(std::ostream& outs){
 		index++;
 	}
 	outs << std::endl;
+
+}
+
+void Pokemon::printTypeEffective(std::ostream& outs){
+	double normal = 1.0, fight = 1.0, fly = 1.0, poison = 1.0, ground = 1.0, rock = 1.0, bug = 1.0, ghost = 1.0,
+	steel = 1.0, fire = 1.0, water = 1.0, grass = 1.0, electric = 1.0, psychic = 1.0, ice = 1.0, dragon = 1.0,
+	dark = 1.0, fairy = 1.0;
+
+	if(type.find("/") != std::string::npos){ //multiple types
+		int pos = type.find("/");
+		std::string type1 = type.substr(0, pos);
+		std::string type2 = type.substr(pos + 1);
+
+		if(type1 == "normal" || type1 == "Normal"){
+			fight *= 2;
+			ghost = 0;
+		}
+		else if(type1 == "fighting" || type1 == "Fighting"){
+			fly *= 2;
+			rock /= 2;
+			bug /= 2;
+			psychic *= 2;
+			dark /= 2;
+			fairy *= 2;
+		}
+		else if(type1 == "flying" || type1 == "Flying"){
+			fight /= 2;
+			ground = 0;
+			rock *= 2;
+			bug /= 2;
+			grass /= 2;
+			electric *= 2;
+			ice *= 2;
+		}
+		else if(type1 == "poison" || type1 == "Poison"){
+			fight /= 2;
+			poison /= 2;
+			ground *= 2;
+			bug /= 2;
+			grass /= 2;
+			psychic *= 2;
+			fairy /= 2;
+		}
+		else if(type1 == "ground" || type1 == "Ground"){
+			poison /= 2;
+			rock /= 2;
+			water *= 2;
+			grass *= 2;
+			electric = 0;
+			ice *= 2;
+		}
+		else if(type1 == "rock" || type1 == "Rock"){
+			normal /= 2;
+			fight *= 2;
+			fly /= 2;
+			poison /= 2;
+			ground *= 2;
+			steel *= 2;
+			fire /= 2;
+			water *= 2;
+			grass *= 2;
+		}
+		else if(type1 == "bug" || type1 == "Bug"){
+			fight /= 2;
+			fly *= 2;
+			ground /= 2;
+			rock *= 2;
+			fire *= 2;
+			grass /= 2;
+		}
+		else if(type1 == "ghost" || type1 == "Ghost"){
+			normal = 0;
+			fight = 0;
+			poison /= 2;
+			bug /= 2;
+			ghost *= 2;
+			dark *= 2;
+		}
+		else if(type1 == "steel" || type1 == "Steel"){
+			normal /= 2;
+			fight *= 2;
+			fly /= 2;
+			poison = 0;
+			ground *= 2;
+			rock /= 2;
+			bug /= 2;
+			steel /= 2;
+			fire *= 2;
+			grass /= 2;
+			psychic /= 2;
+			ice /= 2;
+			dragon /= 2;
+			fairy /= 2;
+		}
+		else if(type1 == "fire" || type1 == "Fire"){
+			ground *= 2;
+			rock *= 2;
+			bug /= 2;
+			steel /= 2;
+			fire /= 2;
+			water *= 2;
+			grass /= 2;
+			ice /= 2;
+			fairy /= 2;
+		}
+		else if(type1 == "water" || type1 == "Water"){
+			steel /= 2;
+			fire /= 2;
+			water /= 2;
+			grass *= 2;
+			electric *= 2;
+			ice /= 2;
+		}
+		else if(type1 == "grass" || type1 == "Grass"){
+			fly *= 2;
+			poison *= 2;
+			ground /= 2;
+			bug *= 2;
+			fire *= 2;
+			water /= 2;
+			grass /= 2;
+			electric /= 2;
+			ice *= 2;
+		}
+		else if(type1 == "electric" || type1 == "Electric"){
+			fly /= 2;
+			ground *= 2;
+			steel /= 2;
+			electric /= 2;
+		}
+		else if(type1 == "psychic" || type1 == "Psychic"){
+			fight /= 2;
+			bug *= 2;
+			ghost *= 2;
+			psychic /= 2;
+			dark *= 2;
+		}
+		else if(type1 == "ice" || type1 == "Ice"){
+			fight *= 2;
+			rock *= 2;
+			steel *= 2;
+			fire *= 2;
+			ice /= 2;
+		}
+		else if(type1 == "dragon" || type1 == "Dragon"){
+			fire /= 2;
+			water /= 2;
+			grass /= 2;
+			electric /= 2;
+			ice *= 2;
+			dragon *= 2;
+			fairy *= 2;
+		}
+		else if(type1 == "dark" || type1 == "Dark"){
+			fight *= 2;
+			bug *= 2;
+			ghost /= 2;
+			psychic = 0;
+			dark /= 2;
+			fairy *= 2;
+		}
+		else if(type1 == "fairy" || type1 == "Fairy"){
+			fight /= 2;
+			poison *= 2;
+			bug /= 2;
+			steel *= 2;
+			dragon = 0;
+			dark /= 2;
+		}
+
+		if(type2 == "normal" || type2 == "Normal"){
+			fight *= 2;
+			ghost = 0;
+		}
+		else if(type2 == "fighting" || type2 == "Fighting"){
+			fly *= 2;
+			rock /= 2;
+			bug /= 2;
+			psychic *= 2;
+			dark /= 2;
+			fairy *= 2;
+		}
+		else if(type2 == "flying" || type2 == "Flying"){
+			fight /= 2;
+			ground = 0;
+			rock *= 2;
+			bug /= 2;
+			grass /= 2;
+			electric *= 2;
+			ice *= 2;
+		}
+		else if(type2 == "poison" || type2 == "Poison"){
+			fight /= 2;
+			poison /= 2;
+			ground *= 2;
+			bug /= 2;
+			grass /= 2;
+			psychic *= 2;
+			fairy /= 2;
+		}
+		else if(type2 == "ground" || type2 == "Ground"){
+			poison /= 2;
+			rock /= 2;
+			water *= 2;
+			grass *= 2;
+			electric = 0;
+			ice *= 2;
+		}
+		else if(type2 == "rock" || type2 == "Rock"){
+			normal /= 2;
+			fight *= 2;
+			fly /= 2;
+			poison /= 2;
+			ground *= 2;
+			steel *= 2;
+			fire /= 2;
+			water *= 2;
+			grass *= 2;
+		}
+		else if(type2 == "bug" || type2 == "Bug"){
+			fight /= 2;
+			fly *= 2;
+			ground /= 2;
+			rock *= 2;
+			fire *= 2;
+			grass /= 2;
+		}
+		else if(type2 == "ghost" || type2 == "Ghost"){
+			normal = 0;
+			fight = 0;
+			poison /= 2;
+			bug /= 2;
+			ghost *= 2;
+			dark *= 2;
+		}
+		else if(type2 == "steel" || type2 == "Steel"){
+			normal /= 2;
+			fight *= 2;
+			fly /= 2;
+			poison = 0;
+			ground *= 2;
+			rock /= 2;
+			bug /= 2;
+			steel /= 2;
+			fire *= 2;
+			grass /= 2;
+			psychic /= 2;
+			ice /= 2;
+			dragon /= 2;
+			fairy /= 2;
+		}
+		else if(type2 == "fire" || type2 == "Fire"){
+			ground *= 2;
+			rock *= 2;
+			bug /= 2;
+			steel /= 2;
+			fire /= 2;
+			water *= 2;
+			grass /= 2;
+			ice /= 2;
+			fairy /= 2;
+		}
+		else if(type2 == "water" || type2 == "Water"){
+			steel /= 2;
+			fire /= 2;
+			water /= 2;
+			grass *= 2;
+			electric *= 2;
+			ice /= 2;
+		}
+		else if(type2 == "grass" || type2 == "Grass"){
+			fly *= 2;
+			poison *= 2;
+			ground /= 2;
+			bug *= 2;
+			fire *= 2;
+			water /= 2;
+			grass /= 2;
+			electric /= 2;
+			ice *= 2;
+		}
+		else if(type2 == "electric" || type2 == "Electric"){
+			fly /= 2;
+			ground *= 2;
+			steel /= 2;
+			electric /= 2;
+		}
+		else if(type2 == "psychic" || type2 == "Psychic"){
+			fight /= 2;
+			bug *= 2;
+			ghost *= 2;
+			psychic /= 2;
+			dark *= 2;
+		}
+		else if(type2 == "ice" || type2 == "Ice"){
+			fight *= 2;
+			rock *= 2;
+			steel *= 2;
+			fire *= 2;
+			ice /= 2;
+		}
+		else if(type2 == "dragon" || type2 == "Dragon"){
+			fire /= 2;
+			water /= 2;
+			grass /= 2;
+			electric /= 2;
+			ice *= 2;
+			dragon *= 2;
+			fairy *= 2;
+		}
+		else if(type2 == "dark" || type2 == "Dark"){
+			fight *= 2;
+			bug *= 2;
+			ghost /= 2;
+			psychic = 0;
+			dark /= 2;
+			fairy *= 2;
+		}
+		else if(type2 == "fairy" || type2 == "Fairy"){
+			fight /= 2;
+			poison *= 2;
+			bug /= 2;
+			steel *= 2;
+			dragon = 0;
+			dark /= 2;
+		}
+//outs << "<" << type1 << type2 << ">" << std::endl;
+//outs << "<" << type.substr(0, pos) << "><" << type.substr(pos + 1) << ">" << std::endl;
+
+	}
+	else{ //one type
+		if(type == "normal" || type == "Normal"){
+			fight *= 2;
+			ghost = 0;
+		}
+		else if(type == "fighting" || type == "Fighting"){
+			fly *= 2;
+			rock /= 2;
+			bug /= 2;
+			psychic *= 2;
+			dark /= 2;
+			fairy *= 2;
+		}
+		else if(type == "flying" || type == "Flying"){
+			fight /= 2;
+			ground = 0;
+			rock *= 2;
+			bug /= 2;
+			grass /= 2;
+			electric *= 2;
+			ice *= 2;
+		}
+		else if(type == "poison" || type == "Poison"){
+			fight /= 2;
+			poison /= 2;
+			ground *= 2;
+			bug /= 2;
+			grass /= 2;
+			psychic *= 2;
+			fairy /= 2;
+		}
+		else if(type == "ground" || type == "Ground"){
+			poison /= 2;
+			rock /= 2;
+			water *= 2;
+			grass *= 2;
+			electric = 0;
+			ice *= 2;
+		}
+		else if(type == "rock" || type == "Rock"){
+			normal /= 2;
+			fight *= 2;
+			fly /= 2;
+			poison /= 2;
+			ground *= 2;
+			steel *= 2;
+			fire /= 2;
+			water *= 2;
+			grass *= 2;
+		}
+		else if(type == "bug" || type == "Bug"){
+			fight /= 2;
+			fly *= 2;
+			ground /= 2;
+			rock *= 2;
+			fire *= 2;
+			grass /= 2;
+		}
+		else if(type == "ghost" || type == "Ghost"){
+			normal = 0;
+			fight = 0;
+			poison /= 2;
+			bug /= 2;
+			ghost *= 2;
+			dark *= 2;
+		}
+		else if(type == "steel" || type == "Steel"){
+			normal /= 2;
+			fight *= 2;
+			fly /= 2;
+			poison = 0;
+			ground *= 2;
+			rock /= 2;
+			bug /= 2;
+			steel /= 2;
+			fire *= 2;
+			grass /= 2;
+			psychic /= 2;
+			ice /= 2;
+			dragon /= 2;
+			fairy /= 2;
+		}
+		else if(type == "fire" || type == "Fire"){
+			ground *= 2;
+			rock *= 2;
+			bug /= 2;
+			steel /= 2;
+			fire /= 2;
+			water *= 2;
+			grass /= 2;
+			ice /= 2;
+			fairy /= 2;
+		}
+		else if(type == "water" || type == "Water"){
+			steel /= 2;
+			fire /= 2;
+			water /= 2;
+			grass *= 2;
+			electric *= 2;
+			ice /= 2;
+		}
+		else if(type == "grass" || type == "Grass"){
+			fly *= 2;
+			poison *= 2;
+			ground /= 2;
+			bug *= 2;
+			fire *= 2;
+			water /= 2;
+			grass /= 2;
+			electric /= 2;
+			ice *= 2;
+		}
+		else if(type == "electric" || type == "Electric"){
+			fly /= 2;
+			ground *= 2;
+			steel /= 2;
+			electric /= 2;
+		}
+		else if(type == "psychic" || type == "Psychic"){
+			fight /= 2;
+			bug *= 2;
+			ghost *= 2;
+			psychic /= 2;
+			dark *= 2;
+		}
+		else if(type == "ice" || type == "Ice"){
+			fight *= 2;
+			rock *= 2;
+			steel *= 2;
+			fire *= 2;
+			ice /= 2;
+		}
+		else if(type == "dragon" || type == "Dragon"){
+			fire /= 2;
+			water /= 2;
+			grass /= 2;
+			electric /= 2;
+			ice *= 2;
+			dragon *= 2;
+			fairy *= 2;
+		}
+		else if(type == "dark" || type == "Dark"){
+			fight *= 2;
+			bug *= 2;
+			ghost /= 2;
+			psychic = 0;
+			dark /= 2;
+			fairy *= 2;
+		}
+		else if(type == "fairy" || type == "Fairy"){
+			fight /= 2;
+			poison *= 2;
+			bug /= 2;
+			steel *= 2;
+			dragon = 0;
+			dark /= 2;
+		}
+//outs << "<" << type << ">" << std::endl;
+	}
+
+	bool header = false;
+	//printing immunities
+	if(normal == 0.0){
+		if(header == false){
+			outs << "Immunities\n----------\n";
+			header = true;
+		}
+		outs << "Normal\n";
+	}
+        if(fight == 0.0){
+                if(header == false){
+                        outs << "Immunities\n----------\n";
+                        header = true;
+                }
+                outs << "Fighting\n";
+        }
+        if(fly == 0.0){
+                if(header == false){
+                        outs << "Immunities\n----------\n";
+                        header = true;
+                }
+                outs << "Flying\n";
+        }
+        if(poison == 0.0){
+                if(header == false){
+                        outs << "Immunities\n----------\n";
+                        header = true;
+                }
+                outs << "Poison\n";
+        }
+        if(ground == 0.0){
+                if(header == false){
+                        outs << "Immunities\n----------\n";
+                        header = true;
+                }
+                outs << "Ground\n";
+        }
+        if(rock == 0.0){
+                if(header == false){
+                        outs << "Immunities\n----------\n";
+                        header = true;
+                }
+                outs << "Rock\n";
+        }
+        if(bug == 0.0){
+                if(header == false){
+                        outs << "Immunities\n----------\n";
+                        header = true;
+                }
+                outs << "Bug\n";
+        }
+        if(ghost == 0.0){
+                if(header == false){
+                        outs << "Immunities\n----------\n";
+                        header = true;
+                }
+                outs << "Ghost\n";
+        }
+        if(steel == 0.0){
+                if(header == false){
+                        outs << "Immunities\n----------\n";
+                        header = true;
+                }
+                outs << "Steel\n";
+        }
+        if(fire == 0.0){
+                if(header == false){
+                        outs << "Immunities\n----------\n";
+                        header = true;
+                }
+                outs << "Fire\n";
+        }
+        if(water == 0.0){
+                if(header == false){
+                        outs << "Immunities\n----------\n";
+                        header = true;
+                }
+                outs << "Water\n";
+        }
+        if(grass == 0.0){
+                if(header == false){
+                        outs << "Immunities\n----------\n";
+                        header = true;
+                }
+                outs << "Grass\n";
+        }
+        if(electric == 0.0){
+                if(header == false){
+                        outs << "Immunities\n----------\n";
+                        header = true;
+                }
+                outs << "Electric\n";
+        }
+        if(psychic == 0.0){
+                if(header == false){
+                        outs << "Immunities\n----------\n";
+                        header = true;
+                }
+                outs << "Psychic\n";
+        }
+        if(ice == 0.0){
+                if(header == false){
+                        outs << "Immunities\n----------\n";
+                        header = true;
+                }
+                outs << "Ice\n";
+        }
+        if(dragon == 0.0){
+                if(header == false){
+                        outs << "Immunities\n----------\n";
+                        header = true;
+                }
+                outs << "Dragon\n";
+        }
+        if(dark == 0.0){
+                if(header == false){
+                        outs << "Immunities\n----------\n";
+                        header = true;
+                }
+                outs << "Dark\n";
+        }
+        if(fairy == 0.0){
+                if(header == false){
+                        outs << "Immunities\n----------\n";
+                        header = true;
+                }
+                outs << "Fairy\n";
+        }
+	if(header == true) outs << std::endl;
+	header = false;
+
+	//printing resistances
+	if(normal < 1 && normal > 0){
+		if(header == false){
+			outs << "Resistances\n-----------\n";
+			header = true;
+		}
+		outs << "Normal";
+		if(normal < 0.3 && normal > 0.2) outs << "(1/4x)";
+		outs << "\n";
+	}
+        if(fight < 1 && fight > 0){
+                if(header == false){
+                        outs << "Resistances\n-----------\n";
+                        header = true;
+                }
+                outs << "Fighting";
+                if(fight < 0.3 && fight > 0.2) outs << "(1/4x)";
+                outs << "\n";
+        }
+        if(fly < 1 && fly > 0){
+                if(header == false){
+                        outs << "Resistances\n-----------\n";
+                        header = true;
+                }
+                outs << "Flying";
+                if(fly < 0.3 && fly > 0.2) outs << "(1/4x)";
+                outs << "\n";
+        }
+        if(poison < 1 && poison > 0){
+                if(header == false){
+                        outs << "Resistances\n-----------\n";
+                        header = true;
+                }
+                outs << "Poison";
+                if(poison < 0.3 && poison > 0.2) outs << "(1/4x)";
+                outs << "\n";
+        }
+        if(ground < 1 && ground > 0){
+                if(header == false){
+                        outs << "Resistances\n-----------\n";
+                        header = true;
+                }
+                outs << "Ground";
+                if(ground < 0.3 && ground > 0.2) outs << "(1/4x)";
+                outs << "\n";
+        }
+        if(rock < 1 && rock > 0){
+                if(header == false){
+                        outs << "Resistances\n-----------\n";
+                        header = true;
+                }
+                outs << "Rock";
+                if(rock < 0.3 && rock > 0.2) outs << "(1/4x)";
+                outs << "\n";
+        }
+        if(bug < 1 && bug > 0){
+                if(header == false){
+                        outs << "Resistances\n-----------\n";
+                        header = true;
+                }
+                outs << "Bug";
+                if(bug < 0.3 && bug > 0.2) outs << "(1/4x)";
+                outs << "\n";
+        }
+        if(ghost < 1 && ghost > 0){
+                if(header == false){
+                        outs << "Resistances\n-----------\n";
+                        header = true;
+                }
+                outs << "Ghost";
+                if(ghost < 0.3 && ghost > 0.2) outs << "(1/4x)";
+                outs << "\n";
+        }
+        if(steel < 1 && steel > 0){
+                if(header == false){
+                        outs << "Resistances\n-----------\n";
+                        header = true;
+                }
+                outs << "Steel";
+                if(steel < 0.3 && steel > 0.2) outs << "(1/4x)";
+                outs << "\n";
+        }
+        if(fire < 1 && fire > 0){
+                if(header == false){
+                        outs << "Resistances\n-----------\n";
+                        header = true;
+                }
+                outs << "Fire";
+                if(fire < 0.3 && fire > 0.2) outs << "(1/4x)";
+                outs << "\n";
+        }
+        if(water < 1 && water > 0){
+                if(header == false){
+                        outs << "Resistances\n-----------\n";
+                        header = true;
+                }
+                outs << "Water";
+                if(water < 0.3 && water > 0.2) outs << "(1/4x)";
+                outs << "\n";
+        }
+        if(grass < 1 && grass > 0){
+                if(header == false){
+                        outs << "Resistances\n-----------\n";
+                        header = true;
+                }
+                outs << "Grass";
+                if(grass < 0.3 && grass > 0.2) outs << "(1/4x)";
+                outs << "\n";
+        }
+        if(electric < 1 && electric > 0){
+                if(header == false){
+                        outs << "Resistances\n-----------\n";
+                        header = true;
+                }
+                outs << "Electric";
+                if(electric < 0.3 && electric > 0.2) outs << "(1/4x)";
+                outs << "\n";
+        }
+        if(psychic < 1 && psychic > 0){
+                if(header == false){
+                        outs << "Resistances\n-----------\n";
+                        header = true;
+                }
+                outs << "Psychic";
+                if(psychic < 0.3 && psychic > 0.2) outs << "(1/4x)";
+                outs << "\n";
+        }
+        if(ice < 1 && ice > 0){
+                if(header == false){
+                        outs << "Resistances\n-----------\n";
+                        header = true;
+                }
+                outs << "Ice";
+                if(ice < 0.3 && ice > 0.2) outs << "(1/4x)";
+                outs << "\n";
+        }
+        if(dragon < 1 && dragon > 0){
+                if(header == false){
+                        outs << "Resistances\n-----------\n";
+                        header = true;
+                }
+                outs << "Dragon";
+                if(dragon < 0.3 && dragon > 0.2) outs << "(1/4x)";
+                outs << "\n";
+        }
+        if(dark < 1 && dark > 0){
+                if(header == false){
+                        outs << "Resistances\n-----------\n";
+                        header = true;
+                }
+                outs << "Dark";
+                if(dark < 0.3 && dark > 0.2) outs << "(1/4x)";
+                outs << "\n";
+        }
+        if(fairy < 1 && fairy > 0){
+                if(header == false){
+                        outs << "Resistances\n-----------\n";
+                        header = true;
+                }
+                outs << "Fairy";
+                if(fairy < 0.3 && fairy > 0.2) outs << "(1/4x)";
+                outs << "\n";
+        }
+	if(header == true) outs << std::endl;
+	header = false;
+
+	//printing weaknesses
+	if(normal > 1){
+		if(header == false){
+			outs << "Weaknesses\n----------\n";
+			header = true;
+		}
+		outs << "Normal";
+		if(normal > 2.0) outs << "(4x)";
+		outs << "\n";
+	}
+        if(fight > 1){
+                if(header == false){
+                        outs << "Weaknesses\n----------\n";
+                        header = true;
+                }
+                outs << "Fighting";
+                if(fight > 2.0) outs << "(4x)";
+                outs << "\n";
+        }
+        if(fly > 1){
+                if(header == false){
+                        outs << "Weaknesses\n----------\n";
+                        header = true;
+                }
+                outs << "Flying";
+                if(fly > 2.0) outs << "(4x)";
+                outs << "\n";
+        }
+        if(poison > 1){
+                if(header == false){
+                        outs << "Weaknesses\n----------\n";
+                        header = true;
+                }
+                outs << "Poison";
+                if(poison > 2.0) outs << "(4x)";
+                outs << "\n";
+        }
+        if(ground > 1){
+                if(header == false){
+                        outs << "Weaknesses\n----------\n";
+                        header = true;
+                }
+                outs << "Ground";
+                if(ground > 2.0) outs << "(4x)";
+                outs << "\n";
+        }
+        if(rock > 1){
+                if(header == false){
+                        outs << "Weaknesses\n----------\n";
+                        header = true;
+                }
+                outs << "Rock";
+                if(rock > 2.0) outs << "(4x)";
+                outs << "\n";
+        }
+        if(bug > 1){
+                if(header == false){
+                        outs << "Weaknesses\n----------\n";
+                        header = true;
+                }
+                outs << "Bug";
+                if(bug > 2.0) outs << "(4x)";
+                outs << "\n";
+        }
+        if(ghost > 1){
+                if(header == false){
+                        outs << "Weaknesses\n----------\n";
+                        header = true;
+                }
+                outs << "Ghost";
+                if(ghost > 2.0) outs << "(4x)";
+                outs << "\n";
+        }
+        if(steel > 1){
+                if(header == false){
+                        outs << "Weaknesses\n----------\n";
+                        header = true;
+                }
+                outs << "Steel";
+                if(steel > 2.0) outs << "(4x)";
+                outs << "\n";
+        }
+        if(fire > 1){
+                if(header == false){
+                        outs << "Weaknesses\n----------\n";
+                        header = true;
+                }
+                outs << "Fire";
+                if(fire > 2.0) outs << "(4x)";
+                outs << "\n";
+        }
+        if(water > 1){
+                if(header == false){
+                        outs << "Weaknesses\n----------\n";
+                        header = true;
+                }
+                outs << "Water";
+                if(water > 2.0) outs << "(4x)";
+                outs << "\n";
+        }
+        if(grass > 1){
+                if(header == false){
+                        outs << "Weaknesses\n----------\n";
+                        header = true;
+                }
+                outs << "Grass";
+                if(grass > 2.0) outs << "(4x)";
+                outs << "\n";
+        }
+        if(electric > 1){
+                if(header == false){
+                        outs << "Weaknesses\n----------\n";
+                        header = true;
+                }
+                outs << "Electric";
+                if(electric > 2.0) outs << "(4x)";
+                outs << "\n";
+        }
+        if(psychic > 1){
+                if(header == false){
+                        outs << "Weaknesses\n----------\n";
+                        header = true;
+                }
+                outs << "Psychic";
+                if(psychic > 2.0) outs << "(4x)";
+                outs << "\n";
+        }
+        if(ice > 1){
+                if(header == false){
+                        outs << "Weaknesses\n----------\n";
+                        header = true;
+                }
+                outs << "Ice";
+                if(ice > 2.0) outs << "(4x)";
+                outs << "\n";
+        }
+        if(dragon > 1){
+                if(header == false){
+                        outs << "Weaknesses\n----------\n";
+                        header = true;
+                }
+                outs << "Dragon";
+                if(dragon > 2.0) outs << "(4x)";
+                outs << "\n";
+        }
+        if(dark > 1){
+                if(header == false){
+                        outs << "Weaknesses\n----------\n";
+                        header = true;
+                }
+                outs << "Dark";
+                if(dark > 2.0) outs << "(4x)";
+                outs << "\n";
+        }
+        if(fairy > 1){
+                if(header == false){
+                        outs << "Weaknesses\n----------\n";
+                        header = true;
+                }
+                outs << "Fairy";
+                if(fairy > 2.0) outs << "(4x)";
+                outs << "\n";
+        }
+	if(header == true) outs << std::endl;
+	header = false;
 
 }
 
